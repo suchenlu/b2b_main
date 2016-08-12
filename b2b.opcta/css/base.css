@@ -1,0 +1,40 @@
+/*
+Error: Invalid GBK character "\xC3"
+        on line 13 of front_style.scss
+
+8:     -webkit-box-sizing: border-box;
+9:     /* Safari *\/
+10: }
+11: 
+12: body {
+13:     font-family: "Microsoft YaHei", "å¾®è½¯é›…é»‘", "SimSun", "å®‹ä½“";
+14:     font-size: 13px;
+15:     color: #666;
+16:     background: url(../images/bodyBG.jpg);
+17: }
+18: 
+
+Backtrace:
+front_style.scss:13
+D:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/util.rb:1300:in `rescue in block in find_encoding_error'
+D:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/util.rb:1297:in `block in find_encoding_error'
+D:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/util.rb:1296:in `each'
+D:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/util.rb:1296:in `each_with_index'
+D:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/util.rb:1296:in `find_encoding_error'
+D:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/util.rb:905:in `check_sass_encoding'
+D:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/engine.rb:436:in `check_encoding!'
+D:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/engine.rb:392:in `_to_tree'
+D:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/engine.rb:381:in `_render_with_sourcemap'
+D:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/engine.rb:298:in `render_with_sourcemap'
+D:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/exec/sass_scss.rb:391:in `run'
+D:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/exec/sass_scss.rb:63:in `process_result'
+D:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/exec/base.rb:52:in `parse'
+D:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/exec/base.rb:19:in `parse!'
+D:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/bin/sass:13:in `<top (required)>'
+D:/Ruby23-x64/bin/sass:23:in `load'
+D:/Ruby23-x64/bin/sass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid GBK character \"\xC3\"\A         on line 13 of front_style.scss\A \A 8:     -webkit-box-sizing: border-box;\A 9:     /* Safari */\A 10: }\A 11: \A 12: body {\A 13:     font-family: \"Microsoft YaHei\", \"å¾®è½¯é›…é»‘\", \"SimSun\", \"å®‹ä½“\";\A 14:     font-size: 13px;\A 15:     color: #666;\A 16:     background: url(../images/bodyBG.jpg);\A 17: }\A 18: "; }

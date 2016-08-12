@@ -1,0 +1,146 @@
+/*ç€‘å¸ƒæµå¼€å§‹*/
+
+#main_1 {
+	margin: 50px auto;
+	width: 1180px;
+	position:relative;
+}
+#main_1 .titleBG{width: 200px;height: 31px;background: url("../images/active_1.png") no-repeat center;margin-left:-2px;position: absolute;top: 0;
+               /* transform:skewX(40deg);*/
+                /*-ms-transform:skewX(40deg); */    /* IE 9 */
+               /* -moz-transform:skewX(40deg);    *//* Firefox */
+              /*  -webkit-transform:skewX(40deg);*/ /* Safari å’Œ Chrome */
+               /* -o-transform:skewX(40deg);*/      /* Opera */
+}
+#main_1 .t_box{height: 31px;margin-bottom: 12px;border-bottom: solid 1px #00a8ff;overflow: hidden;}
+#main_1 .t_box h2{width: 120px;height: 30px;line-height: 30px;color: #fff;font-size: 16px;padding-left: 50px;word-spacing: 1px;position: relative;background: #00a8ff}
+#main_1 .t_box h2 i{display: block;width: 25px;height: 25px;position: absolute;top: 3px;left: 15px;}
+#main_1 .t_box h2 i.i_8{background:url(../images/travel.png) no-repeat -100px -49px;}
+#main_1 #content {height: 164px;}
+#main_1 #content li{
+	float:left;
+}
+#main_1 #content .same {
+	border: none;
+	width: 224px;
+}
+#main_1 #content .post img,.main_content ul .post img {
+	width: auto;
+	height: auto;
+}
+#main_1 #content .post .img_logo,.main_content ul .post .img_logo {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	*display: block;
+	*font-size: 115px; /*这个值很奇怪，需要是容器的高度的82.5%，具体数值需要在实际中稍微调整*/
+	*font-family: Arial;
+	width: 222px;
+	height: 128px;
+	background: #fff;
+
+}
+#main_1 #content .post .img_logo img,.main_content .post .img_logo img{
+	vertical-align: middle;
+	max-width: 100%;
+	max-height: 100%;
+	width: auto;
+	height: auto;
+
+}
+#main_1 .same:hover {
+	box-shadow: none;
+}
+#main_1 #content li a{
+	display: inline-block;
+	text-decoration: none;
+	color: #666;
+}
+#main_1 .main_content{ height: 530px;width: 1180px;  overflow: hidden; clear: both;}
+#main_1 .main_content ul li{
+	float:left;
+}
+#main_1 .post {
+	width: 222px;
+	margin: 6px;
+	border: 1px #ccc solid;
+	overflow: hidden;
+}
+#main_1 .post:hover {
+	border-color:#0eb1ff;:
+}
+#main_1 .main_content ul li{
+	margin-left: 8px;
+}
+#main_1 .main_content ul li a{
+	display: inline-block;
+	text-decoration: none;
+	color: #666;
+}
+#main_1 .main_content .post .text_con {
+	background: #f0f0f0;
+	height: 95px;
+}
+
+#main_1 .main_content .post .text_con .tit_name {
+	height: 38px;
+	line-height: 38px;
+	text-align: center;
+}
+
+#main_1 .main_content .post .text_con .tit_name p {
+	text-align: center;
+	color: #999;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	width: 150px;
+	margin: 0 auto;
+}
+
+#main_1 .main_content .post .text_con .tit_name p span {
+	color: #333;
+	font-size: 16px;
+}
+
+#main_1 .main_content .post .text_con>p {
+	line-height: 27px;
+	height: 27px;
+	width: 210px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	margin: 0 auto;
+	color: #333;
+	font-size: 14px;
+}
+
+#main_1 .main_content .post .text_con>p span {
+	color: #666;
+}
+#main_1 .circle{
+	width:100%;
+	height:40px;
+	position:absolute;
+	/*bottom: -50px;*/
+	bottom:-40px;
+	text-align: center;
+}
+#main_1 .circle p{
+	/*width:15px;
+	height:15px;*/
+	/*background-color:#ccc;*/
+	/*border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;*/
+	cursor: pointer;
+	display: inline;
+	font-size:30px;
+	color:#ccc;
+}
+#main_1 .circle p:hover,#main_1 .circle p.on{/*background-position:-130px -54px;*/
+	color:#1faeff;
+}
+
+
+/*ç€‘å¸ƒæµç»“æŸ*/

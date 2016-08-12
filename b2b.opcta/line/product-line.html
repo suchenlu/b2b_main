@@ -1,0 +1,1734 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <meta http-equiv="Cache-Control" content="no-store" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="http://b2b.opcta.com/images/logo2.png">
+    <SCRIPT language="JavaScript" src="../js/pub.js"></SCRIPT>
+    <SCRIPT language="JavaScript" src="../js/LightOverLay.js"></SCRIPT>
+    <SCRIPT language="JavaScript" src="../js/loading.js"></SCRIPT>
+    <link rel="stylesheet" media="screen" href="../css/front_style.css" type="text/css">
+    <link rel="stylesheet" media="screen" href="../css/waterfall_flow.css" type="text/css">
+    <TITLE>产品线路</TITLE>
+    <link rel="stylesheet" media="screen" href="../css/romantic.css" type="text/css">
+</head>
+
+<body id="">
+    <!--header部分-->
+    <SCRIPT language="JavaScript" src="../js/jquery-1.11.0.min.js"></SCRIPT>
+    <script type="text/javascript">
+    $(function() {
+
+        $("#wareLineId").click(function() {
+            $("input[name='searchKeyword']").attr('placeholder', '请输入产品名称、产品编号、线路名称、产品搜索关键字');
+            $("#searchType").val("ware");
+            $("#wareLineId").css("color", "#00A8FF");
+            $("#providerId").css("color", "#000000");
+        });
+        $("#providerId").click(function() {
+            $("input[name='searchKeyword']").attr('placeholder', '请输入搜索的供应商名称、品牌名称');
+            $("#searchType").val("seller");
+            $("#wareLineId").css("color", "#000000");
+            $("#providerId").css("color", "#00A8FF");
+        });
+        $("[name='headerForm']").submit(function() {
+            if ($("input[name='searchKeyword']").val() == "") {
+                alert("请输入搜索关键字");
+                return false;
+            }
+        });
+    });
+    var userLoginFlag = 0;
+
+    function setUserLoginFlag(value) {
+        userLoginFlag = value;
+    }
+    </script>
+    <!--top部分-->
+    <div id="top">
+        <div class="content">
+            <p class="fl">欢迎您来到 OPCTA B2B 旅游交易平台！<a href="../index.html">返回首页</a></p>
+            <ul class="fr">
+                <li class="getIn"><span><a class="loging" href="http://b2b.opcta.com/manage/">同业登录</a></span></li>
+                <li class="news"><a href="http://news.opcta.com:8080/">天天旅交会</a></li>
+                <li class="FX">
+                    <div class="bdsharebuttonbox bdshare-button-style0-16" data-bd-bind="1468229576691">
+                        <a href="javascript:;" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a>
+                        <a href="javascript:;" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a>
+                        <a href="javascript:;" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+                    </div>
+                </li>
+            </ul>
+            <div class="clear"></div>
+        </div>
+    </div>
+    <script type="text/javascript">
+    with(document) 0[(getElementsByTagName('head')[0] || body).appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion=' + ~(-new Date() / 36e5)];
+    </script>
+    <!--header部分-->
+    <div id="header">
+        <div class="content">
+            <div class="t_box">
+                <a href="javascript:;" class="logo">
+                    <img src="../images/LOGO.gif" style="width:240px;height:97px;margin:15px 0 0 -20px">
+                </a>
+                <div class="city">
+                    <a class="switch_city" href="javascript:;"><span id="city">北京<i></i></span><br>【切换城市】</a>
+                    <div class="city_list">
+                        <div class="hd">
+                            <ul>
+                                <li class="on"><a id="100-101-000086-1">华北</a></li>
+                                <li><a id="100-101-000086-3">华东</a></li>
+                                <li><a id="100-101-000086-7">华南</a></li>
+                                <li><a id="100-101-000086-4">华中</a></li>
+                                <li><a id="100-101-000086-5">西南</a></li>
+                                <li><a id="100-101-000086-6">西北</a></li>
+                                <li><a id="100-101-000086-2">东北</a></li>
+                                <li><a id="100-101-000086-8">特区</a></li>
+                                <li><a id="100">亚洲</a></li>
+                                <li><a id="200">非洲</a></li>
+                                <li><a id="300">欧洲</a></li>
+                                <li><a id="400">大洋洲</a></li>
+                                <li><a id="500">北美洲</a></li>
+                                <li><a id="600">南美洲</a></li>
+                                <li><a href="http://b2b.opcta.com/home/100-101-000086-1-100-100/index.html">原城市 : 北京</a></li>
+                                <div class="clear"></div>
+                            </ul>
+                        </div>
+                        <div class="bd">
+                            <ul>
+                                <li>
+                                    <p>
+                                        <a href="http://b2b.opcta.com/home/100-101-000086-1-351-351/index.html">太原</a>
+                                        <a href="http://b2b.opcta.com/home/100-101-000086-1-311-311/index.html">石家庄</a>
+                                        <a href="http://b2b.opcta.com/home/100-101-000086-1-311-315/index.html">唐山</a>
+                                        <a href="http://b2b.opcta.com/home/100-101-000086-1-471-471/index.html">呼和浩特</a>
+                                        <a href="http://b2b.opcta.com/home/100-101-000086-1-471-472/index.html">包头</a>
+                                        <a href="http://b2b.opcta.com/home/100-101-000086-1-220-220/index.html">天津</a>
+                                        <a href="http://b2b.opcta.com/home/100-101-000086-1-100-100/index.html">北京</a>
+                                        <a href="http://b2b.opcta.com/home/100-101-000086-1-351-359/index.html">运城</a>
+                                        <a href="http://b2b.opcta.com/home/100-101-000086-1-351-360/index.html">晋中</a>
+                                        <a href="http://b2b.opcta.com/home/100-101-000086-1-311-317/index.html">沧州</a>
+                                        <a href="http://b2b.opcta.com/home/100-101-000086-1-311-314/index.html">承德</a>
+                                        <a href="http://b2b.opcta.com/home/100-101-000086-1-311-310/index.html">邯郸</a>
+                                        <a href="http://b2b.opcta.com/home/100-101-000086-1-351-352/index.html">大同</a>
+                                        <a href="http://b2b.opcta.com/home/100-101-000086-1-351-357/index.html">临汾</a>
+                                        <a href="http://b2b.opcta.com/home/100-101-000086-1-311-319/index.html">邢台</a>
+                                        <a href="http://b2b.opcta.com/home/100-101-000086-1-351-355/index.html">长治</a>
+                                        <a href="http://b2b.opcta.com/home/100-101-000086-1-351-353/index.html">阳泉</a>
+                                        <a href="http://b2b.opcta.com/home/100-101-000086-1-311-316/index.html">廊坊</a>
+                                        <a href="http://b2b.opcta.com/home/100-101-000086-1-311-312/index.html">保定</a>
+                                        <a href="http://b2b.opcta.com/home/100-101-000086-1-311-318/index.html">衡水</a>
+                                        <a href="http://b2b.opcta.com/home/100-101-000086-1-311-335/index.html">秦皇岛</a>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <a href="http://b2b.opcta.com/home/100-101-000086-3-571-571/index.html">杭州</a>
+                                        <a href="http://b2b.opcta.com/home/100-101-000086-3-551-551/index.html">合肥</a>
+                                        <a href="http://b2b.opcta.com/home/100-101-000086-3-791-791/index.html">南昌</a>
+                                        <a href="http://b2b.opcta.com/home/100-101-000086-3-551-556/index.html">安庆</a>
+                                        <a href="http://b2b.opcta.com/home/100-101-000086-3-250-250/index.html">南京</a>
+                                        <a href="http://b2b.opcta.com/home/100-101-000086-3-551-566/index.html">池州</a>
+                                        <a href="http://b2b.opcta.com/home/100-101-000086-3-551-561/index.html">淮北</a>
+                                        <a href="http://b2b.opcta.com/home/100-101-000086-3-551-554/index.html">淮南</a>
+                                        <a href="http://b2b.opcta.com/home/100-101-000086-3-551-552/index.html">蚌埠</a>
+                                        <a href="http://b2b.opcta.com/home/100-101-000086-3-210-210/index.html">上海</a>
+                                        <a href="http://b2b.opcta.com/home/100-101-000086-3-531-532/index.html">青岛</a>
+                                        <a href="http://b2b.opcta.com/home/100-101-000086-3-591-592/index.html">厦门</a>
+                                        <a href="http://b2b.opcta.com/home/100-101-000086-3-551-557/index.html">宿州</a>
+                                        <a href="http://b2b.opcta.com/home/100-101-000086-3-551-562/index.html">铜陵</a>
+                                        <a href="http://b2b.opcta.com/home/100-101-000086-3-551-550/index.html">滁州</a>
+                                        <a href="http://b2b.opcta.com/home/100-101-000086-3-551-559/index.html">黄山</a>
+                                        <a href="http://b2b.opcta.com/home/100-101-000086-3-551-564/index.html">六安</a>
+                                        <a href="http://b2b.opcta.com/home/100-101-000086-3-531-531/index.html">济南</a>
+                                        <a href="http://b2b.opcta.com/home/100-101-000086-3-791-792/index.html">九江</a>
+                                        <a href="http://b2b.opcta.com/home/100-101-000086-3-551-565/index.html">巢湖</a>
+                                        <a href="http://b2b.opcta.com/home/100-101-000086-3-551-558/index.html">阜阳</a>
+                                        <a href="http://b2b.opcta.com/home/100-101-000086-3-551-553/index.html">芜湖</a>
+                                        <a href="http://b2b.opcta.com/home/100-101-000086-3-250-516/index.html">徐州</a>
+                                        <a href="http://b2b.opcta.com/home/100-101-000086-3-551-563/index.html">宣城</a>
+                                        <a href="http://b2b.opcta.com/home/100-101-000086-3-791-797/index.html">赣州</a>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <a href="http://b2b.opcta.com/home/100-101-000086-7-898-721/index.html">三亚</a>
+                                        <a href="http://b2b.opcta.com/home/100-101-000086-7-200-755/index.html">深圳</a>
+                                        <a href="http://b2b.opcta.com/home/100-101-000086-7-771-773/index.html">桂林</a>
+                                        <a href="http://b2b.opcta.com/home/100-101-000086-7-200-200/index.html">广州</a>
+                                        <a href="http://b2b.opcta.com/home/100-101-000086-7-200-763/index.html">清远</a>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <a href="http://b2b.opcta.com/home/100-101-000086-4-270-270/index.html">武汉</a>
+                                        <a href="http://b2b.opcta.com/home/100-101-000086-4-731-731/index.html">长沙</a>
+                                        <a href="http://b2b.opcta.com/home/100-101-000086-4-371-377/index.html">南阳</a>
+                                        <a href="http://b2b.opcta.com/home/100-101-000086-4-371-371/index.html">郑州</a>
+                                        <a href="http://b2b.opcta.com/home/100-101-000086-4-371-373/index.html">新乡</a>
+                                        <a href="http://b2b.opcta.com/home/100-101-000086-4-270-710/index.html">襄樊</a>
+                                        <a href="http://b2b.opcta.com/home/100-101-000086-4-270-717/index.html">宜昌</a>
+                                        <a href="http://b2b.opcta.com/home/100-101-000086-4-731-733/index.html">株洲</a>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <a href="http://b2b.opcta.com/home/100-101-000086-5-230-230/index.html">重庆</a>
+                                        <a href="http://b2b.opcta.com/home/100-101-000086-5-851-851/index.html">贵阳</a>
+                                        <a href="http://b2b.opcta.com/home/100-101-000086-5-871-888/index.html">丽江</a>
+                                        <a href="http://b2b.opcta.com/home/100-101-000086-5-280-837/index.html">阿坝</a>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <a href="http://b2b.opcta.com/home/100-101-000086-6-290-290/index.html">西安</a>
+                                        <a href="http://b2b.opcta.com/home/100-101-000086-6-951-951/index.html">银川</a>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <a href="http://b2b.opcta.com/home/100-101-000086-8-886-886/index.html">台湾</a>
+                                        <a href="http://b2b.opcta.com/home/100-101-000086-8-852-852/index.html">香港</a>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="search">
+                    <ul>
+                        <li><a id="wareLineId" class="on" href="">产品线路</a></li>
+                        <li><a id="providerId" href="">供应商</a></li>
+                    </ul>
+                    <form id="headerForm" name="headerForm" action="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html" method="post">
+                        <input type="hidden" name="show" id="isShowFormIdHead" value="false">
+                        <input class="searchTypeClass" id="searchType" name="searchType" type="hidden" value="ware">
+                        <input class="fl" type="text" placeholder="请输入产品名称、产品编号、线路名称、产品搜索关键字" maxlength="30" name="searchKeyword" value="">
+                        <input class="fr" type="submit" value="搜 索">
+                    </form>
+                </div>
+                <div class="hotline">
+                    <i></i>
+                    <div class="s_phone_list">
+                        <p>全国统一客服热线(免长途费)</p>
+                        <h3>010-53526677-0</h3>
+                        <i></i>
+                        <div class="s_phone_more">
+                            <p>VIP专线：</p>
+                            <h3>18515958802</h3>
+                            <p>服务监督：</p>
+                            <h3>18519883578</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="b_box">
+                <div class="allsort fl">
+                    <div class="box">
+                        <h1 class="title">全部旅游分类<i class="switch"></i></h1>
+                        <div class="in_box">
+                            <div class="allsortlist">
+                                <dl class="a">
+                                    <dt><i></i>出境游</dt>
+                                    <dd class="l_concise">
+                                        <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000002&dstCity=100-102-000066">泰国</a>
+                                        <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000002&dstCity=100-104-000098">伊朗</a>
+                                        <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000002&dstCity=300-301-000046">瑞典</a>
+                                        <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000002&dstCity=500-501-000001">美国</a>
+                                    </dd>
+                                    <dd class="r_line"></dd>
+                                    <dd class="r_more">
+                                        <ul>
+                                            <li>
+                                                <p>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000002&dstCity=100-102-000066">泰国</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000002&dstCity=100-104-000098">伊朗</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000002&dstCity=300-301-000046">瑞典</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000002&dstCity=500-501-000001">美国</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000002&dstCity=300-302-000049">德国</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000002&dstCity=300-302-000043">奥地利</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000002&dstCity=300-302-000031">荷兰</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000002&dstCity=300-303-000034">西班牙</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000002&dstCity=300-302-000033">法国</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000002&dstCity=100-101-000081">日本</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000002&dstCity=100-102-000065">新加坡</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000002&dstCity=100-102-000063">菲律宾</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000002&dstCity=100-101-000850">朝鲜</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000002&dstCity=300-301-000045">丹麦</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000002&dstCity=100-102-000062">印度尼西亚</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000002&dstCity=400-401-000061">澳大利亚</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000002&dstCity=100-104-000971">阿联酉</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000002&dstCity=100-101-000082">韩国</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000002&dstCity=500-501-000002">加拿大</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000002&dstCity=200-205-000020">埃及</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000002&dstCity=200-203-000230">毛里求斯</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000002&dstCity=200-203-000248">塞舌尔</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000002&dstCity=300-303-000030">希腊</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000002&dstCity=300-302-000044">英国</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000002&dstCity=100-103-000094">斯里兰卡</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000002&dstCity=100-102-000084">越南</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000002&dstCity=300-303-000039">意大利</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000002&dstCity=300-304-000420">捷克</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000002&dstCity=300-301-000354">冰岛</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000002&dstCity=100-103-000960">马尔代夫</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000002&dstCity=300-304-000007">俄罗斯</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000002&dstCity=100-102-000095">缅甸</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000002&dstCity=300-301-000358">芬兰</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000002&dstCity=100-102-000060">马来西亚</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000002&dstCity=400-401-000680">帕劳</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000002&dstCity=300-301-000047">挪威</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000002&dstCity=100-101-000976">蒙古</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000002&dstCity=200-203-000254">肯尼亚</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000002&dstCity=300-304-000036">匈牙利</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000002&dstCity=300-302-000041">瑞士</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000002&dstCity=300-301-000371">拉脱维亚</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000002&dstCity=300-304-000048">波兰</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000002&dstCity=400-401-000679">斐济群岛</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000002&dstCity=400-401-001670">北马里亚纳群岛</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000002&dstCity=100-101-000086-8-852-852">香港</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000002&dstCity=300-303-000351">葡萄牙</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000002&dstCity=300-305-000386">斯洛文尼亚</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000002&dstCity=100-104-000090">土耳其</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000002&dstCity=300-301-000372">爱沙尼亚</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000002&dstCity=200-202-000236">中非</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000002&dstCity=500-502-000506">哥斯达黎加</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000002&dstCity=100-101-000086-8-853-853">澳门</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000002&dstCity=300-301-000370">立陶宛</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000002&dstCity=300-302-000032">比利时</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000002&dstCity=300-302-000353">爱尔兰</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000002&dstCity=100-103-000977">尼泊尔</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000002&dstCity=100-102-000855">柬埔寨</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000002&dstCity=200-204-000027">南非</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000002&dstCity=100-101-000086-2-451-451">哈尔滨</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000002&dstCity=600-601-000500">福克兰群岛</a>
+                                                </p>
+                                            </li>
+                                        </ul>
+                                    </dd>
+                                </dl>
+                                <dl class="b">
+                                    <dt><i></i>国内长线</dt>
+                                    <dd class="l_concise">
+                                        <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000001&dstCity=100-101-000086-3-250-517">淮安</a>
+                                        <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000001&dstCity=100-101-000086-3-591-599">南平</a>
+                                        <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000001&dstCity=100-101-000086-5-871-871">昆明</a>
+                                        <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000001&dstCity=100-101-000086-7-771-773">桂林</a>
+                                    </dd>
+                                    <dd class="r_line"></dd>
+                                    <dd class="r_more">
+                                        <ul>
+                                            <li>
+                                                <p>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000001&dstCity=100-101-000086-3-250-517">淮安</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000001&dstCity=100-101-000086-3-591-599">南平</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000001&dstCity=100-101-000086-5-871-871">昆明</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000001&dstCity=100-101-000086-7-771-773">桂林</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000001&dstCity=100-101-000086-7-771-771">南宁</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000001&dstCity=100-101-000086-5-871-888">丽江</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000001&dstCity=100-101-000086-3-531-532">青岛</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000001&dstCity=100-101-000086-2-240-411">大连</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000001&dstCity=100-101-000086-5-280-816">绵阳</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000001&dstCity=100-101-000086-3-591-592">厦门</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000001&dstCity=500-501-000001">美国</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000001&dstCity=100-101-000086-7-898-721">三亚</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000001&dstCity=100-101-000086-3-791-793">上饶</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000001&dstCity=100-101-000086-3-210-210">上海</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000001&dstCity=100-101-000086-3-250-512">苏州</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000001&dstCity=100-101-000086-4-731-744">张家界</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000001&dstCity=100-101-000086-4-731-731">长沙</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000001&dstCity=100-101-000086-4-270-717">宜昌</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000001&dstCity=100-101-000086-3-250-514">扬州</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000001&dstCity=100-101-000086-3-791-792">九江</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000001&dstCity=100-101-000086-5-871-882">德宏州</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000001&dstCity=100-101-000086-5-851-851">贵阳</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000001&dstCity=100-101-000086-5-871-691">西双版纳州</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000001&dstCity=100-101-000086-7-898-898">海口</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000001&dstCity=100-101-000086-5-280-280">成都</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000001&dstCity=100-101-000086-6-290-290">西安</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000001&dstCity=100-101-000086-3-250-250">南京</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000001&dstCity=100-101-000086-2-451-451">哈尔滨</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000001&dstCity=100-101-000086-2-240-024">沈阳</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000001&dstCity=100-101-000086-2-431-431">长春</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000001&dstCity=100-101-000086-2-431-432">吉林</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000001&dstCity=100-101-000086-2-431-433">延吉</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000001&dstCity=100-101-000086-1-471-482">兴安盟</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000001&dstCity=100-101-000086-1-471-484">呼伦贝尔</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000001&dstCity=100-101-000086-2-431-439">白山</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000001&dstCity=100-101-000086-2-451-452">齐齐哈尔</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000001&dstCity=100-101-000086-6-971-971">西宁</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000001&dstCity=100-101-000086-7-200-200">广州</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000001&dstCity=100-101-000086-2-431-434">四平</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000001&dstCity=100-101-000086-6-290-911">延安</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000001&dstCity=300-302-000033">法国</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000001&dstCity=100-101-000086-6-931-931">兰州</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000001&dstCity=100-101-000086-5-871-872">大理州</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000001&dstCity=100-101-000086-3-250-518">连云港</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000001&dstCity=100-101-000086-1-100-100">北京</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000001&dstCity=100-101-000086-3-531-633">日照</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000001&dstCity=100-101-000086-5-871-875">保山</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000001&dstCity=100-101-000086-3-531-535">烟台</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000001&dstCity=100-101-000086-4-270-723">神农架林区</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000001&dstCity=100-101-000086-5-230-230">重庆</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000001&dstCity=100-101-000086-5-891-891">拉萨</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000001&dstCity=100-101-000086-2-240-429">葫芦岛</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000001&dstCity=100-101-000086-7-771-780">贺州</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000001&dstCity=100-101-000086-7-771-781">来宾</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000001&dstCity=100-101-000086-3-250-519">常州</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000001&dstCity=100-101-000086-2-240-415">丹东</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000001&dstCity=100-102-000066">泰国</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000001&dstCity=100-101-000086-6-931-937">酒泉</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000001&dstCity=100-101-000086-6-991-991">乌鲁木齐</a>
+                                                </p>
+                                            </li>
+                                        </ul>
+                                    </dd>
+                                </dl>
+                                <dl class="c">
+                                    <dt><i></i>港澳台</dt>
+                                    <dd class="l_concise">
+                                        <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000004&dstCity=100-101-000086-8-886-886">台湾</a>
+                                        <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000004&dstCity=100-101-000086-8-852-852">香港</a>
+                                    </dd>
+                                </dl>
+                                <dl class="d">
+                                    <dt><i></i>周边短线</dt>
+                                    <dd class="l_concise">
+                                        <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000003&dstCity=100-101-000086-3-210-210">上海</a>
+                                        <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000003&dstCity=100-101-000086-3-531-532">青岛</a>
+                                        <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000003&dstCity=100-101-000086-2-240-411">大连</a>
+                                        <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000003&dstCity=100-101-000086-7-771-773">桂林</a>
+                                    </dd>
+                                    <dd class="r_line"></dd>
+                                    <dd class="r_more">
+                                        <ul>
+                                            <li>
+                                                <p>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000003&dstCity=100-101-000086-3-210-210">上海</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000003&dstCity=100-101-000086-3-531-532">青岛</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000003&dstCity=100-101-000086-2-240-411">大连</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000003&dstCity=100-101-000086-7-771-773">桂林</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000003&dstCity=100-101-000086-3-250-511">镇江</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000003&dstCity=100-101-000086-3-591-592">厦门</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000003&dstCity=100-101-000086-3-571-571">杭州</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000003&dstCity=100-101-000086-5-280-837">阿坝</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000003&dstCity=100-101-000086-6-290-290">西安</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000003&dstCity=100-101-000086-5-280-280">成都</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000003&dstCity=100-101-000086-1-471-471">呼和浩特</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000003&dstCity=100-101-000086-3-531-633">日照</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000003&dstCity=100-101-000086-1-471-484">呼伦贝尔</a>
+                                                    <a href="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html?wareKindId=1000000003&dstCity=100-101-000086-3-791-796">吉安</a>
+                                                </p>
+                                            </li>
+                                        </ul>
+                                    </dd>
+                                </dl>
+                            </div>
+                        </div>
+                        <div class="bottom">OPCTA·GPS</div>
+                    </div>
+                </div>
+                <ul class="nav fr" id="headChannelId">
+                    <li class="active"><a href="../index.html">首&nbsp;&nbsp;页</a></li>
+                    <li><a href="product-line.html">产品线路</a></li>
+                    <li><a href="kuaiqiang.html">快&nbsp;&nbsp;抢</a></li>
+                    <li><a href="time-purchase.html">限时购</a></li>
+                    <li><a href="new-show.html">新品秀</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script>
+    $(function() {
+        var $f = $("input[name='search']");
+        var $v = "w";
+        $('div.search ul li:eq(0) a').click(function() {
+            $(this).addClass('on').parent().siblings('li').children('a').removeClass('on');
+            $f.attr('placeholder', '请输入产品名称、产品编号、线路名称、产品搜索关键字');
+        })
+        $('div.search ul li:eq(1) a').click(function() {
+            $(this).addClass('on').parent().siblings('li').children('a').removeClass('on');
+            $f.attr('placeholder', '请输入搜索的供应商名称、品牌名称');
+        })
+        $('div.search ul li:eq(0) a').click(function() {
+            $.get('/ware/searchSetapi?searchset=w', function(data, status) {
+                if (data['val'] == 'w') {
+                    //alert('in');
+                    $f.attr('placeholder', '请输入产品名称、产品编号、线路名称、产品搜索关键字');
+                    //$f.val('w');
+                    $('div.search ul li:eq(0) a').addClass('on').parent().siblings('li ').children('a').removeClass('on');
+                }
+            }, 'json');
+            return false;
+        });
+        $('div.search ul li:eq(1) a').click(function() {
+            $.get('/ware/searchSetapi?searchset=p', function(data, status) {
+                //alert('p');
+                if (data['val'] == 'p') {
+                    $f.attr('placeholder', '请输入搜索的供应商名称、品牌名称');
+                    //$f.val('p');
+                    $('div.search ul li:eq(1) a').addClass('on').parent().siblings('li').children('a').removeClass('on');
+                }
+            }, 'json');
+            return false;
+        });
+        $("div.search input[type='submit']").mouseover(function() {
+            $(this).val('GO');
+            $(this).css('backgroundColor', '#3EB135');
+        }).mouseleave(function() {
+            $(this).val('搜 索');
+            $(this).css('backgroundColor', '#00A8FF');
+        });
+    });
+    </script>
+    <!--main部分-->
+    <div class="main">
+        <!--main部分-->
+        <div class="main">
+            <div class="content_jieshao">
+                <form action="http://b2b.opcta.com/line/100-101-000086-1-100-100/0/index.html" method="post" id="searchWordForm" name="searchWordForm">
+                    <input name="searchType" type="hidden" value="">
+                    <input type="hidden" name="searchKeyword" value="">
+                    <input type="hidden" id="dstCityClass" name="dstCity" value="">
+                    <input type="hidden" id="wareKindIdClass" name="wareKindId" value="">
+                    <input type="hidden" name="tripDays" id="tripDaysClass" value="">
+                    <input type="hidden" name="sortWord" id="sortWordClass" value="">
+                    <input type="hidden" name="pageNum" id="pageNumClass" value="1">
+                    <input type="hidden" name="srcCode" id="areaCodeClass" value="100-101-000086-1-100-100">
+                    <input type="hidden" name="channel" id="channelClass" value="0">
+                    <input type="hidden" name="show" id="isShowFormId" value="false">
+                </form>
+                <h4>线路搜索 </h4>
+                <a class="clear_options" href="javascript:callPage('searchWordForm');" style="display: none;">清除选项</a>
+                <p>出发地 : &nbsp;&nbsp;<span style="color:coral"><small>北京</small></span></p>
+                <p>目的地</p>
+                <div class="content_jieshao_gj">
+                    <p>国&nbsp;&nbsp;&nbsp;&nbsp;内 :</p>
+                    <ul class="dstCityUL">
+                        <li><a href="javascript:callPage('searchWordForm');" class="100-101-000086-3-250-517,1000000001">淮安</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="100-101-000086-3-591-599,1000000001">南平</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="100-101-000086-5-871-871,1000000001">昆明</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="100-101-000086-7-771-773,1000000001">桂林</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="100-101-000086-7-771-771,1000000001">南宁</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="100-101-000086-5-871-888,1000000001">丽江</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="100-101-000086-3-531-532,1000000001">青岛</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="100-101-000086-2-240-411,1000000001">大连</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="100-101-000086-5-280-816,1000000001">绵阳</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="100-101-000086-3-591-592,1000000001">厦门</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="500-501-000001,1000000001">美国</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="100-101-000086-7-898-721,1000000001">三亚</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="100-101-000086-3-791-793,1000000001">上饶</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="100-101-000086-3-210-210,1000000001">上海</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="100-101-000086-3-250-512,1000000001">苏州</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="100-101-000086-4-731-744,1000000001">张家界</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="100-101-000086-4-731-731,1000000001">长沙</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="100-101-000086-4-270-717,1000000001">宜昌</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="100-101-000086-3-250-514,1000000001">扬州</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="100-101-000086-3-791-792,1000000001">九江</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="100-101-000086-5-871-882,1000000001">德宏州</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="100-101-000086-5-851-851,1000000001">贵阳</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="100-101-000086-5-871-691,1000000001">西双版纳州</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="100-101-000086-7-898-898,1000000001">海口</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="100-101-000086-5-280-280,1000000001">成都</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="100-101-000086-6-290-290,1000000001">西安</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="100-101-000086-3-250-250,1000000001">南京</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="100-101-000086-2-451-451,1000000001">哈尔滨</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="100-101-000086-2-240-024,1000000001">沈阳</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="100-101-000086-2-431-431,1000000001">长春</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="100-101-000086-2-431-432,1000000001">吉林</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="100-101-000086-2-431-433,1000000001">延吉</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="100-101-000086-1-471-482,1000000001">兴安盟</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="100-101-000086-1-471-484,1000000001">呼伦贝尔</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="100-101-000086-2-431-439,1000000001">白山</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="100-101-000086-2-451-452,1000000001">齐齐哈尔</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="100-101-000086-6-971-971,1000000001">西宁</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="100-101-000086-7-200-200,1000000001">广州</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="100-101-000086-2-431-434,1000000001">四平</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="100-101-000086-6-290-911,1000000001">延安</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="300-302-000033,1000000001">法国</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="100-101-000086-6-931-931,1000000001">兰州</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="100-101-000086-5-871-872,1000000001">大理州</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="100-101-000086-3-250-518,1000000001">连云港</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="100-101-000086-1-100-100,1000000001">北京</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="100-101-000086-3-531-633,1000000001">日照</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="100-101-000086-5-871-875,1000000001">保山</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="100-101-000086-3-531-535,1000000001">烟台</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="100-101-000086-4-270-723,1000000001">神农架林区</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="100-101-000086-5-230-230,1000000001">重庆</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="100-101-000086-5-891-891,1000000001">拉萨</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="100-101-000086-2-240-429,1000000001">葫芦岛</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="100-101-000086-7-771-780,1000000001">贺州</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="100-101-000086-7-771-781,1000000001">来宾</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="100-101-000086-3-250-519,1000000001">常州</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="100-101-000086-2-240-415,1000000001">丹东</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="100-102-000066,1000000001">泰国</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="100-101-000086-6-931-937,1000000001">酒泉</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="100-101-000086-6-991-991,1000000001">乌鲁木齐</a></li>
+                    </ul>
+                </div>
+                <div class="content_jieshao_gj">
+                    <p>特&nbsp;&nbsp;&nbsp;&nbsp;区 :</p>
+                    <ul class="dstCityUL">
+                        <li><a href="javascript:callPage('searchWordForm');" class="100-101-000086-8-886-886,1000000004">台湾</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="100-101-000086-8-852-852,1000000004">香港</a></li>
+                    </ul>
+                </div>
+                <div class="content_jieshao_gj">
+                    <p>国&nbsp;&nbsp;&nbsp;&nbsp;外 :</p>
+                    <ul class="dstCityUL">
+                        <li><a href="javascript:callPage('searchWordForm');" class="100-102-000066,1000000002">泰国</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="100-104-000098,1000000002">伊朗</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="300-301-000046,1000000002">瑞典</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="500-501-000001,1000000002">美国</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="300-302-000049,1000000002">德国</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="300-302-000043,1000000002">奥地利</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="300-302-000031,1000000002">荷兰</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="300-303-000034,1000000002">西班牙</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="300-302-000033,1000000002">法国</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="100-101-000081,1000000002">日本</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="100-102-000065,1000000002">新加坡</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="100-102-000063,1000000002">菲律宾</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="100-101-000850,1000000002">朝鲜</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="300-301-000045,1000000002">丹麦</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="100-102-000062,1000000002">印度尼西亚</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="400-401-000061,1000000002">澳大利亚</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="100-104-000971,1000000002">阿联酉</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="100-101-000082,1000000002">韩国</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="500-501-000002,1000000002">加拿大</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="200-205-000020,1000000002">埃及</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="200-203-000230,1000000002">毛里求斯</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="200-203-000248,1000000002">塞舌尔</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="300-303-000030,1000000002">希腊</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="300-302-000044,1000000002">英国</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="100-103-000094,1000000002">斯里兰卡</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="100-102-000084,1000000002">越南</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="300-303-000039,1000000002">意大利</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="300-304-000420,1000000002">捷克</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="300-301-000354,1000000002">冰岛</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="100-103-000960,1000000002">马尔代夫</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="300-304-000007,1000000002">俄罗斯</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="100-102-000095,1000000002">缅甸</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="300-301-000358,1000000002">芬兰</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="100-102-000060,1000000002">马来西亚</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="400-401-000680,1000000002">帕劳</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="300-301-000047,1000000002">挪威</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="100-101-000976,1000000002">蒙古</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="200-203-000254,1000000002">肯尼亚</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="300-304-000036,1000000002">匈牙利</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="300-302-000041,1000000002">瑞士</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="300-301-000371,1000000002">拉脱维亚</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="300-304-000048,1000000002">波兰</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="400-401-000679,1000000002">斐济群岛</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="400-401-001670,1000000002">北马里亚纳群岛</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="100-101-000086-8-852-852,1000000002">香港</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="300-303-000351,1000000002">葡萄牙</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="300-305-000386,1000000002">斯洛文尼亚</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="100-104-000090,1000000002">土耳其</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="300-301-000372,1000000002">爱沙尼亚</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="200-202-000236,1000000002">中非</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="500-502-000506,1000000002">哥斯达黎加</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="100-101-000086-8-853-853,1000000002">澳门</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="300-301-000370,1000000002">立陶宛</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="300-302-000032,1000000002">比利时</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="300-302-000353,1000000002">爱尔兰</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="100-103-000977,1000000002">尼泊尔</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="100-102-000855,1000000002">柬埔寨</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="200-204-000027,1000000002">南非</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="100-101-000086-2-451-451,1000000002">哈尔滨</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="600-601-000500,1000000002">福克兰群岛</a></li>
+                    </ul>
+                </div>
+                <div class="content_jieshao_gj">
+                    <p>周&nbsp;&nbsp;&nbsp;&nbsp;边 :</p>
+                    <ul class="dstCityUL">
+                        <li><a href="javascript:callPage('searchWordForm');" class="100-101-000086-3-210-210,1000000003">上海</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="100-101-000086-3-531-532,1000000003">青岛</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="100-101-000086-2-240-411,1000000003">大连</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="100-101-000086-7-771-773,1000000003">桂林</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="100-101-000086-3-250-511,1000000003">镇江</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="100-101-000086-3-591-592,1000000003">厦门</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="100-101-000086-3-571-571,1000000003">杭州</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="100-101-000086-5-280-837,1000000003">阿坝</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="100-101-000086-6-290-290,1000000003">西安</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="100-101-000086-5-280-280,1000000003">成都</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="100-101-000086-1-471-471,1000000003">呼和浩特</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="100-101-000086-3-531-633,1000000003">日照</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="100-101-000086-1-471-484,1000000003">呼伦贝尔</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="100-101-000086-3-791-796,1000000003">吉安</a></li>
+                    </ul>
+                </div>
+                <div class="content_jieshao_gj content_jieshao_gjs">
+                    <p>旅游天数</p>
+                    <ul id="tripDaysId">
+                        <li><a id="allTrips" class="down" href="javascript:callPage('searchWordForm');">全部</a></li>
+                        <li><a id="trip1" href="javascript:callPage('searchWordForm');">3天以内</a></li>
+                        <li><a id="trip2" href="javascript:callPage('searchWordForm');">4-7天</a></li>
+                        <li><a id="trip3" href="javascript:callPage('searchWordForm');">8-10天</a></li>
+                        <li><a id="trip4" href="javascript:callPage('searchWordForm');">10天以上</a></li>
+                    </ul>
+                </div>
+                <div class="_scures_srk  clear">
+                    <ul class="right">
+                        <li><a href="javascript:callPage('searchWordForm');" class="openDate">综合排序&nbsp;</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="createDate_down">最新线路&nbsp;</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="updateDate_down">最新更新&nbsp;</a></li>
+                        <li><a href="javascript:callPage('searchWordForm');" class="price_down">价格&nbsp;</a></li>
+                        <li id="scope_1">
+                            <a></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="cont_list" id="con_list_gat">
+                <div class="content_product">
+                    <div class="content_product_l left">
+                        <a href="http://b2b.opcta.com/ware/100-101-000086-1-100-100/1000001435.html">
+                            <img data-original="http://b2b.opcta.com//static/upload/cc2e3a66b32bbb362c1d541f7da46e83.jpeg" src="http://b2b.opcta.com//static/upload/cc2e3a66b32bbb362c1d541f7da46e83.jpeg">
+                        </a>
+                        <div>
+                        </div>
+                    </div>
+                    <div class="content_product_r right">
+                        <h3><a href="http://b2b.opcta.com/ware/100-101-000086-1-100-100/1000001435.html">苏州杭州上海双高三日游</a></h3>
+                        <div class="_product_l left">
+                            <div class="_prosuct_id">
+                                <h4>编号：w10431000001435940</h4>
+                                <p>旅游天数：<span>3天</span>&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                                <p>最近发团：<span> 2016-07-12</span>&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                                <!-- <p><a href="javascript:;">&nbsp;&nbsp;更多&nbsp;&nbsp;&nbsp;&nbsp;</a></p> -->
+                                <p>库存：<span> 7</span></p>
+                            </div>
+                            <div class="_prosuct_id1">
+                                <p>产品特色：</p>
+                                <p></p>
+                            </div>
+                            <div class="_prosuct_id1">
+                                <p>旅游主题：周边游
+                                </p>
+                                <p>出发地：北京</p>
+                                <p>目的地：上海</p>
+                                <p>出发日期：2016-07-12</p>
+                            </div>
+                        </div>
+                        <div class="_product_r right">
+                            <div class="_product_pic">
+                                <p style="display: none;" id="tradePriceId_0">同行价：<b>￥<span> 
+															1380.0
+														</span>
+													</b>
+                                </p>
+                                <p>门市价：<b style="color: rgb(255, 102, 0);" id="doorPriceId_0">￥<span> 
+															1380.0
+														</span>
+													</b>
+                                </p>
+                            </div>
+                            <div class="_product_dow">
+                                <ul>
+                                    <li class="_product_dow_1" id="opId_0" style="display: none;">
+                                        <a href="javascript:;">
+                                            <p></p>
+                                            <span>立减 55 元</span>
+                                        </a>
+                                    </li>
+                                    <li class="_product_dow_1" id="cutDownId_0" style="display: none;">
+                                        <a href="javascript:;">
+                                            <p></p>
+                                            <span>立返 69 OP币</span>
+                                        </a>
+                                    </li>
+                                    <li class="_product_dow_3">
+                                        <a href="http://b2b.opcta.com/ware/100-101-000086-1-100-100/1000001435.html">立即订购</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content_product">
+                    <div class="content_product_l left">
+                        <a href="http://b2b.opcta.com/ware/100-101-000086-1-100-100/1000001439.html">
+                            <img data-original="http://b2b.opcta.com//static/upload/ead871eab2be0d7e1585d2e7c6a07434.jpeg" src="http://b2b.opcta.com//static/upload/ead871eab2be0d7e1585d2e7c6a07434.jpeg">
+                        </a>
+                        <div>
+                        </div>
+                    </div>
+                    <div class="content_product_r right">
+                        <h3><a href="http://b2b.opcta.com/ware/100-101-000086-1-100-100/1000001439.html">华东七市+扬州瘦西湖大明寺+三水乡乌镇、柯岩、木渎 特价</a></h3>
+                        <div class="_product_l left">
+                            <div class="_prosuct_id">
+                                <h4>编号：w10231000001439964</h4>
+                                <p>旅游天数：<span>6天</span>&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                                <p>最近发团：<span> 2016-07-14</span>&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                                <!-- <p><a href="javascript:;">&nbsp;&nbsp;更多&nbsp;&nbsp;&nbsp;&nbsp;</a></p> -->
+                                <p>库存：<span> 8</span></p>
+                            </div>
+                            <div class="_prosuct_id1">
+                                <p>产品特色：</p>
+                                <p></p>
+                            </div>
+                            <div class="_prosuct_id1">
+                                <p>旅游主题：国内长线
+                                </p>
+                                <p>出发地：北京</p>
+                                <p>目的地：江苏淮安</p>
+                                <p>出发日期：2016-07-14</p>
+                            </div>
+                        </div>
+                        <div class="_product_r right">
+                            <div class="_product_pic">
+                                <p style="display: none;" id="tradePriceId_1">同行价：<b>￥<span> 
+															300.0
+														</span>
+													</b>
+                                </p>
+                                <p>门市价：<b style="color: rgb(255, 102, 0);" id="doorPriceId_1">￥<span> 
+															450.0
+														</span>
+													</b>
+                                </p>
+                            </div>
+                            <div class="_product_dow">
+                                <ul>
+                                    <li class="_product_dow_1" id="opId_1" style="display: none;">
+                                        <a href="javascript:;">
+                                            <p></p>
+                                            <span>立减 12 元</span>
+                                        </a>
+                                    </li>
+                                    <li class="_product_dow_1" id="cutDownId_1" style="display: none;">
+                                        <a href="javascript:;">
+                                            <p></p>
+                                            <span>立返 15 OP币</span>
+                                        </a>
+                                    </li>
+                                    <li class="_product_dow_3">
+                                        <a href="http://b2b.opcta.com/ware/100-101-000086-1-100-100/1000001439.html">立即订购</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content_product">
+                    <div class="content_product_l left">
+                        <a href="http://b2b.opcta.com/ware/100-101-000086-1-100-100/1000001706.html">
+                            <img data-original="http://b2b.opcta.com//static/upload/5e0fe11f21c516b3aa13b340e612f01c.jpeg" src="http://b2b.opcta.com//static/upload/5e0fe11f21c516b3aa13b340e612f01c.jpeg">
+                        </a>
+                        <div>
+                        </div>
+                    </div>
+                    <div class="content_product_r right">
+                        <h3><a href="http://b2b.opcta.com/ware/100-101-000086-1-100-100/1000001706.html">BY线【尊享土楼】厦门鼓浪屿永定土楼武夷山九曲溪三飞5日</a></h3>
+                        <div class="_product_l left">
+                            <div class="_prosuct_id">
+                                <h4>编号：w10291000001706517</h4>
+                                <p>旅游天数：<span>5天</span>&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                                <p>最近发团：<span> 2016-07-14</span>&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                                <!-- <p><a href="javascript:;">&nbsp;&nbsp;更多&nbsp;&nbsp;&nbsp;&nbsp;</a></p> -->
+                                <p>库存：<span> 10</span></p>
+                            </div>
+                            <div class="_prosuct_id1">
+                                <p>产品特色：</p>
+                                <p>北京首都机场往返+全程挂三星酒店+餐标25元/人/正餐+含当地专业导游讲解服务+纯玩无购物无自费</p>
+                            </div>
+                            <div class="_prosuct_id1">
+                                <p>旅游主题：国内长线
+                                </p>
+                                <p>出发地：北京</p>
+                                <p>目的地：福建南平</p>
+                                <p>出发日期：2016-07-14</p>
+                            </div>
+                        </div>
+                        <div class="_product_r right">
+                            <div class="_product_pic">
+                                <p style="display: none;" id="tradePriceId_2">同行价：<b>￥<span> 
+															2670.0
+														</span>
+													</b>
+                                </p>
+                                <p>门市价：<b style="color: rgb(255, 102, 0);" id="doorPriceId_2">￥<span> 
+															2870.0
+														</span>
+													</b>
+                                </p>
+                            </div>
+                            <div class="_product_dow">
+                                <ul>
+                                    <li class="_product_dow_1" id="opId_2" style="display: none;">
+                                        <a href="javascript:;">
+                                            <p></p>
+                                            <span>立减 106 元</span>
+                                        </a>
+                                    </li>
+                                    <li class="_product_dow_1" id="cutDownId_2" style="display: none;">
+                                        <a href="javascript:;">
+                                            <p></p>
+                                            <span>立返 133 OP币</span>
+                                        </a>
+                                    </li>
+                                    <li class="_product_dow_3">
+                                        <a href="http://b2b.opcta.com/ware/100-101-000086-1-100-100/1000001706.html">立即订购</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content_product">
+                    <div class="content_product_l left">
+                        <a href="http://b2b.opcta.com/ware/100-101-000086-1-100-100/1000001707.html">
+                            <img data-original="http://b2b.opcta.com//static/upload/6ce32143acdfd986011c2409f438b901.jpeg" src="http://b2b.opcta.com//static/upload/6ce32143acdfd986011c2409f438b901.jpeg">
+                        </a>
+                        <div>
+                        </div>
+                    </div>
+                    <div class="content_product_r right">
+                        <h3><a href="http://b2b.opcta.com/ware/100-101-000086-1-100-100/1000001707.html">享趣-普吉5晚7天 SQ</a></h3>
+                        <div class="_product_l left">
+                            <div class="_prosuct_id">
+                                <h4>编号：w10651000001707010</h4>
+                                <p>旅游天数：<span>7天</span>&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                                <p>最近发团：<span> 2016-07-29</span>&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                                <!-- <p><a href="javascript:;">&nbsp;&nbsp;更多&nbsp;&nbsp;&nbsp;&nbsp;</a></p> -->
+                                <p>库存：<span> 3</span></p>
+                            </div>
+                            <div class="_prosuct_id1">
+                                <p>产品特色：</p>
+                                <p>如需购买请致电张女士：18510966968 航班时间具体详见出团单 </p>
+                            </div>
+                            <div class="_prosuct_id1">
+                                <p>旅游主题：出境长线
+                                </p>
+                                <p>出发地：北京</p>
+                                <p>目的地：东南亚泰国</p>
+                                <p>出发日期：2016-07-29</p>
+                            </div>
+                        </div>
+                        <div class="_product_r right">
+                            <div class="_product_pic">
+                                <p style="display: none;" id="tradePriceId_3">同行价：<b>￥<span> 
+															5399.0
+														</span>
+													</b>
+                                </p>
+                                <p>门市价：<b style="color: rgb(255, 102, 0);" id="doorPriceId_3">￥<span> 
+															5399.0
+														</span>
+													</b>
+                                </p>
+                            </div>
+                            <div class="_product_dow">
+                                <ul>
+                                    <li class="_product_dow_1" id="opId_3" style="display: none;">
+                                        <a href="javascript:;">
+                                            <p></p>
+                                            <span>立减 215 元</span>
+                                        </a>
+                                    </li>
+                                    <li class="_product_dow_1" id="cutDownId_3" style="display: none;">
+                                        <a href="javascript:;">
+                                            <p></p>
+                                            <span>立返 269 OP币</span>
+                                        </a>
+                                    </li>
+                                    <li class="_product_dow_3">
+                                        <a href="http://b2b.opcta.com/ware/100-101-000086-1-100-100/1000001707.html">立即订购</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content_product">
+                    <div class="content_product_l left">
+                        <a href="http://b2b.opcta.com/ware/100-101-000086-1-100-100/1000001709.html">
+                            <img data-original="http://b2b.opcta.com//static/upload/3e25ce72ddc48d47d9ccf64a11edeea3.jpeg" src="http://b2b.opcta.com//static/upload/3e25ce72ddc48d47d9ccf64a11edeea3.jpeg">
+                        </a>
+                        <div>
+                        </div>
+                    </div>
+                    <div class="content_product_r right">
+                        <h3><a href="http://b2b.opcta.com/ware/100-101-000086-1-100-100/1000001709.html">AY线：【尊悦土楼】武夷山、厦门、鼓浪屿、永定高北土楼三飞五</a></h3>
+                        <div class="_product_l left">
+                            <div class="_prosuct_id">
+                                <h4>编号：w10731000001709238</h4>
+                                <p>旅游天数：<span>5天</span>&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                                <p>最近发团：<span> 2016-07-14</span>&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                                <!-- <p><a href="javascript:;">&nbsp;&nbsp;更多&nbsp;&nbsp;&nbsp;&nbsp;</a></p> -->
+                                <p>库存：<span> 10</span></p>
+                            </div>
+                            <div class="_prosuct_id1">
+                                <p>产品特色：</p>
+                                <p>北京首都机场往返+全程挂三星酒店+餐标25元/人/正餐+包含当地专业导游讲解服务+武夷山中呼吸新鲜氧气，体验厦门鼓浪屿的浪漫时光，感受足尖上的永定高北土楼群</p>
+                            </div>
+                            <div class="_prosuct_id1">
+                                <p>旅游主题：国内长线
+                                </p>
+                                <p>出发地：北京</p>
+                                <p>目的地：福建南平</p>
+                                <p>出发日期：2016-07-14</p>
+                            </div>
+                        </div>
+                        <div class="_product_r right">
+                            <div class="_product_pic">
+                                <p style="display: none;" id="tradePriceId_4">同行价：<b>￥<span> 
+															2710.0
+														</span>
+													</b>
+                                </p>
+                                <p>门市价：<b style="color: rgb(255, 102, 0);" id="doorPriceId_4">￥<span> 
+															2910.0
+														</span>
+													</b>
+                                </p>
+                            </div>
+                            <div class="_product_dow">
+                                <ul>
+                                    <li class="_product_dow_1" id="opId_4" style="display: none;">
+                                        <a href="javascript:;">
+                                            <p></p>
+                                            <span>立减 108 元</span>
+                                        </a>
+                                    </li>
+                                    <li class="_product_dow_1" id="cutDownId_4" style="display: none;">
+                                        <a href="javascript:;">
+                                            <p></p>
+                                            <span>立返 135 OP币</span>
+                                        </a>
+                                    </li>
+                                    <li class="_product_dow_3">
+                                        <a href="http://b2b.opcta.com/ware/100-101-000086-1-100-100/1000001709.html">立即订购</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content_product">
+                    <div class="content_product_l left">
+                        <a href="http://b2b.opcta.com/ware/100-101-000086-1-100-100/1000001715.html">
+                            <img data-original="http://b2b.opcta.com//static/upload/f280e7cc53fab44f57105634774dde9a.jpeg" src="http://b2b.opcta.com//static/upload/f280e7cc53fab44f57105634774dde9a.jpeg">
+                        </a>
+                        <div>
+                        </div>
+                    </div>
+                    <div class="content_product_r right">
+                        <h3><a href="http://b2b.opcta.com/ware/100-101-000086-1-100-100/1000001715.html">BY线【尊享土楼】厦门鼓浪屿永定土楼武夷山九曲溪双飞五日游</a></h3>
+                        <div class="_product_l left">
+                            <div class="_prosuct_id">
+                                <h4>编号：w10051000001715691</h4>
+                                <p>旅游天数：<span>5天</span>&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                                <p>最近发团：<span> 2016-07-14</span>&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                                <!-- <p><a href="javascript:;">&nbsp;&nbsp;更多&nbsp;&nbsp;&nbsp;&nbsp;</a></p> -->
+                                <p>库存：<span> 10</span></p>
+                            </div>
+                            <div class="_prosuct_id1">
+                                <p>产品特色：</p>
+                                <p>北京首都机场往返 全程挂三星酒店 餐标25元/人/正餐 含当地专业导游讲解服务 纯玩无购物无自费
+                                </p>
+                            </div>
+                            <div class="_prosuct_id1">
+                                <p>旅游主题：国内长线
+                                </p>
+                                <p>出发地：北京</p>
+                                <p>目的地：福建南平</p>
+                                <p>出发日期：2016-07-14</p>
+                            </div>
+                        </div>
+                        <div class="_product_r right">
+                            <div class="_product_pic">
+                                <p style="display: none;" id="tradePriceId_5">同行价：<b>￥<span> 
+															2650.0
+														</span>
+													</b>
+                                </p>
+                                <p>门市价：<b style="color: rgb(255, 102, 0);" id="doorPriceId_5">￥<span> 
+															2850.0
+														</span>
+													</b>
+                                </p>
+                            </div>
+                            <div class="_product_dow">
+                                <ul>
+                                    <li class="_product_dow_1" id="opId_5" style="display: none;">
+                                        <a href="javascript:;">
+                                            <p></p>
+                                            <span>立减 106 元</span>
+                                        </a>
+                                    </li>
+                                    <li class="_product_dow_1" id="cutDownId_5" style="display: none;">
+                                        <a href="javascript:;">
+                                            <p></p>
+                                            <span>立返 132 OP币</span>
+                                        </a>
+                                    </li>
+                                    <li class="_product_dow_3">
+                                        <a href="http://b2b.opcta.com/ware/100-101-000086-1-100-100/1000001715.html">立即订购</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content_product">
+                    <div class="content_product_l left">
+                        <a href="http://b2b.opcta.com/ware/100-101-000086-1-100-100/1000002291.html">
+                            <img data-original="http://b2b.opcta.com//static/upload/c71f3aaa5331c2973d2e54336cdbbc2e.png" src="http://b2b.opcta.com//static/upload/c71f3aaa5331c2973d2e54336cdbbc2e.png">
+                        </a>
+                        <div>
+                        </div>
+                    </div>
+                    <div class="content_product_r right">
+                        <h3><a href="http://b2b.opcta.com/ware/100-101-000086-1-100-100/1000002291.html">波斯不神秘，行走在伊朗5晚8天（含小费，W5直飞）</a></h3>
+                        <div class="_product_l left">
+                            <div class="_prosuct_id">
+                                <h4>编号：w13631000002291628</h4>
+                                <p>旅游天数：<span>8天</span>&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                                <p>最近发团：<span> 2016-08-20</span>&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                                <!-- <p><a href="javascript:;">&nbsp;&nbsp;更多&nbsp;&nbsp;&nbsp;&nbsp;</a></p> -->
+                                <p>库存：<span> 9</span></p>
+                            </div>
+                            <div class="_prosuct_id1">
+                                <p>产品特色：</p>
+                                <p>古代波斯帝国久远的历史文明，南北重要城市，德黑兰、设拉子、伊斯法罕一次游历， 感受臻萃波斯心灵的召唤； 中东巴黎的浪漫德黑兰——自由纪念塔 时尚城市的街边，浓浓的波斯风情从女子的花色头巾中透出，让你无时无刻都身处迷一 样的氛围； 波斯花园设拉子——波斯波利斯皇宫 穿过“古兰经门”到“天堂花园漫步”，在著名诗人哈菲兹墓园冥想；
+                                </p>
+                            </div>
+                            <div class="_prosuct_id1">
+                                <p>旅游主题：出境长线
+                                </p>
+                                <p>出发地：北京</p>
+                                <p>目的地：西亚伊朗</p>
+                                <p>出发日期：2016-08-20</p>
+                            </div>
+                        </div>
+                        <div class="_product_r right">
+                            <div class="_product_pic">
+                                <p style="display: none;" id="tradePriceId_6">同行价：<b>￥<span> 
+															12900.0
+														</span>
+													</b>
+                                </p>
+                                <p>门市价：<b style="color: rgb(255, 102, 0);" id="doorPriceId_6">￥<span> 
+															13900.0
+														</span>
+													</b>
+                                </p>
+                            </div>
+                            <div class="_product_dow">
+                                <ul>
+                                    <li class="_product_dow_1" id="opId_6" style="display: none;">
+                                        <a href="javascript:;">
+                                            <p></p>
+                                            <span>立减 387 元</span>
+                                        </a>
+                                    </li>
+                                    <li class="_product_dow_1" id="cutDownId_6" style="display: none;">
+                                        <a href="javascript:;">
+                                            <p></p>
+                                            <span>立返 516 OP币</span>
+                                        </a>
+                                    </li>
+                                    <li class="_product_dow_3">
+                                        <a href="http://b2b.opcta.com/ware/100-101-000086-1-100-100/1000002291.html">立即订购</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content_product">
+                    <div class="content_product_l left">
+                        <a href="http://b2b.opcta.com/ware/100-101-000086-1-100-100/1000002307.html">
+                            <img data-original="http://b2b.opcta.com//static/upload/2a70f34224a52b6c7e8a2bf2d336a5b0.jpeg" src="http://b2b.opcta.com//static/upload/2a70f34224a52b6c7e8a2bf2d336a5b0.jpeg">
+                        </a>
+                        <div>
+                        </div>
+                    </div>
+                    <div class="content_product_r right">
+                        <h3><a href="http://b2b.opcta.com/ware/100-101-000086-1-100-100/1000002307.html">CA俄+北欧+双峡湾13天D5车</a></h3>
+                        <div class="_product_l left">
+                            <div class="_prosuct_id">
+                                <h4>编号：w10551000002307022</h4>
+                                <p>旅游天数：<span>13天</span>&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                                <p>最近发团：<span> 无</span>&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                                <!-- <p><a href="javascript:;">&nbsp;&nbsp;更多&nbsp;&nbsp;&nbsp;&nbsp;</a></p> -->
+                                <p>库存：<span> 无</span></p>
+                            </div>
+                            <div class="_prosuct_id1">
+                                <p>产品特色：</p>
+                                <p>☼ 航空公司：搭乘中国国际航空公司国际航班，享受轻松舒适旅程。 ☼ 住宿安排：全程3-4星级酒店，实际安排以出团通知为准。 ☼ 全程用餐： ①俄罗斯段：当地中餐馆享用早餐，中式午晚餐八菜一汤，十人一桌。 ②欧洲段：酒店享用西式早餐，午晚餐为中式五菜一汤+茶水+水果 </p>
+                            </div>
+                            <div class="_prosuct_id1">
+                                <p>旅游主题：出境长线
+                                </p>
+                                <p>出发地：北京</p>
+                                <p>目的地：北欧瑞典</p>
+                                <p>出发日期：无</p>
+                            </div>
+                        </div>
+                        <div class="_product_r right">
+                            <div class="_product_pic">
+                                <p style="display: none;" id="tradePriceId_7">同行价：<b>￥<span> 
+															无
+														</span>
+													</b>
+                                </p>
+                                <p>门市价：<b style="color: rgb(255, 102, 0);" id="doorPriceId_7">￥<span> 
+															无
+														</span>
+													</b>
+                                </p>
+                            </div>
+                            <div class="_product_dow">
+                                <ul>
+                                    <li class="_product_dow_3">
+                                        <a href="http://b2b.opcta.com/ware/100-101-000086-1-100-100/1000002307.html">立即订购</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content_product">
+                    <div class="content_product_l left">
+                        <a href="http://b2b.opcta.com/ware/100-101-000086-1-100-100/1000002344.html">
+                            <img data-original="http://b2b.opcta.com//static/upload/0fcf67544aac3568f6c1803b3605a1f4.jpeg" src="http://b2b.opcta.com//static/upload/0fcf67544aac3568f6c1803b3605a1f4.jpeg">
+                        </a>
+                        <div>
+                        </div>
+                    </div>
+                    <div class="content_product_r right">
+                        <h3><a href="http://b2b.opcta.com/ware/100-101-000086-1-100-100/1000002344.html">HA夏威夷5晚8日多彩之旅</a></h3>
+                        <div class="_product_l left">
+                            <div class="_prosuct_id">
+                                <h4>编号：w10111000002344244</h4>
+                                <p>旅游天数：<span>8天</span>&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                                <p>最近发团：<span> 无</span>&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                                <!-- <p><a href="javascript:;">&nbsp;&nbsp;更多&nbsp;&nbsp;&nbsp;&nbsp;</a></p> -->
+                                <p>库存：<span> 无</span></p>
+                            </div>
+                            <div class="_prosuct_id1">
+                                <p>产品特色：</p>
+                                <p> 航空公司：夏威夷航空公司空客A330客机，往返直飞，每人免费2件大箱行李托运。  酒店星级：全程入住国际或当地品牌连锁酒店。（相当于国内三星标准）  酒店特色：waikiki海滩边精选酒店，尽情享受夏威夷的阳光、沙滩和海水。  免费赠送双岛游览，欧胡岛+火山岛或茂宜岛任选其一，多重选择，更多精彩！（包含机票+往返接送机+一日游览）
+                                </p>
+                            </div>
+                            <div class="_prosuct_id1">
+                                <p>旅游主题：出境长线
+                                </p>
+                                <p>出发地：北京</p>
+                                <p>目的地：北美美国</p>
+                                <p>出发日期：无</p>
+                            </div>
+                        </div>
+                        <div class="_product_r right">
+                            <div class="_product_pic">
+                                <p style="display: none;" id="tradePriceId_8">同行价：<b>￥<span> 
+															无
+														</span>
+													</b>
+                                </p>
+                                <p>门市价：<b style="color: rgb(255, 102, 0);" id="doorPriceId_8">￥<span> 
+															无
+														</span>
+													</b>
+                                </p>
+                            </div>
+                            <div class="_product_dow">
+                                <ul>
+                                    <li class="_product_dow_3">
+                                        <a href="http://b2b.opcta.com/ware/100-101-000086-1-100-100/1000002344.html">立即订购</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content_product">
+                    <div class="content_product_l left">
+                        <a href="http://b2b.opcta.com/ware/100-101-000086-1-100-100/1000002411.html">
+                            <img data-original="http://b2b.opcta.com//static/upload/8564e2d40d3bbba61497f5e921ffa7b9.jpeg" src="http://b2b.opcta.com//static/upload/8564e2d40d3bbba61497f5e921ffa7b9.jpeg">
+                        </a>
+                        <div>
+                        </div>
+                    </div>
+                    <div class="content_product_r right">
+                        <h3><a href="http://b2b.opcta.com/ware/100-101-000086-1-100-100/1000002411.html">PS西欧德法意瑞四国十二天</a></h3>
+                        <div class="_product_l left">
+                            <div class="_prosuct_id">
+                                <h4>编号：w10571000002411598</h4>
+                                <p>旅游天数：<span>12天</span>&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                                <p>最近发团：<span> 2016-08-03</span>&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                                <!-- <p><a href="javascript:;">&nbsp;&nbsp;更多&nbsp;&nbsp;&nbsp;&nbsp;</a></p> -->
+                                <p>库存：<span> 7</span></p>
+                            </div>
+                            <div class="_prosuct_id1">
+                                <p>产品特色：</p>
+                                <p>☼ 航空公司：搭乘乌克兰航空国际航班，享受轻松舒适旅程 ☼ 住宿安排：意大利全程4星级酒店，其他国家3星级酒店； ☼ 全程用餐：欧洲酒店早餐，午晚餐为中式五菜一汤 ☼ 特别赠送：新天鹅堡+卢浮宫+壁画村+圣彼得大教堂</p>
+                            </div>
+                            <div class="_prosuct_id1">
+                                <p>旅游主题：出境长线
+                                </p>
+                                <p>出发地：北京</p>
+                                <p>目的地：西欧德国</p>
+                                <p>出发日期：2016-08-03</p>
+                            </div>
+                        </div>
+                        <div class="_product_r right">
+                            <div class="_product_pic">
+                                <p style="display: none;" id="tradePriceId_9">同行价：<b>￥<span> 
+															2000.0
+														</span>
+													</b>
+                                </p>
+                                <p>门市价：<b style="color: rgb(255, 102, 0);" id="doorPriceId_9">￥<span> 
+															3000.0
+														</span>
+													</b>
+                                </p>
+                            </div>
+                            <div class="_product_dow">
+                                <ul>
+                                    <li class="_product_dow_1" id="opId_9" style="display: none;">
+                                        <a href="javascript:;">
+                                            <p></p>
+                                            <span>立减 60 元</span>
+                                        </a>
+                                    </li>
+                                    <li class="_product_dow_1" id="cutDownId_9" style="display: none;">
+                                        <a href="javascript:;">
+                                            <p></p>
+                                            <span>立返 80 OP币</span>
+                                        </a>
+                                    </li>
+                                    <li class="_product_dow_3">
+                                        <a href="http://b2b.opcta.com/ware/100-101-000086-1-100-100/1000002411.html">立即订购</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="_number_pages" id="number_pages_gat">
+                <div class="an_curr">
+                    <a id="prev_c" class="prev_c left" href="javascript:callPage('searchWordForm');">上一页</a>
+                    <p id="num_c" class="left">1 /195 页</p>
+                    <a id="next_c" class="next_c left" href="javascript:callPage('searchWordForm');">下一页</a>
+                    <div class="tiaozhuan_page">
+                        <b>到</b>
+                        <input id="toPage" type="text" placeholder="1" onblur="<!-- location=&#39;?channel=0&amp;lt=f&amp;trips=0&amp;keySearchb=&amp;keySearche=&amp;psort=0&amp;skip_page=&#39;+this.value+&#39;&#39; -->" style="width: 30px;" value=""><b>页</b>
+                        <a href="javascript:callPage('searchWordForm');" id="no_page_n" class="no_page_n">确定</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--footer部分-->
+    <div id="footer" style="display: none;">
+        <div class="f_top">
+            <div class="content">
+                <a class="switch on" style="display: block;">
+                    <!-- <div class="bg"></div>
+                    <span>联系我们</span> -->
+                    <img src="../images/tb_footer_01.png">
+                </a>
+                <a class="switch off">
+                    <!-- <div class="bg"></div>
+                    <span>收&nbsp;&nbsp;起</span> -->
+                    <img src="../images/tb_footer_02.png">
+                </a>
+            </div>
+        </div>
+        <div class="f_bot">
+            <div class="t_box">
+                <div class="content">
+                    <div class="top fl">
+                        <div class="fl">
+                            <h4>天天旅交会温馨提示</h4>
+                            <p>客户服务专线</p>
+                            <em>010-53526677</em>
+                        </div>
+                        <div class="fr">
+                            <h4>旅交会最新公告：</h4>
+                            <ul>
+                                <pre>                                
+                            </pre>
+                            </ul>
+                        </div>
+                    </div>
+                    <ul class="bottom">
+                        <li>
+                            <ul>
+                                <li>
+                                    <h4>新手帮助</h4></li>
+                                <li><a href="http://www.opcta.com/zhti_book.html" target="_blank">预定流程</a></li>
+                                <li><a href="http://www.opcta.com/zhti_paying.html" target="_blank">付款流程</a></li>
+                                <li><a href="http://www.opcta.com/common_problem.html" target="_blank">常见问题</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul>
+                                <li>
+                                    <h4>旅游专家</h4></li>
+                                <li><a href="http://www.opcta.com/download_pact.html" target="_blank">旅游合同范本</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul>
+                                <li>
+                                    <h4>支付中心</h4></li>
+                                <li><a href="http://www.opcta.com/lht.html" target="_blank">订单支付方式</a></li>
+                                <li><a href="http://www.opcta.com/zhti_debook.html" target="_blank">退单模式</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul>
+                                <li>
+                                    <h4>其他事项</h4></li>
+                            </ul>
+                        </li>
+                        <li class="last_concern">
+                            <ul>
+                                <li>
+                                    <h4>关注旅交会</h4></li>
+                                <li class="concern_info">
+                                    <p>关注我们的官方网站、官方微信，最新资讯尽在旅交会.COM。</p>
+                                    <p class="www">b2b.opcta.com</p>
+                                </li>
+                            </ul>
+                            <div class="wxin_box w1">
+                                <img src="http://b2b.opcta.com/images/wx_gf.jpg">
+                            </div>
+                            <div class="wxin_box w2">
+                                <img src="http://b2b.opcta.com/images/wb_gf.jpg">
+                            </div>
+                            <div class="wxin_text">
+                                <p><span>旅交会订阅号</span><span class="tr">旅交会服务号</span></p>
+                                <p>添加旅交会官方微信号：OPCTA-LJH
+                                    <br>扫描旅交会官方微信二维码</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="b_box">
+                <div class=" content">
+                    <ul class="images">
+                        <li>
+                            <a href="https://www.99bill.com/" target="_blank"><img src="http://b2b.opcta.com/images/image001.png"></a>
+                        </li>
+                        <li>
+                            <a href="http://www.12377.cn/" target="_blank"><img src="http://b2b.opcta.com/images/image002.png"></a>
+                        </li>
+                        <li>
+                            <a href="http://www.bj.cyberpolice.cn/index.do" target="_blank"><img src="http://b2b.opcta.com/images/image003.png"></a>
+                        </li>
+                        <li>
+                            <a href="http://www.isc.org.cn/" target="_blank"><img src="http://b2b.opcta.com/images/image004.png"></a>
+                        </li>
+                        <li><span id="kx_verify" style="display: inline-block; position: relative; width: 128px; height: 47px;"><a id="kx_verify_link" href="https://ss.knet.cn/verifyseal.dll?sn=e15020611010557644yqeu000000&a=1&pa=0.6018493148163749" tabindex="-1" target="_blank" kx_type="图标式" rel="nofollow"><img src="http://b2b.opcta.com/images/cnnic.png" style="border:0; position: absolute; top: 0px; left: 0px;" w="128" h="47" width="128" height="47" oncontextmenu="return false;" alt="可信网站"></a></span></li>
+                        <li>
+                            <a id="___szfw_logo___" href="https://credit.szfw.org/CX20160113013262160182.html" target="_blank"><img src="http://b2b.opcta.com/images/cert.png" border="0"></a>
+                        </li>
+                    </ul>
+                    <div class="clear"></div>
+                    <ul>
+                        <li><a href="http://www.miibeian.gov.cn/" target="_blank">京ICP备15004030号-1</a></li>
+                        <li>京公网安备11010502027137</li>
+                    </ul>
+                    <p>Copyright © 2014 opcta.com</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="resultDiv"></div>
+    <SCRIPT language="JavaScript" src="../js/jquery.SuperSlide.js"></SCRIPT>
+    <SCRIPT language="JavaScript" src="../js/front_base.js"></SCRIPT>
+    <SCRIPT language="JavaScript" src="../js/flowplayer-3.2.13.min.js"></SCRIPT>
+    <SCRIPT language="JavaScript" src="../js/jquery.lazyload.min.js"></SCRIPT>
+    <SCRIPT language="JavaScript" src="../js/qq.js"></SCRIPT>
+    <script>
+    $(function() {
+        var $f = $("input[name='search']");
+        var $v = "w";
+        if ($v == 'w') {
+            $('div.search ul li:eq(0) a').addClass('on').parent().siblings('li').children('a').removeClass('on');
+            $f.attr('placeholder', '请输入产品名称、产品编号、线路名称、产品搜索关键字');
+
+        } else {
+            $('div.search ul li:eq(1) a').addClass('on').parent().siblings('li').children('a').removeClass('on');
+            $f.attr('placeholder', '请输入搜索的供应商名称、品牌名称');
+
+        }
+        $('div.search ul li:eq(0) a').click(function() {
+
+            $.get('/ware/searchSetapi?searchset=w', function(data, status) {
+                if (data['val'] == 'w') {
+                    //alert('in');
+                    $f.attr('placeholder', '请输入产品名称、产品编号、线路名称、产品搜索关键字');
+                    //$f.val('w');
+                    $('div.search ul li:eq(0) a').addClass('on').parent().siblings('li ').children('a').removeClass('on');
+                }
+
+            }, 'json');
+            return false;
+        });
+        $('div.search ul li:eq(1) a').click(function() {
+
+            $.get('/ware/searchSetapi?searchset=p', function(data, status) {
+                //alert('p');
+                if (data['val'] == 'p') {
+                    $f.attr('placeholder', '请输入搜索的供应商名称、品牌名称');
+                    //$f.val('p');
+                    $('div.search ul li:eq(1) a').addClass('on').parent().siblings('li').children('a').removeClass('on');
+                }
+
+            }, 'json');
+            return false;
+
+        });
+
+
+        $("div.search input[type='submit']").mouseover(function() {
+            $(this).val('GO');
+            $(this).css('backgroundColor', '#3EB135');
+        }).mouseleave(function() {
+            $(this).val('搜 索');
+            $(this).css('backgroundColor', '#00A8FF');
+
+
+        });
+
+    });
+    </script>
+    <div class="sidebar">
+        <div class="switch"><span><i></i></span></div>
+        <div class="contentBOX">
+            <ul class="s1">
+                <li class="close"><a>×</a></li>
+                <li class="qq">
+                    <a class="a1"></a>
+                    <div class="qqbox">
+                        <div>
+                            <i></i>
+                            <b>在<br>线<br>咨<br>询</b>
+                            <ul class="select_qq">
+                                <li id="qq1"><a>华东地区</a></li>
+                                <li id="qq2"><a>华中地区</a></li>
+                                <li id="qq3"><a>东北地区</a></li>
+                                <li id="qq4"><a>西北地区</a></li>
+                                <li id="qq5"><a>西南地区</a></li>
+                                <li id="qq6"><a>华南地区</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <ul class="s2">
+                <li class="app"><a>服<br>务<br>专<br>线</a>
+                    <div class="hb_phone_more" style="">
+                        <dl>
+                            <dd>北京站客户经理董欣悦：18515958807</dd>
+                            <dd>天津站客户经理闫栋琛：18515958805</dd>
+                            <dd>合肥站客户经理广宁：18515958801</dd>
+                            <dd class="more_pos">山东站(青岛/济南)客户经理广宁：
+                                <br> 18515958801
+                            </dd>
+                            <dd>重庆站客户经理广宁：18515958801</dd>
+                            <dd>武汉站客户经理广宁：18515958801</dd>
+                            <dd>太原站客户经理李姝阳：18515958803</dd>
+                            <dd>西安站客户经理李姝阳：18515958803</dd>
+                            <dd>郑州站客户经理李姝阳：18515958803</dd>
+                            <dd>贵阳站客户经理李姝阳：18515958803</dd>
+                            <dd>内蒙古站客户经理李姝阳：18515958803</dd>
+                            <dd>石家庄站客户经理尹晓丽：18515958806</dd>
+                            <dd>唐山站客户经理尹晓丽：18515958806</dd>
+                            <dd>南昌站客户经理尹晓丽：18515958806</dd>
+                            <dd>杭州站客户经理尹晓丽：18515958806</dd>
+                            <dd>长沙站客户经理尹晓丽：18515958806</dd>
+                        </dl>
+                    </div>
+                </li>
+                <li class="user"><a>用<br>户<br>中<br>心</a></li>
+                <!-- <li class="favorite">
+                <a></a>
+                <p>我的收藏</p>
+            </li> -->
+                <!-- <li class="amass"><a></a></li> -->
+                <!-- <li class="survey">
+                <a></a>
+                <p>问卷调查</p>
+            </li> -->
+                <li class="coupon">
+                    <a href="http://b2b.opcta.com/voucher/coupon_route"></a>
+                    <p style="letter-spacing:5px;">优惠券</p>
+                </li>
+                <li class="cart">
+                    <a href="http://order.opcta.com/oca/screen/admin/order,create,car_info_list.html"></a>
+                    <p style="letter-spacing:5px;">购物车</p>
+                </li>
+                <!-- <li class="message">
+                <a></a>
+                <p>消息中心</p>
+            </li> -->
+                <li class="QRcode">
+                    <a></a>
+                    <div><i></i>
+                        <p>关注旅交 乐享生活</p>
+                    </div>
+                </li>
+            </ul>
+            <ul class="s3">
+                <!-- <li class="guestbook"><a></a></li> -->
+                <br>
+                <br>
+                <li class="backTop">
+                    <a></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script type="text/javascript">
+    $(function() {
+
+        $(".clear_options").hide();
+
+        $("#tripDaysId").find("a").click(function() {
+            var tripDay = $(this).attr("id");
+            if (tripDay == "allTrips") {
+                $("#searchWordForm #tripDaysClass").val(null);
+            }
+            if (tripDay == "trip1") {
+                $("#searchWordForm #tripDaysClass").val("1-3");
+            }
+            if (tripDay == "trip2") {
+                $("#searchWordForm #tripDaysClass").val("4-7");
+            }
+            if (tripDay == "trip3") {
+                $("#searchWordForm #tripDaysClass").val("8-10");
+            }
+            if (tripDay == "trip4") {
+                $("#searchWordForm #tripDaysClass").val("10-1000");
+            }
+            $("[name='searchWordForm'] input[name='pageNum']").val(1);
+            // 			$("#searchWordForm").submit();
+        });
+        $(".dstCityUL").find("a").click(function() {
+            var dstCity = $(this).attr("class");
+            $("#searchWordForm #dstCityClass").val(dstCity);
+            $("[name='searchWordForm'] input[name='pageNum']").val(1);
+        });
+        $(".clear_options").click(function() {
+            $("[name='searchWordForm'] input[name='pageNum']").val(1);
+            $("#searchWordForm #dstCityClass").val(null);
+        });
+        $("._scures_srk").find("a").click(function() {
+            var sortWord = $(this).attr("class");
+            $("[name='searchWordForm'] input[name='sortWord']").val(sortWord);
+            $("[name='searchWordForm'] input[name='pageNum']").val(1);
+        });
+
+        // 分页相关
+        $("#prev_c").click(function() {
+            var pageNum = 0;
+            if (pageNum < 1) {
+                return false;
+            }
+            $("form #pageNumClass").val(pageNum);
+        });
+        $("#next_c").click(function() {
+            var pageNum = 2;
+            if (pageNum > 195) {
+                return false;
+            }
+            $("form #pageNumClass").val(pageNum);
+        });
+        $("#no_page_n").click(function() {
+            var pageNum = $("#toPage").val();
+            var pn = 1
+            if (pageNum == "") {
+                return false;
+            }
+            $("form #pageNumClass").val(pageNum);
+        });
+        $("#toPage").focus(function() {
+            $(document).keypress(function(e) {
+                if (e.keyCode == 13) {
+                    var pageNum = $("#toPage").val();
+                    var pn = 1
+                    if (pageNum == "") {
+                        return false;
+                    }
+                    $("form #pageNumClass").val(pageNum);
+                    callPage("searchWordForm");
+                }
+            });
+        });
+        $("#scope_1 a").click(function() {
+            var style = $(this).attr("style");
+            var show = $("#isShowFormId").val();
+            if (userLoginFlag == 1) {
+
+                if (show == "true") {
+                    // 隐藏
+                    $("form [name='show']").val(false);
+                    // 					$("#isShowFormId").val(false);
+                    $("[id^=tradePriceId_]").hide();
+                    $("[id^=opId_]").hide();
+                    $("[id^=cutDownId_]").hide();
+
+                    $("[id^=doorPriceId_]").attr("style", "color: rgb(255, 102, 0);");
+                    $(this).attr("style", "background-color: rgb(0, 168, 255);");
+                } else {
+                    // 显示
+                    $("form [name='show']").val(true);
+                    // 					$("#isShowFormId").val(true);
+                    $("[id^=tradePriceId_]").show();
+                    $("[id^=opId_]").show();
+                    $("[id^=cutDownId_]").show();
+
+                    $(this).attr("style", "background-color: rgb(255, 102, 0);");
+                    $("[id^=doorPriceId_]").attr("style", "color: rgb(153, 153, 153);");
+                }
+
+            } else {
+                return false;
+            }
+        });
+    });
+    </script>
+</body>
+
+</html>
