@@ -1,0 +1,4317 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link href="../../static/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <!-- <link href="../../static/css/bootstrap-theme.min.css" rel="stylesheet" media="screen"> -->
+    <link rel="stylesheet" type="text/css" href="../../static/css/base.css"/>
+    <link rel="shortcut icon" type="image/x-icon" href="../../static/img/logo2.png" />
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+<link href="../../static/css../../order/jquery-ui.min.css" rel="stylesheet">
+<style>
+    td,th {
+        white-space: nowrap;
+    }
+</style>
+
+
+  </head>
+  <body id="B2B" >
+    
+
+  <div class="container-fluid">
+    
+        
+    
+
+
+
+
+
+<div class="row">
+
+<div class="row-fluid">
+    <ul class="nav" role="tablist">
+        <li class="active"><a href="" >订单列表</a></li>
+    </ul>
+</div>
+<div class="row" style="width: 100%;background-color:#fffffd">
+
+    <table class="table table-hover">
+        <thead>
+        <tr>
+
+            <th>订单号</th>
+            <th>下单组织</th>
+            <th>下单时间</th>
+            <th>订单状态</th>
+            <th>产品名称</th>
+            <th>供应商</th>
+            <th>支付金额</th>
+            <th>优惠总金额</th>
+            <th>优惠券</th>
+            <th>OP币</th>
+            <th>立减</th>
+            <th>下单人</th>
+        </tr>
+        </thead>
+
+        <tbody>
+        
+            <tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <td>
+                <a href="../../order/manage/orderinfo/2015113011363053112900000001000B">
+                    2015113011363053112900000001000B
+                </a>
+            </td>
+            <td>
+                <a href="../../order/manage/alllist?org_id=85">
+                    某某某
+                </a>
+            </td>
+            <td>2015-11-30 11:36:30</td>
+            <td><span class="label label-default">订单已取消</span></td>
+            <td>
+                <a href="../../ware/wdetail/w10511000000004865" target="_blank">
+                    天津三日游
+                </a>
+            </td>
+            <td>北京科技科技有限公司</td>
+            <td>1000.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>请请</td>
+
+            </tr>
+        
+            <tr>
+
+            <td>
+                <a href="../../order/manage/orderinfo/2015113011363053112900000001000B">
+                    2015121114383602504300000001004B
+                </a>
+            </td>
+            <td>
+                <a href="../../order/manage/alllist?org_id=85">
+                    某某某
+                </a>
+            </td>
+            <td>2015-12-11 14:38:36</td>
+            <td><span class="label label-default">订单已取消</span></td>
+            <td>
+                <a href="../../ware/wdetail/w10511000000004865" target="_blank">
+                    天津三日游
+                </a>
+            </td>
+            <td>北京科技科技有限公司</td>
+            <td>1000.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>请请</td>
+
+            </tr>
+        
+            <tr>
+            <td>
+                <a href="../../order/manage/orderinfo/2016052511085667956900000003739B">
+                    2015121114414627191700000001001B
+                </a>
+            </td>
+            <td>
+                <a href="../../order/manage/alllist?org_id=85">
+                    某某某
+                </a>
+            </td>
+            <td>2015-12-11 14:41:46</td>
+            <td><span class="label label-success">订单已全额解冻</span></td>
+            <td>
+                <a href="../../ware/wdetail/w10071000000065028" target="_blank">
+                    东北三省一日游
+                </a>
+            </td>
+            <td>测试供应商_2_天津</td>
+            <td>1000.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>请请</td>
+
+            </tr>
+        
+            <tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <td>
+                <a href="../../order/manage/orderinfo/2016060211233505134800000003730B">
+                    2015122214055051342300000001007B
+                </a>
+            </td>
+            <td>
+                <a href="../../order/manage/alllist?org_id=85">
+                    某某某
+                </a>
+            </td>
+            <td>2015-12-22 14:05:50</td>
+            <td><span class="label label-default">订单已取消</span></td>
+            <td>
+                <a href="../../ware/wdetail/w10331000000145388" target="_blank">
+                    大雾霾地
+                </a>
+            </td>
+            <td>北京科技科技有限公司</td>
+            <td>454555.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>请请</td>
+
+            </tr>
+        
+            <tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <td>
+                <a href="../../order/manage/orderinfo/2015122215532142626300000001006B">
+                    2015122215532142626300000001006B
+                </a>
+            </td>
+            <td>
+                <a href="../../order/manage/alllist?org_id=85">
+                    某某某
+                </a>
+            </td>
+            <td>2015-12-22 15:53:21</td>
+            <td><span class="label label-default">订单已取消</span></td>
+            <td>
+                <a href="../../ware/wdetail/w10871000000146460" target="_blank">
+                    小雾霾天
+                </a>
+            </td>
+            <td>北京科技科技有限公司</td>
+            <td>110.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>请请</td>
+
+            </tr>
+        
+            <tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <td>
+                <a href="../../order/manage/orderinfo/2016010213052242802600000001005B">
+                    2016010213052242802600000001005B
+                </a>
+            </td>
+            <td>
+                <a href="../../order/manage/alllist?org_id=85">
+                    某某某
+                </a>
+            </td>
+            <td>2016-01-02 13:05:22</td>
+            <td><span class="label label-success">订单已全额解冻</span></td>
+            <td>
+                <a href="../../ware/wdetail/w10611000000171181" target="_blank">
+                    2222222
+                </a>
+            </td>
+            <td>北京分公司</td>
+            <td>100.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>请请</td>
+
+            </tr>
+        
+            <tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <td>
+                <a href="../../order/manage/orderinfo/2016010321361084905600000001000B">
+                    2016010321361084905600000001000B
+                </a>
+            </td>
+            <td>
+                <a href="../../order/manage/alllist?org_id=85">
+                    某某某
+                </a>
+            </td>
+            <td>2016-01-03 21:36:10</td>
+            <td><span class="label label-success">订单已全额解冻</span></td>
+            <td>
+                <a href="../../ware/wdetail/w10611000000171181" target="_blank">
+                    2222222
+                </a>
+            </td>
+            <td>北京分公司</td>
+            <td>100.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>请请</td>
+
+            </tr>
+        
+            <tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <td>
+                <a href="../../order/manage/orderinfo/2016010321370481989700000001008B">
+                    2016010321370481989700000001008B
+                </a>
+            </td>
+            <td>
+                <a href="../../order/manage/alllist?org_id=85">
+                    某某某
+                </a>
+            </td>
+            <td>2016-01-03 21:37:04</td>
+            <td><span class="label label-default">订单已取消</span></td>
+            <td>
+                <a href="../../ware/wdetail/w10611000000171181" target="_blank">
+                    2222222
+                </a>
+            </td>
+            <td>北京分公司</td>
+            <td>100.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>请请</td>
+
+            </tr>
+        
+            <tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <td>
+                <a href="../../order/manage/orderinfo/2016010322124095984500000001006B">
+                    2016010322124095984500000001006B
+                </a>
+            </td>
+            <td>
+                <a href="../../order/manage/alllist?org_id=85">
+                    某某某
+                </a>
+            </td>
+            <td>2016-01-03 22:12:40</td>
+            <td><span class="label label-default">订单已取消</span></td>
+            <td>
+                <a href="../../ware/wdetail/w10611000000171181" target="_blank">
+                    2222222
+                </a>
+            </td>
+            <td>北京分公司</td>
+            <td>100.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>请请</td>
+
+            </tr>
+        
+            <tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <td>
+                <a href="../../order/manage/orderinfo/2016010410413621758600000001000B">
+                    2016010410413621758600000001000B
+                </a>
+            </td>
+            <td>
+                <a href="../../order/manage/alllist?org_id=85">
+                    某某某
+                </a>
+            </td>
+            <td>2016-01-04 10:41:36</td>
+            <td><span class="label label-success">订单已全额解冻</span></td>
+            <td>
+                <a href="../../ware/wdetail/w10611000000171181" target="_blank">
+                    2222222
+                </a>
+            </td>
+            <td>北京分公司</td>
+            <td>100.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>请请</td>
+
+            </tr>
+        
+            <tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <td>
+                <a href="../../order/manage/orderinfo/2016010515360225823000000001007B">
+                    2016010515360225823000000001007B
+                </a>
+            </td>
+            <td>
+                <a href="../../order/manage/alllist?org_id=85">
+                    某某某
+                </a>
+            </td>
+            <td>2016-01-05 15:36:02</td>
+            <td><span class="label label-default">订单已取消</span></td>
+            <td>
+                <a href="../../ware/wdetail/w10811000000168544" target="_blank">
+                    测试产品上传
+                </a>
+            </td>
+            <td>1778</td>
+            <td>11.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>请请</td>
+
+            </tr>
+        
+            <tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <td>
+                <a href="../../order/manage/orderinfo/2016010614294173293800000001003B">
+                    2016010614294173293800000001003B
+                </a>
+            </td>
+            <td>
+                <a href="../../order/manage/alllist?org_id=85">
+                    某某某
+                </a>
+            </td>
+            <td>2016-01-06 14:29:41</td>
+            <td><span class="label label-success">订单已全额解冻</span></td>
+            <td>
+                <a href="../../ware/wdetail/w10811000000168544" target="_blank">
+                    测试产品上传
+                </a>
+            </td>
+            <td>1778</td>
+            <td>11.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>请请</td>
+
+            </tr>
+        
+            <tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <td>
+                <a href="../../order/manage/orderinfo/2016010616433497620800000001006B">
+                    2016010616433497620800000001006B
+                </a>
+            </td>
+            <td>
+                <a href="../../order/manage/alllist?org_id=85">
+                    某某某
+                </a>
+            </td>
+            <td>2016-01-06 16:43:34</td>
+            <td><span class="label label-success">订单已全额解冻</span></td>
+            <td>
+                <a href="../../ware/wdetail/w10691000000087805" target="_blank">
+                    bdhjh1
+                </a>
+            </td>
+            <td>北京</td>
+            <td>1000.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>请请</td>
+
+            </tr>
+        
+            <tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <td>
+                <a href="../../order/manage/orderinfo/2016010616473957399500000001001B">
+                    2016010616473957399500000001001B
+                </a>
+            </td>
+            <td>
+                <a href="../../order/manage/alllist?org_id=85">
+                    某某某
+                </a>
+            </td>
+            <td>2016-01-06 16:47:39</td>
+            <td><span class="label label-success">订单已全额解冻</span></td>
+            <td>
+                <a href="../../ware/wdetail/w10611000000171181" target="_blank">
+                    2222222
+                </a>
+            </td>
+            <td>北京分公司</td>
+            <td>100.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>请请</td>
+
+            </tr>
+        
+            <tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <td>
+                <a href="../../order/manage/orderinfo/2016010616500545490400000001006B">
+                    2016010616500545490400000001006B
+                </a>
+            </td>
+            <td>
+                <a href="../../order/manage/alllist?org_id=85">
+                    某某某
+                </a>
+            </td>
+            <td>2016-01-06 16:50:05</td>
+            <td><span class="label label-default">订单已取消</span></td>
+            <td>
+                <a href="../../ware/wdetail/w10611000000171181" target="_blank">
+                    2222222
+                </a>
+            </td>
+            <td>北京分公司</td>
+            <td>100.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>请请</td>
+
+            </tr>
+        
+            <tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <td>
+                <a href="../../order/manage/orderinfo/2016010713153725692100000003379B">
+                    2016010713153725692100000003379B
+                </a>
+            </td>
+            <td>
+                <a href="../../order/manage/alllist?org_id=227">
+                    北京分公司
+                </a>
+            </td>
+            <td>2016-01-07 13:15:37</td>
+            <td><span class="label label-default">订单已取消</span></td>
+            <td>
+                <a href="../../ware/wdetail/w10271000000170559" target="_blank">
+                    hahaha 
+                </a>
+            </td>
+            <td>北京呵呵有限公司</td>
+            <td>100.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>糖糖</td>
+
+            </tr>
+        
+            <tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <td>
+                <a href="../../order/manage/orderinfo/2016010713185636204600000003376B">
+                    2016010713185636204600000003376B
+                </a>
+            </td>
+            <td>
+                <a href="../../order/manage/alllist?org_id=227">
+                    北京分公司
+                </a>
+            </td>
+            <td>2016-01-07 13:18:56</td>
+            <td><span class="label label-default">订单已取消</span></td>
+            <td>
+                <a href="../../ware/wdetail/w10691000000087805" target="_blank">
+                    bdhjh1
+                </a>
+            </td>
+            <td>北京</td>
+            <td>1000.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>糖糖</td>
+
+            </tr>
+        
+            <tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <td>
+                <a href="../../order/manage/orderinfo/2016010713302491955600000001009B">
+                    2016010713302491955600000001009B
+                </a>
+            </td>
+            <td>
+                <a href="../../order/manage/alllist?org_id=85">
+                    某某某
+                </a>
+            </td>
+            <td>2016-01-07 13:30:24</td>
+            <td><span class="label label-default">订单已取消</span></td>
+            <td>
+                <a href="../../ware/wdetail/w10811000000168544" target="_blank">
+                    测试产品上传
+                </a>
+            </td>
+            <td>1778</td>
+            <td>11.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>请请</td>
+
+            </tr>
+        
+            <tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <td>
+                <a href="../../order/manage/orderinfo/2016010713324036227300000001007B">
+                    2016010713324036227300000001007B
+                </a>
+            </td>
+            <td>
+                <a href="../../order/manage/alllist?org_id=85">
+                    某某某
+                </a>
+            </td>
+            <td>2016-01-07 13:32:40</td>
+            <td><span class="label label-default">订单已取消</span></td>
+            <td>
+                <a href="../../ware/wdetail/w10811000000168544" target="_blank">
+                    测试产品上传
+                </a>
+            </td>
+            <td>1778</td>
+            <td>11.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>请请</td>
+
+            </tr>
+        
+            <tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <td>
+                <a href="../../order/manage/orderinfo/2016010713460963371800000001003B">
+                    2016010713460963371800000001003B
+                </a>
+            </td>
+            <td>
+                <a href="../../order/manage/alllist?org_id=85">
+                    某某某
+                </a>
+            </td>
+            <td>2016-01-07 13:46:09</td>
+            <td><span class="label label-default">订单已取消</span></td>
+            <td>
+                <a href="../../ware/wdetail/w10811000000168544" target="_blank">
+                    测试产品上传
+                </a>
+            </td>
+            <td>1778</td>
+            <td>11.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>请请</td>
+
+            </tr>
+        
+            <tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <td>
+                <a href="../../order/manage/orderinfo/2016010810513022028900000001000B">
+                    2016010810513022028900000001000B
+                </a>
+            </td>
+            <td>
+                <a href="../../order/manage/alllist?org_id=85">
+                    某某某
+                </a>
+            </td>
+            <td>2016-01-08 10:51:30</td>
+            <td><span class="label label-success">订单已全额解冻</span></td>
+            <td>
+                <a href="../../ware/wdetail/w10691000000087805" target="_blank">
+                    bdhjh1
+                </a>
+            </td>
+            <td>北京</td>
+            <td>800.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>请请</td>
+
+            </tr>
+        
+            <tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <td>
+                <a href="../../order/manage/orderinfo/2016010811405174287500000001003B">
+                    2016010811405174287500000001003B
+                </a>
+            </td>
+            <td>
+                <a href="../../order/manage/alllist?org_id=85">
+                    某某某
+                </a>
+            </td>
+            <td>2016-01-08 11:40:51</td>
+            <td><span class="label label-default">订单已取消</span></td>
+            <td>
+                <a href="../../ware/wdetail/w10811000000168544" target="_blank">
+                    测试产品上传
+                </a>
+            </td>
+            <td>1778</td>
+            <td>33.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>请请</td>
+
+            </tr>
+        
+            <tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <td>
+                <a href="../../order/manage/orderinfo/2016011111344411209400000001002B">
+                    2016011111344411209400000001002B
+                </a>
+            </td>
+            <td>
+                <a href="../../order/manage/alllist?org_id=85">
+                    某某某
+                </a>
+            </td>
+            <td>2016-01-11 11:34:44</td>
+            <td><span class="label label-default">订单已取消</span></td>
+            <td>
+                <a href="../../ware/wdetail/w10691000000087805" target="_blank">
+                    bdhjh1
+                </a>
+            </td>
+            <td>北京</td>
+            <td>1150.00</td>
+            <td>50.00</td>
+            <td>50.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>请请</td>
+
+            </tr>
+        
+            <tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <td>
+                <a href="../../order/manage/orderinfo/2016011114005004482600000003371B">
+                    2016011114005004482600000003371B
+                </a>
+            </td>
+            <td>
+                <a href="../../order/manage/alllist?org_id=227">
+                    北京分公司
+                </a>
+            </td>
+            <td>2016-01-11 14:00:50</td>
+            <td><span class="label label-default">订单已取消</span></td>
+            <td>
+                <a href="../../ware/wdetail/w10691000000087805" target="_blank">
+                    bdhjh1
+                </a>
+            </td>
+            <td>北京</td>
+            <td>1200.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>糖糖</td>
+
+            </tr>
+        
+            <tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <td>
+                <a href="../../order/manage/orderinfo/2016011114035762142200000003371B">
+                    2016011114035762142200000003371B
+                </a>
+            </td>
+            <td>
+                <a href="../../order/manage/alllist?org_id=227">
+                    北京分公司
+                </a>
+            </td>
+            <td>2016-01-11 14:03:57</td>
+            <td><span class="label label-default">订单已取消</span></td>
+            <td>
+                <a href="../../ware/wdetail/w10691000000087805" target="_blank">
+                    bdhjh1
+                </a>
+            </td>
+            <td>北京</td>
+            <td>1150.00</td>
+            <td>50.00</td>
+            <td>50.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>糖糖</td>
+
+            </tr>
+        
+            <tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <td>
+                <a href="../../order/manage/orderinfo/2016011114060553269000000003377B">
+                    2016011114060553269000000003377B
+                </a>
+            </td>
+            <td>
+                <a href="../../order/manage/alllist?org_id=227">
+                    北京分公司
+                </a>
+            </td>
+            <td>2016-01-11 14:06:05</td>
+            <td><span class="label label-default">订单已取消</span></td>
+            <td>
+                <a href="../../ware/wdetail/w10691000000087805" target="_blank">
+                    bdhjh1
+                </a>
+            </td>
+            <td>北京</td>
+            <td>1199.00</td>
+            <td>1.00</td>
+            <td>1.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>糖糖</td>
+
+            </tr>
+        
+            <tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <td>
+                <a href="../../order/manage/orderinfo/2016011114191619056800000001006B">
+                    2016011114191619056800000001006B
+                </a>
+            </td>
+            <td>
+                <a href="../../order/manage/alllist?org_id=85">
+                    某某某
+                </a>
+            </td>
+            <td>2016-01-11 14:19:16</td>
+            <td><span class="label label-default">订单已取消</span></td>
+            <td>
+                <a href="../../ware/wdetail/w10691000000087805" target="_blank">
+                    bdhjh1
+                </a>
+            </td>
+            <td>北京</td>
+            <td>1199.00</td>
+            <td>1.00</td>
+            <td>1.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>请请</td>
+
+            </tr>
+        
+            <tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <td>
+                <a href="../../order/manage/orderinfo/2016011114222416825900000001005B">
+                    2016011114222416825900000001005B
+                </a>
+            </td>
+            <td>
+                <a href="../../order/manage/alllist?org_id=85">
+                    某某某
+                </a>
+            </td>
+            <td>2016-01-11 14:22:24</td>
+            <td><span class="label label-success">订单已全额解冻</span></td>
+            <td>
+                <a href="../../ware/wdetail/w10691000000087805" target="_blank">
+                    bdhjh1
+                </a>
+            </td>
+            <td>北京</td>
+            <td>1199.00</td>
+            <td>1.00</td>
+            <td>1.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>请请</td>
+
+            </tr>
+        
+            <tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <td>
+                <a href="../../order/manage/orderinfo/2016011115501526018700000003371B">
+                    2016011115501526018700000003371B
+                </a>
+            </td>
+            <td>
+                <a href="../../order/manage/alllist?org_id=227">
+                    北京分公司
+                </a>
+            </td>
+            <td>2016-01-11 15:50:15</td>
+            <td><span class="label label-default">订单已取消</span></td>
+            <td>
+                <a href="../../ware/wdetail/w10691000000087805" target="_blank">
+                    bdhjh1
+                </a>
+            </td>
+            <td>北京</td>
+            <td>1170.00</td>
+            <td>30.00</td>
+            <td>30.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>糖糖</td>
+
+            </tr>
+        
+            <tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <td>
+                <a href="../../order/manage/orderinfo/2016011115514671423100000001003B">
+                    2016011115514671423100000001003B
+                </a>
+            </td>
+            <td>
+                <a href="../../order/manage/alllist?org_id=85">
+                    某某某
+                </a>
+            </td>
+            <td>2016-01-11 15:51:46</td>
+            <td><span class="label label-default">订单已取消</span></td>
+            <td>
+                <a href="../../ware/wdetail/w10691000000087805" target="_blank">
+                    bdhjh1
+                </a>
+            </td>
+            <td>北京</td>
+            <td>1170.00</td>
+            <td>30.00</td>
+            <td>30.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>请请</td>
+
+            </tr>
+        
+            <tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <td>
+                <a href="../../order/manage/orderinfo/2016011410075747056200000001003B">
+                    2016011410075747056200000001003B
+                </a>
+            </td>
+            <td>
+                <a href="../../order/manage/alllist?org_id=85">
+                    某某某
+                </a>
+            </td>
+            <td>2016-01-14 10:07:57</td>
+            <td><span class="label label-success">订单已全额解冻</span></td>
+            <td>
+                <a href="../../ware/wdetail/w10691000000087805" target="_blank">
+                    bdhjh1
+                </a>
+            </td>
+            <td>北京</td>
+            <td>1150.00</td>
+            <td>50.00</td>
+            <td>50.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>请请</td>
+
+            </tr>
+        
+            <tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <td>
+                <a href="../../order/manage/orderinfo/2016011410104580644200000001007B">
+                    2016011410104580644200000001007B
+                </a>
+            </td>
+            <td>
+                <a href="../../order/manage/alllist?org_id=85">
+                    某某某
+                </a>
+            </td>
+            <td>2016-01-14 10:10:45</td>
+            <td><span class="label label-success">订单已全额解冻</span></td>
+            <td>
+                <a href="../../ware/wdetail/w10691000000087805" target="_blank">
+                    bdhjh1
+                </a>
+            </td>
+            <td>北京</td>
+            <td>1200.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>请请</td>
+
+            </tr>
+        
+            <tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <td>
+                <a href="../../order/manage/orderinfo/2016011410462829359900000001008B">
+                    2016011410462829359900000001008B
+                </a>
+            </td>
+            <td>
+                <a href="../../order/manage/alllist?org_id=85">
+                    某某某
+                </a>
+            </td>
+            <td>2016-01-14 10:46:28</td>
+            <td><span class="label label-default">订单已取消</span></td>
+            <td>
+                <a href="../../ware/wdetail/w10691000000087805" target="_blank">
+                    bdhjh1
+                </a>
+            </td>
+            <td>北京</td>
+            <td>1200.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>请请</td>
+
+            </tr>
+        
+            <tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <td>
+                <a href="../../order/manage/orderinfo/2016011411164345197600000001001B">
+                    2016011411164345197600000001001B
+                </a>
+            </td>
+            <td>
+                <a href="../../order/manage/alllist?org_id=85">
+                    某某某
+                </a>
+            </td>
+            <td>2016-01-14 11:16:43</td>
+            <td><span class="label label-default">订单已取消</span></td>
+            <td>
+                <a href="../../ware/wdetail/w10811000000168544" target="_blank">
+                    测试产品上传
+                </a>
+            </td>
+            <td>1778</td>
+            <td>11.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>请请</td>
+
+            </tr>
+        
+            <tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <td>
+                <a href="../../order/manage/orderinfo/2016011411195033912900000001002B">
+                    2016011411195033912900000001002B
+                </a>
+            </td>
+            <td>
+                <a href="../../order/manage/alllist?org_id=85">
+                    某某某
+                </a>
+            </td>
+            <td>2016-01-14 11:19:50</td>
+            <td><span class="label label-success">订单已全额解冻</span></td>
+            <td>
+                <a href="../../ware/wdetail/w10811000000168544" target="_blank">
+                    测试产品上传
+                </a>
+            </td>
+            <td>1778</td>
+            <td>11.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>请请</td>
+
+            </tr>
+        
+            <tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <td>
+                <a href="../../order/manage/orderinfo/2016011411410952464100000001004B">
+                    2016011411410952464100000001004B
+                </a>
+            </td>
+            <td>
+                <a href="../../order/manage/alllist?org_id=85">
+                    某某某
+                </a>
+            </td>
+            <td>2016-01-14 11:41:09</td>
+            <td><span class="label label-default">订单已取消</span></td>
+            <td>
+                <a href="../../ware/wdetail/w10811000000168544" target="_blank">
+                    测试产品上传
+                </a>
+            </td>
+            <td>1778</td>
+            <td>22.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>请请</td>
+
+            </tr>
+        
+            <tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <td>
+                <a href="../../order/manage/orderinfo/2016011509465234099300000001008B">
+                    2016011509465234099300000001008B
+                </a>
+            </td>
+            <td>
+                <a href="../../order/manage/alllist?org_id=85">
+                    某某某
+                </a>
+            </td>
+            <td>2016-01-15 09:46:52</td>
+            <td><span class="label label-success">订单已全额解冻</span></td>
+            <td>
+                <a href="../../ware/wdetail/w10691000000087805" target="_blank">
+                    bdhjh1
+                </a>
+            </td>
+            <td>北京</td>
+            <td>1200.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>请请</td>
+
+            </tr>
+        
+            <tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <td>
+                <a href="../../order/manage/orderinfo/2016011510425084616100000001008B">
+                    2016011510425084616100000001008B
+                </a>
+            </td>
+            <td>
+                <a href="../../order/manage/alllist?org_id=85">
+                    某某某
+                </a>
+            </td>
+            <td>2016-01-15 10:42:50</td>
+            <td><span class="label label-default">订单已取消</span></td>
+            <td>
+                <a href="../../ware/wdetail/w10811000000168544" target="_blank">
+                    测试产品上传
+                </a>
+            </td>
+            <td>1778</td>
+            <td>11.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>请请</td>
+
+            </tr>
+        
+            <tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <td>
+                <a href="../../order/manage/orderinfo/2016011811162879039700000001003B">
+                    2016011811162879039700000001003B
+                </a>
+            </td>
+            <td>
+                <a href="../../order/manage/alllist?org_id=85">
+                    某某某
+                </a>
+            </td>
+            <td>2016-01-18 11:16:28</td>
+            <td><span class="label label-default">订单已取消</span></td>
+            <td>
+                <a href="../../ware/wdetail/w10811000000168544" target="_blank">
+                    测试产品上传
+                </a>
+            </td>
+            <td>1778</td>
+            <td>11.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>请请</td>
+
+            </tr>
+        
+            <tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <td>
+                <a href="../../order/manage/orderinfo/2016011814000460723700000001004B">
+                    2016011814000460723700000001004B
+                </a>
+            </td>
+            <td>
+                <a href="../../order/manage/alllist?org_id=85">
+                    某某某
+                </a>
+            </td>
+            <td>2016-01-18 14:00:04</td>
+            <td><span class="label label-success">订单已全额解冻</span></td>
+            <td>
+                <a href="../../ware/wdetail/w10691000000087805" target="_blank">
+                    bdhjh1
+                </a>
+            </td>
+            <td>北京</td>
+            <td>1200.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>请请</td>
+
+            </tr>
+        
+            <tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <td>
+                <a href="../../order/manage/orderinfo/2016011814051268788700000001008B">
+                    2016011814051268788700000001008B
+                </a>
+            </td>
+            <td>
+                <a href="../../order/manage/alllist?org_id=85">
+                    某某某
+                </a>
+            </td>
+            <td>2016-01-18 14:05:12</td>
+            <td><span class="label label-default">订单已取消</span></td>
+            <td>
+                <a href="../../ware/wdetail/w10691000000087805" target="_blank">
+                    bdhjh1
+                </a>
+            </td>
+            <td>北京</td>
+            <td>1200.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>请请</td>
+
+            </tr>
+        
+            <tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <td>
+                <a href="../../order/manage/orderinfo/2016011815151540083200000001006B">
+                    2016011815151540083200000001006B
+                </a>
+            </td>
+            <td>
+                <a href="../../order/manage/alllist?org_id=85">
+                    某某某
+                </a>
+            </td>
+            <td>2016-01-18 15:15:15</td>
+            <td><span class="label label-default">订单已取消</span></td>
+            <td>
+                <a href="../../ware/wdetail/w10811000000168544" target="_blank">
+                    测试产品上传
+                </a>
+            </td>
+            <td>1778</td>
+            <td>11.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>请请</td>
+
+            </tr>
+        
+            <tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <td>
+                <a href="../../order/manage/orderinfo/2016011815181004357700000001001B">
+                    2016011815181004357700000001001B
+                </a>
+            </td>
+            <td>
+                <a href="../../order/manage/alllist?org_id=85">
+                    某某某
+                </a>
+            </td>
+            <td>2016-01-18 15:18:10</td>
+            <td><span class="label label-default">订单已取消</span></td>
+            <td>
+                <a href="../../ware/wdetail/w10611000000171181" target="_blank">
+                    2222222
+                </a>
+            </td>
+            <td>北京分公司</td>
+            <td>100.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>请请</td>
+
+            </tr>
+        
+            <tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <td>
+                <a href="../../order/manage/orderinfo/2016011817242878609300000001006B">
+                    2016011817242878609300000001006B
+                </a>
+            </td>
+            <td>
+                <a href="../../order/manage/alllist?org_id=85">
+                    某某某
+                </a>
+            </td>
+            <td>2016-01-18 17:24:28</td>
+            <td><span class="label label-default">订单已取消</span></td>
+            <td>
+                <a href="../../ware/wdetail/w10811000000168544" target="_blank">
+                    测试产品上传
+                </a>
+            </td>
+            <td>1778</td>
+            <td>11.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>请请</td>
+
+            </tr>
+        
+            <tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <td>
+                <a href="../../order/manage/orderinfo/2016012016390019680100000003734B">
+                    2016012016390019680100000003734B
+                </a>
+            </td>
+            <td>
+                <a href="../../order/manage/alllist?org_id=85">
+                    某某某
+                </a>
+            </td>
+            <td>2016-01-20 16:39:00</td>
+            <td><span class="label label-default">订单已取消</span></td>
+            <td>
+                <a href="../../ware/wdetail/w10811000000168544" target="_blank">
+                    测试产品上传
+                </a>
+            </td>
+            <td>1778</td>
+            <td>11.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>王冠</td>
+
+            </tr>
+        
+            <tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <td>
+                <a href="../../order/manage/orderinfo/2016012016483528236700000003748B">
+                    2016012016483528236700000003748B
+                </a>
+            </td>
+            <td>
+                <a href="../../order/manage/alllist?org_id=282">
+                    dfsdafsdfsdfsdfsdfsdfsd
+                </a>
+            </td>
+            <td>2016-01-20 16:48:35</td>
+            <td><span class="label label-default">订单已取消</span></td>
+            <td>
+                <a href="../../ware/wdetail/w10811000000168544" target="_blank">
+                    测试产品上传
+                </a>
+            </td>
+            <td>1778</td>
+            <td>11.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>王冠</td>
+
+            </tr>
+        
+            <tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <td>
+                <a href="../../order/manage/orderinfo/2016012515510359257500000001000B">
+                    2016012515510359257500000001000B
+                </a>
+            </td>
+            <td>
+                <a href="../../order/manage/alllist?org_id=85">
+                    某某某
+                </a>
+            </td>
+            <td>2016-01-25 15:51:03</td>
+            <td><span class="label label-success">订单已全额解冻</span></td>
+            <td>
+                <a href="../../ware/wdetail/w10691000000087805" target="_blank">
+                    bdhjh1
+                </a>
+            </td>
+            <td>北京</td>
+            <td>1200.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>请请</td>
+
+            </tr>
+        
+            <tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <td>
+                <a href="../../order/manage/orderinfo/2016012709492575067500000001000B">
+                    2016012709492575067500000001000B
+                </a>
+            </td>
+            <td>
+                <a href="../../order/manage/alllist?org_id=85">
+                    某某某
+                </a>
+            </td>
+            <td>2016-01-27 09:49:25</td>
+            <td><span class="label label-default">订单已取消</span></td>
+            <td>
+                <a href="../../ware/wdetail/w10831000000181199" target="_blank">
+                    bdhjh13
+                </a>
+            </td>
+            <td>北京科技科技有限公司</td>
+            <td>800.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>请请</td>
+
+            </tr>
+        
+            <tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <td>
+                <a href="../../order/manage/orderinfo/2016021510291239948200000001008B">
+                    2016021510291239948200000001008B
+                </a>
+            </td>
+            <td>
+                <a href="../../order/manage/alllist?org_id=85">
+                    某某某
+                </a>
+            </td>
+            <td>2016-02-15 10:29:12</td>
+            <td><span class="label label-default">订单已取消</span></td>
+            <td>
+                <a href="../../ware/wdetail/w10931000000237286" target="_blank">
+                    测试订购须知显示问题
+                </a>
+            </td>
+            <td>1778</td>
+            <td>210.00</td>
+            <td>12.00</td>
+            <td>0.00</td>
+            <td>12.00</td>
+            <td>0.00</td>
+            <td>请请</td>
+
+            </tr>
+        
+            <tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <td>
+                <a href="../../order/manage/orderinfo/2016021514253898927400000001009B">
+                    2016021514253898927400000001009B
+                </a>
+            </td>
+            <td>
+                <a href="../../order/manage/alllist?org_id=85">
+                    某某某
+                </a>
+            </td>
+            <td>2016-02-15 14:25:38</td>
+            <td><span class="label label-default">订单已取消</span></td>
+            <td>
+                <a href="../../ware/wdetail/w10251000000185445" target="_blank">
+                    阿斯达克
+                </a>
+            </td>
+            <td>飘柔旅行社供应商</td>
+            <td>47.00</td>
+            <td>4.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>4.00</td>
+            <td>请请</td>
+
+            </tr>
+        
+            <tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <td>
+                <a href="../../order/manage/orderinfo/2016021514282638618800000001001B">
+                    2016021514282638618800000001001B
+                </a>
+            </td>
+            <td>
+                <a href="../../order/manage/alllist?org_id=85">
+                    某某某
+                </a>
+            </td>
+            <td>2016-02-15 14:28:26</td>
+            <td><span class="label label-default">订单已取消</span></td>
+            <td>
+                <a href="../../ware/wdetail/w10931000000237286" target="_blank">
+                    测试订购须知显示问题
+                </a>
+            </td>
+            <td>1778</td>
+            <td>219.00</td>
+            <td>3.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>3.00</td>
+            <td>请请</td>
+
+            </tr>
+        
+            <tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <td>
+                <a href="../../order/manage/orderinfo/2016021514293373460400000001001B">
+                    2016021514293373460400000001001B
+                </a>
+            </td>
+            <td>
+                <a href="../../order/manage/alllist?org_id=85">
+                    某某某
+                </a>
+            </td>
+            <td>2016-02-15 14:29:33</td>
+            <td><span class="label label-default">订单已取消</span></td>
+            <td>
+                <a href="../../ware/wdetail/w10251000000185445" target="_blank">
+                    阿斯达克
+                </a>
+            </td>
+            <td>飘柔旅行社供应商</td>
+            <td>48.00</td>
+            <td>3.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>3.00</td>
+            <td>请请</td>
+
+            </tr>
+        
+            <tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <td>
+                <a href="../../order/manage/orderinfo/2016021813234279900900000001004B">
+                    2016021813234279900900000001004B
+                </a>
+            </td>
+            <td>
+                <a href="../../order/manage/alllist?org_id=85">
+                    某某某
+                </a>
+            </td>
+            <td>2016-02-18 13:23:42</td>
+            <td><span class="label label-success">订单已全额解冻</span></td>
+            <td>
+                <a href="../../ware/wdetail/w10351000000278412" target="_blank">
+                    测试产品上传中断修改交通工具
+                </a>
+            </td>
+            <td>1778</td>
+            <td>234.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>请请</td>
+
+            </tr>
+        
+            <tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <td>
+                <a href="../../order/manage/orderinfo/2016022213540991325100000001005B">
+                    2016022213540991325100000001005B
+                </a>
+            </td>
+            <td>
+                <a href="../../order/manage/alllist?org_id=85">
+                    某某某
+                </a>
+            </td>
+            <td>2016-02-22 13:54:09</td>
+            <td><span class="label label-default">订单已取消</span></td>
+            <td>
+                <a href="../../ware/wdetail/w10051000000264109" target="_blank">
+                    测试出境游产品
+                </a>
+            </td>
+            <td>1778</td>
+            <td>4444.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>请请</td>
+
+            </tr>
+        
+            <tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <td>
+                <a href="../../order/manage/orderinfo/2016022214192961756700000001002B">
+                    2016022214192961756700000001002B
+                </a>
+            </td>
+            <td>
+                <a href="../../order/manage/alllist?org_id=85">
+                    某某某
+                </a>
+            </td>
+            <td>2016-02-22 14:19:29</td>
+            <td><span class="label label-success">订单已全额解冻</span></td>
+            <td>
+                <a href="../../ware/wdetail/w10771000000280976" target="_blank">
+                    测试
+                </a>
+            </td>
+            <td>北京科技科技有限公司</td>
+            <td>1000.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>请请</td>
+
+            </tr>
+        
+            <tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <td>
+                <a href="../../order/manage/orderinfo/2016022313231952954800000001005B">
+                    2016022313231952954800000001005B
+                </a>
+            </td>
+            <td>
+                <a href="../../order/manage/alllist?org_id=85">
+                    某某某
+                </a>
+            </td>
+            <td>2016-02-23 13:23:19</td>
+            <td><span class="label label-default">订单已取消</span></td>
+            <td>
+                <a href="../../ware/wdetail/w10351000000278412" target="_blank">
+                    测试产品上传中断修改交通工具
+                </a>
+            </td>
+            <td>1778</td>
+            <td>234.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>请请</td>
+
+            </tr>
+        
+            <tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <td>
+                <a href="../../order/manage/orderinfo/2016022314044202550400000001009B">
+                    2016022314044202550400000001009B
+                </a>
+            </td>
+            <td>
+                <a href="../../order/manage/alllist?org_id=85">
+                    某某某
+                </a>
+            </td>
+            <td>2016-02-23 14:04:42</td>
+            <td><span class="label label-success">订单已全额解冻</span></td>
+            <td>
+                <a href="../../ware/wdetail/w10951000000305532" target="_blank">
+                    22
+                </a>
+            </td>
+            <td>北京科技科技有限公司</td>
+            <td>1000.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>请请</td>
+
+            </tr>
+        
+            <tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <td>
+                <a href="../../order/manage/orderinfo/2016022411002042130300000001008B">
+                    2016022411002042130300000001008B
+                </a>
+            </td>
+            <td>
+                <a href="../../order/manage/alllist?org_id=85">
+                    某某某
+                </a>
+            </td>
+            <td>2016-02-24 11:00:20</td>
+            <td><span class="label label-success">订单已全额解冻</span></td>
+            <td>
+                <a href="../../ware/wdetail/w10351000000278412" target="_blank">
+                    测试产品上传中断修改交通工具
+                </a>
+            </td>
+            <td>1778</td>
+            <td>234.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>请请</td>
+
+            </tr>
+        
+            <tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <td>
+                <a href="../../order/manage/orderinfo/2016022617325739840200000001007B">
+                    2016022617325739840200000001007B
+                </a>
+            </td>
+            <td>
+                <a href="../../order/manage/alllist?org_id=85">
+                    某某某
+                </a>
+            </td>
+            <td>2016-02-26 17:32:57</td>
+            <td><span class="label label-default">订单已取消</span></td>
+            <td>
+                <a href="../../ware/wdetail/w10551000000302733" target="_blank">
+                    测试澳门产品显示问题
+                </a>
+            </td>
+            <td>1778</td>
+            <td>12000.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>请请</td>
+
+            </tr>
+        
+            <tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <td>
+                <a href="../../order/manage/orderinfo/2016030116545260445500000001009B">
+                    2016030116545260445500000001009B
+                </a>
+            </td>
+            <td>
+                <a href="../../order/manage/alllist?org_id=85">
+                    某某某
+                </a>
+            </td>
+            <td>2016-03-01 16:54:52</td>
+            <td><span class="label label-default">订单已取消</span></td>
+            <td>
+                <a href="../../ware/wdetail/w10391000000333499" target="_blank">
+                    测试财务统计数据立返op币3立减5金额1000
+                </a>
+            </td>
+            <td>1778</td>
+            <td>1000.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>请请</td>
+
+            </tr>
+        
+            <tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <td>
+                <a href="../../order/manage/orderinfo/2016030210211729992300000004521B">
+                    2016030210211729992300000004521B
+                </a>
+            </td>
+            <td>
+                <a href="../../order/manage/alllist?org_id=358">
+                    1111
+                </a>
+            </td>
+            <td>2016-03-02 10:21:17</td>
+            <td><span class="label label-default">订单已取消</span></td>
+            <td>
+                <a href="../../ware/wdetail/w10811000000347730" target="_blank">
+                    55555
+                </a>
+            </td>
+            <td>北京科技科技有限公司</td>
+            <td>3000.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>xinxin</td>
+
+            </tr>
+        
+            <tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <td>
+                <a href="../../order/manage/orderinfo/2016030311114704775000000001008B">
+                    2016030311114704775000000001008B
+                </a>
+            </td>
+            <td>
+                <a href="../../order/manage/alllist?org_id=85">
+                    某某某
+                </a>
+            </td>
+            <td>2016-03-03 11:11:47</td>
+            <td><span class="label label-default">订单已取消</span></td>
+            <td>
+                <a href="../../ware/wdetail/w10811000000347730" target="_blank">
+                    55555
+                </a>
+            </td>
+            <td>北京科技科技有限公司</td>
+            <td>3000.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>请请</td>
+
+            </tr>
+        
+            <tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <td>
+                <a href="../../order/manage/orderinfo/2016030311140664226000000001008B">
+                    2016030311140664226000000001008B
+                </a>
+            </td>
+            <td>
+                <a href="../../order/manage/alllist?org_id=85">
+                    某某某
+                </a>
+            </td>
+            <td>2016-03-03 11:14:06</td>
+            <td><span class="label label-default">订单已取消</span></td>
+            <td>
+                <a href="../../ware/wdetail/w10811000000347730" target="_blank">
+                    55555
+                </a>
+            </td>
+            <td>北京科技科技有限公司</td>
+            <td>9000.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>请请</td>
+
+            </tr>
+        
+            <tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <td>
+                <a href="../../order/manage/orderinfo/2016030413545333006500000001007B">
+                    2016030413545333006500000001007B
+                </a>
+            </td>
+            <td>
+                <a href="../../order/manage/alllist?org_id=85">
+                    某某某
+                </a>
+            </td>
+            <td>2016-03-04 13:54:53</td>
+            <td><span class="label label-success">订单已全额解冻</span></td>
+            <td>
+                <a href="../../ware/wdetail/w10931000000386271" target="_blank">
+                    55
+                </a>
+            </td>
+            <td>ww</td>
+            <td>22.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>请请</td>
+
+            </tr>
+        
+            <tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <td>
+                <a href="../../order/manage/orderinfo/2016030413585336086400000001005B">
+                    2016030413585336086400000001005B
+                </a>
+            </td>
+            <td>
+                <a href="../../order/manage/alllist?org_id=85">
+                    某某某
+                </a>
+            </td>
+            <td>2016-03-04 13:58:53</td>
+            <td><span class="label label-danger">订单已全额退款</span></td>
+            <td>
+                <a href="../../ware/wdetail/w10371000000349319" target="_blank">
+                    666
+                </a>
+            </td>
+            <td>北京科技科技有限公司</td>
+            <td>300.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>请请</td>
+
+            </tr>
+        
+            <tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <td>
+                <a href="../../order/manage/orderinfo/2016030416501772406300000001007B">
+                    2016030416501772406300000001007B
+                </a>
+            </td>
+            <td>
+                <a href="../../order/manage/alllist?org_id=85">
+                    某某某
+                </a>
+            </td>
+            <td>2016-03-04 16:50:17</td>
+            <td><span class="label label-danger">订单已全额退款</span></td>
+            <td>
+                <a href="../../ware/wdetail/w10811000000347730" target="_blank">
+                    55555
+                </a>
+            </td>
+            <td>北京科技科技有限公司</td>
+            <td>3000.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>请请</td>
+
+            </tr>
+        
+            <tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <td>
+                <a href="../../order/manage/orderinfo/2016030713523342978800000003740B">
+                    2016030713523342978800000003740B
+                </a>
+            </td>
+            <td>
+                <a href="../../order/manage/alllist?org_id=282">
+                    dfsdafsdfsdfsdfsdfsdfsd
+                </a>
+            </td>
+            <td>2016-03-07 13:52:33</td>
+            <td><span class="label label-default">订单已取消</span></td>
+            <td>
+                <a href="../../ware/wdetail/w10391000000333499" target="_blank">
+                    测试财务统计数据立返op币3立减5金额1000
+                </a>
+            </td>
+            <td>1778</td>
+            <td>1000.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>王冠</td>
+
+            </tr>
+        
+            <tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <td>
+                <a href="../../order/manage/orderinfo/2016030713535174596700000001003B">
+                    2016030713535174596700000001003B
+                </a>
+            </td>
+            <td>
+                <a href="../../order/manage/alllist?org_id=85">
+                    某某某
+                </a>
+            </td>
+            <td>2016-03-07 13:53:51</td>
+            <td><span class="label label-danger">订单已全额退款</span></td>
+            <td>
+                <a href="../../ware/wdetail/w10611000000395403" target="_blank">
+                    杭州5日游
+                </a>
+            </td>
+            <td>北京旅游公司</td>
+            <td>576.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>请请</td>
+
+            </tr>
+        
+            <tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <td>
+                <a href="../../order/manage/orderinfo/2016030714261051020400000001002B">
+                    2016030714261051020400000001002B
+                </a>
+            </td>
+            <td>
+                <a href="../../order/manage/alllist?org_id=85">
+                    某某某
+                </a>
+            </td>
+            <td>2016-03-07 14:26:10</td>
+            <td><span class="label label-success">订单已全额解冻</span></td>
+            <td>
+                <a href="../../ware/wdetail/w10611000000395403" target="_blank">
+                    杭州5日游
+                </a>
+            </td>
+            <td>北京旅游公司</td>
+            <td>288.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>请请</td>
+
+            </tr>
+        
+            <tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <td>
+                <a href="../../order/manage/orderinfo/2016030911191321174900000001007B">
+                    2016030911191321174900000001007B
+                </a>
+            </td>
+            <td>
+                <a href="../../order/manage/alllist?org_id=85">
+                    某某某
+                </a>
+            </td>
+            <td>2016-03-09 11:19:13</td>
+            <td><span class="label label-default">订单已取消</span></td>
+            <td>
+                <a href="../../ware/wdetail/w10391000000333499" target="_blank">
+                    测试财务统计数据立返op币3立减5金额1000
+                </a>
+            </td>
+            <td>1778</td>
+            <td>1000.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>请请</td>
+
+            </tr>
+        
+            <tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <td>
+                <a href="../../order/manage/orderinfo/2016030915130749422200000001009B">
+                    2016030915130749422200000001009B
+                </a>
+            </td>
+            <td>
+                <a href="../../order/manage/alllist?org_id=85">
+                    某某某
+                </a>
+            </td>
+            <td>2016-03-09 15:13:07</td>
+            <td><span class="label label-default">订单已取消</span></td>
+            <td>
+                <a href="../../ware/wdetail/w10391000000333499" target="_blank">
+                    测试财务统计数据立返op币3立减5金额1000
+                </a>
+            </td>
+            <td>1778</td>
+            <td>1000.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>请请</td>
+
+            </tr>
+        
+            <tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <td>
+                <a href="../../order/manage/orderinfo/2016031010443684670700000001009B">
+                    2016031010443684670700000001009B
+                </a>
+            </td>
+            <td>
+                <a href="../../order/manage/alllist?org_id=85">
+                    某某某
+                </a>
+            </td>
+            <td>2016-03-10 10:44:36</td>
+            <td><span class="label label-default">订单已取消</span></td>
+            <td>
+                <a href="../../ware/wdetail/w10391000000333499" target="_blank">
+                    测试财务统计数据立返op币3立减5金额1000
+                </a>
+            </td>
+            <td>1778</td>
+            <td>1000.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>请请</td>
+
+            </tr>
+        
+            <tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <td>
+                <a href="../../order/manage/orderinfo/2016031016524331918000000001003B">
+                    2016031016524331918000000001003B
+                </a>
+            </td>
+            <td>
+                <a href="../../order/manage/alllist?org_id=85">
+                    某某某
+                </a>
+            </td>
+            <td>2016-03-10 16:52:43</td>
+            <td><span class="label label-success">订单已全额解冻</span></td>
+            <td>
+                <a href="../../ware/wdetail/w10391000000333499" target="_blank">
+                    测试财务统计数据立返op币3立减5金额1000
+                </a>
+            </td>
+            <td>1778</td>
+            <td>1000.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>请请</td>
+
+            </tr>
+        
+            <tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <td>
+                <a href="../../order/manage/orderinfo/2016031115284856441800000003745B">
+                    2016031115284856441800000003745B
+                </a>
+            </td>
+            <td>
+                <a href="../../order/manage/alllist?org_id=282">
+                    dfsdafsdfsdfsdfsdfsdfsd
+                </a>
+            </td>
+            <td>2016-03-11 15:28:48</td>
+            <td><span class="label label-default">订单已取消</span></td>
+            <td>
+                <a href="../../ware/wdetail/w10391000000333499" target="_blank">
+                    测试财务统计数据立返op币3立减5金额1000
+                </a>
+            </td>
+            <td>1778</td>
+            <td>1000.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>王冠</td>
+
+            </tr>
+        
+            <tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <td>
+                <a href="../../order/manage/orderinfo/2016031115470932391900000003742B">
+                    2016031115470932391900000003742B
+                </a>
+            </td>
+            <td>
+                <a href="../../order/manage/alllist?org_id=282">
+                    dfsdafsdfsdfsdfsdfsdfsd
+                </a>
+            </td>
+            <td>2016-03-11 15:47:09</td>
+            <td><span class="label label-default">订单已取消</span></td>
+            <td>
+                <a href="../../ware/wdetail/w10391000000333499" target="_blank">
+                    测试财务统计数据立返op币3立减5金额1000
+                </a>
+            </td>
+            <td>1778</td>
+            <td>1000.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>王冠</td>
+
+            </tr>
+        
+            <tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <td>
+                <a href="../../order/manage/orderinfo/2016031210505014157800000001007B">
+                    2016031210505014157800000001007B
+                </a>
+            </td>
+            <td>
+                <a href="../../order/manage/alllist?org_id=85">
+                    某某某
+                </a>
+            </td>
+            <td>2016-03-12 10:50:50</td>
+            <td><span class="label label-success">订单已全额解冻</span></td>
+            <td>
+                <a href="../../ware/wdetail/w10891000000405586" target="_blank">
+                    武汉三日游
+                </a>
+            </td>
+            <td>北京科技科技有限公司</td>
+            <td>33.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>请请</td>
+
+            </tr>
+        
+            <tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <td>
+                <a href="../../order/manage/orderinfo/2016031214470589140100000001006B">
+                    2016031214470589140100000001006B
+                </a>
+            </td>
+            <td>
+                <a href="../../order/manage/alllist?org_id=85">
+                    某某某
+                </a>
+            </td>
+            <td>2016-03-12 14:47:05</td>
+            <td><span class="label label-success">订单已全额解冻</span></td>
+            <td>
+                <a href="../../ware/wdetail/w10391000000333499" target="_blank">
+                    测试财务统计数据立返op币3立减5金额1000
+                </a>
+            </td>
+            <td>1778</td>
+            <td>1000.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>请请</td>
+
+            </tr>
+        
+            <tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <td>
+                <a href="../../order/manage/orderinfo/2016031409455975046200000001009B">
+                    2016031409455975046200000001009B
+                </a>
+            </td>
+            <td>
+                <a href="../../order/manage/alllist?org_id=85">
+                    某某某
+                </a>
+            </td>
+            <td>2016-03-14 09:45:59</td>
+            <td><span class="label label-success">订单已全额解冻</span></td>
+            <td>
+                <a href="../../ware/wdetail/w10891000000406145" target="_blank">
+                    3-14测试
+                </a>
+            </td>
+            <td>北京科技科技有限公司</td>
+            <td>33.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>请请</td>
+
+            </tr>
+        
+            <tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <td>
+                <a href="../../order/manage/orderinfo/2016031409520363370400000001002B">
+                    2016031409520363370400000001002B
+                </a>
+            </td>
+            <td>
+                <a href="../../order/manage/alllist?org_id=85">
+                    某某某
+                </a>
+            </td>
+            <td>2016-03-14 09:52:03</td>
+            <td><span class="label label-default">订单已取消</span></td>
+            <td>
+                <a href="../../ware/wdetail/w10391000000333499" target="_blank">
+                    测试财务统计数据立返op币3立减5金额1000
+                </a>
+            </td>
+            <td>1778</td>
+            <td>1000.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>请请</td>
+
+            </tr>
+        
+            <tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <td>
+                <a href="../../order/manage/orderinfo/2016031409524987889000000001006B">
+                    2016031409524987889000000001006B
+                </a>
+            </td>
+            <td>
+                <a href="../../order/manage/alllist?org_id=85">
+                    某某某
+                </a>
+            </td>
+            <td>2016-03-14 09:52:49</td>
+            <td><span class="label label-default">订单已取消</span></td>
+            <td>
+                <a href="../../ware/wdetail/w10891000000406145" target="_blank">
+                    3-14测试
+                </a>
+            </td>
+            <td>北京科技科技有限公司</td>
+            <td>33.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>请请</td>
+
+            </tr>
+        
+            <tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <td>
+                <a href="../../order/manage/orderinfo/2016031510394763932200000001003B">
+                    2016031510394763932200000001003B
+                </a>
+            </td>
+            <td>
+                <a href="../../order/manage/alllist?org_id=85">
+                    某某某
+                </a>
+            </td>
+            <td>2016-03-15 10:39:47</td>
+            <td><span class="label label-success">订单已全额解冻</span></td>
+            <td>
+                <a href="../../ware/wdetail/w10391000000333499" target="_blank">
+                    测试财务统计数据立返op币3立减5金额1000
+                </a>
+            </td>
+            <td>1778</td>
+            <td>1000.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>请请</td>
+
+            </tr>
+        
+            <tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <td>
+                <a href="../../order/manage/orderinfo/2016031514080728086300000001004B">
+                    2016031514080728086300000001004B
+                </a>
+            </td>
+            <td>
+                <a href="../../order/manage/alllist?org_id=85">
+                    某某某
+                </a>
+            </td>
+            <td>2016-03-15 14:08:07</td>
+            <td><span class="label label-default">订单已取消</span></td>
+            <td>
+                <a href="../../ware/wdetail/w10971000000419013" target="_blank">
+                    3-14测试111
+                </a>
+            </td>
+            <td>北京科技科技有限公司</td>
+            <td>9886029.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>请请</td>
+
+            </tr>
+        
+            <tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <td>
+                <a href="../../order/manage/orderinfo/2016031611490747804800000003734B">
+                    2016031611490747804800000003734B
+                </a>
+            </td>
+            <td>
+                <a href="../../order/manage/alllist?org_id=85">
+                    某某某
+                </a>
+            </td>
+            <td>2016-03-16 11:49:07</td>
+            <td><span class="label label-default">订单已取消</span></td>
+            <td>
+                <a href="../../ware/wdetail/w10391000000333499" target="_blank">
+                    测试财务统计数据立返op币3立减5金额1000
+                </a>
+            </td>
+            <td>1778</td>
+            <td>1000.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>王冠</td>
+
+            </tr>
+        
+            <tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <td>
+                <a href="../../order/manage/orderinfo/2016031615505724723900000003748B">
+                    2016031615505724723900000003748B
+                </a>
+            </td>
+            <td>
+                <a href="../../order/manage/alllist?org_id=282">
+                    dfsdafsdfsdfsdfsdfsdfsd
+                </a>
+            </td>
+            <td>2016-03-16 15:50:57</td>
+            <td><span class="label label-default">订单已取消</span></td>
+            <td>
+                <a href="../../ware/wdetail/w10391000000333499" target="_blank">
+                    测试财务统计数据立返op币3立减5金额1000
+                </a>
+            </td>
+            <td>1778</td>
+            <td>1000.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>王冠</td>
+
+            </tr>
+        
+            <tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <td>
+                <a href="../../order/manage/orderinfo/2016031616475006387500000001008B">
+                    2016031616475006387500000001008B
+                </a>
+            </td>
+            <td>
+                <a href="../../order/manage/alllist?org_id=85">
+                    某某某
+                </a>
+            </td>
+            <td>2016-03-16 16:47:50</td>
+            <td><span class="label label-default">订单已取消</span></td>
+            <td>
+                <a href="../../ware/wdetail/w10891000000406145" target="_blank">
+                    3-14测试
+                </a>
+            </td>
+            <td>北京科技科技有限公司</td>
+            <td>33.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>请请</td>
+
+            </tr>
+        
+            <tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <td>
+                <a href="../../order/manage/orderinfo/2016031709542140146800000001008B">
+                    2016031709542140146800000001008B
+                </a>
+            </td>
+            <td>
+                <a href="../../order/manage/alllist?org_id=85">
+                    某某某
+                </a>
+            </td>
+            <td>2016-03-17 09:54:21</td>
+            <td><span class="label label-default">订单已取消</span></td>
+            <td>
+                <a href="../../ware/wdetail/w10811000000347730" target="_blank">
+                    55555
+                </a>
+            </td>
+            <td>北京科技科技有限公司</td>
+            <td>3000.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>请请</td>
+
+            </tr>
+        
+            <tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <td>
+                <a href="../../order/manage/orderinfo/2016031716005872631200000001002B">
+                    2016031716005872631200000001002B
+                </a>
+            </td>
+            <td>
+                <a href="../../order/manage/alllist?org_id=85">
+                    某某某
+                </a>
+            </td>
+            <td>2016-03-17 16:00:58</td>
+            <td><span class="label label-default">订单已取消</span></td>
+            <td>
+                <a href="../../ware/wdetail/w10891000000406145" target="_blank">
+                    3-14测试
+                </a>
+            </td>
+            <td>北京科技科技有限公司</td>
+            <td>33.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>请请</td>
+
+            </tr>
+        
+            <tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <td>
+                <a href="../../order/manage/orderinfo/2016031716013036499400000001007B">
+                    2016031716013036499400000001007B
+                </a>
+            </td>
+            <td>
+                <a href="../../order/manage/alllist?org_id=85">
+                    某某某
+                </a>
+            </td>
+            <td>2016-03-17 16:01:30</td>
+            <td><span class="label label-default">订单已取消</span></td>
+            <td>
+                <a href="../../ware/wdetail/w10891000000406145" target="_blank">
+                    3-14测试
+                </a>
+            </td>
+            <td>北京科技科技有限公司</td>
+            <td>33.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>请请</td>
+
+            </tr>
+        
+            <tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <td>
+                <a href="../../order/manage/orderinfo/2016031716023176482200000001001B">
+                    2016031716023176482200000001001B
+                </a>
+            </td>
+            <td>
+                <a href="../../order/manage/alllist?org_id=85">
+                    某某某
+                </a>
+            </td>
+            <td>2016-03-17 16:02:31</td>
+            <td><span class="label label-success">订单已全额解冻</span></td>
+            <td>
+                <a href="../../ware/wdetail/w10891000000406145" target="_blank">
+                    3-14测试
+                </a>
+            </td>
+            <td>北京科技科技有限公司</td>
+            <td>33.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>请请</td>
+
+            </tr>
+        
+            <tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <td>
+                <a href="../../order/manage/orderinfo/2016031716063991365600000001008B">
+                    2016031716063991365600000001008B
+                </a>
+            </td>
+            <td>
+                <a href="../../order/manage/alllist?org_id=85">
+                    某某某
+                </a>
+            </td>
+            <td>2016-03-17 16:06:39</td>
+            <td><span class="label label-default">订单已取消</span></td>
+            <td>
+                <a href="../../ware/wdetail/w10891000000406145" target="_blank">
+                    3-14测试
+                </a>
+            </td>
+            <td>北京科技科技有限公司</td>
+            <td>33.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>请请</td>
+
+            </tr>
+        
+            <tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <td>
+                <a href="../../order/manage/orderinfo/2016031716100411807000000001002B">
+                    2016031716100411807000000001002B
+                </a>
+            </td>
+            <td>
+                <a href="../../order/manage/alllist?org_id=85">
+                    某某某
+                </a>
+            </td>
+            <td>2016-03-17 16:10:04</td>
+            <td><span class="label label-default">订单已取消</span></td>
+            <td>
+                <a href="../../ware/wdetail/w10891000000406145" target="_blank">
+                    3-14测试
+                </a>
+            </td>
+            <td>北京科技科技有限公司</td>
+            <td>33.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>请请</td>
+
+            </tr>
+        
+            <tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <td>
+                <a href="../../order/manage/orderinfo/2016031716163112503500000003732B">
+                    2016031716163112503500000003732B
+                </a>
+            </td>
+            <td>
+                <a href="../../order/manage/alllist?org_id=85">
+                    某某某
+                </a>
+            </td>
+            <td>2016-03-17 16:16:31</td>
+            <td><span class="label label-default">订单已取消</span></td>
+            <td>
+                <a href="../../ware/wdetail/w10391000000333499" target="_blank">
+                    测试财务统计数据立返op币3立减5金额1000
+                </a>
+            </td>
+            <td>1778</td>
+            <td>1000.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>王冠</td>
+
+            </tr>
+        
+            <tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <td>
+                <a href="../../order/manage/orderinfo/2016031717451581504400000001002B">
+                    2016031717451581504400000001002B
+                </a>
+            </td>
+            <td>
+                <a href="../../order/manage/alllist?org_id=85">
+                    某某某
+                </a>
+            </td>
+            <td>2016-03-17 17:45:15</td>
+            <td><span class="label label-success">订单已全额解冻</span></td>
+            <td>
+                <a href="../../ware/wdetail/w10891000000406145" target="_blank">
+                    3-14测试
+                </a>
+            </td>
+            <td>北京科技科技有限公司</td>
+            <td>33.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>请请</td>
+
+            </tr>
+        
+            <tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <td>
+                <a href="../../order/manage/orderinfo/2016031717590914215400000001000B">
+                    2016031717590914215400000001000B
+                </a>
+            </td>
+            <td>
+                <a href="../../order/manage/alllist?org_id=85">
+                    某某某
+                </a>
+            </td>
+            <td>2016-03-17 17:59:09</td>
+            <td><span class="label label-default">订单已取消</span></td>
+            <td>
+                <a href="../../ware/wdetail/w10891000000406145" target="_blank">
+                    3-14测试
+                </a>
+            </td>
+            <td>北京科技科技有限公司</td>
+            <td>33.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>请请</td>
+
+            </tr>
+        
+            <tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <td>
+                <a href="../../order/manage/orderinfo/2016031809525377496200000001002B">
+                    2016031809525377496200000001002B
+                </a>
+            </td>
+            <td>
+                <a href="../../order/manage/alllist?org_id=85">
+                    某某某
+                </a>
+            </td>
+            <td>2016-03-18 09:52:53</td>
+            <td><span class="label label-success">订单已全额解冻</span></td>
+            <td>
+                <a href="../../ware/wdetail/w10891000000406145" target="_blank">
+                    3-14测试
+                </a>
+            </td>
+            <td>北京科技科技有限公司</td>
+            <td>33.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>请请</td>
+
+            </tr>
+        
+            <tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <td>
+                <a href="../../order/manage/orderinfo/2016031809561948727800000001009B">
+                    2016031809561948727800000001009B
+                </a>
+            </td>
+            <td>
+                <a href="../../order/manage/alllist?org_id=85">
+                    某某某
+                </a>
+            </td>
+            <td>2016-03-18 09:56:19</td>
+            <td><span class="label label-success">订单已全额解冻</span></td>
+            <td>
+                <a href="../../ware/wdetail/w10891000000406145" target="_blank">
+                    3-14测试
+                </a>
+            </td>
+            <td>北京科技科技有限公司</td>
+            <td>33.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>请请</td>
+
+            </tr>
+        
+            <tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <td>
+                <a href="../../order/manage/orderinfo/2016031810254550288800000001008B">
+                    2016031810254550288800000001008B
+                </a>
+            </td>
+            <td>
+                <a href="../../order/manage/alllist?org_id=85">
+                    某某某
+                </a>
+            </td>
+            <td>2016-03-18 10:25:45</td>
+            <td><span class="label label-success">订单已全额解冻</span></td>
+            <td>
+                <a href="../../ware/wdetail/w10391000000430616" target="_blank">
+                    3-18测试
+                </a>
+            </td>
+            <td>北京科技科技有限公司</td>
+            <td>22.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>请请</td>
+
+            </tr>
+        
+            <tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <td>
+                <a href="../../order/manage/orderinfo/2016031810305999201400000001002B">
+                    2016031810305999201400000001002B
+                </a>
+            </td>
+            <td>
+                <a href="../../order/manage/alllist?org_id=85">
+                    某某某
+                </a>
+            </td>
+            <td>2016-03-18 10:31:00</td>
+            <td><span class="label label-success">订单已全额解冻</span></td>
+            <td>
+                <a href="../../ware/wdetail/w10891000000406145" target="_blank">
+                    3-14测试
+                </a>
+            </td>
+            <td>北京科技科技有限公司</td>
+            <td>33.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>请请</td>
+
+            </tr>
+        
+            <tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <td>
+                <a href="../../order/manage/orderinfo/2016031810354780061900000003733B">
+                    2016031810354780061900000003733B
+                </a>
+            </td>
+            <td>
+                <a href="../../order/manage/alllist?org_id=85">
+                    某某某
+                </a>
+            </td>
+            <td>2016-03-18 10:35:47</td>
+            <td><span class="label label-default">订单已取消</span></td>
+            <td>
+                <a href="../../ware/wdetail/w10391000000333499" target="_blank">
+                    测试财务统计数据立返op币3立减5金额1000
+                </a>
+            </td>
+            <td>1778</td>
+            <td>995.00</td>
+            <td>5.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>5.00</td>
+            <td>王冠</td>
+
+            </tr>
+        
+            <tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <td>
+                <a href="../../order/manage/orderinfo/2016031811213781843300000003730B">
+                    2016031811213781843300000003730B
+                </a>
+            </td>
+            <td>
+                <a href="../../order/manage/alllist?org_id=85">
+                    某某某
+                </a>
+            </td>
+            <td>2016-03-18 11:21:37</td>
+            <td><span class="label label-default">订单已取消</span></td>
+            <td>
+                <a href="../../ware/wdetail/w10891000000406145" target="_blank">
+                    3-14测试
+                </a>
+            </td>
+            <td>北京科技科技有限公司</td>
+            <td>33.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>王冠</td>
+
+            </tr>
+        
+        </tbody>
+    </table>
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="pagination">
+    
+
+<ul class="pagination">
+    <li  class="disabled" >
+        <a href="#">
+            &laquo;
+        </a>
+    </li>
+    
+        
+            
+                <li class="active">
+                <a href="../../order/manage/alllist?org_id=&amp;page=1">1</a>
+                </li>
+            
+        
+    
+        
+            
+                <li>
+                   <a href="../../order/manage/alllist?org_id=&amp;page=2">2</a>
+                </li>
+            
+        
+    
+        
+            
+                <li>
+                   <a href="../../order/manage/alllist?org_id=&amp;page=3">3</a>
+                </li>
+            
+        
+    
+<li >
+<a href="../../order/manage/alllist?org_id=&amp;page=2 ">
+&raquo;
+</a>
+
+</li>
+</ul>
+
+
+
+</div>
+
+
+    </div>
+
+<script src="../../static/js/jquery.js"></script>
+<script src="../../static/js/bootstrap.min.js"></script>
+
+  </body>
+</html>

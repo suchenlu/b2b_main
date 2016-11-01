@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link href="../../../static/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <!-- <link href="../../../static/css/bootstrap-theme.min.css" rel="stylesheet" media="screen"> -->
+    <link rel="stylesheet" type="text/css" href="../../../static/css/base.css"/>
+    <link rel="shortcut icon" type="image/x-icon" href="../../../static/img/logo2.png" />
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+<style>
+    td,th {
+        white-space: nowrap;
+    }
+</style>
+
+
+  </head>
+  <body id="B2B" >
+    
+
+  <div class="container-fluid">
+    
+        
+    
+
+
+
+
+<div class="row-fluid">
+    <ul class="nav" role="tablist">
+        <li class="active"><a href="" >订单列表</a></li>
+    </ul>
+</div>
+
+
+
+<div class="row">
+<a class="btn btn-warning pull-right" href="../../../order/manage/search/seller">高级搜索</a>
+</div>
+
+<div class="row">
+
+<ul class="nav nav-tabs" role="tablist">
+<li role="presentation" class="">
+    <a href="../../../order/manage/orderlist/seller0date=today" >
+        今日订单
+    </a>
+</li>
+<li role="presentation" class="">
+    <a href="../../../order/manage/orderlist/seller0date=week" >本周订单</a>
+</li>
+<li role="presentation" class="">
+    <a href="../../../order/manage/orderlist/seller0date=month" >本月订单</a>
+</li>
+<li role="presentation" class="active">
+    <a href="../../../order/manage/orderlist/seller0date=year" >全部订单</a>
+</li>
+</ul>
+<br/>
+
+
+
+
+<div class="row" style="width: 100%;background-color:#fffffd">
+    <table class="table table-hover">
+    <caption>
+        <h4>订单统计</h4>
+    </caption>
+        <tbody>
+        
+        </tbody>
+    </table>
+
+</div>
+
+
+
+
+</div>
+
+
+
+
+    </div>
+
+<script src="../../../static/js/jquery.js"></script>
+<script src="../../../static/js/bootstrap.min.js"></script>
+
+
+
+  </body>
+</html>

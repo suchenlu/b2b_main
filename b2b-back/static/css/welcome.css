@@ -1,0 +1,64 @@
+.title{
+	width: 100%;
+	height: 171px;
+	text-align: center;
+	background: url(../images/bg.png)no-repeat top;
+	background-size: 100% 100%
+}
+.title h2{
+	margin: 0;
+	padding: 40px;
+	line-height: 40px;
+	letter-spacing: 2px;
+	color: #fff;
+	font-size: 40px
+}
+.title h2::before{
+	content: '';
+	display: inline-block;
+	width: 45px;
+	height: 45px;
+	margin-right: 10px;
+	vertical-align: bottom;
+	background: url(../images/welcome.png)
+}
+.row{
+	margin: 0;
+	padding:20px;
+}
+.btn-wrap{
+	width: 195px;
+	height: 64px;
+	line-height: 60px;
+	margin: auto;
+	text-align: center;
+	background: #f1f1f1;
+	border-radius: 10px;
+	border: 1px solid #ccc
+}
+.btn-wrap .btn-validate{
+	width: 180px;
+	height: 50px;
+	line-height: 20px;
+	color: #fff;	
+	font-size: 16px;
+	font-weight: bold;
+	background: #15C7AF;
+	border-radius: 6px;
+	border:1px solid #15D3AF;
+}
+.middle{
+	line-height: 40px !important
+}
+.txt{
+	padding: 20px;
+	text-align: center;
+	font-size: 16px;
+	color: #666
+}
+.red{
+	color:#f00
+}
+.red:hover{
+	color: #f00
+}

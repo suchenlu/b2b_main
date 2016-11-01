@@ -1,0 +1,1123 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link href="../../../../static/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <!-- <link href="../../../../static/css/bootstrap-theme.min.css" rel="stylesheet" media="screen"> -->
+    <link rel="stylesheet" type="text/css" href="../../../../static/css/base.css"/>
+    <link rel="shortcut icon" type="image/x-icon" href="../../../../static/img/logo2.png" />
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <style type="text/css">
+        .row-fluid > a.button {
+            position: absolute;
+            top: 5px;
+            right: 20px;
+        }
+
+        .row-fluid > a.button span {
+            color: #fff;
+            font-weight: bold;
+            font-size: 20px;
+            position: relative;
+            top: 2px;
+        }
+         .area_code{
+            width:100px;
+        }
+        form {
+            position: relative;
+        }
+
+        .roww li {
+            height: 26px;
+            line-height: 26px;
+        }
+
+        .roww li a{
+            height: 26px;
+            line-height: 26px;
+            padding: 0px 10px;
+        }
+        .roww li a:hover{
+            background: #eee;
+        }
+        .roww li.active a{
+            background: #1faeff;
+            color: #fff;
+        }
+    </style>
+
+  </head>
+  <body id="B2B" >
+    
+
+  <div class="container-fluid">
+    
+        
+    
+
+
+
+
+    
+
+    <div class="row-fluid">
+        <ul class="nav" role="tablist">
+            <li ><a
+                    href="../../../../manage/wares/alist/1/100">全部产品</a></li>
+            <li ><a
+                    href="../../../../manage/wares/alist/1/1">已上线</a></li>
+            <li class="active" ><a
+                    href="../../../../manage/wares/alist/1/0">未上线</a></li>
+            <li ><a
+                    href="../../../../manage/wares/alist/1/2">人工下线</a></li>
+            <li ><a
+                    href="../../../../manage/wares/alist/1/3">申请上线</a></li>
+            <li ><a
+                    href="../../../../manage/wares/alist/1/4">已驳回</a></li>
+        </ul>
+    </div>
+    <form method="post" action="">
+        <div class="form-group col-sm-12 col-md-12 col-lg-12">
+            <div class="col-sm-12 col-md-5 col-lg-3">
+                <label class="control-label ">产品编号</label>
+                <input type="text" name="id"  placeholder="请输入产品编号">
+            </div>
+            <div class="col-sm-12 col-md-5 col-lg-3">
+                <label class="control-label">产品名称</label>
+                <input type="text" name="ware_name"  placeholder="请输入产品名字，支持模糊查询">
+            </div>
+            <div class="col-sm-12 col-md-5 col-lg-3">
+                <label class="control-label">供应商名称</label>
+                 <input type="text" name="orgname" placeholder="请输入供应商名称，支持模糊查询">
+            </div>
+            <div class="col-sm-12 col-md-5 col-lg-3">
+                 <label class="control-label">管理地区</label>
+                <select name="area_code" class="area_code">
+                   
+                    <option  value="100-101-000086-1-100">北京</option>
+                   
+                </select>
+            </div>   
+            <div class="col-sm-12 col-md-2 col-lg-12">
+                <button type="submit" class="big_but s_submit">查&nbsp;&nbsp;询</button>
+            </div>
+        </div>
+    </form>
+    <div class="row">
+        <table class="table table-striped table-hover" id="table1">
+            <thead>
+            <tr>
+                <th>序号</th>
+                <th>产品编号</th>
+                <th>产品名称</th>
+                <th>产品类别</th>
+                <th>产品分类</th>
+                <th>行程天数</th>
+                
+                <th>状态</th>
+                <th>更新时间</th>
+                
+                    <th>供应商名称</th>
+                    <th>供应商注册地</th>
+                    <th>出发城市</th>
+
+                
+                
+                <th>平台返OP 币</th>
+                <th>平台现金立返</th>
+                <th>结算策略</th>
+                <th>操作</th>
+            </tr>
+            </thead>
+            <tbody>
+            
+                
+                    <tr >
+                        <td>1</td>
+                        <td>w10911000000725622</td>
+                        
+                            <td class="tl"><span class="ellipsis">&lt;泰国聚划算&gt;曼谷+芭提雅+双岛（...</span></td>
+                        
+                        
+                            <td>普通</td>
+                        
+                        
+                            <td>国内长线</td>
+                        
+                        <td>6天</td>
+                        
+
+                        
+                            <td class="grey">未上线</td>
+                        
+                        <td>2016-06-02 13:55:44</td>
+                        
+                            <td>北京科技科技有限公司</td>
+                            <td>北京</td>
+                            <td>北京-北京</td>
+
+                        
+                        <td>0.00 币</td>
+                        <td>0.00元</td>
+                        <td>无</td>
+                        <td class="operate">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                        <div class="operate1">
+                            <a href="../../../../manage/wares/oprewardset/1000000725?p=1&amp;s=0">OP币设置</a>
+                            <a href="../../../../manage/wares/cashfastsub/1000000725?p=1&amp;s=0">现金立减</a>
+                            <a href="../../../../manage/wares/clearing/1000000725?p=1&amp;s=0">结算设置</a>
+                            <a href="../../../../manage/wares/commission/1000000725?p=1&amp;s=0">结算方法</a>
+
+
+                            
+                            
+                            
+                        </div>
+                    </span>
+                        </td>
+                    </tr>
+                
+                    <tr >
+                        <td>2</td>
+                        <td>w10811000000727094</td>
+                        
+                            <td class="tl"><span class="ellipsis">baoding  mancheng</span></td>
+                        
+                        
+                            <td>普通</td>
+                        
+                        
+                            <td>国内长线</td>
+                        
+                        <td>1天</td>
+                        
+
+                        
+                            <td class="grey">未上线</td>
+                        
+                        <td>2016-06-01 17:51:56</td>
+                        
+                            <td>手机验证码漏洞账号</td>
+                            <td>北京</td>
+                            <td>北京-北京</td>
+
+                        
+                        <td>0.00 币</td>
+                        <td>0.00元</td>
+                        <td>无</td>
+                        <td class="operate">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                        <div class="operate1">
+                            <a href="../../../../manage/wares/oprewardset/1000000727?p=1&amp;s=0">OP币设置</a>
+                            <a href="../../../../manage/wares/cashfastsub/1000000727?p=1&amp;s=0">现金立减</a>
+                            <a href="../../../../manage/wares/clearing/1000000727?p=1&amp;s=0">结算设置</a>
+                            <a href="../../../../manage/wares/commission/1000000727?p=1&amp;s=0">结算方法</a>
+
+
+                            
+                            
+                            
+                        </div>
+                    </span>
+                        </td>
+                    </tr>
+                
+                    <tr >
+                        <td>3</td>
+                        <td>w10011000000724304</td>
+                        
+                            <td class="tl"><span class="ellipsis">极致之旅 AY北欧四国+爱沙尼亚+...</span></td>
+                        
+                        
+                            <td>普通</td>
+                        
+                        
+                            <td>出境长线</td>
+                        
+                        <td>10天</td>
+                        
+
+                        
+                            <td class="grey">未上线</td>
+                        
+                        <td>2016-06-01 15:27:31</td>
+                        
+                            <td>北京科技科技有限公司</td>
+                            <td>北京</td>
+                            <td>北京-北京-首都国际机场</td>
+
+                        
+                        <td>0.00 币</td>
+                        <td>0.00元</td>
+                        <td>无</td>
+                        <td class="operate">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                        <div class="operate1">
+                            <a href="../../../../manage/wares/oprewardset/1000000724?p=1&amp;s=0">OP币设置</a>
+                            <a href="../../../../manage/wares/cashfastsub/1000000724?p=1&amp;s=0">现金立减</a>
+                            <a href="../../../../manage/wares/clearing/1000000724?p=1&amp;s=0">结算设置</a>
+                            <a href="../../../../manage/wares/commission/1000000724?p=1&amp;s=0">结算方法</a>
+
+
+                            
+                            
+                            
+                        </div>
+                    </span>
+                        </td>
+                    </tr>
+                
+                    <tr >
+                        <td>4</td>
+                        <td>w10891000000721574</td>
+                        
+                            <td class="tl"><span class="ellipsis">love you </span></td>
+                        
+                        
+                            <td>普通</td>
+                        
+                        
+                            <td>国内长线</td>
+                        
+                        <td>1天</td>
+                        
+
+                        
+                            <td class="grey">未上线</td>
+                        
+                        <td>2016-06-01 13:38:39</td>
+                        
+                            <td>手机验证码漏洞账号</td>
+                            <td>北京</td>
+                            <td>北京-北京</td>
+
+                        
+                        <td>0.00 币</td>
+                        <td>0.00元</td>
+                        <td>无</td>
+                        <td class="operate">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                        <div class="operate1">
+                            <a href="../../../../manage/wares/oprewardset/1000000721?p=1&amp;s=0">OP币设置</a>
+                            <a href="../../../../manage/wares/cashfastsub/1000000721?p=1&amp;s=0">现金立减</a>
+                            <a href="../../../../manage/wares/clearing/1000000721?p=1&amp;s=0">结算设置</a>
+                            <a href="../../../../manage/wares/commission/1000000721?p=1&amp;s=0">结算方法</a>
+
+
+                            
+                            
+                            
+                        </div>
+                    </span>
+                        </td>
+                    </tr>
+                
+                    <tr >
+                        <td>5</td>
+                        <td>w10371000000719478</td>
+                        
+                            <td class="tl"><span class="ellipsis">B2C测试2</span></td>
+                        
+                        
+                            <td>普通</td>
+                        
+                        
+                            <td>国内长线</td>
+                        
+                        <td>1天</td>
+                        
+
+                        
+                            <td class="grey">未上线</td>
+                        
+                        <td>2016-06-01 11:43:18</td>
+                        
+                            <td>北京李小四的公司</td>
+                            <td>北京</td>
+                            <td>黑龙江-哈尔滨</td>
+
+                        
+                        <td>1.50 币</td>
+                        <td>1.50元</td>
+                        <td>1000000006</td>
+                        <td class="operate">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                        <div class="operate1">
+                            <a href="../../../../manage/wares/oprewardset/1000000719?p=1&amp;s=0">OP币设置</a>
+                            <a href="../../../../manage/wares/cashfastsub/1000000719?p=1&amp;s=0">现金立减</a>
+                            <a href="../../../../manage/wares/clearing/1000000719?p=1&amp;s=0">结算设置</a>
+                            <a href="../../../../manage/wares/commission/1000000719?p=1&amp;s=0">结算方法</a>
+
+
+                            
+                            
+                            
+                        </div>
+                    </span>
+                        </td>
+                    </tr>
+                
+                    <tr >
+                        <td>6</td>
+                        <td>w10251000000718928</td>
+                        
+                            <td class="tl"><span class="ellipsis">B2C测试2</span></td>
+                        
+                        
+                            <td>普通</td>
+                        
+                        
+                            <td>国内长线</td>
+                        
+                        <td>1天</td>
+                        
+
+                        
+                            <td class="grey">未上线</td>
+                        
+                        <td>2016-06-01 11:38:09</td>
+                        
+                            <td>北京李小四的公司</td>
+                            <td>北京</td>
+                            <td>黑龙江-哈尔滨</td>
+
+                        
+                        <td>1.50 币</td>
+                        <td>1.50元</td>
+                        <td>1000000006</td>
+                        <td class="operate">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                        <div class="operate1">
+                            <a href="../../../../manage/wares/oprewardset/1000000718?p=1&amp;s=0">OP币设置</a>
+                            <a href="../../../../manage/wares/cashfastsub/1000000718?p=1&amp;s=0">现金立减</a>
+                            <a href="../../../../manage/wares/clearing/1000000718?p=1&amp;s=0">结算设置</a>
+                            <a href="../../../../manage/wares/commission/1000000718?p=1&amp;s=0">结算方法</a>
+
+
+                            
+                            
+                            
+                        </div>
+                    </span>
+                        </td>
+                    </tr>
+                
+                    <tr >
+                        <td>7</td>
+                        <td>w10371000000717724</td>
+                        
+                            <td class="tl"><span class="ellipsis">B2C测试2</span></td>
+                        
+                        
+                            <td>普通</td>
+                        
+                        
+                            <td>国内长线</td>
+                        
+                        <td>1天</td>
+                        
+
+                        
+                            <td class="grey">未上线</td>
+                        
+                        <td>2016-06-01 11:37:57</td>
+                        
+                            <td>北京李小四的公司</td>
+                            <td>北京</td>
+                            <td>黑龙江-哈尔滨</td>
+
+                        
+                        <td>1.50 币</td>
+                        <td>1.50元</td>
+                        <td>1000000006</td>
+                        <td class="operate">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                        <div class="operate1">
+                            <a href="../../../../manage/wares/oprewardset/1000000717?p=1&amp;s=0">OP币设置</a>
+                            <a href="../../../../manage/wares/cashfastsub/1000000717?p=1&amp;s=0">现金立减</a>
+                            <a href="../../../../manage/wares/clearing/1000000717?p=1&amp;s=0">结算设置</a>
+                            <a href="../../../../manage/wares/commission/1000000717?p=1&amp;s=0">结算方法</a>
+
+
+                            
+                            
+                            
+                        </div>
+                    </span>
+                        </td>
+                    </tr>
+                
+                    <tr >
+                        <td>8</td>
+                        <td>w10771000000716790</td>
+                        
+                            <td class="tl"><span class="ellipsis">B2C测试21</span></td>
+                        
+                        
+                            <td>普通</td>
+                        
+                        
+                            <td>国内长线</td>
+                        
+                        <td>1天</td>
+                        
+
+                        
+                            <td class="grey">未上线</td>
+                        
+                        <td>2016-06-01 11:36:57</td>
+                        
+                            <td>北京李小四的公司</td>
+                            <td>北京</td>
+                            <td>黑龙江-哈尔滨</td>
+
+                        
+                        <td>1.50 币</td>
+                        <td>1.50元</td>
+                        <td>1000000006</td>
+                        <td class="operate">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                        <div class="operate1">
+                            <a href="../../../../manage/wares/oprewardset/1000000716?p=1&amp;s=0">OP币设置</a>
+                            <a href="../../../../manage/wares/cashfastsub/1000000716?p=1&amp;s=0">现金立减</a>
+                            <a href="../../../../manage/wares/clearing/1000000716?p=1&amp;s=0">结算设置</a>
+                            <a href="../../../../manage/wares/commission/1000000716?p=1&amp;s=0">结算方法</a>
+
+
+                            
+                            
+                            
+                        </div>
+                    </span>
+                        </td>
+                    </tr>
+                
+                    <tr >
+                        <td>9</td>
+                        <td>w10751000000715403</td>
+                        
+                            <td class="tl"><span class="ellipsis">B2C测试21</span></td>
+                        
+                        
+                            <td>普通</td>
+                        
+                        
+                            <td>国内长线</td>
+                        
+                        <td>1天</td>
+                        
+
+                        
+                            <td class="grey">未上线</td>
+                        
+                        <td>2016-06-01 11:36:36</td>
+                        
+                            <td>北京李小四的公司</td>
+                            <td>北京</td>
+                            <td>黑龙江-哈尔滨</td>
+
+                        
+                        <td>1.50 币</td>
+                        <td>1.50元</td>
+                        <td>1000000006</td>
+                        <td class="operate">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                        <div class="operate1">
+                            <a href="../../../../manage/wares/oprewardset/1000000715?p=1&amp;s=0">OP币设置</a>
+                            <a href="../../../../manage/wares/cashfastsub/1000000715?p=1&amp;s=0">现金立减</a>
+                            <a href="../../../../manage/wares/clearing/1000000715?p=1&amp;s=0">结算设置</a>
+                            <a href="../../../../manage/wares/commission/1000000715?p=1&amp;s=0">结算方法</a>
+
+
+                            
+                            
+                            
+                        </div>
+                    </span>
+                        </td>
+                    </tr>
+                
+                    <tr >
+                        <td>10</td>
+                        <td>w10371000000714238</td>
+                        
+                            <td class="tl"><span class="ellipsis">B2C测试21</span></td>
+                        
+                        
+                            <td>普通</td>
+                        
+                        
+                            <td>国内长线</td>
+                        
+                        <td>1天</td>
+                        
+
+                        
+                            <td class="grey">未上线</td>
+                        
+                        <td>2016-06-01 11:36:20</td>
+                        
+                            <td>北京李小四的公司</td>
+                            <td>北京</td>
+                            <td>黑龙江-哈尔滨</td>
+
+                        
+                        <td>1.50 币</td>
+                        <td>1.50元</td>
+                        <td>1000000006</td>
+                        <td class="operate">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                        <div class="operate1">
+                            <a href="../../../../manage/wares/oprewardset/1000000714?p=1&amp;s=0">OP币设置</a>
+                            <a href="../../../../manage/wares/cashfastsub/1000000714?p=1&amp;s=0">现金立减</a>
+                            <a href="../../../../manage/wares/clearing/1000000714?p=1&amp;s=0">结算设置</a>
+                            <a href="../../../../manage/wares/commission/1000000714?p=1&amp;s=0">结算方法</a>
+
+
+                            
+                            
+                            
+                        </div>
+                    </span>
+                        </td>
+                    </tr>
+                
+                    <tr >
+                        <td>11</td>
+                        <td>w10371000000603106</td>
+                        
+                            <td class="tl"><span class="ellipsis">qfewretd</span></td>
+                        
+                        
+                            <td>普通</td>
+                        
+                        
+                            <td>国内长线</td>
+                        
+                        <td>1天</td>
+                        
+
+                        
+                            <td class="grey">未上线</td>
+                        
+                        <td>2016-06-01 11:13:08</td>
+                        
+                            <td>手机验证码漏洞账号</td>
+                            <td>北京</td>
+                            <td>西非-几内亚</td>
+
+                        
+                        <td>1.00 币</td>
+                        <td>1.00元</td>
+                        <td>1000000011</td>
+                        <td class="operate">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                        <div class="operate1">
+                            <a href="../../../../manage/wares/oprewardset/1000000603?p=1&amp;s=0">OP币设置</a>
+                            <a href="../../../../manage/wares/cashfastsub/1000000603?p=1&amp;s=0">现金立减</a>
+                            <a href="../../../../manage/wares/clearing/1000000603?p=1&amp;s=0">结算设置</a>
+                            <a href="../../../../manage/wares/commission/1000000603?p=1&amp;s=0">结算方法</a>
+
+
+                            
+                            
+                            
+                        </div>
+                    </span>
+                        </td>
+                    </tr>
+                
+                    <tr >
+                        <td>12</td>
+                        <td>w10931000000655799</td>
+                        
+                            <td class="tl"><span class="ellipsis">8765432423</span></td>
+                        
+                        
+                            <td>普通</td>
+                        
+                        
+                            <td>国内长线</td>
+                        
+                        <td>1天</td>
+                        
+
+                        
+                            <td class="grey">未上线</td>
+                        
+                        <td>2016-05-24 10:31:35</td>
+                        
+                            <td>1778</td>
+                            <td>北京</td>
+                            <td>河北-保定-1</td>
+
+                        
+                        <td>0.00 币</td>
+                        <td>0.00元</td>
+                        <td>1000000006</td>
+                        <td class="operate">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                        <div class="operate1">
+                            <a href="../../../../manage/wares/oprewardset/1000000655?p=1&amp;s=0">OP币设置</a>
+                            <a href="../../../../manage/wares/cashfastsub/1000000655?p=1&amp;s=0">现金立减</a>
+                            <a href="../../../../manage/wares/clearing/1000000655?p=1&amp;s=0">结算设置</a>
+                            <a href="../../../../manage/wares/commission/1000000655?p=1&amp;s=0">结算方法</a>
+
+
+                            
+                            
+                            
+                        </div>
+                    </span>
+                        </td>
+                    </tr>
+                
+                    <tr >
+                        <td>13</td>
+                        <td>w11731000000649151</td>
+                        
+                            <td class="tl"><span class="ellipsis">抢购1</span></td>
+                        
+                        
+                            <td>抢购</td>
+                        
+                        
+                            <td>国内长线</td>
+                        
+                        <td>1天</td>
+                        
+
+                        
+                            <td class="grey">未上线</td>
+                        
+                        <td>2016-05-23 13:39:27</td>
+                        
+                            <td>-098765432345678</td>
+                            <td>北京</td>
+                            <td>北京-北京</td>
+
+                        
+                        <td>1.00 币</td>
+                        <td>1.00元</td>
+                        <td>1000000011</td>
+                        <td class="operate">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                        <div class="operate1">
+                            <a href="../../../../manage/wares/oprewardset/1000000649?p=1&amp;s=0">OP币设置</a>
+                            <a href="../../../../manage/wares/cashfastsub/1000000649?p=1&amp;s=0">现金立减</a>
+                            <a href="../../../../manage/wares/clearing/1000000649?p=1&amp;s=0">结算设置</a>
+                            <a href="../../../../manage/wares/commission/1000000649?p=1&amp;s=0">结算方法</a>
+
+
+                            
+                            
+                            
+                        </div>
+                    </span>
+                        </td>
+                    </tr>
+                
+                    <tr >
+                        <td>14</td>
+                        <td>w10371000000648154</td>
+                        
+                            <td class="tl"><span class="ellipsis">抢购</span></td>
+                        
+                        
+                            <td>普通</td>
+                        
+                        
+                            <td>国内长线</td>
+                        
+                        <td>1天</td>
+                        
+
+                        
+                            <td class="grey">未上线</td>
+                        
+                        <td>2016-05-23 13:37:47</td>
+                        
+                            <td>-098765432345678</td>
+                            <td>北京</td>
+                            <td>北京-北京</td>
+
+                        
+                        <td>1.00 币</td>
+                        <td>1.00元</td>
+                        <td>1000000011</td>
+                        <td class="operate">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                        <div class="operate1">
+                            <a href="../../../../manage/wares/oprewardset/1000000648?p=1&amp;s=0">OP币设置</a>
+                            <a href="../../../../manage/wares/cashfastsub/1000000648?p=1&amp;s=0">现金立减</a>
+                            <a href="../../../../manage/wares/clearing/1000000648?p=1&amp;s=0">结算设置</a>
+                            <a href="../../../../manage/wares/commission/1000000648?p=1&amp;s=0">结算方法</a>
+
+
+                            
+                            
+                            
+                        </div>
+                    </span>
+                        </td>
+                    </tr>
+                
+                    <tr >
+                        <td>15</td>
+                        <td>w11611000000644958</td>
+                        
+                            <td class="tl"><span class="ellipsis">测试快抢/限时购</span></td>
+                        
+                        
+                            <td>抢购</td>
+                        
+                        
+                            <td>国内长线</td>
+                        
+                        <td>1天</td>
+                        
+
+                        
+                            <td class="grey">未上线</td>
+                        
+                        <td>2016-05-23 11:20:45</td>
+                        
+                            <td>-098765432345678</td>
+                            <td>北京</td>
+                            <td>北京-北京</td>
+
+                        
+                        <td>1.00 币</td>
+                        <td>1.00元</td>
+                        <td>1000000011</td>
+                        <td class="operate">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                        <div class="operate1">
+                            <a href="../../../../manage/wares/oprewardset/1000000644?p=1&amp;s=0">OP币设置</a>
+                            <a href="../../../../manage/wares/cashfastsub/1000000644?p=1&amp;s=0">现金立减</a>
+                            <a href="../../../../manage/wares/clearing/1000000644?p=1&amp;s=0">结算设置</a>
+                            <a href="../../../../manage/wares/commission/1000000644?p=1&amp;s=0">结算方法</a>
+
+
+                            
+                            
+                            
+                        </div>
+                    </span>
+                        </td>
+                    </tr>
+                
+                    <tr >
+                        <td>16</td>
+                        <td>w10531000000643934</td>
+                        
+                            <td class="tl"><span class="ellipsis">测试产品编号查询2</span></td>
+                        
+                        
+                            <td>普通</td>
+                        
+                        
+                            <td>国内长线</td>
+                        
+                        <td>1天</td>
+                        
+
+                        
+                            <td class="grey">未上线</td>
+                        
+                        <td>2016-05-23 11:17:37</td>
+                        
+                            <td>-098765432345678</td>
+                            <td>北京</td>
+                            <td>北京-北京</td>
+
+                        
+                        <td>1.00 币</td>
+                        <td>1.00元</td>
+                        <td>1000000011</td>
+                        <td class="operate">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                        <div class="operate1">
+                            <a href="../../../../manage/wares/oprewardset/1000000643?p=1&amp;s=0">OP币设置</a>
+                            <a href="../../../../manage/wares/cashfastsub/1000000643?p=1&amp;s=0">现金立减</a>
+                            <a href="../../../../manage/wares/clearing/1000000643?p=1&amp;s=0">结算设置</a>
+                            <a href="../../../../manage/wares/commission/1000000643?p=1&amp;s=0">结算方法</a>
+
+
+                            
+                            
+                            
+                        </div>
+                    </span>
+                        </td>
+                    </tr>
+                
+                    <tr >
+                        <td>17</td>
+                        <td>w10811000000641760</td>
+                        
+                            <td class="tl"><span class="ellipsis">aaaaaaa</span></td>
+                        
+                        
+                            <td>普通</td>
+                        
+                        
+                            <td>国内长线</td>
+                        
+                        <td>1天</td>
+                        
+
+                        
+                            <td class="grey">未上线</td>
+                        
+                        <td>2016-05-20 11:37:50</td>
+                        
+                            <td>北京科技科技有限公司</td>
+                            <td>北京</td>
+                            <td>安徽-合肥</td>
+
+                        
+                        <td>1.00 币</td>
+                        <td>1.00元</td>
+                        <td>1000000011</td>
+                        <td class="operate">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                        <div class="operate1">
+                            <a href="../../../../manage/wares/oprewardset/1000000641?p=1&amp;s=0">OP币设置</a>
+                            <a href="../../../../manage/wares/cashfastsub/1000000641?p=1&amp;s=0">现金立减</a>
+                            <a href="../../../../manage/wares/clearing/1000000641?p=1&amp;s=0">结算设置</a>
+                            <a href="../../../../manage/wares/commission/1000000641?p=1&amp;s=0">结算方法</a>
+
+
+                            
+                            
+                            
+                        </div>
+                    </span>
+                        </td>
+                    </tr>
+                
+                    <tr >
+                        <td>18</td>
+                        <td>w10731000000640292</td>
+                        
+                            <td class="tl"><span class="ellipsis">测试产品编号查询1</span></td>
+                        
+                        
+                            <td>普通</td>
+                        
+                        
+                            <td>国内长线</td>
+                        
+                        <td>1天</td>
+                        
+
+                        
+                            <td class="grey">未上线</td>
+                        
+                        <td>2016-05-19 16:54:25</td>
+                        
+                            <td>-098765432345678</td>
+                            <td>北京</td>
+                            <td>北京-北京</td>
+
+                        
+                        <td>1.00 币</td>
+                        <td>1.00元</td>
+                        <td>1000000011</td>
+                        <td class="operate">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                        <div class="operate1">
+                            <a href="../../../../manage/wares/oprewardset/1000000640?p=1&amp;s=0">OP币设置</a>
+                            <a href="../../../../manage/wares/cashfastsub/1000000640?p=1&amp;s=0">现金立减</a>
+                            <a href="../../../../manage/wares/clearing/1000000640?p=1&amp;s=0">结算设置</a>
+                            <a href="../../../../manage/wares/commission/1000000640?p=1&amp;s=0">结算方法</a>
+
+
+                            
+                            
+                            
+                        </div>
+                    </span>
+                        </td>
+                    </tr>
+                
+                    <tr >
+                        <td>19</td>
+                        <td>w10851000000639151</td>
+                        
+                            <td class="tl"><span class="ellipsis">测试产品编号查询</span></td>
+                        
+                        
+                            <td>普通</td>
+                        
+                        
+                            <td>国内长线</td>
+                        
+                        <td>1天</td>
+                        
+
+                        
+                            <td class="grey">未上线</td>
+                        
+                        <td>2016-05-19 16:53:43</td>
+                        
+                            <td>-098765432345678</td>
+                            <td>北京</td>
+                            <td>北京-北京</td>
+
+                        
+                        <td>1.00 币</td>
+                        <td>1.00元</td>
+                        <td>1000000011</td>
+                        <td class="operate">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                        <div class="operate1">
+                            <a href="../../../../manage/wares/oprewardset/1000000639?p=1&amp;s=0">OP币设置</a>
+                            <a href="../../../../manage/wares/cashfastsub/1000000639?p=1&amp;s=0">现金立减</a>
+                            <a href="../../../../manage/wares/clearing/1000000639?p=1&amp;s=0">结算设置</a>
+                            <a href="../../../../manage/wares/commission/1000000639?p=1&amp;s=0">结算方法</a>
+
+
+                            
+                            
+                            
+                        </div>
+                    </span>
+                        </td>
+                    </tr>
+                
+                    <tr >
+                        <td>20</td>
+                        <td>w10571000000638220</td>
+                        
+                            <td class="tl"><span class="ellipsis">123</span></td>
+                        
+                        
+                            <td>普通</td>
+                        
+                        
+                            <td>国内长线</td>
+                        
+                        <td>1天</td>
+                        
+
+                        
+                            <td class="grey">未上线</td>
+                        
+                        <td>2016-05-19 13:34:19</td>
+                        
+                            <td>78yuiljkj@qq.com</td>
+                            <td>北京</td>
+                            <td>北京-北京</td>
+
+                        
+                        <td>1.00 币</td>
+                        <td>1.00元</td>
+                        <td>1000000011</td>
+                        <td class="operate">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                        <div class="operate1">
+                            <a href="../../../../manage/wares/oprewardset/1000000638?p=1&amp;s=0">OP币设置</a>
+                            <a href="../../../../manage/wares/cashfastsub/1000000638?p=1&amp;s=0">现金立减</a>
+                            <a href="../../../../manage/wares/clearing/1000000638?p=1&amp;s=0">结算设置</a>
+                            <a href="../../../../manage/wares/commission/1000000638?p=1&amp;s=0">结算方法</a>
+
+
+                            
+                            
+                            
+                        </div>
+                    </span>
+                        </td>
+                    </tr>
+                
+            
+            </tbody>
+        </table>
+    </div>
+    <div class="row pag_box">
+        <ul class="pagination">
+            <li  class="disabled" >
+                
+                    <a class="disabled">上一页</a>
+                
+            </li>
+            <li>
+                <span> 1/ 4</span>
+            </li>
+
+                
+                    
+                    <li  class="active " > <a   >1</a></li>
+                
+                    
+                    <li > <a    href="../../../../manage/wares/alist/2/0"  >2</a></li>
+                
+                    
+                    <li > <a    href="../../../../manage/wares/alist/3/0"  >3</a></li>
+                
+                    
+                    <li > <a    href="../../../../manage/wares/alist/4/0"  >4</a></li>
+                
+
+            <li >
+                
+                    
+                    <a href="../../../../manage/wares/alist/2/0">下一页</a>
+                
+            </li>
+
+
+        </ul>
+    </div>
+
+
+    </div>
+
+    
+<script src="../../../../static/js/jquery.js"></script>
+<script src="../../../../static/js/bootstrap.min.js"></script>
+
+    <script>
+        /*function intervalSet(){
+         $("#table1 tbody tr").each(function(){
+         var wareid = $("td:eq(0)",this).text();
+         var a = $("td:eq(3)",this).text();
+         $.get("../../../../manage/wares/warestatus/" + wareid,function(data,status){
+         alert(data);
+         //console(data);
+         });
+         });
+         }*/
+
+        /*$(document).ready(function(){
+         setInterval(intervalSet,60000);
+         });*/
+
+    </script>
+     <script>
+        $(function(){   
+            var tab_width=$(".table").width();
+            $(".nav").width(tab_width + 20);
+            $(".nav-tabs").width(tab_width);
+        })
+    </script>
+
+
+  </body>
+</html>

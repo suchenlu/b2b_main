@@ -1,0 +1,1675 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta http-equiv="refresh" content="60"> -->
+
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link href="../../../../../static/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <!-- <link href="../../../../../static/css/bootstrap-theme.min.css" rel="stylesheet" media="screen"> -->
+    <link rel="stylesheet" type="text/css" href="../../../../../static/css/base.css"/>
+    <link rel="shortcut icon" type="image/x-icon" href="../../../../../static/img/logo2.png" />
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <style type="text/css">
+        .row-fluid > a.button {
+            position: absolute;
+            top: 5px;
+            right: 20px;
+        }
+
+        .row-fluid > a.button span {
+            color: #fff;
+            font-weight: bold;
+            font-size: 20px;
+            position: relative;
+            top: 2px;
+        }
+
+        input[type="text"],.area_code {
+            width: 150px;
+        }
+
+        form {
+            position: relative;
+        }
+        .roww li {
+            height: 26px;
+            line-height: 26px;
+        }
+
+        .roww li a {
+            height: 26px;
+            line-height: 26px;
+            padding: 0px 10px;
+        }
+
+        .roww li a:hover {
+            background: #eee;
+        }
+
+        .roww li.active a {
+            background: #1faeff;
+            color: #fff;
+        }
+    </style>
+
+  </head>
+  <body id="B2B" >
+    
+
+  <div class="container-fluid">
+  <div class="img_pop"><div class="pop"><span></span><img src=""></div></div>
+  <div class="row-fluid">
+      <ul class="nav">
+          <li class="active"><a href="">待验证中性品牌</a></li>
+      </ul>
+  </div>
+    <div class="row">
+        <table class="table table-striped table-hover">
+            <thead>
+            <tr>
+                <th style="width: 60px;">序号</th>
+                <th>品牌名称</th>
+                <th>品牌logo</th>
+                <th>品牌介绍</th>
+                <th style="width: 120px;">合作商ID</th>
+                <th style="width: 120px;">合作商名称</th>
+                <th style="width: 120px;">申请状态</th>
+                <th style="width: 120px;">展示状态</th>
+                <th style="width: 60px;">操作</th>
+            </tr>
+            </thead>
+            <tbody>
+            
+                
+                    <tr>
+                        <td>32</td>
+                        <td class="tl"><a class="ellipsis" herf="">33</a></td>
+                        <td class="s_picture"><img src="../../../../../static/upload/2.jpg" height="100px;" width="100px;" /></td>
+                        <td>33</td>
+                        <td>2</td>
+                        <td>北京科技科技有限公司</td>
+                        
+                            <td class="blue">品牌申请上线</td>
+                        
+
+
+                        
+                            <td class="gray">首页未申请展示</td>
+                        
+
+                        <td class="operate">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                        <div class="operate1">
+                            
+                                <a href="/manage/wares/brand_allow/32/1">允许品牌申请</a>
+                                <a href="/manage/wares/brand_reject/32/1">驳回品牌申请</a>
+                            
+                            
+                        </div>
+                    </span>
+                    </tr>
+                
+                    <tr>
+                        <td>104</td>
+                        <td class="tl"><a class="ellipsis" herf="">123111</a></td>
+                        <td class="s_picture"><img src="../../../../../static/upload/201604261534257453.jpg" height="100px;" width="100px;" /></td>
+                        <td>111123</td>
+                        <td>2</td>
+                        <td>北京科技科技有限公司</td>
+                        
+                            <td class="blue">品牌申请上线</td>
+                        
+
+
+                        
+                            <td class="gray">首页未申请展示</td>
+                        
+
+                        <td class="operate">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                        <div class="operate1">
+                            
+                                <a href="/manage/wares/brand_allow/104/1">允许品牌申请</a>
+                                <a href="/manage/wares/brand_reject/104/1">驳回品牌申请</a>
+                            
+                            
+                        </div>
+                    </span>
+                    </tr>
+                
+                    <tr>
+                        <td>129</td>
+                        <td class="tl"><a class="ellipsis" herf="">测试中性品牌</a></td>
+                        <td class="s_picture"><img src="../../../../../static/upload/201605181314309883.jpg" height="100px;" width="100px;" /></td>
+                        <td>测试中性品牌测试中性品牌测试</td>
+                        <td>360</td>
+                        <td>78yuiljkj@qq.com</td>
+                        
+                            <td class="green">品牌已上线</td>
+                        
+
+
+                        
+                            <td class="blue">首页展示申请</td>
+                        
+
+                        <td class="operate">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                        <div class="operate1">
+                            
+                            
+                                <a href="/manage/wares/brand_allow_sy/129/1">允许首页展示</a>
+                                <a href="/manage/wares/brand_reject_sy/129/1">驳回首页展示</a>
+                            
+                        </div>
+                    </span>
+                    </tr>
+                
+                    <tr>
+                        <td>128</td>
+                        <td class="tl"><a class="ellipsis" herf="">万达旅游</a></td>
+                        <td class="s_picture"><img src="../../../../../static/upload/201605101431427153.jpg" height="100px;" width="100px;" /></td>
+                        <td>按时打发第三方士大夫</td>
+                        <td>343</td>
+                        <td>龙龙旅游</td>
+                        
+                            <td class="gray">品牌未申请上线</td>
+                        
+
+
+                        
+                            <td class="gray">首页未申请展示</td>
+                        
+
+                        <td class="operate">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                        <div class="operate1">
+                            
+                            
+                        </div>
+                    </span>
+                    </tr>
+                
+                    <tr>
+                        <td>127</td>
+                        <td class="tl"><a class="ellipsis" herf="">DD</a></td>
+                        <td class="s_picture"><img src="../../../../../static/upload/201605050912284238.jpg" height="100px;" width="100px;" /></td>
+                        <td>DD</td>
+                        <td>32</td>
+                        <td>飘柔旅行社供应商</td>
+                        
+                            <td class="blue">品牌申请上线</td>
+                        
+
+
+                        
+                            <td class="gray">首页未申请展示</td>
+                        
+
+                        <td class="operate">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                        <div class="operate1">
+                            
+                                <a href="/manage/wares/brand_allow/127/1">允许品牌申请</a>
+                                <a href="/manage/wares/brand_reject/127/1">驳回品牌申请</a>
+                            
+                            
+                        </div>
+                    </span>
+                    </tr>
+                
+                    <tr>
+                        <td>126</td>
+                        <td class="tl"><a class="ellipsis" herf="">测试</a></td>
+                        <td class="s_picture"><img src="../../../../../static/upload/201605041621122733.jpg" height="100px;" width="100px;" /></td>
+                        <td>地方大阿斯顿发顺丰的范范</td>
+                        <td>32</td>
+                        <td>飘柔旅行社供应商</td>
+                        
+                            <td class="blue">品牌申请上线</td>
+                        
+
+
+                        
+                            <td class="gray">首页未申请展示</td>
+                        
+
+                        <td class="operate">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                        <div class="operate1">
+                            
+                                <a href="/manage/wares/brand_allow/126/1">允许品牌申请</a>
+                                <a href="/manage/wares/brand_reject/126/1">驳回品牌申请</a>
+                            
+                            
+                        </div>
+                    </span>
+                    </tr>
+                
+                    <tr>
+                        <td>112</td>
+                        <td class="tl"><a class="ellipsis" herf="">尚博</a></td>
+                        <td class="s_picture"><img src="../../../../../static/upload/201605041429352556.png" height="100px;" width="100px;" /></td>
+                        <td>尚博</td>
+                        <td>206</td>
+                        <td>北京李四的公司</td>
+                        
+                            <td class="green">品牌已上线</td>
+                        
+
+
+                        
+                            <td class="orange">驳回首页展示申请</td>
+                        
+
+                        <td class="operate">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                        <div class="operate1">
+                            
+                            
+                        </div>
+                    </span>
+                    </tr>
+                
+                    <tr>
+                        <td>111</td>
+                        <td class="tl"><a class="ellipsis" herf="">上身</a></td>
+                        <td class="s_picture"><img src="../../../../../static/upload/201605041429012100.png" height="100px;" width="100px;" /></td>
+                        <td>上身</td>
+                        <td>206</td>
+                        <td>北京李四的公司</td>
+                        
+                            <td class="green">品牌已上线</td>
+                        
+
+
+                        
+                            <td class="blue">首页展示申请</td>
+                        
+
+                        <td class="operate">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                        <div class="operate1">
+                            
+                            
+                                <a href="/manage/wares/brand_allow_sy/111/1">允许首页展示</a>
+                                <a href="/manage/wares/brand_reject_sy/111/1">驳回首页展示</a>
+                            
+                        </div>
+                    </span>
+                    </tr>
+                
+                    <tr>
+                        <td>109</td>
+                        <td class="tl"><a class="ellipsis" herf="">身为</a></td>
+                        <td class="s_picture"><img src="../../../../../static/upload/201605041427557887.png" height="100px;" width="100px;" /></td>
+                        <td>身为</td>
+                        <td>206</td>
+                        <td>北京李四的公司</td>
+                        
+                            <td class="blue">品牌申请上线</td>
+                        
+
+
+                        
+                            <td class="gray">首页未申请展示</td>
+                        
+
+                        <td class="operate">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                        <div class="operate1">
+                            
+                                <a href="/manage/wares/brand_allow/109/1">允许品牌申请</a>
+                                <a href="/manage/wares/brand_reject/109/1">驳回品牌申请</a>
+                            
+                            
+                        </div>
+                    </span>
+                    </tr>
+                
+                    <tr>
+                        <td>105</td>
+                        <td class="tl"><a class="ellipsis" herf="">099090</a></td>
+                        <td class="s_picture"><img src="../../../../../static/upload/201605031626183363.png" height="100px;" width="100px;" /></td>
+                        <td>露眉毛，密码</td>
+                        <td>206</td>
+                        <td>北京李四的公司</td>
+                        
+                            <td class="blue">品牌申请上线</td>
+                        
+
+
+                        
+                            <td class="red">强制下线首页展示</td>
+                        
+
+                        <td class="operate">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                        <div class="operate1">
+                            
+                                <a href="/manage/wares/brand_allow/105/1">允许品牌申请</a>
+                                <a href="/manage/wares/brand_reject/105/1">驳回品牌申请</a>
+                            
+                            
+                        </div>
+                    </span>
+                    </tr>
+                
+                    <tr>
+                        <td>107</td>
+                        <td class="tl"><a class="ellipsis" herf="">oooo</a></td>
+                        <td class="s_picture"><img src="../../../../../static/upload/201605041420071457.png" height="100px;" width="100px;" /></td>
+                        <td>oooo</td>
+                        <td>206</td>
+                        <td>北京李四的公司</td>
+                        
+                            <td class="orange">品牌强制下线</td>
+                        
+
+
+                        
+                            <td class="red">强制下线首页展示</td>
+                        
+
+                        <td class="operate">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                        <div class="operate1">
+                            
+                            
+                        </div>
+                    </span>
+                    </tr>
+                
+                    <tr>
+                        <td>117</td>
+                        <td class="tl"><a class="ellipsis" herf="">人味儿</a></td>
+                        <td class="s_picture"><img src="../../../../../static/upload/201605041454127161.png" height="100px;" width="100px;" /></td>
+                        <td>味儿</td>
+                        <td>206</td>
+                        <td>北京李四的公司</td>
+                        
+                            <td class="gray">品牌未申请上线</td>
+                        
+
+
+                        
+                            <td class="gray">首页未申请展示</td>
+                        
+
+                        <td class="operate">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                        <div class="operate1">
+                            
+                            
+                        </div>
+                    </span>
+                    </tr>
+                
+                    <tr>
+                        <td>119</td>
+                        <td class="tl"><a class="ellipsis" herf="">公司发生的范德萨</a></td>
+                        <td class="s_picture"><img src="../../../../../static/upload/201605041454318016.png" height="100px;" width="100px;" /></td>
+                        <td>第三方</td>
+                        <td>206</td>
+                        <td>北京李四的公司</td>
+                        
+                            <td class="gray">品牌未申请上线</td>
+                        
+
+
+                        
+                            <td class="gray">首页未申请展示</td>
+                        
+
+                        <td class="operate">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                        <div class="operate1">
+                            
+                            
+                        </div>
+                    </span>
+                    </tr>
+                
+                    <tr>
+                        <td>120</td>
+                        <td class="tl"><a class="ellipsis" herf="">广告费过</a></td>
+                        <td class="s_picture"><img src="../../../../../static/upload/201605041454419337.png" height="100px;" width="100px;" /></td>
+                        <td>大扫荡</td>
+                        <td>206</td>
+                        <td>北京李四的公司</td>
+                        
+                            <td class="gray">品牌未申请上线</td>
+                        
+
+
+                        
+                            <td class="gray">首页未申请展示</td>
+                        
+
+                        <td class="operate">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                        <div class="operate1">
+                            
+                            
+                        </div>
+                    </span>
+                    </tr>
+                
+                    <tr>
+                        <td>121</td>
+                        <td class="tl"><a class="ellipsis" herf="">羊头人鱼</a></td>
+                        <td class="s_picture"><img src="../../../../../static/upload/201605041455042006.png" height="100px;" width="100px;" /></td>
+                        <td>音乐</td>
+                        <td>206</td>
+                        <td>北京李四的公司</td>
+                        
+                            <td class="gray">品牌未申请上线</td>
+                        
+
+
+                        
+                            <td class="gray">首页未申请展示</td>
+                        
+
+                        <td class="operate">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                        <div class="operate1">
+                            
+                            
+                        </div>
+                    </span>
+                    </tr>
+                
+                    <tr>
+                        <td>123</td>
+                        <td class="tl"><a class="ellipsis" herf="">嘎嘎嘎</a></td>
+                        <td class="s_picture"><img src="../../../../../static/upload/201605041455283749.png" height="100px;" width="100px;" /></td>
+                        <td>广告</td>
+                        <td>206</td>
+                        <td>北京李四的公司</td>
+                        
+                            <td class="gray">品牌未申请上线</td>
+                        
+
+
+                        
+                            <td class="gray">首页未申请展示</td>
+                        
+
+                        <td class="operate">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                        <div class="operate1">
+                            
+                            
+                        </div>
+                    </span>
+                    </tr>
+                
+                    <tr>
+                        <td>125</td>
+                        <td class="tl"><a class="ellipsis" herf="">123</a></td>
+                        <td class="s_picture"><img src="../../../../../static/upload/201605041526062406.xlsx" height="100px;" width="100px;" /></td>
+                        <td>123</td>
+                        <td>206</td>
+                        <td>北京李四的公司</td>
+                        
+                            <td class="gray">品牌未申请上线</td>
+                        
+
+
+                        
+                            <td class="gray">首页未申请展示</td>
+                        
+
+                        <td class="operate">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                        <div class="operate1">
+                            
+                            
+                        </div>
+                    </span>
+                    </tr>
+                
+                    <tr>
+                        <td>110</td>
+                        <td class="tl"><a class="ellipsis" herf="">喂喂</a></td>
+                        <td class="s_picture"><img src="../../../../../static/upload/201605041428187267.png" height="100px;" width="100px;" /></td>
+                        <td>喂喂</td>
+                        <td>206</td>
+                        <td>北京李四的公司</td>
+                        
+                            <td class="gray">品牌未申请上线</td>
+                        
+
+
+                        
+                            <td class="gray">首页未申请展示</td>
+                        
+
+                        <td class="operate">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                        <div class="operate1">
+                            
+                            
+                        </div>
+                    </span>
+                    </tr>
+                
+                    <tr>
+                        <td>113</td>
+                        <td class="tl"><a class="ellipsis" herf="">发的所发生的</a></td>
+                        <td class="s_picture"><img src="../../../../../static/upload/201605041453339197.png" height="100px;" width="100px;" /></td>
+                        <td>发顺丰</td>
+                        <td>206</td>
+                        <td>北京李四的公司</td>
+                        
+                            <td class="gray">品牌未申请上线</td>
+                        
+
+
+                        
+                            <td class="gray">首页未申请展示</td>
+                        
+
+                        <td class="operate">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                        <div class="operate1">
+                            
+                            
+                        </div>
+                    </span>
+                    </tr>
+                
+                    <tr>
+                        <td>114</td>
+                        <td class="tl"><a class="ellipsis" herf="">方式发生地方</a></td>
+                        <td class="s_picture"><img src="../../../../../static/upload/201605041453429990.png" height="100px;" width="100px;" /></td>
+                        <td>发顺丰</td>
+                        <td>206</td>
+                        <td>北京李四的公司</td>
+                        
+                            <td class="gray">品牌未申请上线</td>
+                        
+
+
+                        
+                            <td class="gray">首页未申请展示</td>
+                        
+
+                        <td class="operate">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                        <div class="operate1">
+                            
+                            
+                        </div>
+                    </span>
+                    </tr>
+                
+                    <tr>
+                        <td>115</td>
+                        <td class="tl"><a class="ellipsis" herf="">个风格的</a></td>
+                        <td class="s_picture"><img src="../../../../../static/upload/201605041453546138.png" height="100px;" width="100px;" /></td>
+                        <td>个梵蒂冈</td>
+                        <td>206</td>
+                        <td>北京李四的公司</td>
+                        
+                            <td class="gray">品牌未申请上线</td>
+                        
+
+
+                        
+                            <td class="gray">首页未申请展示</td>
+                        
+
+                        <td class="operate">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                        <div class="operate1">
+                            
+                            
+                        </div>
+                    </span>
+                    </tr>
+                
+                    <tr>
+                        <td>116</td>
+                        <td class="tl"><a class="ellipsis" herf="">特疼</a></td>
+                        <td class="s_picture"><img src="../../../../../static/upload/201605041454033508.png" height="100px;" width="100px;" /></td>
+                        <td>突然</td>
+                        <td>206</td>
+                        <td>北京李四的公司</td>
+                        
+                            <td class="gray">品牌未申请上线</td>
+                        
+
+
+                        
+                            <td class="gray">首页未申请展示</td>
+                        
+
+                        <td class="operate">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                        <div class="operate1">
+                            
+                            
+                        </div>
+                    </span>
+                    </tr>
+                
+                    <tr>
+                        <td>118</td>
+                        <td class="tl"><a class="ellipsis" herf="">qweqwe</a></td>
+                        <td class="s_picture"><img src="../../../../../static/upload/201605041454223861.png" height="100px;" width="100px;" /></td>
+                        <td>求问</td>
+                        <td>206</td>
+                        <td>北京李四的公司</td>
+                        
+                            <td class="gray">品牌未申请上线</td>
+                        
+
+
+                        
+                            <td class="gray">首页未申请展示</td>
+                        
+
+                        <td class="operate">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                        <div class="operate1">
+                            
+                            
+                        </div>
+                    </span>
+                    </tr>
+                
+                    <tr>
+                        <td>122</td>
+                        <td class="tl"><a class="ellipsis" herf="">原石天达</a></td>
+                        <td class="s_picture"><img src="../../../../../static/upload/201605041455208879.png" height="100px;" width="100px;" /></td>
+                        <td>发顺丰</td>
+                        <td>206</td>
+                        <td>北京李四的公司</td>
+                        
+                            <td class="gray">品牌未申请上线</td>
+                        
+
+
+                        
+                            <td class="gray">首页未申请展示</td>
+                        
+
+                        <td class="operate">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                        <div class="operate1">
+                            
+                            
+                        </div>
+                    </span>
+                    </tr>
+                
+                    <tr>
+                        <td>124</td>
+                        <td class="tl"><a class="ellipsis" herf="">发送</a></td>
+                        <td class="s_picture"><img src="../../../../../static/upload/201605041524036921.xlsx" height="100px;" width="100px;" /></td>
+                        <td>发斯蒂芬</td>
+                        <td>206</td>
+                        <td>北京李四的公司</td>
+                        
+                            <td class="gray">品牌未申请上线</td>
+                        
+
+
+                        
+                            <td class="gray">首页未申请展示</td>
+                        
+
+                        <td class="operate">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                        <div class="operate1">
+                            
+                            
+                        </div>
+                    </span>
+                    </tr>
+                
+                    <tr>
+                        <td>6</td>
+                        <td class="tl"><a class="ellipsis" herf="">玩美假期</a></td>
+                        <td class="s_picture"><img src="../../../../../static/upload/201603141100321085.jpg" height="100px;" width="100px;" /></td>
+                        <td> </td>
+                        <td>206</td>
+                        <td>北京李四的公司</td>
+                        
+                            <td class="orange">品牌申请驳回</td>
+                        
+
+
+                        
+                            <td class="red">强制下线首页展示</td>
+                        
+
+                        <td class="operate">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                        <div class="operate1">
+                            
+                            
+                        </div>
+                    </span>
+                    </tr>
+                
+                    <tr>
+                        <td>103</td>
+                        <td class="tl"><a class="ellipsis" herf="">【春的律动】宁夏双卧5日游</a></td>
+                        <td class="s_picture"><img src="../../../../../static/upload/201604211159139955.png" height="100px;" width="100px;" /></td>
+                        <td>1.独立成团操作；散客拼团，团队享受，省钱，省心，省力；
+2.程安排挂三星酒店，</td>
+                        <td>2</td>
+                        <td>北京科技科技有限公司</td>
+                        
+                            <td class="blue">品牌申请上线</td>
+                        
+
+
+                        
+                            <td class="gray">首页未申请展示</td>
+                        
+
+                        <td class="operate">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                        <div class="operate1">
+                            
+                                <a href="/manage/wares/brand_allow/103/1">允许品牌申请</a>
+                                <a href="/manage/wares/brand_reject/103/1">驳回品牌申请</a>
+                            
+                            
+                        </div>
+                    </span>
+                    </tr>
+                
+                    <tr>
+                        <td>100</td>
+                        <td class="tl"><a class="ellipsis" herf="">     </a></td>
+                        <td class="s_picture"><img src="../../../../../static/upload/201604141111189206.jpg" height="100px;" width="100px;" /></td>
+                        <td>是</td>
+                        <td>234</td>
+                        <td>北京旅游公司</td>
+                        
+                            <td class="blue">品牌申请上线</td>
+                        
+
+
+                        
+                            <td class="gray">首页未申请展示</td>
+                        
+
+                        <td class="operate">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                        <div class="operate1">
+                            
+                                <a href="/manage/wares/brand_allow/100/1">允许品牌申请</a>
+                                <a href="/manage/wares/brand_reject/100/1">驳回品牌申请</a>
+                            
+                            
+                        </div>
+                    </span>
+                    </tr>
+                
+                    <tr>
+                        <td>99</td>
+                        <td class="tl"><a class="ellipsis" herf="">风情澳大利亚</a></td>
+                        <td class="s_picture"><img src="../../../../../static/upload/201604141109488721.jpg" height="100px;" width="100px;" /></td>
+                        <td>澳大利亚位于大洋洲，拥有世界上最美丽的海岸线</td>
+                        <td>234</td>
+                        <td>北京旅游公司</td>
+                        
+                            <td class="blue">品牌申请上线</td>
+                        
+
+
+                        
+                            <td class="gray">首页未申请展示</td>
+                        
+
+                        <td class="operate">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                        <div class="operate1">
+                            
+                                <a href="/manage/wares/brand_allow/99/1">允许品牌申请</a>
+                                <a href="/manage/wares/brand_reject/99/1">驳回品牌申请</a>
+                            
+                            
+                        </div>
+                    </span>
+                    </tr>
+                
+                    <tr>
+                        <td>98</td>
+                        <td class="tl"><a class="ellipsis" herf="">333333</a></td>
+                        <td class="s_picture"><img src="../../../../../static/upload/201604141109183533.jpg" height="100px;" width="100px;" /></td>
+                        <td>3333333333</td>
+                        <td>2</td>
+                        <td>北京科技科技有限公司</td>
+                        
+                            <td class="gray">品牌未申请上线</td>
+                        
+
+
+                        
+                            <td class="gray">首页未申请展示</td>
+                        
+
+                        <td class="operate">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                        <div class="operate1">
+                            
+                            
+                        </div>
+                    </span>
+                    </tr>
+                
+                    <tr>
+                        <td>101</td>
+                        <td class="tl"><a class="ellipsis" herf="">222</a></td>
+                        <td class="s_picture"><img src="../../../../../static/upload/201604141116396744.jpg" height="100px;" width="100px;" /></td>
+                        <td>222222222</td>
+                        <td>2</td>
+                        <td>北京科技科技有限公司</td>
+                        
+                            <td class="gray">品牌未申请上线</td>
+                        
+
+
+                        
+                            <td class="gray">首页未申请展示</td>
+                        
+
+                        <td class="operate">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                        <div class="operate1">
+                            
+                            
+                        </div>
+                    </span>
+                    </tr>
+                
+                    <tr>
+                        <td>95</td>
+                        <td class="tl"><a class="ellipsis" herf="">鹅肥肝</a></td>
+                        <td class="s_picture"><img src="../../../../../static/upload/201604011314431612.jpg" height="100px;" width="100px;" /></td>
+                        <td>4给管高帮</td>
+                        <td>98</td>
+                        <td>润江南</td>
+                        
+                            <td class="blue">品牌申请上线</td>
+                        
+
+
+                        
+                            <td class="gray">首页未申请展示</td>
+                        
+
+                        <td class="operate">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                        <div class="operate1">
+                            
+                                <a href="/manage/wares/brand_allow/95/1">允许品牌申请</a>
+                                <a href="/manage/wares/brand_reject/95/1">驳回品牌申请</a>
+                            
+                            
+                        </div>
+                    </span>
+                    </tr>
+                
+                    <tr>
+                        <td>96</td>
+                        <td class="tl"><a class="ellipsis" herf="">的热狗</a></td>
+                        <td class="s_picture"><img src="../../../../../static/upload/201604011315333557.jpg" height="100px;" width="100px;" /></td>
+                        <td>果然不同人有不同</td>
+                        <td>98</td>
+                        <td>润江南</td>
+                        
+                            <td class="gray">品牌未申请上线</td>
+                        
+
+
+                        
+                            <td class="gray">首页未申请展示</td>
+                        
+
+                        <td class="operate">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                        <div class="operate1">
+                            
+                            
+                        </div>
+                    </span>
+                    </tr>
+                
+                    <tr>
+                        <td>79</td>
+                        <td class="tl"><a class="ellipsis" herf="">22333</a></td>
+                        <td class="s_picture"><img src="../../../../../static/upload/201603141108553932.jpg" height="100px;" width="100px;" /></td>
+                        <td></td>
+                        <td>2</td>
+                        <td>北京科技科技有限公司</td>
+                        
+                            <td class="blue">品牌申请上线</td>
+                        
+
+
+                        
+                            <td class="gray">首页未申请展示</td>
+                        
+
+                        <td class="operate">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                        <div class="operate1">
+                            
+                                <a href="/manage/wares/brand_allow/79/1">允许品牌申请</a>
+                                <a href="/manage/wares/brand_reject/79/1">驳回品牌申请</a>
+                            
+                            
+                        </div>
+                    </span>
+                    </tr>
+                
+                    <tr>
+                        <td>84</td>
+                        <td class="tl"><a class="ellipsis" herf="">测试</a></td>
+                        <td class="s_picture"><img src="../../../../../static/upload/201603231433319538.jpg" height="100px;" width="100px;" /></td>
+                        <td>撒旦撒旦</td>
+                        <td>234</td>
+                        <td>北京旅游公司</td>
+                        
+                            <td class="gray">品牌未申请上线</td>
+                        
+
+
+                        
+                            <td class="gray">首页未申请展示</td>
+                        
+
+                        <td class="operate">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                        <div class="operate1">
+                            
+                            
+                        </div>
+                    </span>
+                    </tr>
+                
+                    <tr>
+                        <td>82</td>
+                        <td class="tl"><a class="ellipsis" herf="">123</a></td>
+                        <td class="s_picture"><img src="../../../../../static/upload/201603141055327572.png" height="100px;" width="100px;" /></td>
+                        <td>                222222222222</td>
+                        <td>71</td>
+                        <td>1778</td>
+                        
+                            <td class="gray">品牌未申请上线</td>
+                        
+
+
+                        
+                            <td class="gray">首页未申请展示</td>
+                        
+
+                        <td class="operate">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                        <div class="operate1">
+                            
+                            
+                        </div>
+                    </span>
+                    </tr>
+                
+                    <tr>
+                        <td>81</td>
+                        <td class="tl"><a class="ellipsis" herf="">1</a></td>
+                        <td class="s_picture"><img src="../../../../../static/upload/201603111355086454.png" height="100px;" width="100px;" /></td>
+                        <td>222222222222222222222</td>
+                        <td>71</td>
+                        <td>1778</td>
+                        
+                            <td class="gray">品牌未申请上线</td>
+                        
+
+
+                        
+                            <td class="gray">首页未申请展示</td>
+                        
+
+                        <td class="operate">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                        <div class="operate1">
+                            
+                            
+                        </div>
+                    </span>
+                    </tr>
+                
+                    <tr>
+                        <td>80</td>
+                        <td class="tl"><a class="ellipsis" herf="">12312</a></td>
+                        <td class="s_picture"><img src="../../../../../static/upload/201604181624561630.png" height="100px;" width="100px;" /></td>
+                        <td>234567890-=而他也认为是他人一样</td>
+                        <td>71</td>
+                        <td>1778</td>
+                        
+                            <td class="gray">品牌未申请上线</td>
+                        
+
+
+                        
+                            <td class="gray">首页未申请展示</td>
+                        
+
+                        <td class="operate">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                        <div class="operate1">
+                            
+                            
+                        </div>
+                    </span>
+                    </tr>
+                
+                    <tr>
+                        <td>70</td>
+                        <td class="tl"><a class="ellipsis" herf="">我们用信誉做承诺</a></td>
+                        <td class="s_picture"><img src="../../../../../static/upload/201603011752223236.jpg" height="100px;" width="100px;" /></td>
+                        <td>                                信誉是我们的保障</td>
+                        <td>233</td>
+                        <td>北京文化旅游有限公司</td>
+                        
+                            <td class="green">品牌已上线</td>
+                        
+
+
+                        
+                            <td class="green">首页展示已上线</td>
+                        
+
+                        <td class="operate">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                        <div class="operate1">
+                            
+                            
+                        </div>
+                    </span>
+                    </tr>
+                
+                    <tr>
+                        <td>67</td>
+                        <td class="tl"><a class="ellipsis" herf="">来啊华子</a></td>
+                        <td class="s_picture"><img src="../../../../../static/upload/201602291732248769.jpg" height="100px;" width="100px;" /></td>
+                        <td></td>
+                        <td>227</td>
+                        <td>北京刘德华的公司</td>
+                        
+                            <td class="green">品牌已上线</td>
+                        
+
+
+                        
+                            <td class="green">首页展示已上线</td>
+                        
+
+                        <td class="operate">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                        <div class="operate1">
+                            
+                            
+                        </div>
+                    </span>
+                    </tr>
+                
+                    <tr>
+                        <td>68</td>
+                        <td class="tl"><a class="ellipsis" herf=""> 热温热温热污染</a></td>
+                        <td class="s_picture"><img src="../../../../../static/upload/201602291745051980.jpg" height="100px;" width="100px;" /></td>
+                        <td></td>
+                        <td>227</td>
+                        <td>北京刘德华的公司</td>
+                        
+                            <td class="green">品牌已上线</td>
+                        
+
+
+                        
+                            <td class="green">首页展示已上线</td>
+                        
+
+                        <td class="operate">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                        <div class="operate1">
+                            
+                            
+                        </div>
+                    </span>
+                    </tr>
+                
+                    <tr>
+                        <td>46</td>
+                        <td class="tl"><a class="ellipsis" herf=""> Ning</a></td>
+                        <td class="s_picture"><img src="../../../../../static/upload/32fa828ba61ea8d3e3eecc20900a304e241f58c1.jpg" height="100px;" width="100px;" /></td>
+                        <td></td>
+                        <td>219</td>
+                        <td>北京品行之旅国际旅游有限公司</td>
+                        
+                            <td class="gray">品牌未申请上线</td>
+                        
+
+
+                        
+                            <td class="gray">首页未申请展示</td>
+                        
+
+                        <td class="operate">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                        <div class="operate1">
+                            
+                            
+                        </div>
+                    </span>
+                    </tr>
+                
+                    <tr>
+                        <td>55</td>
+                        <td class="tl"><a class="ellipsis" herf="">444</a></td>
+                        <td class="s_picture"><img src="../../../../../static/upload/02bb66c1bbb1d496e71da8c81ac7ecb6_w320_h240_c1_t0.jpg" height="100px;" width="100px;" /></td>
+                        <td>4444</td>
+                        <td>2</td>
+                        <td>北京科技科技有限公司</td>
+                        
+                            <td class="green">品牌已上线</td>
+                        
+
+
+                        
+                            <td class="gray">首页未申请展示</td>
+                        
+
+                        <td class="operate">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                        <div class="operate1">
+                            
+                            
+                        </div>
+                    </span>
+                    </tr>
+                
+                    <tr>
+                        <td>45</td>
+                        <td class="tl"><a class="ellipsis" herf="">xiaojin</a></td>
+                        <td class="s_picture"><img src="../../../../../static/upload/2.jpg" height="100px;" width="100px;" /></td>
+                        <td>jinjinjinijin</td>
+                        <td>2</td>
+                        <td>北京科技科技有限公司</td>
+                        
+                            <td class="gray">品牌未申请上线</td>
+                        
+
+
+                        
+                            <td class="gray">首页未申请展示</td>
+                        
+
+                        <td class="operate">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                        <div class="operate1">
+                            
+                            
+                        </div>
+                    </span>
+                    </tr>
+                
+                    <tr>
+                        <td>31</td>
+                        <td class="tl"><a class="ellipsis" herf="">222</a></td>
+                        <td class="s_picture"><img src="../../../../../static/upload/2.jpg" height="100px;" width="100px;" /></td>
+                        <td>22</td>
+                        <td>2</td>
+                        <td>北京科技科技有限公司</td>
+                        
+                            <td class="green">品牌已上线</td>
+                        
+
+
+                        
+                            <td class="gray">首页未申请展示</td>
+                        
+
+                        <td class="operate">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                        <div class="operate1">
+                            
+                            
+                        </div>
+                    </span>
+                    </tr>
+                
+                    <tr>
+                        <td>37</td>
+                        <td class="tl"><a class="ellipsis" herf="">北京名仕优翔国际股份有限公司</a></td>
+                        <td class="s_picture"><img src="../../../../../static/upload/42a98226cffc1e1783434e154b90f603738de912.jpg" height="100px;" width="100px;" /></td>
+                        <td>优翔国际，开创并专注于健康医疗旅游这一细分旅游行业，从旅行中收获健康”。</td>
+                        <td>219</td>
+                        <td>None</td>
+                        
+                            <td class="green">品牌已上线</td>
+                        
+
+
+                        
+                            <td class="green">首页展示已上线</td>
+                        
+
+                        <td class="operate">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                        <div class="operate1">
+                            
+                            
+                        </div>
+                    </span>
+                    </tr>
+                
+                    <tr>
+                        <td>36</td>
+                        <td class="tl"><a class="ellipsis" herf="">77</a></td>
+                        <td class="s_picture"><img src="../../../../../static/upload/jpg" height="100px;" width="100px;" /></td>
+                        <td>77</td>
+                        <td>2</td>
+                        <td>北京科技科技有限公司</td>
+                        
+                            <td class="gray">品牌未申请上线</td>
+                        
+
+
+                        
+                            <td class="gray">首页未申请展示</td>
+                        
+
+                        <td class="operate">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                        <div class="operate1">
+                            
+                            
+                        </div>
+                    </span>
+                    </tr>
+                
+                    <tr>
+                        <td>41</td>
+                        <td class="tl"><a class="ellipsis" herf="">中性品牌测试</a></td>
+                        <td class="s_picture"><img src="../../../../../static/upload/201602291749021717.jpg" height="100px;" width="100px;" /></td>
+                        <td>                中性品牌测试</td>
+                        <td>206</td>
+                        <td>北京李四的公司</td>
+                        
+                            <td class="green">品牌已上线</td>
+                        
+
+
+                        
+                            <td class="green">首页展示已上线</td>
+                        
+
+                        <td class="operate">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                        <div class="operate1">
+                            
+                            
+                        </div>
+                    </span>
+                    </tr>
+                
+                    <tr>
+                        <td>12</td>
+                        <td class="tl"><a class="ellipsis" herf="">123</a></td>
+                        <td class="s_picture"><img src="../../../../../static/upload/1.png" height="100px;" width="100px;" /></td>
+                        <td>123</td>
+                        <td>71</td>
+                        <td>1778</td>
+                        
+                            <td class="green">品牌已上线</td>
+                        
+
+
+                        
+                            <td class="red">强制下线首页展示</td>
+                        
+
+                        <td class="operate">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                        <div class="operate1">
+                            
+                            
+                        </div>
+                    </span>
+                    </tr>
+                
+                    <tr>
+                        <td>34</td>
+                        <td class="tl"><a class="ellipsis" herf="">66</a></td>
+                        <td class="s_picture"><img src="../../../../../static/upload/7a239233_w450_h300_c1_t0_w500_h280_c1_t0.jpg" height="100px;" width="100px;" /></td>
+                        <td>66</td>
+                        <td>2</td>
+                        <td>北京科技科技有限公司</td>
+                        
+                            <td class="gray">品牌未申请上线</td>
+                        
+
+
+                        
+                            <td class="gray">首页未申请展示</td>
+                        
+
+                        <td class="operate">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                        <div class="operate1">
+                            
+                            
+                        </div>
+                    </span>
+                    </tr>
+                
+                    <tr>
+                        <td>11</td>
+                        <td class="tl"><a class="ellipsis" herf="">hahhahahhahahhhha...</a></td>
+                        <td class="s_picture"><img src="../../../../../static/upload/0f2707da3fe343f58756877701d6675e_w500_h280_c1_t0.jpg" height="100px;" width="100px;" /></td>
+                        <td>bbbbbbbbbb</td>
+                        <td>2</td>
+                        <td>None</td>
+                        
+                            <td class="green">品牌已上线</td>
+                        
+
+
+                        
+                            <td class="gray">首页未申请展示</td>
+                        
+
+                        <td class="operate">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                        <div class="operate1">
+                            
+                            
+                        </div>
+                    </span>
+                    </tr>
+                
+                    <tr>
+                        <td>33</td>
+                        <td class="tl"><a class="ellipsis" herf="">44</a></td>
+                        <td class="s_picture"><img src="../../../../../static/upload/2b6c414ecb26300937408d083811ddbe_w320_h240_c1_t0.jpg" height="100px;" width="100px;" /></td>
+                        <td>44</td>
+                        <td>2</td>
+                        <td>北京科技科技有限公司</td>
+                        
+                            <td class="gray">品牌未申请上线</td>
+                        
+
+
+                        
+                            <td class="gray">首页未申请展示</td>
+                        
+
+                        <td class="operate">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                        <div class="operate1">
+                            
+                            
+                        </div>
+                    </span>
+                    </tr>
+                
+                    <tr>
+                        <td>35</td>
+                        <td class="tl"><a class="ellipsis" herf="">北京品行之旅国际旅游有限公司</a></td>
+                        <td class="s_picture"><img src="../../../../../static/upload/dcc451da81cb39dbd87d358cd5160924aa1830ae.jpg" height="100px;" width="100px;" /></td>
+                        <td>LUXTRIP 品行之旅 ，环球旅行顾问、中国高端旅游先导品牌。</td>
+                        <td>219</td>
+                        <td>None</td>
+                        
+                            <td class="green">品牌已上线</td>
+                        
+
+
+                        
+                            <td class="green">首页展示已上线</td>
+                        
+
+                        <td class="operate">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                        <div class="operate1">
+                            
+                            
+                        </div>
+                    </span>
+                    </tr>
+                
+                    <tr>
+                        <td>9</td>
+                        <td class="tl"><a class="ellipsis" herf="">测试1778</a></td>
+                        <td class="s_picture"><img src="../../../../../static/upload/23232_.jpg" height="100px;" width="100px;" /></td>
+                        <td>二二二二二二二二二三三三三三</td>
+                        <td>71</td>
+                        <td>1778</td>
+                        
+                            <td class="green">品牌已上线</td>
+                        
+
+
+                        
+                            <td class="red">强制下线首页展示</td>
+                        
+
+                        <td class="operate">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                        <div class="operate1">
+                            
+                            
+                        </div>
+                    </span>
+                    </tr>
+                
+                    <tr>
+                        <td>10</td>
+                        <td class="tl"><a class="ellipsis" herf="">测试1778品牌驳回图片11天</a></td>
+                        <td class="s_picture"><img src="../../../../../static/upload/6.png" height="100px;" width="100px;" /></td>
+                        <td>一一一一一一一一一一三三三三三四四六六</td>
+                        <td>71</td>
+                        <td>None</td>
+                        
+                            <td class="green">品牌已上线</td>
+                        
+
+
+                        
+                            <td class="orange">驳回首页展示申请</td>
+                        
+
+                        <td class="operate">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                        <div class="operate1">
+                            
+                            
+                        </div>
+                    </span>
+                    </tr>
+                
+                    <tr>
+                        <td>7</td>
+                        <td class="tl"><a class="ellipsis" herf="">hehe</a></td>
+                        <td class="s_picture"><img src="../../../../../static/upload/2bf8e4fd5548e63c294648a9777b01e3_w240_h135_c1_t0.jpg" height="100px;" width="100px;" /></td>
+                        <td></td>
+                        <td>2</td>
+                        <td>None</td>
+                        
+                            <td class="green">品牌已上线</td>
+                        
+
+
+                        
+                            <td class="orange">驳回首页展示申请</td>
+                        
+
+                        <td class="operate">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                        <div class="operate1">
+                            
+                            
+                        </div>
+                    </span>
+                    </tr>
+                
+                    <tr>
+                        <td>8</td>
+                        <td class="tl"><a class="ellipsis" herf="">测试1778</a></td>
+                        <td class="s_picture"><img src="../../../../../static/upload/6.png" height="100px;" width="100px;" /></td>
+                        <td>六六六六六八八八八八</td>
+                        <td>71</td>
+                        <td>None</td>
+                        
+                            <td class="green">品牌已上线</td>
+                        
+
+
+                        
+                            <td class="red">强制下线首页展示</td>
+                        
+
+                        <td class="operate">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                        <div class="operate1">
+                            
+                            
+                        </div>
+                    </span>
+                    </tr>
+                
+                    <tr>
+                        <td>4</td>
+                        <td class="tl"><a class="ellipsis" herf="">哈哈</a></td>
+                        <td class="s_picture"><img src="../../../../../static/upload/0fcc92bd562c99a9668cd6d70ce2eaa0_w450_h300_c1_t0_w500_h280_c1_t0.jpg" height="100px;" width="100px;" /></td>
+                        <td>12345555555555</td>
+                        <td>2</td>
+                        <td>None</td>
+                        
+                            <td class="green">品牌已上线</td>
+                        
+
+
+                        
+                            <td class="green">首页展示已上线</td>
+                        
+
+                        <td class="operate">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                        <div class="operate1">
+                            
+                            
+                        </div>
+                    </span>
+                    </tr>
+                
+                    <tr>
+                        <td>3</td>
+                        <td class="tl"><a class="ellipsis" herf="">2016-02-28心的旅游</a></td>
+                        <td class="s_picture"><img src="../../../../../static/upload/1.jpg" height="100px;" width="100px;" /></td>
+                        <td>2016-02-28是说的撒打大叔点点滴滴</td>
+                        <td>2</td>
+                        <td>None</td>
+                        
+                            <td class="green">品牌已上线</td>
+                        
+
+
+                        
+                            <td class="green">首页展示已上线</td>
+                        
+
+                        <td class="operate">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                        <div class="operate1">
+                            
+                            
+                        </div>
+                    </span>
+                    </tr>
+                
+            
+            </tbody>
+        </table>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+    
+<script src="../../../../../static/js/jquery.js"></script>
+<script src="../../../../../static/js/bootstrap.min.js"></script>
+
+   <script type="text/javascript">
+      $(document).ready(function(){
+          var img_pop = $( ".img_pop" );
+          $( ".s_picture" ).click( function(){
+              var src = $(this).find("img").attr( "src" );
+              img_pop.find("img").attr( "src", src );
+              img_pop.fadeIn( 200 );
+          } );
+          $(".img_pop").click(function(){
+              $('.img_pop').fadeOut();
+          });
+      })
+  </script>
+
+<script>
+        $(function(){   
+            var tab_width=$(".table").width();
+            $(".nav").width(tab_width + 20);
+            $(".nav-tabs").width(tab_width);
+        })
+    </script>
+
+  </body>
+</html>

@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <!-- <link href="/static/css/bootstrap-theme.min.css" rel="stylesheet" media="screen"> -->
+    <link rel="stylesheet" type="text/css" href="/static/css/base.css"/>
+    <link rel="shortcut icon" type="image/x-icon" href="/static/img/logo2.png" />
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  </head>
+  <body id="B2B" >
+    
+
+  <div class="container-fluid">
+    
+        
+    
+
+
+
+   <form id="form1" action="" method="POST" role="form" class="form-horizontal">
+       <h4>产品&nbsp;[<span style="color: mediumvioletred">&nbsp;张三的展品测试之旅</span>&nbsp;]&nbsp;结算策略设置:</h4>
+          <div class="row">
+              
+                  <div class="col-sm-2 "  style="border: solid;" >
+                       <input type="radio"  name="clearing"   checked  value="1000000006"   /> &nbsp; <span>回团后25天 </span>
+                  </div>
+              
+                  <div class="col-sm-2 "  style="border: solid;margin-left: 30px;" >
+                       <input type="radio"  name="clearing"   value="1000000007"   /> &nbsp; <span>回团后25天全部结算 </span>
+                  </div>
+              
+                  <div class="col-sm-2 "  style="border: solid;margin-left: 30px;" >
+                       <input type="radio"  name="clearing"   value="1000000011"   /> &nbsp; <span>111 </span>
+                  </div>
+              
+                  <div class="col-sm-2 "  style="border: solid;margin-left: 30px;" >
+                       <input type="radio"  name="clearing"   value="1000000012"   /> &nbsp; <span>1111 </span>
+                  </div>
+              
+                  <div class="col-sm-2 "  style="border: solid;margin-left: 30px;" >
+                       <input type="radio"  name="clearing"   value="1000000013"   /> &nbsp; <span>回团1天 </span>
+                  </div>
+              
+                  <div class="col-sm-2 "  style="border: solid;margin-left: 30px;" >
+                       <input type="radio"  name="clearing"   value="1000000014"   /> &nbsp; <span>测试结算策略0天 </span>
+                  </div>
+              
+                  <div class="col-sm-2 "  style="border: solid;margin-left: 30px;" >
+                       <input type="radio"  name="clearing"   value="1000000015"   /> &nbsp; <span>策略负数 </span>
+                  </div>
+              
+                  <div class="col-sm-2 "  style="border: solid;margin-left: 30px;" >
+                       <input type="radio"  name="clearing"   value="1000000016"   /> &nbsp; <span>测试用 </span>
+                  </div>
+              
+                  <div class="col-sm-2 "  style="border: solid;margin-left: 30px;" >
+                       <input type="radio"  name="clearing"   value="1000000017"   /> &nbsp; <span>额外企鹅 </span>
+                  </div>
+              
+                  <div class="col-sm-2 "  style="border: solid;margin-left: 30px;" >
+                       <input type="radio"  name="clearing"   value="1000000018"   /> &nbsp; <span>发的 </span>
+                  </div>
+              
+                  <div class="col-sm-2 "  style="border: solid;margin-left: 30px;" >
+                       <input type="radio"  name="clearing"   value="1000000019"   /> &nbsp; <span>22 </span>
+                  </div>
+              
+                  <div class="col-sm-2 "  style="border: solid;margin-left: 30px;" >
+                       <input type="radio"  name="clearing"   value="1000000020"   /> &nbsp; <span>测试结算策略首次结算100% </span>
+                  </div>
+              
+                  <div class="col-sm-2 "  style="border: solid;margin-left: 30px;" >
+                       <input type="radio"  name="clearing"   value="1000000021"   /> &nbsp; <span>测试结算策略首次非100%，11% </span>
+                  </div>
+              
+                  <div class="col-sm-2 "  style="border: solid;margin-left: 30px;" >
+                       <input type="radio"  name="clearing"   value="1000000022"   /> &nbsp; <span>测试结算策略，抽取佣金，首次结算结束 </span>
+                  </div>
+              
+                  <div class="col-sm-2 "  style="border: solid;margin-left: 30px;" >
+                       <input type="radio"  name="clearing"   value="1000000023"   /> &nbsp; <span>测试结算策略，抽取佣金，首次结算二次结算 </span>
+                  </div>
+              
+                  <div class="col-sm-2 "  style="border: solid;margin-left: 30px;" >
+                       <input type="radio"  name="clearing"   value="1000000024"   /> &nbsp; <span>测试假日结算策略 </span>
+                  </div>
+              
+                  <div class="col-sm-2 "  style="border: solid;margin-left: 30px;" >
+                       <input type="radio"  name="clearing"   value="1000000025"   /> &nbsp; <span>测试假日结算策略二次结算 </span>
+                  </div>
+              
+                  <div class="col-sm-2 "  style="border: solid;margin-left: 30px;" >
+                       <input type="radio"  name="clearing"   value="1000000026"   /> &nbsp; <span>测试假日结算策略无佣金 </span>
+                  </div>
+              
+          </div>
+          <div class="row">
+
+                <button class="btn btn-danger" type="submit" >保存设置</button>
+                <a class="btn btn-info" href="/manage/wares/alist/1/100">返回</a>
+          </div>
+
+   </form>
+   <div id="view">
+        <p></p>
+   </div>
+
+    <div id="viewmess" style="margin-top: 100px">
+        <table class="table ">
+            <thead><tr>
+            <th>策略ID</th>
+            <th>策略名称</th>
+            <th>佣金比例(订单总金额的百分比)</th>
+            <th>首次结算参照点</th>
+            <th>首次结算比例(订单总金额的百分比)</th>
+            <th>首次结算时间(距参照点天)</th>
+            <th>二次结算参照点</th>
+            <th>二次结算比例(订单总金额的百分比)</th>
+            <th>二次结算时间(距参照点天)</th>
+            </tr></thead>
+            <tbady>
+            </tbady>
+        </table>
+    </div>
+    
+
+
+    </div>
+
+    
+<script src="/static/js/jquery.js"></script>
+<script src="/static/js/bootstrap.min.js"></script>
+
+    <script>
+        function viewTitle(){
+            alert(this.title);
+            var title = this.title;
+            $("#view").p.val(title);
+        }
+        $(document).ready(function(){
+            var $div = $('#viewmess');
+            var $tr = $('<tr></tr>');
+            var $tbody = $('<tbody></tbody');
+
+            $div.hide();
+            $('.col-sm-2').mouseover(function() {
+                $(this).css('color','red');
+                $(this).siblings().css('color','block');
+                $.get('/manage/getcommistion/' + $(this).find('input').val(), function (data, s) {
+                    //alert(data.length);
+                    $tr.html('');
+                    //alert(data.commission_name);
+                    for (var i = 0; i < data.data.length; i++) {
+                        var $td = $('<td></td>');
+                        $td.text(data.data[i]);
+                        $tr.append($td);
+
+                    }
+
+                    //$tbody.append($tr);
+                    $tr.appendTo($tbody);
+                    $tbody.appendTo($('table'));
+                    //alert($('table').html());
+                    $div.show();
+                }, 'json')
+            })
+
+
+
+        });
+
+    </script>
+
+
+
+
+  </body>
+</html>

@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>B2B后台管理</title>
+    <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../static/css/sidebar.css">
+    <!--[if lt IE 9]>
+      <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="siderbar">
+	   <div class="head">
+          <div class="head-ring">
+          	 <img src="../static/images/head.png" class="head-logo" />
+          </div>     
+          <span>我的B2B</span>
+        </div>   
+	    <div class="panel-group" id="accordion">
+	      <div class="panel">
+	          <div class="panel-heading">
+	            <h4 class="panel-title">
+	              <a href="#collapse1" data-toggle="collapse" data-parent="#accordion">
+	              <i class="glyphicon order_center"></i>
+	                订单中心
+	              <span class="glyphicon glyphicon-menu-right"></span>                    
+	              </a>
+	            </h4>                   
+	          </div>
+	          <div id="collapse1" class="panel-collapse collapse">
+	            <div class="panel-body">
+	                 <a href="../order/manage/orderlist/seller0date=today"
+                       target="content">我的订单<span></span></a>
+	            </div>
+	            <div class="panel-body">
+	              <a href="../order/manage/cancel/seller" target="content">订单取消记录<span></span></a>
+	            </div>
+	             <div class="panel-body">
+	               <a href="../order/refund/seller/log0status=5"
+                       target="content">退款订单<span></span></a>
+	            </div>  
+	            <div class="panel-body">
+	             <a href="../order/manage/ordersettle" target="content">订单结算<span></span></a>
+	            </div>                    
+	          </div>
+	      </div>
+	      <div class="panel">
+	          <div class="panel-heading">
+	            <h4 class="panel-title">
+	              <a href="#collapse2" data-toggle="collapse" data-parent="#accordion">
+	              <i class="glyphicon product_center"></i>
+	                产品中心
+	              <span class="glyphicon glyphicon-menu-right"></span>                    
+	              </a>
+	            </h4>                   
+	          </div>
+	          <div id="collapse2" class="panel-collapse collapse">
+	            <div class="panel-body">
+	               <a href="../manage/wares/list/1/100" target="content">产品列表<span></span></a>
+	            </div>
+	            <div class="panel-body">
+	               <a href="../manage/wares/sharelist/1" target="content">关联库存列表<span></span></a>
+	            </div>                   
+	          </div>
+	      </div>
+	      <div class="panel">
+	          <div class="panel-heading">
+	            <h4 class="panel-title">
+	              <a href="#collapse3" data-toggle="collapse" data-parent="#accordion">
+	              <i class="glyphicon platform_coupon"></i>
+	                平台优惠
+	              <span class="glyphicon glyphicon-menu-right"></span>                    
+	              </a>
+	            </h4>                   
+	          </div>
+	          <div id="collapse3" class="panel-collapse collapse">
+	            <div class="panel-body">
+	               <a href="../voucher/issue" target="content">发放优惠券<span></span></a>
+	            </div>                   
+	          </div>
+	      </div>
+	      <div class="panel">
+	          <div class="panel-heading">
+	            <h4 class="panel-title">
+	              <a href="#collapse4" data-toggle="collapse" data-parent="#accordion">
+	              <i class="glyphicon settlement_related"></i>
+	                结算相关 
+	              <span class="glyphicon glyphicon-menu-right"></span>                   
+	              </a>
+	            </h4>                   
+	          </div>
+	          <div id="collapse4" class="panel-collapse collapse">
+	               		                    
+	          </div>
+	      </div>
+	      <div class="panel">
+	          <div class="panel-heading">
+	            <h4 class="panel-title">
+	              <a href="#collapse5" data-toggle="collapse" data-parent="#accordion">
+	              <i class="glyphicon neutral_brand"></i>
+	                中性品牌
+	              <span class="glyphicon glyphicon-menu-right"></span>                    
+	              </a>
+	            </h4>                   
+	          </div>
+	          <div id="collapse5" class="panel-collapse collapse">
+	            <div class="panel-body">
+	             <a href="../manage/wares/neutral/list/1/100"
+                  target="content">中性品牌列表<span></span></a>
+	            </div>        	                         
+	          </div>
+	      </div>
+	      <div class="panel">
+	          <div class="panel-heading">
+	            <h4 class="panel-title">
+	              <a href="#collapse6" data-toggle="collapse" data-parent="#accordion">
+	              <i class="glyphicon numerical_statement"></i>
+	                统计报表
+	              <span class="glyphicon glyphicon-menu-right"></span>                    
+	              </a>
+	            </h4>                   
+	          </div>
+	          <div id="collapse6" class="panel-collapse collapse">
+	            <div class="panel-body">
+	                <a href="../report/partner_data_search" target="content">业务统计<span></span></a>
+	            </div>
+	            <div class="panel-body">
+	             <a href="../report/partner_finance_search" target="content">财务统计<span></span></a>
+	            </div> 	                         
+	          </div>
+	      </div>
+	    </div>        
+    	<div class="toggle-stop">
+    		<span class="glyphicon glyphicon-align-justify stop"></span>
+    	</div>        
+    </div>
+    <div class="togglebar none">
+    	<div class="toggle-open">   
+	      <span class="glyphicon glyphicon-menu-hamburger open"></span>
+	    </div>
+    </div>
+    <div class="header">
+	  	<div class="qqbox-layer none">
+	  	 	<div class="qqbox">
+	  	 		<i></i>
+	            <b>在<br>线<br>咨<br>询</b>
+	            <ul class="select_qq">
+	                <li id="qq1"><a>华东</a></li>
+	                <li id="qq2"><a>华中</a></li>
+	                <li id="qq3"><a>华北</a></li>
+	                <li id="qq4"><a>东北</a></li>
+	                <li id="qq5"><a>西北</a></li>
+	                <li id="qq6"><a>华南</a></li>
+	            </ul>
+	  	 	</div>
+	  	</div>
+	    <div class="topbar row">
+	      <div class="col-md-4 site-logo">
+	      	<a href="#" class="logo"></a>
+	      </div>
+          <div class="col-md-8 user-info">
+            <ul>
+              <li><span>hhh</span>,  欢迎您！</li>
+              <li>|</li>
+              <li><a href="javascript:;">进入商城</a></li>
+              <li>|</li>
+              <li><a href="javascript:;" id="on_line">在线咨询</a></li>
+              <li>|</li>
+              <li><a href="javascript:;">退出</a></li>
+              <li class="service-line">
+                <p>服务热线：010-53526677</p>
+                <p>客户经理：18515958807</p>
+              </li>
+            </ul>  
+          </div>  
+	    </div>            
+	    <div class="tabbar-wrap">
+	      <div class="tabbar row">
+	          <a href="#" class="col-xs-12 col-sm-4 col-md-4 user_center">
+	            用户中心
+	            <span></span>
+	          </a>
+	          <a href="#" class="col-xs-12 col-sm-4 col-md-4 b2b">B2B平台</a>
+	          <a href="#" class="col-xs-12 col-sm-4 col-md-4 pay_center">
+	            <span></span>
+	            支付中心
+	          </a>
+	      </div>
+	    </div>        
+    </div>                   
+    <div class="main">                    
+       <iframe src="gongying.html" name="content" frameborder="0" width="100%" height="100%" scrolling="yes">
+       </iframe>    
+    </div>
+    <div class="footer">
+	     <ul>
+           <li><a href="#">京ICP备15004030号-1</a></li>
+           <li>京公网安备11010502027137</li>
+           <li>客户服务专线 010-53526677</li>
+	     </ul>
+	     <p>Copyright © 2014 opcta.com</p>
+    </div>  
+    <div id="myModal" class="modal">
+    	<div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		        <h4 class="modal-title" id="myModalLabel"></h4>
+		      </div>
+		      <div class="modal-body"></div>
+		    </div>
+		 </div>
+    </div>
+    <script src="../static/js/jquery.js"></script>
+    <script src="../static/js/bootstrap.min.js"></script>
+    <script src="../static/js/sidebar.js"></script>
+    <script src="../static/js/qq.js"></script>
+    <script>
+    function modal(){
+        $('#myModal').modal('show').find('.modal-content').animate({'top':100},500)
+        $('.close').click(function(){
+          $('#myModal').hide().find('.modal-content').css('top',-1000);       
+        })
+    }
+    </script>
+  </body>
+</html>

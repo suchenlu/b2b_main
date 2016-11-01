@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link href="../static/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <!-- <link href="../static/css/bootstrap-theme.min.css" rel="stylesheet" media="screen"> -->
+    <link rel="stylesheet" type="text/css" href="../static/css/base.css"/>
+    <link rel="shortcut icon" type="image/x-icon" href="../static/img/logo2.png" />
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style>
+        .row.coupon .panel{
+            min-height: 280px;
+            background: url(../static/images/coupon.png)no-repeat top;
+            background-size: 100% 100%;
+            border-radius: 20px
+        }
+        .row.coupon .panel .panel-title{
+            padding: 0px;
+            text-align: center;
+        }
+        .row.coupon .panel .panel-title h4{
+            margin-top: 20px;
+            color:#fff;
+            font-size: 36px;
+            letter-spacing: 2px
+        }
+        .row.coupon .panel .panel-title h4 em{
+            font-style: normal;
+            font-size: 55px
+        }
+        .row.coupon .panel .panel-body{
+            margin-top: 30px
+        }
+        .row.coupon .panel .panel-body .dl-horizontal{
+            font-size: 16px;
+            font-family: 'Simsong';
+            color: #333
+        }
+        dt, dd{
+            font-weight: normal
+        }
+        .row.coupon .panel .panel-body .dl-horizontal dt{
+            width: 40%
+        }
+        .row.coupon .panel .panel-body .dl-horizontal dd{
+            margin-left: 50%
+        }
+        .row.coupon .panel .panel-body .dl-horizontal dd.quota{
+            color: #ff6565
+        }
+       @media (max-width: 768px){
+        .row.coupon .panel .panel-body{
+            margin-top: 130px
+        }
+        .row.coupon .panel .panel-body .dl-horizontal dd{
+            margin-left: 0
+        }
+       }
+    </style>
+  </head>
+  <body id="B2B" >
+    <div class="container-fluid">
+        <div class="row-fluid">
+            <ul class="nav" role="tablist">
+                <li class="active"><a href="" >全部优惠券</a></li>
+            </ul>
+        </div>
+        <div class="row coupon">
+            <div class="col-sm-12 col-sm-6 col-md-6">
+                <div class="panel">
+                    <div class="panel-title">
+                        <h4>&yen;&nbsp;<em>50</em>元&nbsp;优惠券</h4>
+                    </div>
+                    <div class="panel-body">
+                        <dl class="dl-horizontal">
+                            <dt>批次编号</dt>
+                            <dd>1000000012</dd>
+                            <dt>生效时间</dt>
+                            <dd>2015-12-01 00:00:00</dd>
+                            <dt>过期时间</dt>
+                            <dd>2015-12-31 23:59:59</dd>
+                            <dt>优惠券面额</dt>
+                            <dd>50</dd>
+                            <dt>使用限额</dt>
+                            <dd class="quota">每单满1000可用</dd>
+                            <dt>可发放数量</dt>
+                            <dd>0</dd>
+                            <dt>已发放数量</dt>
+                            <dd>
+                                <a href="../voucher/coupon_issue_list0create_id=1000000012">0</a>
+                            </dd>
+                            <dt>已过期数量</dt>
+                            <dd>1000</dd>
+                        </dl> 
+                    </div>           
+                </div>             
+            </div>
+             <div class="col-sm-12 col-sm-6 col-md-6">
+                <div class="panel">
+                    <div class="panel-title">
+                        <h4>&yen;&nbsp;<em>50</em>元&nbsp;优惠券</h4>
+                    </div>
+                    <div class="panel-body">
+                        <dl class="dl-horizontal">
+                            <dt>批次编号</dt>
+                            <dd>1000000012</dd>
+                            <dt>生效时间</dt>
+                            <dd>2015-12-01 00:00:00</dd>
+                            <dt>过期时间</dt>
+                            <dd>2015-12-31 23:59:59</dd>
+                            <dt>优惠券面额</dt>
+                            <dd>50</dd>
+                            <dt>使用限额</dt>
+                            <dd class="quota">每单满1000可用</dd>
+                            <dt>可发放数量</dt>
+                            <dd>0</dd>
+                            <dt>已发放数量</dt>
+                            <dd>
+                                <a href="../voucher/coupon_issue_list0create_id=1000000012">0</a>
+                            </dd>
+                            <dt>已过期数量</dt>
+                            <dd>1000</dd>
+                        </dl> 
+                    </div>           
+                </div>      
+            </div>
+        </div>
+        <div class="row">
+             <div class="p-l-15">
+                <ul class="pagination">
+                    <li  class="disabled" >
+                        <a href="#">&laquo;</a>
+                    </li>                                                        
+                    <li class="active">
+                        <a href="../voucher/couponlist0page=1">1</a>
+                    </li>            
+                    <li class="disabled">
+                        <a href="#">&raquo;</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+       
+    </div>
+    <script src="../static/js/jquery.js"></script>
+    <script src="../static/js/bootstrap.min.js"></script>
+  </body>
+</html>

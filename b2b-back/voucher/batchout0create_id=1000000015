@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link href="../static/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <!-- <link href="../static/css/bootstrap-theme.min.css" rel="stylesheet" media="screen"> -->
+    <link rel="stylesheet" type="text/css" href="../static/css/base.css"/>
+    <link rel="shortcut icon" type="image/x-icon" href="../static/img/logo2.png" />
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <link href="../static/css/order/jquery-ui.min.css" media="screen" rel="stylesheet" >
+
+
+  </head>
+  <body id="B2B" >
+    
+
+  <div class="container-fluid">
+<div class="row-fluid">
+    <ul class="nav" role="tablist">
+        <li class="active"><a href="">发放优惠券</a></li>
+    </ul>
+</div>
+
+<div class="row">
+    <table class="table_news col-sm-12 col-md-10 col-lg-7">
+        <tbody>
+            <tr>
+                <td class="col-sm-12 col-md-12 col-lg-12" colspan="2">批次编号：</td>
+            </tr>
+            <tr>
+                <td class="col-sm-6 col-md-6 col-lg-6">生效时间：<span>2016-01-01 00:00:00</span></td>
+                <td class="col-sm-6 col-md-6 col-lg-6">过期时间：<span>2016-01-31 23:59:59</span></td>
+            </tr>
+            <tr>
+                 <td class="col-sm-6 col-md-6 col-lg-6">优惠券面额：<span>50</span></td>
+                <td class="col-sm-6 col-md-6 col-lg-6">优惠券使用限额：<span>1000</span></td>
+            </tr>
+        </tbody>
+    </table>
+
+</div>    
+<form action="" method="post"
+  class="form" role="form">
+  <div style="display:none;"><input id="csrf_token" name="csrf_token" type="hidden" value="1464862200##2f818b0389d2f33265c5e5c6b46856aac11f03ff"><input id="organize_id" name="organize_id" type="hidden" value=""></div>
+  
+    <div class="form-group col-sm-12 col-md-10 col-lg-7 required" id="kind_type">
+        <div class="col-sm-12 col-md-12 col-lg-12 show_news">
+            <label class="col-sm-6 col-md-3 col-lg-3" for="kind_type">请选择要发放的分公司</label>
+            <select name="kind_type" class="form-control col-sm-4 col-md-4 col-lg-4" id="kind_type" required>
+                <option value="0">请选择分公司</option>
+                
+                <option value="1">发放给 北京原石天达科技有限公司  (全平台)  管辖的全部分销商</option>
+                
+                <option value="2">发放给 wddds  管辖的全部分销商</option>
+                
+                <option value="6">发放给 石家庄分公司  管辖的全部分销商</option>
+                
+                <option value="8">发放给 武汉分公司  管辖的全部分销商</option>
+                
+                <option value="9">发放给 南昌分公司  管辖的全部分销商</option>
+                
+                <option value="10">发放给 重庆分公司  管辖的全部分销商</option>
+                
+                <option value="11">发放给 山西分公司  管辖的全部分销商</option>
+                
+                <option value="12">发放给 合肥分公司  管辖的全部分销商</option>
+                
+                <option value="13">发放给 内蒙古分公司  管辖的全部分销商</option>
+                
+                <option value="14">发放给 分公司  管辖的全部分销商</option>
+                
+                <option value="15">发放给 郑州分公司  管辖的全部分销商</option>
+                
+                <option value="16">发放给 贵阳分公司  管辖的全部分销商</option>
+                
+                <option value="17">发放给 天津分公司  管辖的全部分销商</option>
+                
+                <option value="19">发放给 长沙分公司  管辖的全部分销商</option>
+                
+                <option value="20">发放给 唐山分公司  管辖的全部分销商</option>
+                
+                <option value="21">发放给 北京分公司测试  管辖的全部分销商</option>
+                
+                <option value="23">发放给 天津测试管理员  管辖的全部分销商</option>
+                
+                <option value="30">发放给 石家庄分公司管理员  管辖的全部分销商</option>
+                
+                <option value="39">发放给 北京分公司管理员  管辖的全部分销商</option>
+                
+                <option value="72">发放给 张文博  管辖的全部分销商</option>
+                
+                <option value="74">发放给 天津分公司1  管辖的全部分销商</option>
+                
+                <option value="96">发放给 傻二  管辖的全部分销商</option>
+                
+                <option value="97">发放给 天津分公司12  管辖的全部分销商</option>
+                
+                <option value="98">发放给 太原分公司222  管辖的全部分销商</option>
+                
+                <option value="109">发放给 太原分公司  管辖的全部分销商</option>
+                
+                <option value="110">发放给 太原分公司  管辖的全部分销商</option>
+                
+                <option value="111">发放给 太原分公司  管辖的全部分销商</option>
+                
+                <option value="112">发放给 山西分公司  管辖的全部分销商</option>
+                
+                <option value="113">发放给 高碑店  管辖的全部分销商</option>
+                
+                <option value="116">发放给 统御全球  管辖的全部分销商</option>
+                
+                <option value="120">发放给 北京分公司  管辖的全部分销商</option>
+                
+                <option value="121">发放给 北京8  管辖的全部分销商</option>
+                
+                <option value="123">发放给 北京分公司008  管辖的全部分销商</option>
+                
+                <option value="124">发放给 北京分公司009  管辖的全部分销商</option>
+                
+                <option value="128">发放给 柠檬加醋  管辖的全部分销商</option>
+                
+                <option value="129">发放给 柠檬加醋  管辖的全部分销商</option>
+                
+                <option value="130">发放给 柠檬加醋  管辖的全部分销商</option>
+                
+                <option value="131">发放给 柠檬加醋  管辖的全部分销商</option>
+                
+                <option value="139">发放给 杭州分公司  管辖的全部分销商</option>
+                
+                <option value="158">发放给 黑龙江  管辖的全部分销商</option>
+                
+                <option value="166">发放给 北京管理员  管辖的全部分销商</option>
+                
+                <option value="172">发放给 上海管理员  管辖的全部分销商</option>
+                
+                <option value="193">发放给 甘肃管理员  管辖的全部分销商</option>
+                
+                <option value="276">发放给 山东管理员  管辖的全部分销商</option>
+                
+                <option value="283">发放给 河北管理员2号  管辖的全部分销商</option>
+                
+                <option value="292">发放给 港澳台管理员  管辖的全部分销商</option>
+                
+                <option value="293">发放给 澳门管理员  管辖的全部分销商</option>
+                
+                <option value="294">发放给 台湾管理员  管辖的全部分销商</option>
+                
+                <option value="314">发放给 测试  管辖的全部分销商</option>
+                
+                <option value="319">发放给 广东分公司  管辖的全部分销商</option>
+                
+                <option value="330">发放给 北京  管辖的全部分销商</option>
+                
+                <option value="337">发放给 西安管理严  管辖的全部分销商</option>
+                
+                <option value="343">发放给 北京分公司  管辖的全部分销商</option>
+                
+                <option value="345">发放给 北京分公司  管辖的全部分销商</option>
+                
+                <option value="346">发放给 wddds  管辖的全部分销商</option>
+                
+                <option value="350">发放给 beijing  管辖的全部分销商</option>
+                
+                <option value="351">发放给 北京供应商  管辖的全部分销商</option>
+                
+                <option value="367">发放给 beijing  管辖的全部分销商</option>
+                
+                <option value="372">发放给 其它组织  管辖的全部分销商</option>
+                
+                <option value="374">发放给 12321  管辖的全部分销商</option>
+                
+                <option value="375">发放给 12321  管辖的全部分销商</option>
+                
+                <option value="378">发放给 131  管辖的全部分销商</option>
+                
+                <option value="379">发放给 111  管辖的全部分销商</option>
+                
+                <option value="380">发放给 北京唢呐的分公司  管辖的全部分销商</option>
+                
+                <option value="381">发放给 北京分公司  管辖的全部分销商</option>
+                
+                <option value="382">发放给 法第三方  管辖的全部分销商</option>
+                
+                <option value="396">发放给 天天旅游  管辖的全部分销商</option>
+                
+                <option value="426">发放给 22  管辖的全部分销商</option>
+                
+                <option value="427">发放给 22  管辖的全部分销商</option>
+                
+                <option value="443">发放给 山西管理员  管辖的全部分销商</option>
+                
+                <option value="444">发放给 内蒙管理员  管辖的全部分销商</option>
+                
+                <option value="445">发放给 合肥管理员  管辖的全部分销商</option>
+                
+                <option value="446">发放给 合肥管理员  管辖的全部分销商</option>
+                
+                <option value="447">发放给 郑州管理员  管辖的全部分销商</option>
+                
+                <option value="448">发放给 杭州管理员  管辖的全部分销商</option>
+                
+                <option value="449">发放给 广东管理员  管辖的全部分销商</option>
+                
+                <option value="450">发放给 重庆管理员  管辖的全部分销商</option>
+                
+                <option value="451">发放给 大连管理员  管辖的全部分销商</option>
+                
+                <option value="452">发放给 唐山管理员  管辖的全部分销商</option>
+                
+                <option value="453">发放给 太原管理员  管辖的全部分销商</option>
+                
+                <option value="462">发放给 1  管辖的全部分销商</option>
+                
+                <option value="464">发放给 河北管理员12  管辖的全部分销商</option>
+                
+                <option value="465">发放给 辽宁管理员  管辖的全部分销商</option>
+                
+                <option value="483">发放给 反倒是事实上事实上事实上事实上是是事实上事实上事实上事实上事实上事实上事实上事实上  管辖的全部分销商</option>
+                
+                <option value="484">发放给 反倒是事实上事实上事实上事实上是是事实上事实上事实上事实上事实上事实上事实上事实上飞  管辖的全部分销商</option>
+                
+                <option value="485">发放给 反倒是事实上事飞实上事实上事实上是是事实上事实上事实上事实上事实上事实上事实上事实上飞  管辖的全部分销商</option>
+                
+                <option value="486">发放给 飞反倒是事实上事飞实上事实上事实上是是事实上事实上事实上事实上事实上事实上事实上事实上飞  管辖的全部分销商</option>
+                
+                <option value="487">发放给 发的所发生的飞反倒是事实上事飞实上事实上事实上是是事实上事实上事实上事实上事实上事实上事实上事实上飞  管辖的全部分销商</option>
+                
+                <option value="488">发放给 范德萨范德萨范德萨法第三方发的所发生的飞反倒是事实上事飞实上事实上事实上是是事实上事实上事实上事实上事实上事实上事实上事实上飞  管辖的全部分销商</option>
+                
+                <option value="524">发放给 北京管理员  管辖的全部分销商</option>
+                
+                <option value="551">发放给 天津管理员  管辖的全部分销商</option>
+                
+                <option value="556">发放给 心疼1  管辖的全部分销商</option>
+                
+                <option value="590">发放给 新建524  管辖的全部分销商</option>
+                
+                <option value="593">发放给 辽宁省  管辖的全部分销商</option>
+                
+                <option value="723">发放给 天津分公司  管辖的全部分销商</option>
+                
+            </select>
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-12 show_news">
+            <label class="col-sm-6 col-md-3 col-lg-3" for="not_out">是否重复发放</label>
+            <select class="form-control col-sm-4 col-md-4 col-lg-4" id="not_out" name="not_out"><option value="0">发放给全部分销商</option><option value="1">仅未发放过本批次优惠券的分销商</option></select>
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-12 show_news">
+           <label class="col-sm-6 col-md-3 col-lg-3" for="coupon_amount">输入发放数量</label>
+            <input class="form-control col-sm-4 col-md-4 col-lg-4" id="coupon_amount" name="coupon_amount" required type="text" value="">
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-12 show_news">
+           <label class="col-sm-6 col-md-3 col-lg-3" for="limit_depart">是否限制出团日期</label>
+            <select class="form-control col-sm-4 col-md-4 col-lg-4" id="limit_depart" name="limit_depart"><option value="0">不限制出团日期</option><option value="1">限制出团日期</option></select>
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-12 show_news">
+           <label class="col-sm-6 col-md-3 col-lg-3" for="valid_date">起始团期</label>
+            <input class="form-control col-sm-4 col-md-4 col-lg-4" id="valid_date" name="valid_date" required type="text" value="">
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-12 show_news">
+           <label class="col-sm-6 col-md-3 col-lg-3" for="expire_date">结束团期</label>
+            <input class="form-control col-sm-4 col-md-4 col-lg-4" id="expire_date" name="expire_date" required type="text" value="">
+        </div>
+        <div class="form-group col-sm-10 show_news">
+            <div class="return">
+                <input class="button" id="submit" name="submit" type="submit" value="生&nbsp;&nbsp;成">
+                <a class="button" >返&nbsp;&nbsp;回</a>
+            </div>
+        </div>
+    </div>
+</form>
+    </div>
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+    
+<script src="../../static/js/jquery.js"></script>
+
+
+<script src="../static/js/bootstrap.min.js"></script>
+
+    <script src="../static/js/order/jquery-ui.min.js"></script>
+    <script src="../static/js/order/datepicker-zh-TW.js"></script>
+    <script src="../static/js/voucher/create.js"></script>
+
+    <script src="../static/js/voucher/batchout.js"></script>
+
+
+
+
+  </body>
+</html>

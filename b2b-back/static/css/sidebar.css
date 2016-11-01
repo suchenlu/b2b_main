@@ -1,0 +1,458 @@
+body{
+	font-family: 'Microsoft Yahei';
+	background: #f1f1f1
+}
+a:hover,a:link,a:active,a:focus{
+	text-decoration: none;
+	outline:0
+}
+a:active {
+	star:expression_r(this.onFocus=this.blur())
+}
+li{
+	list-style: none
+}
+.fl{
+	float: left
+}
+.fr{
+	float: right
+}
+.none {
+	display:none
+}
+.siderbar{
+ 	position: fixed;
+ 	top: 0;
+ 	left:0;
+ 	bottom: 0;
+ 	z-index: 1;
+ 	width: 240px;
+ 	height: auto;
+ 	background: #1faeff;
+ 	overflow: hidden
+ }
+.siderbar .head-wrap{
+	padding: 40px 0 20px 0;
+	text-align: center
+}
+.siderbar .head-wrap .head{
+	display: block;
+	width: 110px;
+	height: 110px;
+	margin: 0px auto 10px;
+	background: url(../images/head-ring.png)no-repeat center;
+	background-size: 100%;
+	overflow: hidden
+}
+.siderbar .head{
+    padding-top: 20px;
+    text-align: center;
+    position: relative;
+}
+.siderbar .head .head-ring{
+	width: 126px;
+	height: 122px;
+	margin: 0px auto 20px;
+	background: url(../images/head-ring.png)no-repeat center; 
+	background-size:cover;        
+}
+.siderbar .head .head-logo {
+    position: absolute;
+    left: 78px;
+    top: 36px;
+    height: 84px;
+    width: 84px;
+    border-radius: 50%
+}
+.siderbar .head span {
+    font-size: 17px;
+    color: #fff;
+    letter-spacing: 1px
+}
+.panel-group{
+	position: absolute;
+	top: 200px;
+	bottom: 0px;
+	width: 257px;
+	overflow-x: hidden;
+	overflow-y:scroll
+}
+.panel-group .panel+.panel {
+    margin-top: 0px
+}
+.panel{
+	border: 0;
+	box-shadow: none
+}
+.panel-heading{
+	padding: 0px
+}
+.panel-title{
+	height: 50px;
+	line-height: 50px;
+	color: #fff;
+	background: #1faeff;
+	-webkit-transition:all .3s;
+	transition:all .3s
+}
+.panel-title.active,.panel-title:hover{
+	background: #0286ee
+}
+.panel-title a{
+	display: block;
+	height: 100%;
+	padding-left: 20px;
+	font-size: 15px;
+	position: relative
+}
+.panel-title>a>i{
+	top: 8px;
+	width:30px;
+	height:30px;
+	margin-right: 10px;
+	background:url("../images/pic.png") no-repeat 0px 0px;
+}
+.panel-title .glyphicon.product_center{
+	background-position:-30px 0px
+}
+.panel-title .glyphicon.platform_manager{
+	background-position:0px -145px
+}
+.panel-title .glyphicon.platform_coupon{
+	background-position:-60px 0
+}
+.panel-title .glyphicon.settlement_related{
+	background-position:-60px -30px
+}
+.panel-title .glyphicon.neutral_brand{
+	background-position:-30px -30px
+}
+.panel-title .glyphicon.platform_report{
+	background-position:0 -30px
+}
+.panel-title .glyphicon.numerical_statement{
+	background-position:0 -120px
+}
+.panel-title>a>span{
+	position: absolute;
+	top: 19px;
+	right: 20px;
+	font-size: 12px;
+	color: #f3f3f3
+}
+.panel-title.active>a>span{
+	-webkit-transform:rotate(90deg);
+	-moz-transform:rotate(90deg);
+	-ms-transform:rotate(90deg);
+	transform:rotate(90deg);
+}
+.panel .panel-body {
+	height: 40px;
+	line-height: 40px;
+	padding: 0px;
+	background: #e3f9ff;
+	-webkit-transition:all .3s;
+	transition:all .3s	
+}
+.panel-group .panel-heading+.panel-collapse>.panel-body {
+     border-top: 0
+}
+.panel .panel-body a{
+	display: block;
+	height: 100%;
+	padding-left:64px;
+	color: #666;
+	font-size: 14px;
+	position: relative
+}
+.panel-body.active,.panel-body:hover{
+	background: #50cefe
+}
+.panel-body.active>a,.panel-body:hover a{
+	color: #fff
+}
+.panel-body>a>span{	
+   	position: absolute;
+   	top: 9px;
+   	right: 10px;
+    width: 29px;
+    height: 22px;
+    background: url(../images/XJY.gif) no-repeat center;
+    background-size: 29px 22px;
+    opacity: 0
+}
+.panel-body.active>a>span,.panel-body:hover span{
+	opacity: 1
+}
+.toggle-stop>span{
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	padding: 5px;
+	color: #fff;
+	font-size: 20px;
+	border-radius: 3px;
+	cursor: pointer
+}
+.toggle-stop>span:hover{
+	background: rgba(0,0,0,.1)
+}
+.togglebar{
+	 position: fixed;
+	 top: 0;
+	 left: 0px;
+	 bottom: 0;
+	 z-index: 100;
+	 width: 5px;
+     background: #1F95FF
+}
+.toggle-open{
+	position: absolute;	
+    top: 40%;
+    left: 5px;  
+	width: 15px;
+    height: 80px;
+    border-radius: 0px 6px 6px 0px;
+    background: #1F95FF;
+    cursor: pointer
+}
+.toggle-open span{
+	margin: 30px -3px;
+	font-size: 15px;
+	color: #fff;
+	-webkit-transform:rotate(90deg);
+	-moz-transform:rotate(90deg);
+	-ms-transform:rotate(90deg);
+	transform:rotate(90deg);
+}
+.header {
+ 	position: fixed;
+    top: 0;
+    right:0;   
+    left: 240px;
+    z-index: 99;
+    height: 120px;  
+    padding: 5px 20px;
+    background: #fff
+}
+.qqbox-layer {
+    position: fixed;
+    top: 0;  
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+    background: rgba(0,0,0,0.2)
+}
+.qqbox-layer .qqbox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -210px;
+    margin-top: -150px;
+    padding: 10px 10px 10px 60px;
+    width: 420px;
+    height: 243px;
+    background: #383b40
+}
+.qqbox i,.qqbox ul li a{
+	background: url(../images/tb_10_sidebar2.png) no-repeat  
+}
+.qqbox i {
+    position: absolute;
+    top: 30px;
+    left: 10px;
+    width: 39px;
+    height: 40px;
+    background-position: 0 0
+}
+.qqbox b {
+	position: absolute;
+    top: 85px;
+    left: 20px;
+    font-family: "Microsoft YaHei";
+    font-weight: normal;
+    font-size: 18px;
+    color: #ffa200
+}
+.qqbox ul {
+    width: 100%;
+    padding: 3px 11px;
+    background: #f7f7f7
+}
+.qqbox ul li {
+    height: 36px;
+    line-height: 36px;
+    border-bottom: 1px solid #aaa
+}
+.qqbox ul li a {
+    display: block;
+    color: #949494;
+    cursor: pointer;
+    background-position: -44px 6px
+}
+ .header .site-logo {
+ 	padding: 0
+ }
+ .header .site-logo .logo {
+ 	display: block;
+ 	width: 100%;
+ 	height: 39px;
+	background: url(../images/logo1.png)no-repeat center;
+    position: relative;
+    top: -5px;
+ }
+ .header .user-info{
+  	height: 39px;
+  	padding: 0;
+  	line-height: 39px;
+	font-size: 16px
+ }
+ .header .user-info ul{ 
+ 	float: right
+ }
+ .header .user-info li{
+ 	float: left;
+  	margin: 0 7px;
+    color: rgb(102, 102, 102);
+    font-size: 15px;
+ }
+ .header .user-info li.service-line{
+    margin-top: 2px;
+    font-size: 0.9em;
+    color: #ff6d60;
+    line-height: 10px;
+    text-align: left;
+    height: 39px;
+    padding-left: 20px;
+ }
+ .header .user-info .service-line p{
+    height: 10px;
+    line-height: 1;
+    color: #ff6d60;
+ }
+ .header .user-info li span {
+    color: #1faeff;
+    padding: 0 5px;
+}
+ .header .user-info li a{
+    color:#666
+ }
+ .header .user-info li a:hover{
+ 	color: #1FAEFF
+ }
+ .topbar{
+    margin-top:6px;
+ }
+ .tabbar-wrap{
+ 	position: absolute;
+ 	top: 60px;
+ 	right: 0;
+	left: 0;
+ 	padding: 15px 20px;
+ 	background: #f1f1f1
+ }
+.tabbar{
+ 	margin: auto;
+ 	text-align: center;
+ 	background: #20aeff
+}
+.tabbar a{
+	height: 50px;
+	line-height: 50px;
+	font-size: 20px;
+	color: #fff;
+	transition:all .5s	
+}
+.tabbar a:hover{
+	background: #50ccff
+}
+.tabbar a span{
+	position: absolute;
+	top: -5px;
+	width: 6px;
+	height:60px;
+	background: url(../images/pre_line.png)no-repeat center
+}
+.tabbar .user_center span{
+	right: -4px
+}
+.tabbar .pay_center span{
+	left: -2px
+}
+.main{
+	position: fixed;
+	top: 140px;
+	bottom: 50px;
+	right: 20px;
+	left: 240px;
+	margin-left: 20px;
+	background: #fff
+}
+.footer{
+	position: fixed;
+	left: 240px;
+	right: 0px;
+	bottom: 0;
+	padding: 5px 20px;
+	text-align: center
+}
+.footer ul li{
+	display: inline-block;
+	padding: 0 5px
+}
+.footer ul ,.footer p{
+	margin-bottom: 0
+}
+@media screen and (max-width: 1180px){	
+	.site-logo{
+		display: none
+	}
+	.user-info{
+		width: 100%
+	}
+}
+@media screen and (max-width: 854px){
+	.user-info .service-line{
+		display: none
+	}
+}
+@media screen and (max-width: 768px){	
+	.header-main .user-info{
+		text-align: center
+	}
+	.tabbar-wrap{
+		width: 95%;
+		height: 150px;
+		margin: auto;
+		padding: 0	
+	}
+	.tabbar-wrap a{	
+		text-align: center;
+		border-bottom: 1px solid rgba(255,255,255,.2)
+	}
+	.main{
+	 	top: 220px
+	 }
+}
+.modal{
+	background: rgba(0,0,0,.8)
+}
+.modal-content{
+	top: -1000px;
+	min-height: 300px
+}
+.modal-header{
+	padding: 10px 15px
+}
+.modal-header .close span{
+	font-size: 30px
+}
+.modal-title{
+	text-align: center;
+	font-size: 24px
+}
+.modal-body{
+	font-size: 20px
+}

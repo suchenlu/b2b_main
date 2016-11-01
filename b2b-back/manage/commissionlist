@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link href="../static/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <!-- <link href="../static/css/bootstrap-theme.min.css" rel="stylesheet" media="screen"> -->
+    <link rel="stylesheet" type="text/css" href="../static/css/base.css"/>
+    <link rel="shortcut icon" type="image/x-icon" href="../static/img/logo2.png" />
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+
+
+
+
+
+
+
+  </head>
+  <body id="B2B" >
+    
+
+  <div class="container-fluid">
+    
+        
+    
+
+
+
+
+<div class="row-fluid">
+    <ul class="nav" role="tablist">
+        <li class="active"><a href="" >结算策略设置</a></li>
+    </ul>
+    <a class="btn pull-right" href="../manage/commissionadd">添加新策略</a>
+</div>
+
+
+<div class="row">
+
+
+
+
+<table class="table table-hover table-striped">
+    <thead>
+    <tr>
+        <th>策略ID</th>
+        <th>策略名称</th>
+        <th width="30%">策略说明</th>
+        <th>佣金比例</th>
+        <th>首次解冻参照点</th>
+        <th>首次解冻比例</th>
+        <th>首次解冻时间</th>
+        <th>二次解冻参照点</th>
+        <th>二次解冻比例</th>
+        <th>二次解冻时间</th>
+        <th>适用范围</th>
+        <th>创建人</th>
+        
+        <th>操作</th>
+        
+    </tr>
+    </thead>
+    <tbody>
+    
+        
+        <tr>
+            <td>1000000001</td>
+            <td>策略一sdfsdfsddf</td>
+            <td>sdfasfdasfasdfdsfsdfj;jsdfl;sdaj;lfasd</td>
+            <td>订单总金额的 5.00%</td>
+            <td>出团日向前</td>
+            <td>订单总金额的 15.00%</td>
+            <td>距参照点 1 天</td>
+            <td>出团日向后</td>
+            <td>订单总金额的 80.00%</td>
+            <td>距参照点 1 天</td>
+            <td>石家庄分公司</td>
+            <td>哈哈</td>
+            
+            <td>
+                <a class="s_link"
+                   href="../manage/commissionedit0commission_id=1000000001">修改</a>
+            </td>
+            
+        </tr>
+        
+    
+        
+        <tr>
+            <td>1000000002</td>
+            <td>出团前1天结20%,出团后1天全部结算,佣金5%</td>
+            <td>test</td>
+            <td>订单总金额的 5.00%</td>
+            <td>出团日向前</td>
+            <td>订单总金额的 20.00%</td>
+            <td>距参照点 0 天</td>
+            <td>出团日向后</td>
+            <td>订单总金额的 75.00%</td>
+            <td>距参照点 0 天</td>
+            <td>重庆分公司</td>
+            <td>LXH</td>
+            
+            <td>
+                <a class="s_link"
+                   href="../manage/commissionedit0commission_id=1000000002">修改</a>
+            </td>
+            
+        </tr>
+        
+    
+        
+        <tr>
+            <td>1000000003</td>
+            <td>3</td>
+            <td>回团日后30天</td>
+            <td>订单总金额的 0.00%</td>
+            <td>回团日向后</td>
+            <td>订单总金额的 100.00%</td>
+            <td>距参照点 30 天</td>
+            <td>回团日向后</td>
+            <td>订单总金额的 0.00%</td>
+            <td>距参照点 0 天</td>
+            <td>合肥分公司</td>
+            <td>哈哈</td>
+            
+            <td>
+                <a class="s_link"
+                   href="../manage/commissionedit0commission_id=1000000003">修改</a>
+            </td>
+            
+        </tr>
+        
+    
+        
+        <tr>
+            <td>1000000004</td>
+            <td>s</td>
+            <td>1</td>
+            <td>订单总金额的 0.00%</td>
+            <td>回团日向后</td>
+            <td>订单总金额的 99.00%</td>
+            <td>距参照点 1 天</td>
+            <td>回团日向后</td>
+            <td>订单总金额的 1.00%</td>
+            <td>距参照点 2 天</td>
+            <td>郑州分公司</td>
+            <td>LXH</td>
+            
+            <td>
+                <a class="s_link"
+                   href="../manage/commissionedit0commission_id=1000000004">修改</a>
+            </td>
+            
+        </tr>
+        
+    
+        
+        <tr>
+            <td>1000000005</td>
+            <td>天津测试专用策略</td>
+            <td>牛BSDFKL牛梦魇lkdsfslkljsdflk;非机动车中; jdfsl;ffads;魂牵梦萦;lfdsljfdlsdfa;dfas;励志哥fdlk; lkjdslsdjff是 fdslsd dsklklsdlkflks套票 sss可;辊lkjksdlk顶起</td>
+            <td>订单总金额的 90.00%</td>
+            <td>出团日向前</td>
+            <td>订单总金额的 5.00%</td>
+            <td>距参照点 1 天</td>
+            <td>出团日向后</td>
+            <td>订单总金额的 5.00%</td>
+            <td>距参照点 0 天</td>
+            <td>长沙分公司</td>
+            <td>LXH</td>
+            
+            <td>
+                <a class="s_link"
+                   href="../manage/commissionedit0commission_id=1000000005">修改</a>
+            </td>
+            
+        </tr>
+        
+    
+        
+        <tr>
+            <td>1000000006</td>
+            <td>回团后25天</td>
+            <td>22</td>
+            <td>订单总金额的 0.00%</td>
+            <td>回团日向后</td>
+            <td>订单总金额的 100.00%</td>
+            <td>距参照点 25 天</td>
+            <td>回团日向后</td>
+            <td>订单总金额的 0.00%</td>
+            <td>距参照点 0 天</td>
+            <td>全平台通用</td>
+            <td>LXH</td>
+            
+            <td>
+                <a class="s_link"
+                   href="../manage/commissionedit0commission_id=1000000006">修改</a>
+            </td>
+            
+        </tr>
+        
+    
+        
+        <tr>
+            <td>1000000007</td>
+            <td>回团后25天全部结算</td>
+            <td>afsd sd  sl;djf枥;kfjls;喹可贺;地asfldjaksdfkks sdlkfkl;aslkdfsljfdslsdffsklsdklfdsfds;压顶;dfsfdsfdsklfdfdsfdsfljdsfjdfsl</td>
+            <td>订单总金额的 0.00%</td>
+            <td>回团日向后</td>
+            <td>订单总金额的 100.00%</td>
+            <td>距参照点 25 天</td>
+            <td>回团日向后</td>
+            <td>订单总金额的 0.00%</td>
+            <td>距参照点 0 天</td>
+            <td>全平台通用</td>
+            <td>LXH</td>
+            
+            <td>
+                <a class="s_link"
+                   href="../manage/commissionedit0commission_id=1000000007">修改</a>
+            </td>
+            
+        </tr>
+        
+    
+        
+        <tr>
+            <td>1000000008</td>
+            <td>回团后7天</td>
+            <td>sfsdf sdfdsfdas fsdfsadfsdf</td>
+            <td>订单总金额的 0.00%</td>
+            <td>回团日向后</td>
+            <td>订单总金额的 100.00%</td>
+            <td>距参照点 7 天</td>
+            <td>回团日向后</td>
+            <td>订单总金额的 0.00%</td>
+            <td>距参照点 0 天</td>
+            <td>天津测试管理员</td>
+            <td>LXH</td>
+            
+            <td>
+                <a class="s_link"
+                   href="../manage/commissionedit0commission_id=1000000008">修改</a>
+            </td>
+            
+        </tr>
+        
+    
+        
+        <tr>
+            <td>1000000009</td>
+            <td>111111</td>
+            <td>1</td>
+            <td>订单总金额的 0.00%</td>
+            <td>回团日向后</td>
+            <td>订单总金额的 100.00%</td>
+            <td>距参照点 1 天</td>
+            <td>回团日向后</td>
+            <td>订单总金额的 0.00%</td>
+            <td>距参照点 0 天</td>
+            <td>北京原石天达科技有限公司</td>
+            <td>LXH</td>
+            
+            <td>
+                <a class="s_link"
+                   href="../manage/commissionedit0commission_id=1000000009">修改</a>
+            </td>
+            
+        </tr>
+        
+    
+        
+        <tr>
+            <td>1000000010</td>
+            <td>DSAFAKLFDSKLJDFSJ</td>
+            <td>
+警告: 修改结算策略将同时影响到应用该策略的产品,如果不确定要这样做,请勿进行修改.
+
+</td>
+            <td>订单总金额的 0.00%</td>
+            <td>回团日向后</td>
+            <td>订单总金额的 100.00%</td>
+            <td>距参照点 7 天</td>
+            <td>回团日向后</td>
+            <td>订单总金额的 0.00%</td>
+            <td>距参照点 0 天</td>
+            <td>贵阳分公司</td>
+            <td>LXH</td>
+            
+            <td>
+                <a class="s_link"
+                   href="../manage/commissionedit0commission_id=1000000010">修改</a>
+            </td>
+            
+        </tr>
+        
+    
+        
+        <tr>
+            <td>1000000011</td>
+            <td>111</td>
+            <td>111</td>
+            <td>订单总金额的 7.50%</td>
+            <td>回团日向后</td>
+            <td>订单总金额的 2.50%</td>
+            <td>距参照点 2 天</td>
+            <td>回团日向后</td>
+            <td>订单总金额的 90.00%</td>
+            <td>距参照点 0 天</td>
+            <td>全平台通用</td>
+            <td>LXH</td>
+            
+            <td>
+                <a class="s_link"
+                   href="../manage/commissionedit0commission_id=1000000011">修改</a>
+            </td>
+            
+        </tr>
+        
+    
+        
+        <tr>
+            <td>1000000012</td>
+            <td>1111</td>
+            <td>222</td>
+            <td>订单总金额的 2.90%</td>
+            <td>回团日向后</td>
+            <td>订单总金额的 5.40%</td>
+            <td>距参照点 2 天</td>
+            <td>回团日向后</td>
+            <td>订单总金额的 91.70%</td>
+            <td>距参照点 0 天</td>
+            <td>全平台通用</td>
+            <td>LXH</td>
+            
+            <td>
+                <a class="s_link"
+                   href="../manage/commissionedit0commission_id=1000000012">修改</a>
+            </td>
+            
+        </tr>
+        
+    
+        
+        <tr>
+            <td>1000000013</td>
+            <td>回团1天</td>
+            <td>回团后1天</td>
+            <td>订单总金额的 0.00%</td>
+            <td>回团日向后</td>
+            <td>订单总金额的 100.00%</td>
+            <td>距参照点 1 天</td>
+            <td>回团日向后</td>
+            <td>订单总金额的 0.00%</td>
+            <td>距参照点 0 天</td>
+            <td>全平台通用</td>
+            <td>哈哈</td>
+            
+            <td>
+                <a class="s_link"
+                   href="../manage/commissionedit0commission_id=1000000013">修改</a>
+            </td>
+            
+        </tr>
+        
+    
+        
+        <tr>
+            <td>1000000014</td>
+            <td>测试结算策略0天</td>
+            <td>回团后0天结算</td>
+            <td>订单总金额的 1.00%</td>
+            <td>回团日向后</td>
+            <td>订单总金额的 99.00%</td>
+            <td>距参照点 0 天</td>
+            <td>回团日向后</td>
+            <td>订单总金额的 0.00%</td>
+            <td>距参照点 0 天</td>
+            <td>全平台通用</td>
+            <td>哈哈</td>
+            
+            <td>
+                <a class="s_link"
+                   href="../manage/commissionedit0commission_id=1000000014">修改</a>
+            </td>
+            
+        </tr>
+        
+    
+        
+        <tr>
+            <td>1000000015</td>
+            <td>策略负数</td>
+            <td>100行吗</td>
+            <td>订单总金额的 0.00%</td>
+            <td>回团日向后</td>
+            <td>订单总金额的 100.00%</td>
+            <td>距参照点 0 天</td>
+            <td>回团日向后</td>
+            <td>订单总金额的 0.00%</td>
+            <td>距参照点 100 天</td>
+            <td>全平台通用</td>
+            <td>哈哈</td>
+            
+            <td>
+                <a class="s_link"
+                   href="../manage/commissionedit0commission_id=1000000015">修改</a>
+            </td>
+            
+        </tr>
+        
+    
+        
+        <tr>
+            <td>1000000016</td>
+            <td>测试用</td>
+            <td>测试用</td>
+            <td>订单总金额的 0.00%</td>
+            <td>回团日向后</td>
+            <td>订单总金额的 1.00%</td>
+            <td>距参照点 10 天</td>
+            <td>回团日向后</td>
+            <td>订单总金额的 99.00%</td>
+            <td>距参照点 0 天</td>
+            <td>全平台通用</td>
+            <td>哈哈</td>
+            
+            <td>
+                <a class="s_link"
+                   href="../manage/commissionedit0commission_id=1000000016">修改</a>
+            </td>
+            
+        </tr>
+        
+    
+        
+        <tr>
+            <td>1000000017</td>
+            <td>额外企鹅</td>
+            <td>大神</td>
+            <td>订单总金额的 0.00%</td>
+            <td>回团日向后</td>
+            <td>订单总金额的 100.00%</td>
+            <td>距参照点 0 天</td>
+            <td>回团日向后</td>
+            <td>订单总金额的 100.00%</td>
+            <td>距参照点 0 天</td>
+            <td>全平台通用</td>
+            <td>哈哈</td>
+            
+            <td>
+                <a class="s_link"
+                   href="../manage/commissionedit0commission_id=1000000017">修改</a>
+            </td>
+            
+        </tr>
+        
+    
+        
+        <tr>
+            <td>1000000018</td>
+            <td>发的</td>
+            <td>第三方</td>
+            <td>订单总金额的 0.00%</td>
+            <td>回团日向后</td>
+            <td>订单总金额的 100.00%</td>
+            <td>距参照点 0 天</td>
+            <td>回团日向后</td>
+            <td>订单总金额的 0.00%</td>
+            <td>距参照点 0 天</td>
+            <td>全平台通用</td>
+            <td>哈哈</td>
+            
+            <td>
+                <a class="s_link"
+                   href="../manage/commissionedit0commission_id=1000000018">修改</a>
+            </td>
+            
+        </tr>
+        
+    
+        
+        <tr>
+            <td>1000000019</td>
+            <td>22</td>
+            <td>ert</td>
+            <td>订单总金额的 10.00%</td>
+            <td>回团日向后</td>
+            <td>订单总金额的 10.00%</td>
+            <td>距参照点 0 天</td>
+            <td>回团日向后</td>
+            <td>订单总金额的 80.00%</td>
+            <td>距参照点 0 天</td>
+            <td>全平台通用</td>
+            <td>哈哈</td>
+            
+            <td>
+                <a class="s_link"
+                   href="../manage/commissionedit0commission_id=1000000019">修改</a>
+            </td>
+            
+        </tr>
+        
+    
+        
+        <tr>
+            <td>1000000020</td>
+            <td>测试结算策略首次结算100%</td>
+            <td>不抽取佣金，首次结算100，二次结算0，回团后0天结算</td>
+            <td>订单总金额的 0.00%</td>
+            <td>回团日向后</td>
+            <td>订单总金额的 100.00%</td>
+            <td>距参照点 0 天</td>
+            <td>回团日向后</td>
+            <td>订单总金额的 0.00%</td>
+            <td>距参照点 0 天</td>
+            <td>全平台通用</td>
+            <td>哈哈</td>
+            
+            <td>
+                <a class="s_link"
+                   href="../manage/commissionedit0commission_id=1000000020">修改</a>
+            </td>
+            
+        </tr>
+        
+    
+        
+        <tr>
+            <td>1000000021</td>
+            <td>测试结算策略首次非100%，11%</td>
+            <td>首次结算11%，二次结算89%，结算天数回团后0天结算</td>
+            <td>订单总金额的 0.00%</td>
+            <td>回团日向后</td>
+            <td>订单总金额的 11.00%</td>
+            <td>距参照点 0 天</td>
+            <td>回团日向后</td>
+            <td>订单总金额的 89.00%</td>
+            <td>距参照点 0 天</td>
+            <td>全平台通用</td>
+            <td>哈哈</td>
+            
+            <td>
+                <a class="s_link"
+                   href="../manage/commissionedit0commission_id=1000000021">修改</a>
+            </td>
+            
+        </tr>
+        
+    
+        
+        <tr>
+            <td>1000000022</td>
+            <td>测试结算策略，抽取佣金，首次结算结束</td>
+            <td>抽取1%佣金，首次结算策略99
+%，0天结算</td>
+            <td>订单总金额的 1.00%</td>
+            <td>回团日向后</td>
+            <td>订单总金额的 99.00%</td>
+            <td>距参照点 0 天</td>
+            <td>回团日向后</td>
+            <td>订单总金额的 0.00%</td>
+            <td>距参照点 0 天</td>
+            <td>全平台通用</td>
+            <td>哈哈</td>
+            
+            <td>
+                <a class="s_link"
+                   href="../manage/commissionedit0commission_id=1000000022">修改</a>
+            </td>
+            
+        </tr>
+        
+    
+        
+        <tr>
+            <td>1000000023</td>
+            <td>测试结算策略，抽取佣金，首次结算二次结算</td>
+            <td>抽取1%佣金，首次结算50%,二次结算49%，回团后0天 结算</td>
+            <td>订单总金额的 1.00%</td>
+            <td>回团日向后</td>
+            <td>订单总金额的 50.00%</td>
+            <td>距参照点 0 天</td>
+            <td>回团日向后</td>
+            <td>订单总金额的 49.00%</td>
+            <td>距参照点 0 天</td>
+            <td>全平台通用</td>
+            <td>哈哈</td>
+            
+            <td>
+                <a class="s_link"
+                   href="../manage/commissionedit0commission_id=1000000023">修改</a>
+            </td>
+            
+        </tr>
+        
+    
+        
+        <tr>
+            <td>1000000024</td>
+            <td>测试假日结算策略</td>
+            <td>测试假日结算策略，佣金1%，首次结算结束。回团后0天结算</td>
+            <td>订单总金额的 1.00%</td>
+            <td>回团日向后</td>
+            <td>订单总金额的 99.00%</td>
+            <td>距参照点 0 天</td>
+            <td>回团日向后</td>
+            <td>订单总金额的 0.00%</td>
+            <td>距参照点 0 天</td>
+            <td>全平台通用</td>
+            <td>哈哈</td>
+            
+            <td>
+                <a class="s_link"
+                   href="../manage/commissionedit0commission_id=1000000024">修改</a>
+            </td>
+            
+        </tr>
+        
+    
+        
+        <tr>
+            <td>1000000025</td>
+            <td>测试假日结算策略二次结算</td>
+            <td>假日结算 ，佣金1%，一次50%，二次49%，一次回团0天，二次 回团1天 </td>
+            <td>订单总金额的 1.00%</td>
+            <td>回团日向后</td>
+            <td>订单总金额的 50.00%</td>
+            <td>距参照点 0 天</td>
+            <td>回团日向后</td>
+            <td>订单总金额的 49.00%</td>
+            <td>距参照点 1 天</td>
+            <td>全平台通用</td>
+            <td>哈哈</td>
+            
+            <td>
+                <a class="s_link"
+                   href="../manage/commissionedit0commission_id=1000000025">修改</a>
+            </td>
+            
+        </tr>
+        
+    
+        
+        <tr>
+            <td>1000000026</td>
+            <td>测试假日结算策略无佣金</td>
+            <td>测试假日结算策略，无佣金，首次结算结束，回团 0天 </td>
+            <td>订单总金额的 0.00%</td>
+            <td>回团日向后</td>
+            <td>订单总金额的 100.00%</td>
+            <td>距参照点 0 天</td>
+            <td>回团日向后</td>
+            <td>订单总金额的 0.00%</td>
+            <td>距参照点 0 天</td>
+            <td>全平台通用</td>
+            <td>哈哈</td>
+            
+            <td>
+                <a class="s_link"
+                   href="../manage/commissionedit0commission_id=1000000026">修改</a>
+            </td>
+            
+        </tr>
+        
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+
+
+
+
+
+<script src="../static/js/jquery.js"></script>
+<script src="../static/js/bootstrap.min.js"></script>
+<script>
+        $(function(){   
+            var tab_width=$(".table").width();
+            $(".nav").width(tab_width + 20);
+            $(".nav-tabs").width(tab_width);
+        })
+    </script>
+
+
+  </body>
+</html>

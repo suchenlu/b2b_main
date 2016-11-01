@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link href="../../../static/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <!-- <link href="../../../static/css/bootstrap-theme.min.css" rel="stylesheet" media="screen"> -->
+    <link rel="stylesheet" type="text/css" href="../../../static/css/base.css"/>
+    <link rel="shortcut icon" type="image/x-icon" href="../../../static/img/logo2.png" />
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+<style>
+    input{overflow: hidden;}
+    input[type="file"]{width: 100%;}
+</style>
+
+  </head>
+  <body id="B2B" >
+    
+
+  <div class="container-fluid">
+    
+        
+    
+
+
+
+<div class="row-fluid">
+    <ul class="nav">
+        <li class="active"><a data-toggle="tab">添加产品</a></li>
+    </ul>
+</div>
+<ul class="status col-sm-10 col-xs-10 col-sm-offset-1 col-xs-offset-1">
+    <li class="col-sm-4 col-xs-4">1 基础信息<em><div></div><span><div></div></span></em></li>
+    <li class="active col-sm-4 col-xs-4">2 图片设置<em><div></div><span><div></div></span></em></li>
+    <li class="col-sm-4 col-xs-4">3 时价设置<em><div></div><span><div></div></span></em></li>
+</ul>
+<form action="" method="POST" enctype="multipart/form-data">
+    <div class="row-fluid col-sm-12">
+        
+    </div>
+    <!-- 产品主图上传 -->
+    <div class="row-fluid col-sm-12">
+        <div class="subtitle">
+            <div class="t">产品主图</div>
+            <div class="t_orn"></div>
+        </div>
+    </div>
+    <div class="form-group col-sm-12">
+        <label class="control-label col-sm-2">产品主图</label>
+        <input type="hidden" value="" name="main_pic_hid" id="main_pic_hid"/>
+        <div class="col-sm-4">
+             <input type="file" name="main_pic" id="main_pic" />
+             <p class="b_color">上传图片大小不能大于1M</p>
+        </div>
+        <div class="col-sm-4 ta_l photo">
+            <div><img src="" id="main_pic_img" /></div>
+        </div>
+    </div>
+    
+
+    <!-- 产品轮播图上传 -->
+    <div class="row-fluid col-sm-12">
+        <div class="subtitle">
+            <div class="t">产品轮播图</div>
+            <div class="t_orn"></div>
+        </div>
+    </div>
+    <!-- 第一张 -->
+    <div class="form-group col-sm-12">
+        <label class="control-label col-sm-2">第1张轮播图</label>
+        <input  type="hidden" value="" name="lunbo_1_hid" id="lunbo_1_hid"/>
+        <div class="col-sm-4">
+            <input type="file" name="lunbo_1" id="lunbo_1" />
+            <p class="b_color">上传图片大小不能大于1M</p>
+        </div>
+        <div class="col-sm-4 ta_l photo">
+            <div><img src=""  id="lunbo_1_img"/></div>
+        </div>
+    </div>
+    <!-- 第二张 -->
+    <div class="form-group col-sm-12">
+        <label class="control-label col-sm-2">第2张轮播图</label>
+        <input  type="hidden" value="" name="lunbo_2_hid" id="lunbo_2_hid"/>
+        <div class="col-sm-4">
+            <input type="file" name="lunbo_1" id="lunbo_2" />
+            <p class="b_color">上传图片大小不能大于1M</p>
+        </div>
+        <div class="col-sm-4 ta_l photo">
+            <div><img src=""  id="lunbo_2_img"/></div>
+        </div>
+    </div>
+    <!-- 第三张 -->
+    <div class="form-group col-sm-12">
+        <label class="control-label col-sm-2">第3张轮播图</label>
+        <input  type="hidden" value="" name="lunbo_3_hid" id="lunbo_3_hid"/>
+        <div class="col-sm-4">
+            <input type="file" name="lunbo_1" id="lunbo_3" />
+            <p class="b_color">上传图片大小不能大于1M</p>
+        </div>
+        <div class="col-sm-4 ta_l photo">
+            <div><img src=""  id="lunbo_3_img"/></div>
+        </div>
+    </div>
+    <!-- 第四张 -->
+    <div class="form-group col-sm-12">
+        <label class="control-label col-sm-2">第4张轮播图</label>
+        <input  type="hidden" value="" name="lunbo_4_hid" id="lunbo_4_hid"/>
+        <div class="col-sm-4">
+            <input type="file" name="lunbo_1" id="lunbo_4" />
+            <p class="b_color">上传图片大小不能大于1M</p>
+        </div>
+        <div class="col-sm-4 ta_l photo">
+            <div><img src=""  id="lunbo_4_img"/></div>
+        </div>
+    </div>
+    <!-- 提示消息 -->
+    
+
+
+    <div class="row-fluid col-sm-12">
+        <div class="subtitle">
+            <div class="t">产品行程图</div>
+            <div class="t_orn"></div>
+        </div>
+    </div>
+    
+    <div class="form-group col-sm-12">
+        <label class="control-label col-sm-2">第 1 天行程图</label>
+        <input type="hidden" value="" id="xingcheng_main_1_hid"  name="xingcheng_main_1_hid"/>
+        <input type="hidden" value=""  id="xingcheng_mini_1_hid" name="xingcheng_mini_1_hid"/>
+
+        <div class="col-sm-4">
+            大图 ： <input type="file" name="xingcheng_main_1" id="xingcheng_main_1" />
+            
+
+            小图 ： <input type="file" name="xingcheng_mini_1" id="xingcheng_mini_1" />
+            <p class="b_color">上传图片大小不能大于1M</p>
+            行程特色说明 ：<textarea maxlength="90" name="xingcheng_main_1_hid_mess" id="xingcheng_main_1_hid_mess" value=""></textarea>
+            <p class="b_color">最多90个字符数</p>
+            
+        </div>
+        <div class="col-sm-4 ta_l photo">
+            <div class="fl"><span>大图</span><img src="" id="xingcheng_main_1_img"></div>
+        </div>
+        <div class="col-sm-4 ta_l photo">
+            <div class="fl"><span>小图</span><img src="" id="xingcheng_mini_1_img"></div>
+        </div>
+    </div>
+    
+    <div class="form-group col-sm-10 col-sm-offset-2">
+        <input type="submit" value="提　交" class="button col-sm-3 col-sm-offset-2 big_but" />
+    </div>
+</form>
+
+    </div>
+
+    
+<script src="../../../static/js/jquery.js"></script>
+<script src="../../../static/js/bootstrap.min.js"></script>
+
+
+    <script>
+           $(document).ready(function() {
+
+               upimg('main_pic',this);
+               upimg('lunbo_1',this);
+               upimg('lunbo_2',this);
+               upimg('lunbo_3',this);
+               upimg('lunbo_4',this);
+               
+                   upimg('xingcheng_main_1',this)
+                   upimg('xingcheng_mini_1',this)
+               
+           });
+    </script>
+
+        <script >
+
+
+
+            function upimg(id,tar){
+                // alert(id);
+                var hi = $("#" + id + '_hid').val();
+                if (hi != ''){
+                    $("#"+id + "_img").attr('src',hi);
+                }
+
+
+                $("#" +id).change(function(){
+                    filepath = $('#'+ id).val();
+                    target = this;
+                    //alert(filepath);
+                    var extStart=filepath.lastIndexOf(".");
+
+                     var ext=filepath.substring(extStart,filepath.length).toUpperCase();
+
+                     if(ext!=".PNG"&&ext!=".JPG"&&ext!=".JPEG"){
+                        alert("图片限于png,jpeg,jpg格式");
+                      return false;
+
+                     }
+                    //检测上传文件的大小
+                    var isIE = /msie/i.test(navigator.userAgent) && !window.opera;
+                    //alert(isIE);
+                    var fileSize = 0;
+                    if (isIE && !target.files){
+                        var filePath = target.value;
+                        var fileSystem = new ActiveXObject("Scripting.FileSystemObject");
+                        var file = fileSystem.GetFile (filePath);
+                        fileSize = file.Size;
+                    } else {
+                        fileSize = target.files[0].size;
+                    }
+
+                    var size = fileSize/(1024*1024);
+                    //alert(size);
+                    if (size >1){
+                        alert('图片尺寸不能大于1M');
+
+                        return false;
+                    }
+                    var data = new FormData();
+
+                    $.each($("#" +id)[0].files, function(i, file) {
+                                data.append('upload_file', file);
+                    });
+
+                    $.ajax({
+                                url:'/manage/wares/upimg',
+                                type:'POST',
+                                data:data,
+                                cache: false,
+                                contentType: false,    //不可缺
+                                processData: false,    //不可缺
+                                success:function(data){
+
+                                    if (data != ''){
+                                        $("#" + id + '_img').attr("src", data);
+                                        $("#" + id + '_hid').val(data);
+                                        //alert($("#" + id + '_hid').val());
+
+                                    }
+                                }
+                            });
+                });
+            }
+        </script>
+
+
+
+  </body>
+</html>

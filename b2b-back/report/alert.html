@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link href="http://apps.bdimg.com/libs/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+    body{
+        font-family: "Microsoft Yahei"
+    }
+    .fade.in{display: block;}
+    .modal-dialog{
+    	width: 500px;
+        margin: 150px auto;
+    }
+    .modal-header {
+	  height: 40px;
+      background: #00b8ee;
+      border-radius: 6px 6px 0 0 ;
+    }
+    .modal-header .close{
+        margin-top: -17px;
+        font-size: 37px;
+        font-weight: normal;
+        color: #fff;
+        opacity: 1;
+    }
+    .modal-body {
+        height: 62px;
+        font-size: 18px
+    }
+    
+    .modal-footer {
+        text-align: center;
+        border: 0
+    }
+    
+    .modal-footer button {
+        margin: 0 30px;
+    }
+    .find-passwd, .find-passwd:hover{
+        color: #EA5414;
+        font-weight: bold
+    }
+    .btn{
+        font-size: 16px
+    }
+    .btn-cancel{
+        text-indent: 1em;
+        letter-spacing: 1em
+    }
+    .btn-login,.btn-login:hover{
+        color: #fff;
+        background: #2eb6a9
+    }
+    
+    </style>
+</head>
+
+<body>
+    <div class="modal fade in" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    	<div class="modal-backdrop fade in"></div>
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                </div>
+                <div class="modal-body">您的账号已被登录，如不是本人操作，请点击
+                    <a href="#" class="find-passwd">找回密码</a>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default btn-cancel" data-dismiss="modal">取消</button>
+                    <button type="button" class="btn btn-login">重新登录</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="http://apps.bdimg.com/libs/jquery/2.0.0/jquery.min.js"></script>
+    <script src="http://apps.bdimg.com/libs/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>

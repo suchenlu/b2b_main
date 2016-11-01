@@ -1,0 +1,1279 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta http-equiv="refresh" content="60"> -->
+
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link href="../../../../static/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <!-- <link href="../../../../static/css/bootstrap-theme.min.css" rel="stylesheet" media="screen"> -->
+    <link rel="stylesheet" type="text/css" href="../../../../static/css/base.css"/>
+    <link rel="shortcut icon" type="image/x-icon" href="../../../../static/img/logo2.png" />
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <style type="text/css">
+        .row-fluid > a.button {
+            position: absolute;
+            top: 13px;
+            right: 20px;
+        }
+
+        .row-fluid > a.button span {
+            color: #fff;
+            font-weight: bold;
+            font-size: 20px;
+            position: relative;
+            top: 2px;
+        }
+
+        input[type="text"] {
+            width: 240px;
+        }
+
+        form {
+            position: relative;
+        }
+
+        form button.big_but {
+            position: absolute;
+        }
+        .roww li {
+            height: 26px;
+            line-height: 26px;
+        }
+
+        .roww li a{
+            height: 26px;
+            line-height: 26px;
+            padding: 0px 10px;
+        }
+        .roww li a:hover{
+            background: #eee;
+        }
+        .roww li.active a{
+            background: #1faeff;
+            color: #fff;
+        }
+    </style>
+
+  </head>
+  <body id="B2B" >
+    
+
+  <div class="container-fluid">
+    
+        
+    
+
+
+
+
+    
+
+    <div class="row-fluid">
+        <ul class="nav" role="tablist">
+            <li class="active" ><a href="../../../../manage/wares/list/1/100">全部产品</a></li>
+            <li ><a href="../../../../manage/wares/list/1/1">已上线</a></li>
+            <li ><a href="../../../../manage/wares/list/1/0">未上线</a></li>
+            <li ><a href="../../../../manage/wares/list/1/2">人工下线</a></li>
+            <li ><a href="../../../../manage/wares/list/1/3">申请上线</a></li>
+            <li ><a href="../../../../manage/wares/list/1/4">已驳回</a></li>
+        </ul>
+        <a href="../../../../manage/wares/add0p=1&amp;s=100" class="button pull-right"><span>+</span>
+            添加新产品</a>
+    </div>
+    
+        <div>
+            <p style="float: left;margin-right: 20px">目的地区:</p>
+
+            <ul class="roww" role="tablist">
+
+                
+                    <li ><a
+                            href="../../../../manage/wares/list/1/1000darea=100-101-000086-3-210-210">上海</a>
+                    </li>
+                
+                    <li ><a
+                            href="../../../../manage/wares/list/1/1000darea=100-101-000086-1-220-220">天津</a>
+                    </li>
+                
+                    <li ><a
+                            href="../../../../manage/wares/list/1/1000darea=100-101-000086-8-853-853">澳门</a>
+                    </li>
+                
+                    <li ><a
+                            href="../../../../manage/wares/list/1/1000darea=100-101-000086-8-852-852">香港</a>
+                    </li>
+                
+                    <li ><a
+                            href="../../../../manage/wares/list/1/1000darea=300-301-000045">丹麦</a>
+                    </li>
+                
+                    <li ><a
+                            href="../../../../manage/wares/list/1/1000darea=100-101-000086-2-240-024">沈阳</a>
+                    </li>
+                
+                    <li class="active" ><a
+                            href="../../../../manage/wares/list/1/1000darea=100-101-000086-1-100-100">北京</a>
+                    </li>
+                
+                    <li ><a
+                            href="../../../../manage/wares/list/1/1000darea=100-101-000086-1-351-352">大同</a>
+                    </li>
+                
+                    <li ><a
+                            href="../../../../manage/wares/list/1/1000darea=100-101-000086-3-531-531">济南</a>
+                    </li>
+                
+                    <li ><a
+                            href="../../../../manage/wares/list/1/1000darea=100-101-000086-5-851-854">都匀</a>
+                    </li>
+                
+                    <li ><a
+                            href="../../../../manage/wares/list/1/1000darea=100-101-000086-2-240-429">葫芦岛</a>
+                    </li>
+                
+                    <li ><a
+                            href="../../../../manage/wares/list/1/1000darea=100-101-000086-7-200-763">清远</a>
+                    </li>
+                
+                    <li ><a
+                            href="../../../../manage/wares/list/1/1000darea=100-102-000066">泰国</a>
+                    </li>
+                
+                    <li ><a
+                            href="../../../../manage/wares/list/1/1000darea=100-102-000065">新加坡</a>
+                    </li>
+                
+                    <li ><a
+                            href="../../../../manage/wares/list/1/1000darea=100-101-000086-4-270-270">武汉</a>
+                    </li>
+                
+                    <li ><a
+                            href="../../../../manage/wares/list/1/1000darea=100-101-000086-2-240-411">大连</a>
+                    </li>
+                
+                    <li ><a
+                            href="../../../../manage/wares/list/1/1000darea=100-101-000086-7-898-721">三亚</a>
+                    </li>
+                
+                    <li ><a
+                            href="../../../../manage/wares/list/1/1000darea=300-301-000372">爱沙尼亚</a>
+                    </li>
+                
+                    <li ><a
+                            href="../../../../manage/wares/list/1/1000darea=100-101-000086-2-431-432">吉林</a>
+                    </li>
+                
+            </ul>
+        </div>
+    
+    <br/>
+    <form method="post" action="">
+        <div class="form-group col-sm-12">
+            <div class="col-sm-5">
+                <label class="control-label">产品编号</label>
+                <input type="text" name="id" placeholder="请输入产品编号">
+            </div>
+            <div class="col-sm-5">
+                <label class="control-label">产品名称</label>
+                <input type="text" name="name" placeholder="请输入产品名字，支持模糊查询">
+            </div>
+            
+            <div class="col-sm-2">
+                <button type="submit" class="big_but">查询</button>
+            </div>
+        </div>
+    </form>
+    <div class="row">
+        <table class="table">
+            <thead>
+            <tr>
+                <th>序号</th>
+                <th>产品编号</th>
+                <th>产品名称</th>
+                <th>产品类别</th>
+                <th>产品分类</th>
+                <th>行程天数</th>
+                <th>状态</th>
+                <th>更新时间</th>
+                
+                
+                
+                
+                <th>平台返OP 币</th>
+                <th>平台现金立返</th>
+                <th>操作</th>
+            </tr>
+            </thead>
+            <tbody>
+            
+                
+                    <tr>
+                        <th>1</th>
+                        <td>w10471000000816403</td>
+
+                        <td class="tl"><a class="ellipsis" herf="">99</a></td>
+                        
+                            <td>普通</td>
+                        
+                        
+                            <td>出境短线</td>
+                        
+                        <td>1天</td>
+                        
+                            <td class="grey">未上线</td>
+                        
+
+
+                        <td>2016-06-06 09:42:53</td>
+                        
+                        
+                        
+
+                        <td>0.00币</td>
+                        <td>0.00元</td>
+                        <td class="operate">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                        <div class="operate1">
+                            <a href="../../../../manage/wares/ewarebase/10000008160p=1&amp;s=100"
+                               class="">基本信息编辑</a>
+                            
+                            
+                            
+                                <a href="../../../../manage/wares/ewarepic/1000000816" class="">图片管理</a>
+                            
+                            
+                                <a href="../../../../manage/wares/setprice/10000008160p=1&t=100" class="">设置时价</a>
+                            
+                            
+                                <a href="../../../../manage/wares/online/1000000816/1" class="">申请上线</a>
+                            
+                            
+                                <a href="/ware/wdetail/w10471000000816403" target="_blank"
+                                   class="">产品预览</a>
+                            
+                            <a href="../../../../manage/wares/cwarebase/10000008160p=1&amp;s=100"
+                               class="">产品克隆</a>
+                        </div>
+                    </span>
+                    </tr>
+                
+                    <tr>
+                        <th>2</th>
+                        <td>w10031000000815610</td>
+
+                        <td class="tl"><a class="ellipsis" herf="">99</a></td>
+                        
+                            <td>普通</td>
+                        
+                        
+                            <td>出境短线</td>
+                        
+                        <td>1天</td>
+                        
+                            <td class="grey">未上线</td>
+                        
+
+
+                        <td>2016-06-06 09:42:32</td>
+                        
+                        
+                        
+
+                        <td>0.00币</td>
+                        <td>0.00元</td>
+                        <td class="operate">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                        <div class="operate1">
+                            <a href="../../../../manage/wares/ewarebase/10000008150p=1&amp;s=100"
+                               class="">基本信息编辑</a>
+                            
+                            
+                            
+                                <a href="../../../../manage/wares/ewarepic/1000000815" class="">图片管理</a>
+                            
+                            
+                                <a href="../../../../manage/wares/setprice/10000008150p=1&t=100" class="">设置时价</a>
+                            
+                            
+                                <a href="../../../../manage/wares/online/1000000815/1" class="">申请上线</a>
+                            
+                            
+                                <a href="/ware/wdetail/w10031000000815610" target="_blank"
+                                   class="">产品预览</a>
+                            
+                            <a href="../../../../manage/wares/cwarebase/10000008150p=1&amp;s=100"
+                               class="">产品克隆</a>
+                        </div>
+                    </span>
+                    </tr>
+                
+                    <tr>
+                        <th>3</th>
+                        <td>w10271000000812703</td>
+
+                        <td class="tl"><a class="ellipsis" herf="">99</a></td>
+                        
+                            <td>普通</td>
+                        
+                        
+                            <td>出境短线</td>
+                        
+                        <td>1天</td>
+                        
+                            <td class="green">上线</td>
+                        
+
+
+                        <td>2016-06-05 21:21:03</td>
+                        
+                        
+                        
+
+                        <td>0.00币</td>
+                        <td>0.00元</td>
+                        <td class="operate">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                        <div class="operate1">
+                            <a href="../../../../manage/wares/ewarebase/10000008120p=1&amp;s=100"
+                               class="">基本信息编辑</a>
+                            
+                            
+                            
+                                <a href="../../../../manage/wares/ewarepic/1000000812" class="">图片管理</a>
+                            
+                            
+                                <a href="../../../../manage/wares/setprice/10000008120p=1&t=100" class="">设置时价</a>
+                            
+                            
+                                <a href="../../../../manage/wares/offline/1000000812/1" class="">产品下线</a>
+                            
+                            
+                                <a href="/ware/wdetail/w10271000000812703" target="_blank"
+                                   class="">产品预览</a>
+                            
+                            <a href="../../../../manage/wares/cwarebase/10000008120p=1&amp;s=100"
+                               class="">产品克隆</a>
+                        </div>
+                    </span>
+                    </tr>
+                
+                    <tr>
+                        <th>4</th>
+                        <td>w10411000000811112</td>
+
+                        <td class="tl"><a class="ellipsis" herf="">88</a></td>
+                        
+                            <td>普通</td>
+                        
+                        
+                            <td>国内短线</td>
+                        
+                        <td>1天</td>
+                        
+                            <td class="green">上线</td>
+                        
+
+
+                        <td>2016-06-05 21:19:57</td>
+                        
+                        
+                        
+
+                        <td>0.00币</td>
+                        <td>0.00元</td>
+                        <td class="operate">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                        <div class="operate1">
+                            <a href="../../../../manage/wares/ewarebase/10000008110p=1&amp;s=100"
+                               class="">基本信息编辑</a>
+                            
+                            
+                            
+                                <a href="../../../../manage/wares/ewarepic/1000000811" class="">图片管理</a>
+                            
+                            
+                                <a href="../../../../manage/wares/setprice/10000008110p=1&t=100" class="">设置时价</a>
+                            
+                            
+                                <a href="../../../../manage/wares/offline/1000000811/1" class="">产品下线</a>
+                            
+                            
+                                <a href="/ware/wdetail/w10411000000811112" target="_blank"
+                                   class="">产品预览</a>
+                            
+                            <a href="../../../../manage/wares/cwarebase/10000008110p=1&amp;s=100"
+                               class="">产品克隆</a>
+                        </div>
+                    </span>
+                    </tr>
+                
+                    <tr>
+                        <th>5</th>
+                        <td>w10071000000809607</td>
+
+                        <td class="tl"><a class="ellipsis" herf="">777</a></td>
+                        
+                            <td>普通</td>
+                        
+                        
+                            <td>主题游</td>
+                        
+                        <td>1天</td>
+                        
+                            <td class="green">上线</td>
+                        
+
+
+                        <td>2016-06-05 21:18:54</td>
+                        
+                        
+                        
+
+                        <td>0.00币</td>
+                        <td>0.00元</td>
+                        <td class="operate">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                        <div class="operate1">
+                            <a href="../../../../manage/wares/ewarebase/10000008090p=1&amp;s=100"
+                               class="">基本信息编辑</a>
+                            
+                            
+                            
+                                <a href="../../../../manage/wares/ewarepic/1000000809" class="">图片管理</a>
+                            
+                            
+                                <a href="../../../../manage/wares/setprice/10000008090p=1&t=100" class="">设置时价</a>
+                            
+                            
+                                <a href="../../../../manage/wares/offline/1000000809/1" class="">产品下线</a>
+                            
+                            
+                                <a href="/ware/wdetail/w10071000000809607" target="_blank"
+                                   class="">产品预览</a>
+                            
+                            <a href="../../../../manage/wares/cwarebase/10000008090p=1&amp;s=100"
+                               class="">产品克隆</a>
+                        </div>
+                    </span>
+                    </tr>
+                
+                    <tr>
+                        <th>6</th>
+                        <td>w10591000000803535</td>
+
+                        <td class="tl"><a class="ellipsis" herf="">444</a></td>
+                        
+                            <td>普通</td>
+                        
+                        
+                            <td>港澳台</td>
+                        
+                        <td>1天</td>
+                        
+                            <td class="green">上线</td>
+                        
+
+
+                        <td>2016-06-05 20:09:55</td>
+                        
+                        
+                        
+
+                        <td>0.00币</td>
+                        <td>0.00元</td>
+                        <td class="operate">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                        <div class="operate1">
+                            <a href="../../../../manage/wares/ewarebase/10000008030p=1&amp;s=100"
+                               class="">基本信息编辑</a>
+                            
+                            
+                            
+                                <a href="../../../../manage/wares/ewarepic/1000000803" class="">图片管理</a>
+                            
+                            
+                                <a href="../../../../manage/wares/setprice/10000008030p=1&t=100" class="">设置时价</a>
+                            
+                            
+                                <a href="../../../../manage/wares/offline/1000000803/1" class="">产品下线</a>
+                            
+                            
+                                <a href="/ware/wdetail/w10591000000803535" target="_blank"
+                                   class="">产品预览</a>
+                            
+                            <a href="../../../../manage/wares/cwarebase/10000008030p=1&amp;s=100"
+                               class="">产品克隆</a>
+                        </div>
+                    </span>
+                    </tr>
+                
+                    <tr>
+                        <th>7</th>
+                        <td>w10671000000802784</td>
+
+                        <td class="tl"><a class="ellipsis" herf="">333</a></td>
+                        
+                            <td>普通</td>
+                        
+                        
+                            <td>周边游</td>
+                        
+                        <td>1天</td>
+                        
+                            <td class="green">上线</td>
+                        
+
+
+                        <td>2016-06-05 20:08:50</td>
+                        
+                        
+                        
+
+                        <td>0.00币</td>
+                        <td>0.00元</td>
+                        <td class="operate">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                        <div class="operate1">
+                            <a href="../../../../manage/wares/ewarebase/10000008020p=1&amp;s=100"
+                               class="">基本信息编辑</a>
+                            
+                            
+                            
+                                <a href="../../../../manage/wares/ewarepic/1000000802" class="">图片管理</a>
+                            
+                            
+                                <a href="../../../../manage/wares/setprice/10000008020p=1&t=100" class="">设置时价</a>
+                            
+                            
+                                <a href="../../../../manage/wares/offline/1000000802/1" class="">产品下线</a>
+                            
+                            
+                                <a href="/ware/wdetail/w10671000000802784" target="_blank"
+                                   class="">产品预览</a>
+                            
+                            <a href="../../../../manage/wares/cwarebase/10000008020p=1&amp;s=100"
+                               class="">产品克隆</a>
+                        </div>
+                    </span>
+                    </tr>
+                
+                    <tr>
+                        <th>8</th>
+                        <td>w10311000000801964</td>
+
+                        <td class="tl"><a class="ellipsis" herf="">222</a></td>
+                        
+                            <td>普通</td>
+                        
+                        
+                            <td>出境长线</td>
+                        
+                        <td>1天</td>
+                        
+                            <td class="green">上线</td>
+                        
+
+
+                        <td>2016-06-05 20:05:43</td>
+                        
+                        
+                        
+
+                        <td>0.00币</td>
+                        <td>0.00元</td>
+                        <td class="operate">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                        <div class="operate1">
+                            <a href="../../../../manage/wares/ewarebase/10000008010p=1&amp;s=100"
+                               class="">基本信息编辑</a>
+                            
+                            
+                            
+                                <a href="../../../../manage/wares/ewarepic/1000000801" class="">图片管理</a>
+                            
+                            
+                                <a href="../../../../manage/wares/setprice/10000008010p=1&t=100" class="">设置时价</a>
+                            
+                            
+                                <a href="../../../../manage/wares/offline/1000000801/1" class="">产品下线</a>
+                            
+                            
+                                <a href="/ware/wdetail/w10311000000801964" target="_blank"
+                                   class="">产品预览</a>
+                            
+                            <a href="../../../../manage/wares/cwarebase/10000008010p=1&amp;s=100"
+                               class="">产品克隆</a>
+                        </div>
+                    </span>
+                    </tr>
+                
+                    <tr>
+                        <th>9</th>
+                        <td>w10251000000800844</td>
+
+                        <td class="tl"><a class="ellipsis" herf="">111</a></td>
+                        
+                            <td>普通</td>
+                        
+                        
+                            <td>国内长线</td>
+                        
+                        <td>1天</td>
+                        
+                            <td class="green">上线</td>
+                        
+
+
+                        <td>2016-06-05 20:04:40</td>
+                        
+                        
+                        
+
+                        <td>0.00币</td>
+                        <td>0.00元</td>
+                        <td class="operate">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                        <div class="operate1">
+                            <a href="../../../../manage/wares/ewarebase/10000008000p=1&amp;s=100"
+                               class="">基本信息编辑</a>
+                            
+                            
+                            
+                                <a href="../../../../manage/wares/ewarepic/1000000800" class="">图片管理</a>
+                            
+                            
+                                <a href="../../../../manage/wares/setprice/10000008000p=1&t=100" class="">设置时价</a>
+                            
+                            
+                                <a href="../../../../manage/wares/offline/1000000800/1" class="">产品下线</a>
+                            
+                            
+                                <a href="/ware/wdetail/w10251000000800844" target="_blank"
+                                   class="">产品预览</a>
+                            
+                            <a href="../../../../manage/wares/cwarebase/10000008000p=1&amp;s=100"
+                               class="">产品克隆</a>
+                        </div>
+                    </span>
+                    </tr>
+                
+                    <tr>
+                        <th>10</th>
+                        <td>w10291000000799535</td>
+
+                        <td class="tl"><a class="ellipsis" herf="">33</a></td>
+                        
+                            <td>普通</td>
+                        
+                        
+                            <td>周边游</td>
+                        
+                        <td>1天</td>
+                        
+                            <td class="green">上线</td>
+                        
+
+
+                        <td>2016-06-05 20:01:11</td>
+                        
+                        
+                        
+
+                        <td>0.00币</td>
+                        <td>0.00元</td>
+                        <td class="operate">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                        <div class="operate1">
+                            <a href="../../../../manage/wares/ewarebase/10000007990p=1&amp;s=100"
+                               class="">基本信息编辑</a>
+                            
+                            
+                            
+                                <a href="../../../../manage/wares/ewarepic/1000000799" class="">图片管理</a>
+                            
+                            
+                                <a href="../../../../manage/wares/setprice/10000007990p=1&t=100" class="">设置时价</a>
+                            
+                            
+                                <a href="../../../../manage/wares/offline/1000000799/1" class="">产品下线</a>
+                            
+                            
+                                <a href="/ware/wdetail/w10291000000799535" target="_blank"
+                                   class="">产品预览</a>
+                            
+                            <a href="../../../../manage/wares/cwarebase/10000007990p=1&amp;s=100"
+                               class="">产品克隆</a>
+                        </div>
+                    </span>
+                    </tr>
+                
+                    <tr>
+                        <th>11</th>
+                        <td>w13271000000798466</td>
+
+                        <td class="tl"><a class="ellipsis" herf="">11</a></td>
+                        
+                            <td>新品秀</td>
+                        
+                        
+                            <td>国内长线</td>
+                        
+                        <td>1天</td>
+                        
+                            <td class="green">上线</td>
+                        
+
+
+                        <td>2016-06-05 19:57:23</td>
+                        
+                        
+                        
+
+                        <td>0.00币</td>
+                        <td>0.00元</td>
+                        <td class="operate">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                        <div class="operate1">
+                            <a href="../../../../manage/wares/ewarebase/10000007980p=1&amp;s=100"
+                               class="">基本信息编辑</a>
+                            
+                            
+                            
+                                <a href="../../../../manage/wares/ewarepic/1000000798" class="">图片管理</a>
+                            
+                            
+                                <a href="../../../../manage/wares/setprice/10000007980p=1&t=100" class="">设置时价</a>
+                            
+                            
+                                <a href="../../../../manage/wares/offline/1000000798/1" class="">产品下线</a>
+                            
+                            
+                                <a href="/ware/wdetail/w13271000000798466" target="_blank"
+                                   class="">产品预览</a>
+                            
+                            <a href="../../../../manage/wares/cwarebase/10000007980p=1&amp;s=100"
+                               class="">产品克隆</a>
+                        </div>
+                    </span>
+                    </tr>
+                
+                    <tr>
+                        <th>12</th>
+                        <td>w10291000000797031</td>
+
+                        <td class="tl"><a class="ellipsis" herf="">10</a></td>
+                        
+                            <td>普通</td>
+                        
+                        
+                            <td>国内长线</td>
+                        
+                        <td>1天</td>
+                        
+                            <td class="grey">未上线</td>
+                        
+
+
+                        <td>2016-06-05 19:56:20</td>
+                        
+                        
+                        
+
+                        <td>0.00币</td>
+                        <td>0.00元</td>
+                        <td class="operate">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                        <div class="operate1">
+                            <a href="../../../../manage/wares/ewarebase/10000007970p=1&amp;s=100"
+                               class="">基本信息编辑</a>
+                            
+                            
+                            
+                                <a href="../../../../manage/wares/warepic/1000000797" class="">图片管理</a>
+                            
+                            
+                                <a href="../../../../manage/wares/setprice/10000007970p=1&t=100" class="">设置时价</a>
+                            
+                            
+                                <a href="../../../../manage/wares/online/1000000797/1" class="">申请上线</a>
+                            
+                            
+                                <a href="" onclick="alert('请先检查产品基本信息和图片信息设置')" class="">产品预览</a>
+                            
+                            <a href="../../../../manage/wares/cwarebase/10000007970p=1&amp;s=100"
+                               class="">产品克隆</a>
+                        </div>
+                    </span>
+                    </tr>
+                
+                    <tr>
+                        <th>13</th>
+                        <td>w12391000000796085</td>
+
+                        <td class="tl"><a class="ellipsis" herf="">99</a></td>
+                        
+                            <td>限时购</td>
+                        
+                        
+                            <td>国内长线</td>
+                        
+                        <td>1天</td>
+                        
+                            <td class="green">上线</td>
+                        
+
+
+                        <td>2016-06-05 19:52:48</td>
+                        
+                        
+                        
+
+                        <td>0.00币</td>
+                        <td>0.00元</td>
+                        <td class="operate">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                        <div class="operate1">
+                            <a href="../../../../manage/wares/ewarebase/10000007960p=1&amp;s=100"
+                               class="">基本信息编辑</a>
+                            
+                            
+                            
+                                <a href="../../../../manage/wares/ewarepic/1000000796" class="">图片管理</a>
+                            
+                            
+                                <a href="../../../../manage/wares/seteventone/1000000796" class="">设置时价</a>
+                            
+                            
+                                <a href="../../../../manage/wares/offline/1000000796/1" class="">产品下线</a>
+                            
+                            
+                                <a href="/ware/wdetail/w12391000000796085" target="_blank"
+                                   class="">产品预览</a>
+                            
+                            <a href="../../../../manage/wares/cwarebase/10000007960p=1&amp;s=100"
+                               class="">产品克隆</a>
+                        </div>
+                    </span>
+                    </tr>
+                
+                    <tr>
+                        <th>14</th>
+                        <td>w10411000000795562</td>
+
+                        <td class="tl"><a class="ellipsis" herf="">88</a></td>
+                        
+                            <td>普通</td>
+                        
+                        
+                            <td>国内长线</td>
+                        
+                        <td>1天</td>
+                        
+                            <td class="green">上线</td>
+                        
+
+
+                        <td>2016-06-05 19:50:40</td>
+                        
+                        
+                        
+
+                        <td>0.00币</td>
+                        <td>0.00元</td>
+                        <td class="operate">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                        <div class="operate1">
+                            <a href="../../../../manage/wares/ewarebase/10000007950p=1&amp;s=100"
+                               class="">基本信息编辑</a>
+                            
+                            
+                            
+                                <a href="../../../../manage/wares/ewarepic/1000000795" class="">图片管理</a>
+                            
+                            
+                                <a href="../../../../manage/wares/setprice/10000007950p=1&t=100" class="">设置时价</a>
+                            
+                            
+                                <a href="../../../../manage/wares/offline/1000000795/1" class="">产品下线</a>
+                            
+                            
+                                <a href="/ware/wdetail/w10411000000795562" target="_blank"
+                                   class="">产品预览</a>
+                            
+                            <a href="../../../../manage/wares/cwarebase/10000007950p=1&amp;s=100"
+                               class="">产品克隆</a>
+                        </div>
+                    </span>
+                    </tr>
+                
+                    <tr>
+                        <th>15</th>
+                        <td>w11411000000794604</td>
+
+                        <td class="tl"><a class="ellipsis" herf="">77</a></td>
+                        
+                            <td>抢购</td>
+                        
+                        
+                            <td>国内长线</td>
+                        
+                        <td>1天</td>
+                        
+                            <td class="green">上线</td>
+                        
+
+
+                        <td>2016-06-05 19:39:08</td>
+                        
+                        
+                        
+
+                        <td>0.00币</td>
+                        <td>0.00元</td>
+                        <td class="operate">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                        <div class="operate1">
+                            <a href="../../../../manage/wares/ewarebase/10000007940p=1&amp;s=100"
+                               class="">基本信息编辑</a>
+                            
+                            
+                            
+                                <a href="../../../../manage/wares/ewarepic/1000000794" class="">图片管理</a>
+                            
+                            
+                                <a href="../../../../manage/wares/seteventone/1000000794" class="">设置时价</a>
+                            
+                            
+                                <a href="../../../../manage/wares/offline/1000000794/1" class="">产品下线</a>
+                            
+                            
+                                <a href="/ware/wdetail/w11411000000794604" target="_blank"
+                                   class="">产品预览</a>
+                            
+                            <a href="../../../../manage/wares/cwarebase/10000007940p=1&amp;s=100"
+                               class="">产品克隆</a>
+                        </div>
+                    </span>
+                    </tr>
+                
+                    <tr>
+                        <th>16</th>
+                        <td>w10531000000791583</td>
+
+                        <td class="tl"><a class="ellipsis" herf="">6666</a></td>
+                        
+                            <td>普通</td>
+                        
+                        
+                            <td>国内长线</td>
+                        
+                        <td>1天</td>
+                        
+                            <td class="green">上线</td>
+                        
+
+
+                        <td>2016-06-05 18:45:11</td>
+                        
+                        
+                        
+
+                        <td>0.00币</td>
+                        <td>0.00元</td>
+                        <td class="operate">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                        <div class="operate1">
+                            <a href="../../../../manage/wares/ewarebase/10000007910p=1&amp;s=100"
+                               class="">基本信息编辑</a>
+                            
+                            
+                            
+                                <a href="../../../../manage/wares/ewarepic/1000000791" class="">图片管理</a>
+                            
+                            
+                                <a href="../../../../manage/wares/setprice/10000007910p=1&t=100" class="">设置时价</a>
+                            
+                            
+                                <a href="../../../../manage/wares/offline/1000000791/1" class="">产品下线</a>
+                            
+                            
+                                <a href="/ware/wdetail/w10531000000791583" target="_blank"
+                                   class="">产品预览</a>
+                            
+                            <a href="../../../../manage/wares/cwarebase/10000007910p=1&amp;s=100"
+                               class="">产品克隆</a>
+                        </div>
+                    </span>
+                    </tr>
+                
+                    <tr>
+                        <th>17</th>
+                        <td>w10851000000789976</td>
+
+                        <td class="tl"><a class="ellipsis" herf="">5555</a></td>
+                        
+                            <td>普通</td>
+                        
+                        
+                            <td>国内长线</td>
+                        
+                        <td>1天</td>
+                        
+                            <td class="green">上线</td>
+                        
+
+
+                        <td>2016-06-05 18:20:16</td>
+                        
+                        
+                        
+
+                        <td>0.00币</td>
+                        <td>0.00元</td>
+                        <td class="operate">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                        <div class="operate1">
+                            <a href="../../../../manage/wares/ewarebase/10000007890p=1&amp;s=100"
+                               class="">基本信息编辑</a>
+                            
+                            
+                            
+                                <a href="../../../../manage/wares/ewarepic/1000000789" class="">图片管理</a>
+                            
+                            
+                                <a href="../../../../manage/wares/setprice/10000007890p=1&t=100" class="">设置时价</a>
+                            
+                            
+                                <a href="../../../../manage/wares/offline/1000000789/1" class="">产品下线</a>
+                            
+                            
+                                <a href="/ware/wdetail/w10851000000789976" target="_blank"
+                                   class="">产品预览</a>
+                            
+                            <a href="../../../../manage/wares/cwarebase/10000007890p=1&amp;s=100"
+                               class="">产品克隆</a>
+                        </div>
+                    </span>
+                    </tr>
+                
+                    <tr>
+                        <th>18</th>
+                        <td>w10751000000787895</td>
+
+                        <td class="tl"><a class="ellipsis" herf="">44444</a></td>
+                        
+                            <td>普通</td>
+                        
+                        
+                            <td>国内长线</td>
+                        
+                        <td>1天</td>
+                        
+                            <td class="green">上线</td>
+                        
+
+
+                        <td>2016-06-05 18:16:51</td>
+                        
+                        
+                        
+
+                        <td>0.00币</td>
+                        <td>0.00元</td>
+                        <td class="operate">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                        <div class="operate1">
+                            <a href="../../../../manage/wares/ewarebase/10000007870p=1&amp;s=100"
+                               class="">基本信息编辑</a>
+                            
+                            
+                            
+                                <a href="../../../../manage/wares/ewarepic/1000000787" class="">图片管理</a>
+                            
+                            
+                                <a href="../../../../manage/wares/setprice/10000007870p=1&t=100" class="">设置时价</a>
+                            
+                            
+                                <a href="../../../../manage/wares/offline/1000000787/1" class="">产品下线</a>
+                            
+                            
+                                <a href="/ware/wdetail/w10751000000787895" target="_blank"
+                                   class="">产品预览</a>
+                            
+                            <a href="../../../../manage/wares/cwarebase/10000007870p=1&amp;s=100"
+                               class="">产品克隆</a>
+                        </div>
+                    </span>
+                    </tr>
+                
+                    <tr>
+                        <th>19</th>
+                        <td>w10751000000785211</td>
+
+                        <td class="tl"><a class="ellipsis" herf="">test2</a></td>
+                        
+                            <td>普通</td>
+                        
+                        
+                            <td>国内长线</td>
+                        
+                        <td>1天</td>
+                        
+                            <td class="green">上线</td>
+                        
+
+
+                        <td>2016-06-05 17:57:15</td>
+                        
+                        
+                        
+
+                        <td>0.00币</td>
+                        <td>0.00元</td>
+                        <td class="operate">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                        <div class="operate1">
+                            <a href="../../../../manage/wares/ewarebase/10000007850p=1&amp;s=100"
+                               class="">基本信息编辑</a>
+                            
+                            
+                            
+                                <a href="../../../../manage/wares/ewarepic/1000000785" class="">图片管理</a>
+                            
+                            
+                                <a href="../../../../manage/wares/setprice/10000007850p=1&t=100" class="">设置时价</a>
+                            
+                            
+                                <a href="../../../../manage/wares/offline/1000000785/1" class="">产品下线</a>
+                            
+                            
+                                <a href="/ware/wdetail/w10751000000785211" target="_blank"
+                                   class="">产品预览</a>
+                            
+                            <a href="../../../../manage/wares/cwarebase/10000007850p=1&amp;s=100"
+                               class="">产品克隆</a>
+                        </div>
+                    </span>
+                    </tr>
+                
+                    <tr>
+                        <th>20</th>
+                        <td>w10791000000782073</td>
+
+                        <td class="tl"><a class="ellipsis" herf="">test1</a></td>
+                        
+                            <td>普通</td>
+                        
+                        
+                            <td>国内长线</td>
+                        
+                        <td>1天</td>
+                        
+                            <td class="green">上线</td>
+                        
+
+
+                        <td>2016-06-05 17:10:45</td>
+                        
+                        
+                        
+
+                        <td>0.00币</td>
+                        <td>0.00元</td>
+                        <td class="operate">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                        <div class="operate1">
+                            <a href="../../../../manage/wares/ewarebase/10000007820p=1&amp;s=100"
+                               class="">基本信息编辑</a>
+                            
+                            
+                            
+                                <a href="../../../../manage/wares/ewarepic/1000000782" class="">图片管理</a>
+                            
+                            
+                                <a href="../../../../manage/wares/setprice/10000007820p=1&t=100" class="">设置时价</a>
+                            
+                            
+                                <a href="../../../../manage/wares/offline/1000000782/1" class="">产品下线</a>
+                            
+                            
+                                <a href="/ware/wdetail/w10791000000782073" target="_blank"
+                                   class="">产品预览</a>
+                            
+                            <a href="../../../../manage/wares/cwarebase/10000007820p=1&amp;s=100"
+                               class="">产品克隆</a>
+                        </div>
+                    </span>
+                    </tr>
+                
+            
+            </tbody>
+        </table>
+    </div>
+    <div class="row pag_box">
+        <ul class="pagination">
+            <li>
+                
+                    <a href="">上一页</a>
+                
+            </li>
+            <li>
+                <span> 1/ 5</span>
+            </li>
+            
+            <li  class="active " >
+                    <a  href="../../../../manage/wares/list/1/1000darea=100-101-000086-1-100-100" >1</a>
+            </li>
+            
+            <li >
+                    <a  href="../../../../manage/wares/list/2/1000darea=100-101-000086-1-100-100" >2</a>
+            </li>
+            
+            <li >
+                    <a  href="../../../../manage/wares/list/3/1000darea=100-101-000086-1-100-100" >3</a>
+            </li>
+            
+            <li >
+                    <a  href="../../../../manage/wares/list/4/1000darea=100-101-000086-1-100-100" >4</a>
+            </li>
+            
+            <li >
+                    <a  href="../../../../manage/wares/list/5/1000darea=100-101-000086-1-100-100" >5</a>
+            </li>
+            
+            <li>
+                
+                    <a href="../../../../manage/wares/list/2/1000darea=100-101-000086-1-100-100">下一页</a>
+                
+            </li>
+            <li><input type="text"></li>
+            <li><a href="">跳转</a></li>
+        </ul>
+    </div>
+
+
+    </div>
+
+    
+<script src="../../../../static/js/jquery.js"></script>
+<script src="../../../../static/js/bootstrap.min.js"></script>
+
+    <script>
+
+    </script>
+
+
+
+  </body>
+</html>

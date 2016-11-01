@@ -1,0 +1,120 @@
+* {margin: 0; padding: 0; border: 0; list-style: none;}
+body {background: #f1f1f1; text-align: center;}
+a {text-decoration: none; display: block;cursor: pointer;}
+a:hover, a:focus {text-decoration: none;}
+a, button, input {outline: none !important;}
+ul,ol{list-style: none;}
+img {display: block;}
+em, b, strong, i {font-weight: normal; font-style: normal;}
+.clear {clear: both;}
+.fl {float: left;}
+.fr {float: right;}
+
+/*çŠ¶æ€å­—ä½“é¢œè‰²*/
+	.red{color: #f00;}
+	.green{color: #0c0;}
+	.blue{color: #00f;}
+	.orange{color: #f90;}
+	.b_color{color: #1faeff;}
+	.u_color{color: #1fbba6;}
+	.p_color{color: #ccb206;}
+
+/*header å¼€å§‹*/
+	header {width: 100%; height: 60px; position: fixed; top: 0; z-index: 10;background: #fff;}
+	header .center {width: 1180px; height: 100%; margin: 0 auto;position: relative;}
+	header .logo {background: #fff; height: 60px; float: left;}
+	header .logo img {width: 349px; height: 39px; margin: 9px 0 0 52px;}
+	header .nav {float: right; background: #fff; width: 870px; height: 60px; position: relative; }
+	header .nav ul {position: absolute; right: 0;}
+	header .nav ul li {float: left; min-width: 65px; height: 60px; border-right: 1px solid #ccc; position: relative;padding: 0 20px;font-size: 16px; line-height: 60px;}
+	header .nav ul li.red{margin-right: -10px;border: none;}
+
+	header .nav ul li.red:hover .hb_phone_more{display: block;}
+	header .nav ul li.red .hb_phone_more{position: absolute;left: -35px;top: 60px;width: 340px;z-index: 1;background: #fff;height:200px;border: 4px solid #ccc; border-top: none;overflow-y: scroll;display: none;}
+	header .nav ul li.red .hb_phone_more dl dd{ height: 40px;line-height: 28px;text-align: right;margin-right: 20px;}
+	header .nav ul li.red .hb_phone_more dl dd.more_pos{height: 40px;}
+	header .nav ul li.red p{line-height: 30px; text-align: left}
+	header .nav ul li a, header .nav ul li span {color: #666;}
+	header .nav ul li a:hover {color: #333;}
+
+	header .nav ul li.arrow3 {display: block;text-overflow: ellipsis;white-space: nowrap;max-width: 280px;overflow: hidden;}
+	header .nav ul li.arrow3 em {float: left; width: 40px; height: 40px; background: url(../image/manage/user.png) no-repeat #6dcff6 center; display: block; margin: 10px; border-radius: 100%;}
+
+	header .station{/*width: 900px; */height: 42px;position: absolute;top: 70px;left: 280px;right: 10px;background: #fff;}
+	header .station .row{margin: 0;}
+	header .station a{color: #fff;height: 42px;line-height: 42px;font-size: 18px;}
+	#B2B header .station a{background:#1faeff;}
+	#B2B header .station a:hover{background:#51ccff;}
+	#userinfo header .station a{background:#1fbba6;}
+	#userinfo header .station a:hover{background:#2de3cb;}
+	#payment header .station a{background:#ccb206;}
+	#payment header .station a:hover{background:#dabe11;}
+
+	header .qqbox{display: none;position: fixed;width: 100%;height: 100%;/*left: 0;bottom: 0;*/background: rgba(0,0,0,0.2);}
+	header .qqbox div{position: fixed;top: 50%;left: 50%;margin-left: -210px;margin-top: -150px;padding: 10px 10px 10px 60px;width: 420px;height: 243px;background: #383b40;}
+	header .qqbox div i{display: block;width: 39px;height: 40px;background: url(../image/front/tb_10_sidebar2.png) no-repeat;position: absolute;top: 30px;left: 10px;}
+	header .qqbox div b{color: #ffa200;font-family: "Microsoft YaHei";font-weight: normal;font-size: 18px;position: absolute;top: 85px;left: 20px;}
+
+	header .qqbox div ul{width: 100%;background: #f7f7f7;padding: 3px 11px 3px 11px;}
+	header .qqbox div ul li{/*width: 126px;*/height: 36px;border-bottom: solid 1px #aaa;}
+	header .qqbox div ul li:last-child{border: none;}
+	header .qqbox div ul li a{display: block;width: 100%;height: 100%;line-height: 36px;color: #949494;font-size: 14px;text-align: left;background: url(../image/front/tb_10_sidebar2.png) no-repeat -44px 6px;}
+	header .qqbox div ul li a.offline{background: url(../image/front/tb_10_sidebar2.png) no-repeat -44px -29px;}
+/*header ç»“æŸ*/
+
+/*ä¾§è¾¹æ  å¼€å§‹*/
+	.hb_switch{display: none;width: 30px;height: 42px;background: rgba(31,174,255,0.5);background: #1faeff; opacity: 0.6;filter:Alpha(opacity=60);opacity: 0.6\9; border-radius:0 40px 40px 0;overflow: hidden;position: fixed;left: 0;top: 158px;z-index: 9;font-size: 30px;line-height: 44px;color: #fff;}
+	.sidebar {width: 270px; height: auto; background: #1faeff; position: fixed; /*left: 50%; margin-left: -590px;*/ top: 60px; bottom: 0; overflow: hidden;}
+	.sidebar h1{position: absolute;right: 5px;top: 0px;margin: 0px;color: rgb(255, 255, 255);cursor: pointer;}
+	.sidebar .title {height: 66px; padding-top: 12px;}
+	.sidebar .title p {width: 100%; color: #fff; font-size: 18px; text-align: center;}
+	.sidebar .title p a {width: 140px; height: 140px; margin: 0 auto; border-radius: 50%; background: url(../image/manage/user1.png) no-repeat center;}
+	.sidebar .title p a img {width: 115px; height: 115px; border-radius: 50%; margin: 0 auto; position: relative; top: 14px;}
+	.sidebar .title p span {font-size: 18px; color: #fff; margin-top: 10px; display: block;}
+	.sidebar a {color: #fff; text-align: left;}
+	.sidebar a:hover, .sidebar a:focus {color: #fff; background: #1fbba6;}
+	.sidebar .panel-group {width: 310px; position: absolute; top: 210px; bottom: 0; overflow-x: hidden; overflow-y: scroll; z-index: 1; font-size: 16px;}
+	.sidebar .panel {width: 270px; margin: 0px; overflow: hidden; border-radius: 0; border: none; border-top: 1px solid #fff; background: none;}
+	.sidebar .panel-group .panel + .panel {margin-top: 0;}
+	.sidebar .panel .panel-heading {height: 52px; line-height: 52px; padding: 0;}
+	.sidebar .panel .panel-heading a {padding-right: 20px; text-align: left;}
+	/*ä¸åŒç«™ç‚¹é£Žæ ¼*/
+	#B2B .sidebar .panel .panel-heading a:hover,#B2B .sidebar .panel.active .panel-heading a {background: #0087ef;}
+	#userinfo .sidebar .panel .panel-heading a:hover,#userinfo .sidebar .panel.active .panel-heading a {background: #1fbba6;}
+	#payment .sidebar .panel .panel-heading a:hover,#payment .sidebar .panel.active .panel-heading a {background: #ccb206;}
+
+	.sidebar .panel .panel-heading a i {margin: 0 26px 0 30px; font-size: 20px; top: 5px;background:url(../images/pic.png) no-repeat center;}
+	.sidebar .panel .panel-heading a i.order_center{background-position:0 0;}
+	.sidebar .panel .panel-heading a em {display: block; float: right; width: 8px; height: 52px; margin-right: 10px; padding-top: 20px;}
+	.sidebar .panel.active .panel-heading a {color: #fff;}
+	.sidebar .panel.active .panel-heading a em {margin-top: -3px;margin-right: 3px;transform: rotate(90deg);
+		-ms-transform:rotate(90deg); 	/* IE 9 */
+		-moz-transform:rotate(90deg); 	/* Firefox */
+		-webkit-transform:rotate(90deg); /* Safari å’Œ Chrome */
+		-o-transform:rotate(90deg); 	/* Opera */ }
+	.sidebar .panel .in,.sidebar .panel .collapsing {background: #e4f8ff;}
+	.sidebar .panel .collapse a, .sidebar .panel .collapsing a, .sidebar .panel .in a {line-height: 30px; padding-left: 78px; text-align: left; color: #323232;}
+	.sidebar .panel .in a span {background: url(../image/manage/XJY.gif) no-repeat center; float: right; display: none; background-size: 29px 22px; width: 29px; height: 22px; margin: 3px 15px 0 0;}
+	.sidebar .panel .in .active {color: #323232; background: #2de3cb;}
+	.sidebar .panel .in a:hover span, .sidebar .panel .in .active span {display: block;}
+	/*ä¸åŒç«™ç‚¹é£Žæ ¼*/
+	#B2B .sidebar .panel .in .active,#B2B .sidebar .panel .in a:hover,#B2B .sidebar .panel .collapsing a:hover {background: #51ccff;}
+	#userinfo .sidebar .panel .in .active,#userinfo .sidebar .panel .in a:hover,#userinfo .sidebar .panel .collapsing a:hover {background: #2de3cb;}
+	#payment .sidebar .panel .in .active,#payment .sidebar .panel .in a:hover,#payment .sidebar .panel .collapsing a:hover {background: #dabe11;}
+/*ä¾§è¾¹æ  ç»“æŸ*/
+
+/*footer å¼€å§‹*/
+	footer{background: #fff;}
+	footer *{margin: 0;padding: 0 5px;color: #666;line-height: 18px;}
+	footer{/*width: 900px;*/position: fixed;left: 280px;right: 10px;bottom: 0px;text-align: center;padding: 10px;}
+	footer ul li{display: inline-block;}
+	footer .blue{color: #08d;}
+/*footer ç»“æŸ*/
+
+/*ä¸»ä½“å†…å®¹å— å¼€å§‹*/
+	.main {/*width: 900px;*/ position: fixed; top: 120px; bottom: 56px; left: 280px; right: 10px; overflow: hidden;}
+
+
+
+
+

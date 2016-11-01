@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link href="../static/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <!-- <link href="../static/css/bootstrap-theme.min.css" rel="stylesheet" media="screen"> -->
+    <link rel="stylesheet" type="text/css" href="../static/css/base.css"/>
+    <link rel="shortcut icon" type="image/x-icon" href="../static/img/logo2.png" />
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body id="B2B" >
+  <div class="container-fluid">
+    <div class="row-fluid">
+      <ul class="nav">
+        <li class="active"><a href="">商家OP信息查询</a></li>
+      </ul>
+    </div>
+    <div class="row">  
+        <form action="" method="post" class="form" role="form">
+           <input id="csrf_token" name="csrf_token" type="hidden" value="1464850502##d264d5552fa185f32a30797cdd4a20c5a0585c66">
+          <div class="row">
+            <div class="col-md-5">
+               <label class="control-label" for="org_id" style="width:110px">请输入商家名称:</label>
+               <input class="" id="org_id" name="org_id" type="text">
+            </div>
+            <div class="col-md-4">
+               <button class="big_but" id="submit" name="submit" type="submit">查询</button>
+            </div>
+          </div>             
+        </form>
+  </div>
+</div>
+<script src="../static/js/jquery.js"></script>
+<script src="../static/js/bootstrap.min.js"></script>
+  </body>
+</html>

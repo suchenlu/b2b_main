@@ -1,0 +1,1308 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <!-- <link href="/static/css/bootstrap-theme.min.css" rel="stylesheet" media="screen"> -->
+    <link rel="stylesheet" type="text/css" href="/static/css/base.css"/>
+    <link rel="shortcut icon" type="image/x-icon" href="/static/img/logo2.png" />
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <style type="text/css">
+        .row-fluid > a.button {
+            position: absolute;
+            top: 13px;
+            right: 20px;
+        }
+
+        .row-fluid > a.button span {
+            color: #fff;
+            font-weight: bold;
+            font-size: 20px;
+            position: relative;
+            top: 2px;
+        }
+
+        input[type="text"] {
+            width: 240px;
+        }
+
+        form {
+            position: relative;
+        }
+
+        form button.big_but {
+            position: absolute;
+        }
+        .roww li {
+            height: 26px;
+            line-height: 26px;
+        }
+
+        .roww li a{
+            height: 26px;
+            line-height: 26px;
+            padding: 0px 10px;
+        }
+        .roww li a:hover{
+            background: #eee;
+        }
+        .roww li.active a{
+            background: #1faeff;
+            color: #fff;
+        }
+    </style>
+
+  </head>
+  <body id="B2B" >
+    
+
+  <div class="container-fluid">
+    
+        
+    
+
+
+
+
+    
+
+    <div class="row-fluid">
+        <ul class="nav" role="tablist">
+            <li ><a
+                    href="/manage/wares/alist/1/100?orgname=&amp;ware_name=">全部产品</a></li>
+            <li ><a
+                    href="/manage/wares/alist/1/1?orgname=&amp;ware_name=">已上线</a></li>
+            <li ><a
+                    href="/manage/wares/alist/1/0?orgname=&amp;ware_name=">未上线</a></li>
+            <li ><a
+                    href="/manage/wares/alist/1/2?orgname=&amp;ware_name=">人工下线</a></li>
+            <li class="active" ><a
+                    href="/manage/wares/alist/1/3?orgname=&amp;ware_name=">申请上线</a></li>
+            <li ><a
+                    href="/manage/wares/alist/1/4?orgname=&amp;ware_name=">已驳回</a></li>
+        </ul>
+    </div>
+    
+    <br/>
+    <form method="post" action="">
+        <div class="form-group col-sm-12">
+            <div class="col-sm-11 col-md-11">
+                <label class="control-label col-sm-2 ">产品编号</label>
+                <input type="text" name="id" class="col-sm-2"  placeholder="请输入产品编号">
+                <label class="control-label col-sm-2">产品名称</label>
+                <input type="text" name="ware_name" class="col-sm-2"  placeholder="请输入产品名字，支持模糊查询">
+
+            </div>
+            <div class="col-sm-11 col-md-11">
+                <label class="control-label  col-sm-2">供应商名称</label>
+                 <input type="text" name="orgname" class="col-sm-2"  placeholder="请输入供应商名称，支持模糊查询">
+                
+                
+                <label class="control-label col-sm-2">管理地区</label>
+                <select name="area_code" class="col-sm-2" >
+                   
+                    <option  value="100-101-000086-1-100">北京</option>
+                   
+                </select>
+
+                
+            </div>
+
+
+
+
+            <div class="col-sm-1 col-md-1">
+                <button type="submit" class="big_but">查询</button>
+            </div>
+        </div>
+    </form>
+    <div class="row">
+        <table class="table" id="table1">
+            <thead>
+            <tr>
+                <th>序号</th>
+                <th>产品编号</th>
+                <th>产品名称</th>
+                <th>产品类别</th>
+                <th>产品分类</th>
+                <th>行程天数</th>
+                
+                <th>状态</th>
+                <th>更新时间</th>
+                
+                    <th>供应商名称</th>
+                    <th>供应商注册地</th>
+                    <th>出发城市</th>
+
+                
+                
+                <th>平台返OP 币</th>
+                <th>平台现金立返</th>
+                <th>结算策略</th>
+                <th>操作</th>
+            </tr>
+            </thead>
+            <tbody>
+            
+                
+                    <tr >
+                        <th>1</th>
+                        <td>w10131000000518787</td>
+                        
+                            <td class="tl"><a class="ellipsis"
+                                              href="/ware/wdetail/w10131000000518787"
+                                              target="_blank">测试用1</a></td>
+                        
+                        
+                            <td>普通</td>
+                        
+                        
+                            <td>国内长线</td>
+                        
+                        <td>10天</td>
+                        
+
+                        
+                            <td class="blue">申请上线</td>
+                        
+                        <td>2016-05-10 16:46:36</td>
+                        
+                            <td>北京李四的公司</td>
+                            <td>北京</td>
+                            <td>北京-北京</td>
+
+                        
+                        <td>1.50 币</td>
+                        <td>1.50元</td>
+                        <td>1000000006</td>
+                        <td class="operate">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                        <div class="operate1">
+                            <a href="/manage/wares/oprewardset/1000000518?p=2&amp;s=3&amp;search_p=">OP币设置</a>
+                            <a href="/manage/wares/cashfastsub/1000000518?p=2&amp;s=3&amp;search_p=">现金立减</a>
+                            <a href="/manage/wares/clearing/1000000518?p=2&amp;s=3&amp;search_p=">结算设置</a>
+                            <a href="/manage/wares/commission/1000000518?p=2&amp;s=3&amp;search_p=">结算方法</a>
+
+
+                            
+                                <a href="/manage/wares/apply/1000000518?action=agree&amp;p=2&amp;s=3&amp;t=3"
+                                   class="allow">允许</a>
+                                <a href="/manage/wares/apply/1000000518?action=reject&amp;p=2&amp;s=3&amp;t=3"
+                                   class="reject">驳回</a>
+                            
+                            
+                            
+                                <a href="/ware/wdetail/w10131000000518787"  target="_blank">产品预览</a>
+                            
+                        </div>
+                    </span>
+                        </td>
+                    </tr>
+                
+                    <tr >
+                        <th>2</th>
+                        <td>w10751000000541010</td>
+                        
+                            <td class="tl"><a class="ellipsis"
+                                              href="/ware/wdetail/w10751000000541010"
+                                              target="_blank">五一]&lt;新天鹅堡+法意瑞12-13日游&gt;超值特价，天鹅堡</a></td>
+                        
+                        
+                            <td>普通</td>
+                        
+                        
+                            <td>出境长线</td>
+                        
+                        <td>7天</td>
+                        
+
+                        
+                            <td class="blue">申请上线</td>
+                        
+                        <td>2016-04-26 15:08:59</td>
+                        
+                            <td>北京科技科技有限公司</td>
+                            <td>北京</td>
+                            <td>北京-北京</td>
+
+                        
+                        <td>1.00 币</td>
+                        <td>1.00元</td>
+                        <td>1000000011</td>
+                        <td class="operate">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                        <div class="operate1">
+                            <a href="/manage/wares/oprewardset/1000000541?p=2&amp;s=3&amp;search_p=">OP币设置</a>
+                            <a href="/manage/wares/cashfastsub/1000000541?p=2&amp;s=3&amp;search_p=">现金立减</a>
+                            <a href="/manage/wares/clearing/1000000541?p=2&amp;s=3&amp;search_p=">结算设置</a>
+                            <a href="/manage/wares/commission/1000000541?p=2&amp;s=3&amp;search_p=">结算方法</a>
+
+
+                            
+                                <a href="/manage/wares/apply/1000000541?action=agree&amp;p=2&amp;s=3&amp;t=3"
+                                   class="allow">允许</a>
+                                <a href="/manage/wares/apply/1000000541?action=reject&amp;p=2&amp;s=3&amp;t=3"
+                                   class="reject">驳回</a>
+                            
+                            
+                            
+                                <a href="/ware/wdetail/w10751000000541010"  target="_blank">产品预览</a>
+                            
+                        </div>
+                    </span>
+                        </td>
+                    </tr>
+                
+                    <tr >
+                        <th>3</th>
+                        <td>w10891000000520379</td>
+                        
+                            <td class="tl"><a class="ellipsis"
+                                              href="/ware/wdetail/w10891000000520379"
+                                              target="_blank">子组织查看</a></td>
+                        
+                        
+                            <td>普通</td>
+                        
+                        
+                            <td>国内长线</td>
+                        
+                        <td>1天</td>
+                        
+
+                        
+                            <td class="blue">申请上线</td>
+                        
+                        <td>2016-04-21 17:02:40</td>
+                        
+                            <td>北京李四的公司</td>
+                            <td>北京</td>
+                            <td>北京-北京</td>
+
+                        
+                        <td>1.50 币</td>
+                        <td>1.50元</td>
+                        <td>1000000006</td>
+                        <td class="operate">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                        <div class="operate1">
+                            <a href="/manage/wares/oprewardset/1000000520?p=2&amp;s=3&amp;search_p=">OP币设置</a>
+                            <a href="/manage/wares/cashfastsub/1000000520?p=2&amp;s=3&amp;search_p=">现金立减</a>
+                            <a href="/manage/wares/clearing/1000000520?p=2&amp;s=3&amp;search_p=">结算设置</a>
+                            <a href="/manage/wares/commission/1000000520?p=2&amp;s=3&amp;search_p=">结算方法</a>
+
+
+                            
+                                <a href="/manage/wares/apply/1000000520?action=agree&amp;p=2&amp;s=3&amp;t=3"
+                                   class="allow">允许</a>
+                                <a href="/manage/wares/apply/1000000520?action=reject&amp;p=2&amp;s=3&amp;t=3"
+                                   class="reject">驳回</a>
+                            
+                            
+                            
+                                <a href="/ware/wdetail/w10891000000520379"  target="_blank">产品预览</a>
+                            
+                        </div>
+                    </span>
+                        </td>
+                    </tr>
+                
+                    <tr >
+                        <th>4</th>
+                        <td>w10671000000507139</td>
+                        
+                            <td class="tl"><a class="ellipsis"
+                                              href="/ware/wdetail/w10671000000507139"
+                                              target="_blank">日本双飞3日游</a></td>
+                        
+                        
+                            <td>普通</td>
+                        
+                        
+                            <td>出境长线</td>
+                        
+                        <td>3天</td>
+                        
+
+                        
+                            <td class="blue">申请上线</td>
+                        
+                        <td>2016-04-21 16:03:48</td>
+                        
+                            <td>北京科技科技有限公司</td>
+                            <td>北京</td>
+                            <td>北京-北京-朝阳</td>
+
+                        
+                        <td>1.00 币</td>
+                        <td>1.00元</td>
+                        <td>1000000011</td>
+                        <td class="operate">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                        <div class="operate1">
+                            <a href="/manage/wares/oprewardset/1000000507?p=2&amp;s=3&amp;search_p=">OP币设置</a>
+                            <a href="/manage/wares/cashfastsub/1000000507?p=2&amp;s=3&amp;search_p=">现金立减</a>
+                            <a href="/manage/wares/clearing/1000000507?p=2&amp;s=3&amp;search_p=">结算设置</a>
+                            <a href="/manage/wares/commission/1000000507?p=2&amp;s=3&amp;search_p=">结算方法</a>
+
+
+                            
+                                <a href="/manage/wares/apply/1000000507?action=agree&amp;p=2&amp;s=3&amp;t=3"
+                                   class="allow">允许</a>
+                                <a href="/manage/wares/apply/1000000507?action=reject&amp;p=2&amp;s=3&amp;t=3"
+                                   class="reject">驳回</a>
+                            
+                            
+                            
+                                <a href="/ware/wdetail/w10671000000507139"  target="_blank">产品预览</a>
+                            
+                        </div>
+                    </span>
+                        </td>
+                    </tr>
+                
+                    <tr >
+                        <th>5</th>
+                        <td>w10411000000508631</td>
+                        
+                            <td class="tl"><a class="ellipsis"
+                                              href="/ware/wdetail/w10411000000508631"
+                                              target="_blank">泰国单飞6日游</a></td>
+                        
+                        
+                            <td>普通</td>
+                        
+                        
+                            <td>出境长线</td>
+                        
+                        <td>6天</td>
+                        
+
+                        
+                            <td class="blue">申请上线</td>
+                        
+                        <td>2016-04-21 16:03:35</td>
+                        
+                            <td>北京科技科技有限公司</td>
+                            <td>北京</td>
+                            <td>北京-北京-朝阳</td>
+
+                        
+                        <td>1.00 币</td>
+                        <td>1.00元</td>
+                        <td>1000000011</td>
+                        <td class="operate">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                        <div class="operate1">
+                            <a href="/manage/wares/oprewardset/1000000508?p=2&amp;s=3&amp;search_p=">OP币设置</a>
+                            <a href="/manage/wares/cashfastsub/1000000508?p=2&amp;s=3&amp;search_p=">现金立减</a>
+                            <a href="/manage/wares/clearing/1000000508?p=2&amp;s=3&amp;search_p=">结算设置</a>
+                            <a href="/manage/wares/commission/1000000508?p=2&amp;s=3&amp;search_p=">结算方法</a>
+
+
+                            
+                                <a href="/manage/wares/apply/1000000508?action=agree&amp;p=2&amp;s=3&amp;t=3"
+                                   class="allow">允许</a>
+                                <a href="/manage/wares/apply/1000000508?action=reject&amp;p=2&amp;s=3&amp;t=3"
+                                   class="reject">驳回</a>
+                            
+                            
+                            
+                                <a href="/ware/wdetail/w10411000000508631"  target="_blank">产品预览</a>
+                            
+                        </div>
+                    </span>
+                        </td>
+                    </tr>
+                
+                    <tr >
+                        <th>6</th>
+                        <td>w10511000000515013</td>
+                        
+                            <td class="tl"><a class="ellipsis"
+                                              href="/ware/wdetail/w10511000000515013"
+                                              target="_blank">郊区十日游1111</a></td>
+                        
+                        
+                            <td>普通</td>
+                        
+                        
+                            <td>国内长线</td>
+                        
+                        <td>10天</td>
+                        
+
+                        
+                            <td class="blue">申请上线</td>
+                        
+                        <td>2016-04-18 17:52:47</td>
+                        
+                            <td>北京李四的公司</td>
+                            <td>北京</td>
+                            <td>江西-吉安</td>
+
+                        
+                        <td>1.50 币</td>
+                        <td>1.50元</td>
+                        <td>1000000006</td>
+                        <td class="operate">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                        <div class="operate1">
+                            <a href="/manage/wares/oprewardset/1000000515?p=2&amp;s=3&amp;search_p=">OP币设置</a>
+                            <a href="/manage/wares/cashfastsub/1000000515?p=2&amp;s=3&amp;search_p=">现金立减</a>
+                            <a href="/manage/wares/clearing/1000000515?p=2&amp;s=3&amp;search_p=">结算设置</a>
+                            <a href="/manage/wares/commission/1000000515?p=2&amp;s=3&amp;search_p=">结算方法</a>
+
+
+                            
+                                <a href="/manage/wares/apply/1000000515?action=agree&amp;p=2&amp;s=3&amp;t=3"
+                                   class="allow">允许</a>
+                                <a href="/manage/wares/apply/1000000515?action=reject&amp;p=2&amp;s=3&amp;t=3"
+                                   class="reject">驳回</a>
+                            
+                            
+                            
+                                <a href="/ware/wdetail/w10511000000515013"  target="_blank">产品预览</a>
+                            
+                        </div>
+                    </span>
+                        </td>
+                    </tr>
+                
+                    <tr >
+                        <th>7</th>
+                        <td>w10271000000369523</td>
+                        
+                            <td class="tl"><a class="ellipsis"
+                                              href="/ware/wdetail/w10271000000369523"
+                                              target="_blank">郊区十日游1111</a></td>
+                        
+                        
+                            <td>普通</td>
+                        
+                        
+                            <td>国内长线</td>
+                        
+                        <td>10天</td>
+                        
+
+                        
+                            <td class="blue">申请上线</td>
+                        
+                        <td>2016-04-18 13:54:43</td>
+                        
+                            <td>北京李四的公司</td>
+                            <td>北京</td>
+                            <td>江西-吉安</td>
+
+                        
+                        <td>1.50 币</td>
+                        <td>1.50元</td>
+                        <td>1000000006</td>
+                        <td class="operate">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                        <div class="operate1">
+                            <a href="/manage/wares/oprewardset/1000000369?p=2&amp;s=3&amp;search_p=">OP币设置</a>
+                            <a href="/manage/wares/cashfastsub/1000000369?p=2&amp;s=3&amp;search_p=">现金立减</a>
+                            <a href="/manage/wares/clearing/1000000369?p=2&amp;s=3&amp;search_p=">结算设置</a>
+                            <a href="/manage/wares/commission/1000000369?p=2&amp;s=3&amp;search_p=">结算方法</a>
+
+
+                            
+                                <a href="/manage/wares/apply/1000000369?action=agree&amp;p=2&amp;s=3&amp;t=3"
+                                   class="allow">允许</a>
+                                <a href="/manage/wares/apply/1000000369?action=reject&amp;p=2&amp;s=3&amp;t=3"
+                                   class="reject">驳回</a>
+                            
+                            
+                            
+                                <a href="/ware/wdetail/w10271000000369523"  target="_blank">产品预览</a>
+                            
+                        </div>
+                    </span>
+                        </td>
+                    </tr>
+                
+                    <tr >
+                        <th>8</th>
+                        <td>w10411000000498115</td>
+                        
+                            <td class="tl"><a class="ellipsis"
+                                              href="/ware/wdetail/w10411000000498115"
+                                              target="_blank">沭阳的家10日游</a></td>
+                        
+                        
+                            <td>普通</td>
+                        
+                        
+                            <td>国内长线</td>
+                        
+                        <td>3天</td>
+                        
+
+                        
+                            <td class="blue">申请上线</td>
+                        
+                        <td>2016-04-13 14:58:46</td>
+                        
+                            <td>北京科技科技有限公司</td>
+                            <td>北京</td>
+                            <td>北京-北京-朝阳区</td>
+
+                        
+                        <td>1.00 币</td>
+                        <td>1.00元</td>
+                        <td>1000000011</td>
+                        <td class="operate">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                        <div class="operate1">
+                            <a href="/manage/wares/oprewardset/1000000498?p=2&amp;s=3&amp;search_p=">OP币设置</a>
+                            <a href="/manage/wares/cashfastsub/1000000498?p=2&amp;s=3&amp;search_p=">现金立减</a>
+                            <a href="/manage/wares/clearing/1000000498?p=2&amp;s=3&amp;search_p=">结算设置</a>
+                            <a href="/manage/wares/commission/1000000498?p=2&amp;s=3&amp;search_p=">结算方法</a>
+
+
+                            
+                                <a href="/manage/wares/apply/1000000498?action=agree&amp;p=2&amp;s=3&amp;t=3"
+                                   class="allow">允许</a>
+                                <a href="/manage/wares/apply/1000000498?action=reject&amp;p=2&amp;s=3&amp;t=3"
+                                   class="reject">驳回</a>
+                            
+                            
+                            
+                                <a href="/ware/wdetail/w10411000000498115"  target="_blank">产品预览</a>
+                            
+                        </div>
+                    </span>
+                        </td>
+                    </tr>
+                
+                    <tr >
+                        <th>9</th>
+                        <td>w10051000000368448</td>
+                        
+                            <td class="tl"><a class="ellipsis"
+                                              href="/ware/wdetail/w10051000000368448"
+                                              target="_blank">测试用1</a></td>
+                        
+                        
+                            <td>普通</td>
+                        
+                        
+                            <td>国内长线</td>
+                        
+                        <td>10天</td>
+                        
+
+                        
+                            <td class="blue">申请上线</td>
+                        
+                        <td>2016-04-06 13:46:48</td>
+                        
+                            <td>北京李四的公司</td>
+                            <td>北京</td>
+                            <td>北京-北京</td>
+
+                        
+                        <td>1.50 币</td>
+                        <td>1.50元</td>
+                        <td>1000000006</td>
+                        <td class="operate">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                        <div class="operate1">
+                            <a href="/manage/wares/oprewardset/1000000368?p=2&amp;s=3&amp;search_p=">OP币设置</a>
+                            <a href="/manage/wares/cashfastsub/1000000368?p=2&amp;s=3&amp;search_p=">现金立减</a>
+                            <a href="/manage/wares/clearing/1000000368?p=2&amp;s=3&amp;search_p=">结算设置</a>
+                            <a href="/manage/wares/commission/1000000368?p=2&amp;s=3&amp;search_p=">结算方法</a>
+
+
+                            
+                                <a href="/manage/wares/apply/1000000368?action=agree&amp;p=2&amp;s=3&amp;t=3"
+                                   class="allow">允许</a>
+                                <a href="/manage/wares/apply/1000000368?action=reject&amp;p=2&amp;s=3&amp;t=3"
+                                   class="reject">驳回</a>
+                            
+                            
+                            
+                                <a href="/ware/wdetail/w10051000000368448"  target="_blank">产品预览</a>
+                            
+                        </div>
+                    </span>
+                        </td>
+                    </tr>
+                
+                    <tr >
+                        <th>10</th>
+                        <td>w10291000000310946</td>
+                        
+                            <td class="tl"><a class="ellipsis"
+                                              href="/ware/wdetail/w10291000000310946"
+                                              target="_blank">测试用2</a></td>
+                        
+                        
+                            <td>普通</td>
+                        
+                        
+                            <td>周边游</td>
+                        
+                        <td>1天</td>
+                        
+
+                        
+                            <td class="blue">申请上线</td>
+                        
+                        <td>2016-04-06 11:27:00</td>
+                        
+                            <td>北京李四的公司</td>
+                            <td>北京</td>
+                            <td>河北-北京</td>
+
+                        
+                        <td>1.50 币</td>
+                        <td>1.50元</td>
+                        <td>1000000006</td>
+                        <td class="operate">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                        <div class="operate1">
+                            <a href="/manage/wares/oprewardset/1000000310?p=2&amp;s=3&amp;search_p=">OP币设置</a>
+                            <a href="/manage/wares/cashfastsub/1000000310?p=2&amp;s=3&amp;search_p=">现金立减</a>
+                            <a href="/manage/wares/clearing/1000000310?p=2&amp;s=3&amp;search_p=">结算设置</a>
+                            <a href="/manage/wares/commission/1000000310?p=2&amp;s=3&amp;search_p=">结算方法</a>
+
+
+                            
+                                <a href="/manage/wares/apply/1000000310?action=agree&amp;p=2&amp;s=3&amp;t=3"
+                                   class="allow">允许</a>
+                                <a href="/manage/wares/apply/1000000310?action=reject&amp;p=2&amp;s=3&amp;t=3"
+                                   class="reject">驳回</a>
+                            
+                            
+                            
+                                <a href="/ware/wdetail/w10291000000310946"  target="_blank">产品预览</a>
+                            
+                        </div>
+                    </span>
+                        </td>
+                    </tr>
+                
+                    <tr >
+                        <th>11</th>
+                        <td>w10471000000274808</td>
+                        
+                            <td class="tl"><a class="ellipsis"
+                                              href="/ware/wdetail/w10471000000274808"
+                                              target="_blank">222</a></td>
+                        
+                        
+                            <td>普通</td>
+                        
+                        
+                            <td>出境长线</td>
+                        
+                        <td>1天</td>
+                        
+
+                        
+                            <td class="blue">申请上线</td>
+                        
+                        <td>2016-04-01 13:17:19</td>
+                        
+                            <td>润江南</td>
+                            <td>北京</td>
+                            <td>北京-北京</td>
+
+                        
+                        <td>1.00 币</td>
+                        <td>1.00元</td>
+                        <td>1000000011</td>
+                        <td class="operate">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                        <div class="operate1">
+                            <a href="/manage/wares/oprewardset/1000000274?p=2&amp;s=3&amp;search_p=">OP币设置</a>
+                            <a href="/manage/wares/cashfastsub/1000000274?p=2&amp;s=3&amp;search_p=">现金立减</a>
+                            <a href="/manage/wares/clearing/1000000274?p=2&amp;s=3&amp;search_p=">结算设置</a>
+                            <a href="/manage/wares/commission/1000000274?p=2&amp;s=3&amp;search_p=">结算方法</a>
+
+
+                            
+                                <a href="/manage/wares/apply/1000000274?action=agree&amp;p=2&amp;s=3&amp;t=3"
+                                   class="allow">允许</a>
+                                <a href="/manage/wares/apply/1000000274?action=reject&amp;p=2&amp;s=3&amp;t=3"
+                                   class="reject">驳回</a>
+                            
+                            
+                            
+                                <a href="/ware/wdetail/w10471000000274808"  target="_blank">产品预览</a>
+                            
+                        </div>
+                    </span>
+                        </td>
+                    </tr>
+                
+                    <tr >
+                        <th>12</th>
+                        <td>w10211000000442940</td>
+                        
+                            <td class="tl"><a class="ellipsis"
+                                              href="/ware/wdetail/w10211000000442940"
+                                              target="_blank">支付宝测试</a></td>
+                        
+                        
+                            <td>普通</td>
+                        
+                        
+                            <td>国内长线</td>
+                        
+                        <td>1天</td>
+                        
+
+                        
+                            <td class="blue">申请上线</td>
+                        
+                        <td>2016-03-31 09:43:12</td>
+                        
+                            <td>北京科技科技有限公司</td>
+                            <td>北京</td>
+                            <td>北京-北京</td>
+
+                        
+                        <td>1.00 币</td>
+                        <td>1.00元</td>
+                        <td>1000000011</td>
+                        <td class="operate">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                        <div class="operate1">
+                            <a href="/manage/wares/oprewardset/1000000442?p=2&amp;s=3&amp;search_p=">OP币设置</a>
+                            <a href="/manage/wares/cashfastsub/1000000442?p=2&amp;s=3&amp;search_p=">现金立减</a>
+                            <a href="/manage/wares/clearing/1000000442?p=2&amp;s=3&amp;search_p=">结算设置</a>
+                            <a href="/manage/wares/commission/1000000442?p=2&amp;s=3&amp;search_p=">结算方法</a>
+
+
+                            
+                                <a href="/manage/wares/apply/1000000442?action=agree&amp;p=2&amp;s=3&amp;t=3"
+                                   class="allow">允许</a>
+                                <a href="/manage/wares/apply/1000000442?action=reject&amp;p=2&amp;s=3&amp;t=3"
+                                   class="reject">驳回</a>
+                            
+                            
+                            
+                                <a href="/ware/wdetail/w10211000000442940"  target="_blank">产品预览</a>
+                            
+                        </div>
+                    </span>
+                        </td>
+                    </tr>
+                
+                    <tr >
+                        <th>13</th>
+                        <td>w10391000000430616</td>
+                        
+                            <td class="tl"><a class="ellipsis"
+                                              href="/ware/wdetail/w10391000000430616"
+                                              target="_blank">3-18测试</a></td>
+                        
+                        
+                            <td>普通</td>
+                        
+                        
+                            <td>国内长线</td>
+                        
+                        <td>1天</td>
+                        
+
+                        
+                            <td class="blue">申请上线</td>
+                        
+                        <td>2016-03-18 10:24:12</td>
+                        
+                            <td>北京科技科技有限公司</td>
+                            <td>北京</td>
+                            <td>安徽-合肥</td>
+
+                        
+                        <td>1.00 币</td>
+                        <td>1.00元</td>
+                        <td>1000000011</td>
+                        <td class="operate">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                        <div class="operate1">
+                            <a href="/manage/wares/oprewardset/1000000430?p=2&amp;s=3&amp;search_p=">OP币设置</a>
+                            <a href="/manage/wares/cashfastsub/1000000430?p=2&amp;s=3&amp;search_p=">现金立减</a>
+                            <a href="/manage/wares/clearing/1000000430?p=2&amp;s=3&amp;search_p=">结算设置</a>
+                            <a href="/manage/wares/commission/1000000430?p=2&amp;s=3&amp;search_p=">结算方法</a>
+
+
+                            
+                                <a href="/manage/wares/apply/1000000430?action=agree&amp;p=2&amp;s=3&amp;t=3"
+                                   class="allow">允许</a>
+                                <a href="/manage/wares/apply/1000000430?action=reject&amp;p=2&amp;s=3&amp;t=3"
+                                   class="reject">驳回</a>
+                            
+                            
+                            
+                                <a href="/ware/wdetail/w10391000000430616"  target="_blank">产品预览</a>
+                            
+                        </div>
+                    </span>
+                        </td>
+                    </tr>
+                
+                    <tr >
+                        <th>14</th>
+                        <td>w10951000000376427</td>
+                        
+                            <td class="tl"><a class="ellipsis"
+                                              href="/ware/wdetail/w10951000000376427"
+                                              target="_blank">香港、澳门七天游</a></td>
+                        
+                        
+                            <td>普通</td>
+                        
+                        
+                            <td>港澳台</td>
+                        
+                        <td>7天</td>
+                        
+
+                        
+                            <td class="blue">申请上线</td>
+                        
+                        <td>2016-03-01 16:34:16</td>
+                        
+                            <td>北京旅游公司</td>
+                            <td>北京</td>
+                            <td>北京-北京</td>
+
+                        
+                        <td>1.00 币</td>
+                        <td>1.00元</td>
+                        <td>1000000011</td>
+                        <td class="operate">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                        <div class="operate1">
+                            <a href="/manage/wares/oprewardset/1000000376?p=2&amp;s=3&amp;search_p=">OP币设置</a>
+                            <a href="/manage/wares/cashfastsub/1000000376?p=2&amp;s=3&amp;search_p=">现金立减</a>
+                            <a href="/manage/wares/clearing/1000000376?p=2&amp;s=3&amp;search_p=">结算设置</a>
+                            <a href="/manage/wares/commission/1000000376?p=2&amp;s=3&amp;search_p=">结算方法</a>
+
+
+                            
+                                <a href="/manage/wares/apply/1000000376?action=agree&amp;p=2&amp;s=3&amp;t=3"
+                                   class="allow">允许</a>
+                                <a href="/manage/wares/apply/1000000376?action=reject&amp;p=2&amp;s=3&amp;t=3"
+                                   class="reject">驳回</a>
+                            
+                            
+                            
+                                <a href="/ware/wdetail/w10951000000376427"  target="_blank">产品预览</a>
+                            
+                        </div>
+                    </span>
+                        </td>
+                    </tr>
+                
+                    <tr >
+                        <th>15</th>
+                        <td>w10311000000374274</td>
+                        
+                            <td class="tl"><a class="ellipsis"
+                                              href="/ware/wdetail/w10311000000374274"
+                                              target="_blank">1111111</a></td>
+                        
+                        
+                            <td>普通</td>
+                        
+                        
+                            <td>国内长线</td>
+                        
+                        <td>1天</td>
+                        
+
+                        
+                            <td class="blue">申请上线</td>
+                        
+                        <td>2016-03-01 14:40:43</td>
+                        
+                            <td>北京旅游公司</td>
+                            <td>北京</td>
+                            <td>北京-北京</td>
+
+                        
+                        <td>1.00 币</td>
+                        <td>1.00元</td>
+                        <td>1000000011</td>
+                        <td class="operate">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                        <div class="operate1">
+                            <a href="/manage/wares/oprewardset/1000000374?p=2&amp;s=3&amp;search_p=">OP币设置</a>
+                            <a href="/manage/wares/cashfastsub/1000000374?p=2&amp;s=3&amp;search_p=">现金立减</a>
+                            <a href="/manage/wares/clearing/1000000374?p=2&amp;s=3&amp;search_p=">结算设置</a>
+                            <a href="/manage/wares/commission/1000000374?p=2&amp;s=3&amp;search_p=">结算方法</a>
+
+
+                            
+                                <a href="/manage/wares/apply/1000000374?action=agree&amp;p=2&amp;s=3&amp;t=3"
+                                   class="allow">允许</a>
+                                <a href="/manage/wares/apply/1000000374?action=reject&amp;p=2&amp;s=3&amp;t=3"
+                                   class="reject">驳回</a>
+                            
+                            
+                            
+                                <a href="/ware/wdetail/w10311000000374274"  target="_blank">产品预览</a>
+                            
+                        </div>
+                    </span>
+                        </td>
+                    </tr>
+                
+                    <tr >
+                        <th>16</th>
+                        <td>w10911000000366100</td>
+                        
+                            <td class="tl"><a class="ellipsis"
+                                              href="/ware/wdetail/w10911000000366100"
+                                              target="_blank">北京郊区十日游</a></td>
+                        
+                        
+                            <td>普通</td>
+                        
+                        
+                            <td>国内长线</td>
+                        
+                        <td>10天</td>
+                        
+
+                        
+                            <td class="blue">申请上线</td>
+                        
+                        <td>2016-02-29 18:05:54</td>
+                        
+                            <td>北京李四的公司</td>
+                            <td>北京</td>
+                            <td>北京-北京</td>
+
+                        
+                        <td>1.50 币</td>
+                        <td>1.50元</td>
+                        <td>1000000006</td>
+                        <td class="operate">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                        <div class="operate1">
+                            <a href="/manage/wares/oprewardset/1000000366?p=2&amp;s=3&amp;search_p=">OP币设置</a>
+                            <a href="/manage/wares/cashfastsub/1000000366?p=2&amp;s=3&amp;search_p=">现金立减</a>
+                            <a href="/manage/wares/clearing/1000000366?p=2&amp;s=3&amp;search_p=">结算设置</a>
+                            <a href="/manage/wares/commission/1000000366?p=2&amp;s=3&amp;search_p=">结算方法</a>
+
+
+                            
+                                <a href="/manage/wares/apply/1000000366?action=agree&amp;p=2&amp;s=3&amp;t=3"
+                                   class="allow">允许</a>
+                                <a href="/manage/wares/apply/1000000366?action=reject&amp;p=2&amp;s=3&amp;t=3"
+                                   class="reject">驳回</a>
+                            
+                            
+                            
+                                <a href="/ware/wdetail/w10911000000366100"  target="_blank">产品预览</a>
+                            
+                        </div>
+                    </span>
+                        </td>
+                    </tr>
+                
+                    <tr >
+                        <th>17</th>
+                        <td>w10071000000309568</td>
+                        
+                            <td class="tl"><a class="ellipsis"
+                                              href="/ware/wdetail/w10071000000309568"
+                                              target="_blank">北京郊区十日游</a></td>
+                        
+                        
+                            <td>普通</td>
+                        
+                        
+                            <td>国内长线</td>
+                        
+                        <td>10天</td>
+                        
+
+                        
+                            <td class="blue">申请上线</td>
+                        
+                        <td>2016-02-29 18:04:10</td>
+                        
+                            <td>北京李四的公司</td>
+                            <td>北京</td>
+                            <td>北京-北京</td>
+
+                        
+                        <td>1.50 币</td>
+                        <td>1.50元</td>
+                        <td>1000000006</td>
+                        <td class="operate">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                        <div class="operate1">
+                            <a href="/manage/wares/oprewardset/1000000309?p=2&amp;s=3&amp;search_p=">OP币设置</a>
+                            <a href="/manage/wares/cashfastsub/1000000309?p=2&amp;s=3&amp;search_p=">现金立减</a>
+                            <a href="/manage/wares/clearing/1000000309?p=2&amp;s=3&amp;search_p=">结算设置</a>
+                            <a href="/manage/wares/commission/1000000309?p=2&amp;s=3&amp;search_p=">结算方法</a>
+
+
+                            
+                                <a href="/manage/wares/apply/1000000309?action=agree&amp;p=2&amp;s=3&amp;t=3"
+                                   class="allow">允许</a>
+                                <a href="/manage/wares/apply/1000000309?action=reject&amp;p=2&amp;s=3&amp;t=3"
+                                   class="reject">驳回</a>
+                            
+                            
+                            
+                                <a href="/ware/wdetail/w10071000000309568"  target="_blank">产品预览</a>
+                            
+                        </div>
+                    </span>
+                        </td>
+                    </tr>
+                
+                    <tr >
+                        <th>18</th>
+                        <td>w10051000000313529</td>
+                        
+                            <td class="tl"><a class="ellipsis"
+                                              href="/ware/wdetail/w10051000000313529"
+                                              target="_blank">北京2日自由行·【九华山庄】迎新春温泉+娱乐套票 </a></td>
+                        
+                        
+                            <td>普通</td>
+                        
+                        
+                            <td>周边游</td>
+                        
+                        <td>1天</td>
+                        
+
+                        
+                            <td class="blue">申请上线</td>
+                        
+                        <td>2016-02-29 18:03:47</td>
+                        
+                            <td>北京李四的公司</td>
+                            <td>北京</td>
+                            <td>河北-北京</td>
+
+                        
+                        <td>1.50 币</td>
+                        <td>1.50元</td>
+                        <td>1000000006</td>
+                        <td class="operate">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                        <div class="operate1">
+                            <a href="/manage/wares/oprewardset/1000000313?p=2&amp;s=3&amp;search_p=">OP币设置</a>
+                            <a href="/manage/wares/cashfastsub/1000000313?p=2&amp;s=3&amp;search_p=">现金立减</a>
+                            <a href="/manage/wares/clearing/1000000313?p=2&amp;s=3&amp;search_p=">结算设置</a>
+                            <a href="/manage/wares/commission/1000000313?p=2&amp;s=3&amp;search_p=">结算方法</a>
+
+
+                            
+                                <a href="/manage/wares/apply/1000000313?action=agree&amp;p=2&amp;s=3&amp;t=3"
+                                   class="allow">允许</a>
+                                <a href="/manage/wares/apply/1000000313?action=reject&amp;p=2&amp;s=3&amp;t=3"
+                                   class="reject">驳回</a>
+                            
+                            
+                            
+                                <a href="/ware/wdetail/w10051000000313529"  target="_blank">产品预览</a>
+                            
+                        </div>
+                    </span>
+                        </td>
+                    </tr>
+                
+                    <tr >
+                        <th>19</th>
+                        <td>w13551000000315508</td>
+                        
+                            <td class="tl"><a class="ellipsis"
+                                              href="/ware/wdetail/w13551000000315508"
+                                              target="_blank">test-Product testing</a></td>
+                        
+                        
+                            <td>新品秀</td>
+                        
+                        
+                            <td>国内长线</td>
+                        
+                        <td>7天</td>
+                        
+
+                        
+                            <td class="blue">申请上线</td>
+                        
+                        <td>2016-02-29 18:03:36</td>
+                        
+                            <td>北京李四的公司</td>
+                            <td>北京</td>
+                            <td>安徽-六安</td>
+
+                        
+                        <td>1.50 币</td>
+                        <td>1.50元</td>
+                        <td>1000000006</td>
+                        <td class="operate">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                        <div class="operate1">
+                            <a href="/manage/wares/oprewardset/1000000315?p=2&amp;s=3&amp;search_p=">OP币设置</a>
+                            <a href="/manage/wares/cashfastsub/1000000315?p=2&amp;s=3&amp;search_p=">现金立减</a>
+                            <a href="/manage/wares/clearing/1000000315?p=2&amp;s=3&amp;search_p=">结算设置</a>
+                            <a href="/manage/wares/commission/1000000315?p=2&amp;s=3&amp;search_p=">结算方法</a>
+
+
+                            
+                                <a href="/manage/wares/apply/1000000315?action=agree&amp;p=2&amp;s=3&amp;t=3"
+                                   class="allow">允许</a>
+                                <a href="/manage/wares/apply/1000000315?action=reject&amp;p=2&amp;s=3&amp;t=3"
+                                   class="reject">驳回</a>
+                            
+                            
+                            
+                                <a href="/ware/wdetail/w13551000000315508"  target="_blank">产品预览</a>
+                            
+                        </div>
+                    </span>
+                        </td>
+                    </tr>
+                
+                    <tr >
+                        <th>20</th>
+                        <td>w10291000000327979</td>
+                        
+                            <td class="tl"><a class="ellipsis"
+                                              href="/ware/wdetail/w10291000000327979"
+                                              target="_blank">供应商上传产品，旅游分类选择国内或国外，目的地选择港澳台地区</a></td>
+                        
+                        
+                            <td>普通</td>
+                        
+                        
+                            <td>出境长线</td>
+                        
+                        <td>1天</td>
+                        
+
+                        
+                            <td class="blue">申请上线</td>
+                        
+                        <td>2016-02-29 18:03:25</td>
+                        
+                            <td>北京李四的公司</td>
+                            <td>北京</td>
+                            <td>北京-北京</td>
+
+                        
+                        <td>1.50 币</td>
+                        <td>1.50元</td>
+                        <td>1000000006</td>
+                        <td class="operate">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                        <div class="operate1">
+                            <a href="/manage/wares/oprewardset/1000000327?p=2&amp;s=3&amp;search_p=">OP币设置</a>
+                            <a href="/manage/wares/cashfastsub/1000000327?p=2&amp;s=3&amp;search_p=">现金立减</a>
+                            <a href="/manage/wares/clearing/1000000327?p=2&amp;s=3&amp;search_p=">结算设置</a>
+                            <a href="/manage/wares/commission/1000000327?p=2&amp;s=3&amp;search_p=">结算方法</a>
+
+
+                            
+                                <a href="/manage/wares/apply/1000000327?action=agree&amp;p=2&amp;s=3&amp;t=3"
+                                   class="allow">允许</a>
+                                <a href="/manage/wares/apply/1000000327?action=reject&amp;p=2&amp;s=3&amp;t=3"
+                                   class="reject">驳回</a>
+                            
+                            
+                            
+                                <a href="/ware/wdetail/w10291000000327979"  target="_blank">产品预览</a>
+                            
+                        </div>
+                    </span>
+                        </td>
+                    </tr>
+                
+            
+            </tbody>
+        </table>
+    </div>
+    <div class="row pag_box">
+        <ul class="pagination">
+            <li >
+                
+                    
+                    <a href="/manage/wares/alist/1/3?orgname=&amp;ware_name=">上一页</a>
+
+                
+            </li>
+            <li>
+                <span> 2/ 3</span>
+            </li>
+
+                
+                    
+                    <li > <a    href="/manage/wares/alist/1/3?orgname=&amp;ware_name="  >1</a></li>
+                
+                    
+                    <li  class="active " > <a   >2</a></li>
+                
+                    
+                    <li > <a    href="/manage/wares/alist/3/3?orgname=&amp;ware_name="  >3</a></li>
+                
+
+            <li >
+                
+                    
+                    <a href="/manage/wares/alist/3/3?orgname=&amp;ware_name=">下一页</a>
+                
+            </li>
+
+
+        </ul>
+    </div>
+
+
+    </div>
+
+    
+<script src="/static/js/jquery.js"></script>
+<script src="/static/js/bootstrap.min.js"></script>
+
+    <script>
+        /*function intervalSet(){
+         $("#table1 tbody tr").each(function(){
+         var wareid = $("td:eq(0)",this).text();
+         var a = $("td:eq(3)",this).text();
+         $.get("/manage/wares/warestatus/" + wareid,function(data,status){
+         alert(data);
+         //console(data);
+         });
+         });
+         }*/
+
+        /*$(document).ready(function(){
+         setInterval(intervalSet,60000);
+         });*/
+
+    </script>
+
+
+
+  </body>
+</html>

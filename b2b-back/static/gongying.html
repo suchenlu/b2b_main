@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>供应商</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <!--[if lt IE 9]>
+      <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- Demo styles -->
+    <style>
+    html, body {
+        position: relative;
+        height: 100%;
+    }
+    body {
+        background: #eee;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color:#000;
+        margin: 0;
+        padding: 0;
+    }
+    .swiper-container {
+        width: 100%;
+        height: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+    .swiper-button-next,.swiper-button-prev{
+      width:26px;
+      height:20px;
+      display:block;
+    }
+    /*.swiper-button-next{
+      position:absolute;
+      right:0; 
+      top:-22px;
+    }
+    .swiper-button-prev{
+      position:absolute;
+      right:0; 
+      top:-22px;
+    }*/
+    .pos{ 
+      position:absolute;
+      right:0; 
+      top:-32px;
+      width:80px;
+      height:40px;
+      line-height:40px;
+    }
+    </style>
+  </head>
+  <body>
+
+
+    <div class="page-container fenxiao">
+
+        <div class="fenxiao_ding">
+              <dl class="col-sm-4 col-xs-12">
+                <div>
+                  <dt><img src="images/1.png" alt="" width="105" height="105" /></dt>
+                  <dd>
+                    <p>今天有<span>12</span>笔新订单</p>
+                    <p><a>12</a>笔</p>
+                  </dd>
+                </div>
+              </dl>
+              <dl class="col-sm-4 col-xs-12">
+                <div>
+                  <dt><img src="images/2.png" alt="" width="105" height="105" /></dt>
+                  <dd>
+                    <p>有<span>12</span>笔退单等待处理</p>
+                    <p><a>12</a>笔</p>
+                  </dd>
+                </div>
+              </dl>
+              <dl class="col-sm-4 col-xs-12">
+                <div>
+                  <dt><img src="images/3.png" alt="" width="105" height="105" /></dt>
+                  <dd>
+                    <p>有<span>12</span>笔款项已解冻</p>
+                    <p><a>12</a>笔</p>
+                  </dd>
+                </div>
+              </dl>
+        </div>
+        <!-- fenxiao_ding --> 
+        <div class="fenxiao_dynamic">
+          <div class="col-sm-8 col-xs-12">
+            <div class="fenxiao_left">
+              <h1>订单动态</h1>
+              <div class="table-responsive">
+                <table class="table">
+                  <tbody>
+                    <tr>
+                      <td><img src="images/star.png" alt=""></td>
+                      <td>已产生订单总数为</td>
+                      <td>3867</td>
+                      <td>单</td>
+                    </tr>
+                    <tr>
+                      <td><img src="images/star.png" alt=""></td>
+                      <td>已产生退款总数为</td>
+                      <td>3867</td>
+                      <td>单</td>
+                    </tr>
+                    <tr>
+                      <td><img src="images/star.png" alt=""></td>
+                      <td>已取消订单总数为</td>
+                      <td>386733333</td>
+                      <td>单</td>
+                    </tr>
+                    <tr>
+                      <td><img src="images/star.png" alt=""></td>
+                      <td>已投诉订单总数为</td>
+                      <td>386733333</td>
+                      <td>单</td>
+                    </tr>
+                    <tr>
+                      <td><img src="images/star.png" alt=""></td>
+                      <td>有效订单总金额为</td>
+                      <td>386733333</td>
+                      <td>亿元</td>
+                    </tr>
+                    <tr>
+                      <td><img src="images/star.png" alt=""></td>
+                      <td>有限订单收客人数为</td>
+                      <td>3867</td>
+                      <td>人</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+          </div>
+          </div>
+          <div class="col-sm-4 col-xs-12">
+            <div class="fenxiao_right gongying_bing">
+              <h1>产品热度分析</h1>
+              <div class="pie-chart">
+                <div id="pie" style="min-width: 240px; height: 240px;  margin: 0 auto"></div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <!-- fenxiao_dynamic --> 
+
+        <div class="fenxiao_tuijian">
+          <h1><lable>产品动态</lable></h1>
+        <div class="table-responsive">
+          <table class="table">
+            <tbody>
+              <tr>
+                <th>序号</th>
+                <th>产品编号</th>
+                <th>产品名称</th>
+                <th>产品类别</th>
+                <th>产品分类</th>
+                <th>行程天数</th>
+                <th>状态</th>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>w28993786</td>
+                <td>55</td>
+                <td>普通</td>
+                <td>国内长线</td>
+                <td>1天</td>
+                <td>人工下线</td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>w28993786</td>
+                <td>55</td>
+                <td>普通</td>
+                <td>国内长线</td>
+                <td>1天</td>
+                <td>人工下线</td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>w28993786</td>
+                <td>55</td>
+                <td>普通</td>
+                <td>国内长线</td>
+                <td>1天</td>
+                <td>人工下线</td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>w28993786</td>
+                <td>55</td>
+                <td>普通</td>
+                <td>国内长线</td>
+                <td>1天</td>
+                <td>人工下线</td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>w28993786</td>
+                <td>55</td>
+                <td>普通</td>
+                <td>国内长线</td>
+                <td>1天</td>
+                <td>人工下线</td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>w28993786</td>
+                <td>55</td>
+                <td>普通</td>
+                <td>国内长线</td>
+                <td>1天</td>
+                <td>人工下线</td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>w28993786</td>
+                <td>55</td>
+                <td>普通</td>
+                <td>国内长线</td>
+                <td>1天</td>
+                <td>人工下线</td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>w28993786</td>
+                <td>55</td>
+                <td>普通</td>
+                <td>国内长线</td>
+                <td>1天</td>
+                <td>人工下线</td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>w28993786</td>
+                <td>55</td>
+                <td>普通</td>
+                <td>国内长线</td>
+                <td>1天</td>
+                <td>人工下线</td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>w28993786</td>
+                <td>55</td>
+                <td>普通</td>
+                <td>国内长线</td>
+                <td>1天</td>
+                <td>人工下线</td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>w28993786</td>
+                <td>55</td>
+                <td>普通</td>
+                <td>国内长线</td>
+                <td>1天</td>
+                <td>人工下线</td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>w28993786</td>
+                <td>55</td>
+                <td>普通</td>
+                <td>国内长线</td>
+                <td>1天</td>
+                <td>人工下线</td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>w28993786</td>
+                <td>55</td>
+                <td>普通</td>
+                <td>国内长线</td>
+                <td>1天</td>
+                <td>人工下线</td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>w28993786</td>
+                <td>55</td>
+                <td>普通</td>
+                <td>国内长线</td>
+                <td>1天</td>
+                <td>人工下线</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        </div>
+        <!-- fenxiao_tuijian -->
+
+        <div class="fenxiao_tuijian">
+          <h1><lable>中性品牌</lable></h1>
+          <div class="fenxiao_zhongxing">
+            <div class="col-sm-3 col-xs-12">
+              <dl>
+                <dt><img src="images/f_1.png" alt="" width="100%" height="134" style="background:url('images/zhizhao.jpg') no-repeat center; background-size:70% auto;" /></dt>
+                <dd>
+                  <h2>——风行制造——</h2>
+                  <p>名称：<span>菲越假期</span></p>
+                  <p>状态：<span>禁用</span></p>
+                </dd>
+              </dl>
+            </div>
+            <div class="col-sm-3 col-xs-12">
+              <dl>
+                <dt><img src="images/f_1.png" alt="" width="100%" height="134" style="background:url('images/zhizhao.jpg') no-repeat center; background-size:70% auto;" /></dt>
+                <dd>
+                  <h2>——风行制造——</h2>
+                  <p>名称：<span>菲越假期</span></p>
+                  <p>状态：<span>禁用</span></p>
+                </dd>
+              </dl>
+            </div>
+            <div class="col-sm-3 col-xs-12">
+              <dl>
+                <dt><img src="images/f_1.png" alt="" width="100%" height="134" style="background:url('images/zhizhao.jpg') no-repeat center; background-size:70% auto;" /></dt>
+                <dd>
+                  <h2>——风行制造——</h2>
+                  <p>名称：<span>菲越假期</span></p>
+                  <p>状态：<span>禁用</span></p>
+                </dd>
+              </dl>
+            </div>
+            <div class="col-sm-3 col-xs-12">
+              <dl>
+                <dt><img src="images/f_1.png" alt="" width="100%" height="134" style="background:url('images/zhizhao.jpg') no-repeat center; background-size:70% auto;" /></dt>
+                <dd>
+                  <h2>——风行制造——</h2>
+                  <p>名称：<span>菲越假期</span></p>
+                  <p>状态：<span>禁用</span></p>
+                </dd>
+              </dl>
+            </div>
+          </div>
+        </div>
+        <!-- fenxiao_tuijian  zhongxinpinpai -->
+
+    </div>   
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- <script src="js/highcharts.js"></script> -->
+    <script src="http://cdn.hcharts.cn/highcharts/highcharts.js"></script>
+    <script type="text/javascript" src="js/chart-data.js"></script>
+    <script>
+     $(function(){
+      $(".fenxiao_left table tr").hover(function(){
+        $(this).find("img").attr("src","images/star1.png");
+      },function(){
+        $(this).find("img").attr("src","images/star.png");
+      })
+
+      $(".fenxiao_tuijian table td:nth-child(11)").hover(function(){
+          $(".fenxiao_tuijian table ul").show();
+      },function(){
+        $(".fenxiao_tuijian table ul").hide();
+      })
+
+// 弹窗
+      $(".grl_child div h3 a").click(function(){
+        var html='<div class="grl_xiangqing" id="grl_xiangqing" name="grl_xiangqing"><div class="grlx_child"><h1><p>公司公告</p></h1><div><h2>发布者：中国国旅<time>2015-05-26</time></h2><p><a> 为想学UIUE设计的小白专属定制课程，从0基础开始讲解UI设计常用利器：PS常用工具和技巧、Ai工具常用技巧、色彩布局等设计基本功能训练。为想学UI/UE设计的小白专属定制课程，从0基础开始讲解UI设计常用利器：PS常用工具和技巧、Ai工具常用技巧、色彩，布局等设计基本功能训练。为想学UIUE设计的小白专属定制课程，从0基础开始讲解UI设计常用利器：PS常用工具和技巧、Ai工具常用技巧色彩布局等设计基本功能训练为想学UI/UE设计的小白专属定制课程从0基础开始讲解UI设计常用利器：PS常用工具和技巧、Ai工具常用技巧、色彩，布局等设计基本功能训练。 为想学UIUE设计的小白专属定制课程，从0基础开始讲解UI设计常用利器：PS常用工具和技巧、Ai工具常用技巧、色彩布局等设计基本功能训练。为想学UI/UE设计的小白专属定制课程，从0基础开始讲解UI设计常用利器：PS常用工具和技巧、Ai工具常用技巧、色彩，布局等设计基本功能训练。为想学UI/UE设计的小白专属定制课程. </a></p><h3>天天旅交会</h3></div><img src="images/close.png" height="19" width="19" alt=""> </div></div>';
+        $('#mengban',window.parent.document).append(html);
+        window.parent.click_show();
+
+      })
+
+       //关闭弹窗
+      $(".grl_xiangqing div img").click(function(){
+        $(this).parents(".grl_xiangqing").hide();
+        $("body").css("height","");
+        $("body").css("overflow","auto");
+      })
+
+    // 左右滑动
+     var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        slidesPerView: 1,
+        paginationClickable: true,
+        spaceBetween: 30,
+        keyboardControl: true,
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+    })
+
+     }) 
+    </script>
+  </body>
+</html>

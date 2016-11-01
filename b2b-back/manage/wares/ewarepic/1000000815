@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link href="../../../static/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link rel="stylesheet" type="text/css" href="../../../static/css/base.css"/>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style>
+		.wrap{	
+			width: 90%;
+			margin:auto;
+			border:1px solid #ccc;
+		}
+		.row{
+			margin: 0;
+			padding: 0
+		}
+		.item{
+			border-bottom:1px solid #ccc;
+		}
+		.item .title{
+			min-height: 300px;
+			border-right:1px solid #ccc;
+			position: relative;
+		}
+		.item .title h3{
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			margin-top: -8px;
+			margin-left: -24px;
+			font-size: 16px
+		}
+		.item .content{
+			padding: 20px
+		}
+		.item .content .pic-list li{
+			width: 50%
+		}
+		.item .content .pic-list li{
+			padding: 5px
+		}
+		.content>img{
+			margin:0 0 10px 45px
+		}
+		img.img-thumbnail{
+			transition:all .5s;
+		}
+		img:hover{
+			transform:scale(1.1);
+		}
+		.item .content button{
+			display: block;
+			margin-left: 45px
+		}
+		.btn-upload{
+			width: 60px;
+			margin-top: -28px
+		}
+    </style>
+<body>
+	<div class="wrap">
+		<div class="item row">
+			<div class="title main-title col-sm-1 col-md-1">
+				<h3>主图</h3>
+			</div>
+			<div class="content col-sm-11 col-md-11">
+				<img src="../../../static/images/pic.jpg" alt="" class="img-responsive img-thumbnail">
+				<button class="btn btn-success">上传图片
+					<input type="file" class="fade btn-upload">
+				</button>
+			</div>
+		</div>
+			<div class="item clearfix">
+			<div class="title slide-title col-sm-1 col-md-1">
+				<h3>轮播图</h3>
+			</div>
+			<div class="content col-sm-11 col-md-11">
+				<ul class="pic-list clearfix">
+					<li>
+						<img src="../../../static/images/pic.jpg" alt="" class="img-responsive img-thumbnail">
+					</li>
+					<li>
+						<img src="../../../static/images/pic.jpg" alt="" class="img-responsive img-thumbnail">
+					</li>
+					<li>
+						<img src="../../../static/images/pic.jpg" alt="" class="img-responsive img-thumbnail">
+					</li>
+					<li>
+						<img src="../../../static/images/pic.jpg" alt="" class="img-responsive img-thumbnail">
+					</li>
+				</ul>
+				<button class="btn btn-success">
+				上传图片
+				<input type="file" class="fade btn-upload">
+				</button>
+			</div>
+		</div>
+			<div class="item clearfix">
+			<div class="title trip-title col-sm-1 col-md-1">
+				<h3>行程图</h3>
+			</div>
+			<div class="content col-sm-11 col-md-11">
+				<img src="../../../static/images/pic.jpg" alt="" class="img-responsive img-thumbnail">
+				<button class="btn btn-success">上传图片</button>
+			</div>
+		</div>
+	</div>
+	<script src="../../../static/js/jquery.js"></script>
+	<script src="../../../static/js/bootstrap.min.js"></script>
+	<script>
+	$(function(){
+	 	adaptiveHeight()
+	 	$(window).resize(function(){
+	 		adaptiveHeight()
+	 	})	
+	})
+	function adaptiveHeight(){
+ 		$('.main-title').height($('.main-title').parent().height())
+	 	$('.slide-title').height($('.slide-title').parent().height())
+	 	$('.trip-title').height($('.trip-title').parent().height())
+ 	}
+	</script>
+</body>
+</html>

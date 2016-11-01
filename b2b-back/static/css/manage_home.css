@@ -1,0 +1,282 @@
+body {
+	font-family:'Microsoft Yahei';
+	background: #f1f1f1
+}
+h1,h2,h3,h4,h5,h6{
+	margin: 0
+}
+a:hover,a:link,a:active{
+	text-decoration: none
+}
+li{
+	list-style: none
+}
+.none {
+	display:none
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+p{
+	margin: 0
+}
+.row{
+	margin-right: 0
+}
+.panel{
+	display: block
+}
+.panel-default>.panel-heading {
+     background-color: #fff 
+}
+.title{
+	height: 45px;
+	padding: 0 25px;
+	border-bottom:1px solid #ccc;
+}
+.no-border{
+	border:0;
+}
+.title h2{
+	line-height: 45px;
+	font-size: 1.2em;
+	text-indent: 5px;
+	color: #666;
+}
+.news-module{
+	height: 141px
+}
+.news-module .pic{
+	margin-top: -10px
+}
+.news-module .txt{
+	margin-top:20px
+}
+.news-module .txt p{
+	font-size: 14px;
+	line-height: 35px;
+	text-align: left;
+	color: #666;
+}
+.notice-module{
+	padding: 0
+}
+.carousel-inner{
+	top: -6px;
+	height: 135px
+}
+.carousel-inner .item-list{
+	width: 1000%;
+	margin-left: 0
+}
+.notice-module .item{
+	float: left;
+	width: 10%;
+	height: 140px;
+	position: relative;
+}
+.flip-btn .pagination{
+	margin: 8px 0
+}
+.pagination li a{ 
+	width:30px; 
+	height:30px; 
+	line-height:30px; 
+	position:relative;
+}
+.pagination li a span{ 
+	position:absolute;
+	left:7px; 
+	top:-2px; 
+	font-size:20px; 
+	color:#20AEFF;
+}
+.pagination li.disabled a span{ 
+	color:#ccc;
+}
+.popover{
+	top: 30px; 
+	display: block;
+	width: 30%;
+	font-size: 14px;
+	color:#fafafa;
+	border:0 none;
+	border-radius: 15px 15px 8px 8px;
+	background: #6cc;
+	box-shadow: 0 0 0 #fff;
+	cursor: pointer;
+}
+.popover>.popover-content{
+	height: 77px
+}
+.popover>.popover-content>span{
+	font-size: 16px;
+	line-height: 1
+}
+.popover>.popover-content>p{
+	height: 20px;
+	overflow: hidden;
+	font-size:14px;
+	font-family:"微软雅黑";
+}
+.popover.top>.arrow{
+	left: 3px;
+	bottom: -12px;
+	margin: 0;
+	border-top-color: rgba(0,0,0,0)
+}
+.popover.top>.arrow::after{
+	border-top-color: #66CDCC;
+	border-top-width: 17px
+}
+.underline{
+	position: absolute;
+	top: 118px;
+	width: 100%;
+	height: 1px;
+	background:#ccc
+}
+.underline span{
+	position: absolute;
+	top: -10px;
+	margin-left: 9px;
+	background: #fff
+}
+.underline .dot{
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background: #C8C8C8 url(../images/dot.png)no-repeat center;
+	background-size:cover
+}
+.popover.blue{
+	background: #6cc
+}
+.popover.blue>.arrow::after{
+	border-top-color: #66CDCC
+}
+.popover.red{
+	background: #FF6D5F
+}
+.popover.red>.arrow::after{
+	border-top-color: #FF6D5F
+}
+.popover.dynamic-fir,.underline .fir{
+	left:10%
+}
+.popover.dynamic-sec,.underline .sec{
+	left:60%
+}
+.order .panel{
+	border: 0
+}
+.icon{
+	width: 100px;
+	height: 100px;
+	background: url(../images/order-new.gif)no-repeat center;
+	background-size:cover;
+}
+.order-back .icon{
+	background: url(../images/order-back.gif)no-repeat center;
+	background-size:cover;
+}
+.order-frozen .icon{
+	background: url(../images/order-frozen.gif)no-repeat center;
+	background-size:cover;
+}
+.info{
+	padding: 15px 20% 0 0;
+    text-align: right;
+} 
+.info span{
+	display: block;
+	color: #666
+}
+.info em{
+	margin-right: 30px;
+	font-style: normal;
+	font-size: 35px;
+	color: #66cdcc
+}
+.order-back .info em{
+	color:#ff6d60
+}
+.order-frozen .info em{
+	color:#f8d347
+}
+.order-trends{
+	padding: 10px 0 0 0
+}
+.order-trends ul{
+	padding: 4px 0;
+	border-bottom: 1px dashed #ccc;
+	cursor: pointer
+}
+.order-trends ul.limited-total{
+	border: 0;
+	margin-bottom: 1px
+}
+.order-trends ul li{
+	float: left;
+	height: 21px;
+	line-height: 17px
+}
+.order-trends ul li a{
+	color: #444;
+	font-size: 14px
+}
+.order-trends ul:hover li a{
+	color: #FF6D60;
+	text-decoration: underline;
+}
+.order-trends ul li.star{
+	width: 10%;
+	margin-top: -2px;
+	text-align: center
+}
+.order-trends ul li.star span{
+	color: #B5B5B5
+}
+.order-trends ul:hover li.star span{
+	color: #FF6D60
+}
+.order-trends  ul li.txt{
+	width: 45%
+}
+.order-trends  ul li.num{
+	width: 25%
+}
+.order-trends  ul li.unit{
+	width: 20%
+}
+.product-dynamic{
+	min-width: 625px
+}
+.product-dynamic .panel-body,.pie-chart{
+	padding: 0
+}
+.table{
+	margin-bottom: 0
+}
+.table>thead>tr>th{
+	min-width: 88px;
+	color: #fff;
+	background: #1FAEFF;
+	border-bottom: 0
+}
+.table>thead>tr>th,.table>tbody>tr>td{
+	text-align: center
+}
+.table>tbody>tr>td.state{
+	color:#f00
+}
+.table-striped>tbody>tr:nth-of-type(odd) {
+    background-color: rgba(0,0,0,.03)
+}
+.table>tbody>tr>td:nth-of-type(even) {
+    background-color: rgba(0,0,0,.03);
+}
